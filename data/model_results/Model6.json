@@ -1,0 +1,91 @@
+{
+  "model_name": "Claude Sonnet 4",
+  "model_type": "commercial",
+  "generations": [
+    {
+      "cefr_level": "A1",
+      "word_list": ["age", "animal", "ask", "computer", "eat", "car", "but", "drive", "amazing", "funny"],
+      "generated_sentences": [
+        "My age is twenty-five years old.",
+        "I have a pet animal called Max.",
+        "Can I ask you a question?",
+        "I use my computer every day.",
+        "We eat dinner at six o'clock.",
+        "My father has a red car.",
+        "I like tea but I don't like coffee.",
+        "My brother can drive very well.",
+        "The movie was amazing!",
+        "That joke is very funny."
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "A2",
+      "word_list": ["ability", "affect", "almost", "board", "connect", "context", "remove", "typical", "coal", "surprised"],
+      "generated_sentences": [
+        "She has the ability to speak three languages.",
+        "The rain will affect our picnic plans today.",
+        "I almost missed the bus this morning.",
+        "The teacher wrote the homework on the board.",
+        "Please connect your phone to the internet.",
+        "I didn't understand the word without context.",
+        "Can you remove your shoes before entering?",
+        "It's typical for students to feel nervous before exams.",
+        "The power plant burns coal to make electricity.",
+        "I was surprised to see my friend at the store."
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "B1",
+      "word_list": ["earthquake", "frighten", "issue", "expand", "fancy", "imaginary", "poet", "religion", "obvious", "sort"],
+      "generated_sentences": [
+        "The earthquake destroyed many buildings in the city center.",
+        "Thunder and lightning can frighten young children during storms.",
+        "We need to discuss this issue at tomorrow's meeting.",
+        "The company plans to expand its business to other countries.",
+        "She wore a fancy dress to the wedding celebration.",
+        "The children created an imaginary friend to play with.",
+        "Shakespeare was a famous poet who wrote beautiful sonnets.",
+        "Different cultures have their own religion and traditions.",
+        "It was obvious that he hadn't studied for the test.",
+        "What sort of music do you prefer listening to?"
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "B2",
+      "word_list": ["agency", "alter", "heaven", "hollow", "extend", "imply", "numerous", "opponent", "process", "wise"],
+      "generated_sentences": [
+        "The marketing agency launched a successful campaign that increased sales by 30%.",
+        "Climate change has begun to alter weather patterns across the globe.",
+        "Many religions teach that good people will go to heaven after death.",
+        "The old tree had a hollow trunk where small animals often made their homes.",
+        "The university decided to extend the deadline for scholarship applications.",
+        "His tone seemed to imply that he disagreed with the proposal.",
+        "The researcher conducted numerous experiments before reaching a conclusion.",
+        "The chess player carefully studied her opponent's previous games.",
+        "Learning a foreign language is a gradual process that requires patience.",
+        "It would be wise to save money for unexpected expenses."
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "C1",
+      "word_list": ["backup", "default", "defy", "collaborate", "correspond", "instrumental", "embarrassment", "outbreak", "lethal", "sovereignty"],
+      "generated_sentences": [
+        "The IT department implemented a comprehensive backup system to prevent data loss during cyberattacks.",
+        "When users fail to customize their settings, the software will revert to its default configuration.",
+        "The activist continued to defy government restrictions despite facing potential imprisonment.",
+        "International researchers collaborate on groundbreaking studies that address global health challenges.",
+        "The archaeological findings correspond with historical accounts of ancient civilizations.",
+        "Social media platforms have been instrumental in mobilizing grassroots political movements.",
+        "The politician's public embarrassment stemmed from leaked documents revealing corruption.",
+        "Health authorities struggled to contain the outbreak of the highly contagious virus.",
+        "The combination of these two chemicals creates a lethal compound that poses serious risks.",
+        "The disputed territory's declaration of independence challenged the nation's sovereignty."
+      ],
+      "timestamp": "2025-07-08"
+    }
+  ]
+}

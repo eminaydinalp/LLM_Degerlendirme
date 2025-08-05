@@ -1,0 +1,91 @@
+{
+  "model_name": "GPT-4-turbo",
+  "model_type": "commercial",
+  "generations": [
+    {
+      "cefr_level": "A1",
+      "word_list": ["age", "animal", "ask", "computer", "eat", "car", "but", "drive", "amazing", "funny"],
+      "generated_sentences": [
+        "I am ten years old.",
+        "The dog is a friendly animal.",
+        "I want to ask a question.",
+        "She has a new computer at home.",
+        "They eat lunch at noon.",
+        "My father drives a red car.",
+        "I like apples, but I don’t like bananas.",
+        "Can you drive this big truck?",
+        "The view from the mountain is amazing.",
+        "That movie was very funny."
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "A2",
+      "word_list": ["ability", "affect", "almost", "board", "connect", "context", "remove", "typical", "coal", "surprised"],
+      "generated_sentences": [
+        "She has the ability to speak three languages.",
+        "Cold weather can affect your mood.",
+        "I almost missed the bus this morning.",
+        "The teacher wrote the answer on the board.",
+        "You need a password to connect to the Wi-Fi.",
+        "I didn’t understand the word until I saw it in context.",
+        "Please remove your shoes before entering the house.",
+        "It’s typical to have lunch at 1 p.m. in Spain.",
+        "The train was powered by coal.",
+        "I was surprised to see her at the party."
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "B1",
+      "word_list": ["earthquake", "frighten", "issue", "expand", "fancy", "imaginary", "poet", "religion", "obvious", "sort"],
+      "generated_sentences": [
+        "The earthquake damaged many buildings in the city.",
+        "Loud noises can easily frighten small children.",
+        "Climate change is a serious issue we need to discuss.",
+        "The company plans to expand into new markets next year.",
+        "She wore a fancy dress to the wedding.",
+        "As a child, he had an imaginary friend.",
+        "William Shakespeare was a famous English poet.",
+        "People should respect each other's religion.",
+        "It’s obvious that he didn’t study for the exam.",
+        "Let’s sort these books by size and color."
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "B2",
+      "word_list": ["agency", "alter", "heaven", "hollow", "extend", "imply", "numerous", "opponent", "process", "wise"],
+      "generated_sentences": [
+        "She got a job through a recruitment agency that specializes in IT.",
+        "You can alter the dress if it doesn’t fit properly.",
+        "After a long day, lying in a warm bath feels like heaven.",
+        "The tree trunk was hollow, and birds had made a nest inside.",
+        "They decided to extend their stay by two more days.",
+        "Are you trying to imply that this was my fault?",
+        "He has made numerous attempts to fix the problem, but nothing worked.",
+        "Her opponent in the final match was very strong.",
+        "Learning a new language is a long but rewarding process.",
+        "It was wise of you to save some money for emergencies."
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "C1",
+      "word_list": ["backup", "default", "defy", "collaborate", "correspond", "instrumental", "embarrassment", "outbreak", "lethal", "sovereignty"],
+      "generated_sentences": [
+        "It’s essential to create a backup of your files in case the system crashes unexpectedly.",
+        "If you don’t specify a language, the app will use English as the default setting.",
+        "The protesters chose to defy the curfew, demanding justice despite the risks.",
+        "The two universities agreed to collaborate on a research project about climate change.",
+        "The data from the latest study does not correspond with earlier findings.",
+        "Her leadership was instrumental in securing funding for the project.",
+        "Forgetting his lines during the performance was a huge embarrassment for him.",
+        "Authorities responded quickly to contain the outbreak of the infectious disease.",
+        "The chemical is lethal in small doses and must be handled with extreme care.",
+        "The country continues to fight for its sovereignty and political independence."
+      ],
+      "timestamp": "2025-07-08"
+    }
+  ]
+}

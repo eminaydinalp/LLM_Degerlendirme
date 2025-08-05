@@ -1,0 +1,91 @@
+{
+  "model_name": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+  "model_type": "open",
+  "generations": [
+    {
+      "cefr_level": "A1",
+      "word_list": ["age", "animal", "ask", "computer", "eat", "car", "but", "drive", "amazing", "funny"],
+      "generated_sentences": [
+        "I am 20 years old.",
+        "This is a dog, a cat, and a bird. They are animals.",
+        "Can I ask you a question?",
+        "I need to use the computer to write an email.",
+        "I like to eat pizza.",
+        "This is my car. It is blue.",
+        "I am not hungry, but I can eat later.",
+        "I can drive a car.",
+        "The movie was amazing.",
+        "That joke was funny."
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "A2",
+      "word_list": ["ability", "affect", "almost", "board", "connect", "context", "remove", "typical", "coal", "surprised"],
+      "generated_sentences": [
+        "I have the ability to speak two languages.",
+        "The weather affected my plans.",
+        "The train was almost empty.",
+        "She fell off the board.",
+        "Can you connect your laptop to the TV?",
+        "The context of the story is important.",
+        "I removed the book from the shelf.",
+        "That is a typical English breakfast.",
+        "The coal in the fire keeps the room warm.",
+        "I was surprised by the news."
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "B1",
+      "word_list": ["earthquake", "frighten", "issue", "expand", "fancy", "imaginary", "poet", "religion", "obvious", "sort"],
+      "generated_sentences": [
+        "The earthquake caused a lot of damage.",
+        "He was frightened by the noise.",
+        "There are many issues to discuss.",
+        "The company plans to expand its business.",
+        "She has a fancy for flowers.",
+        "The imaginary world of the story was fascinating.",
+        "The poet wrote about love.",
+        "Her religion is important to her.",
+        "The obvious solution was to call the police.",
+        "I sorted the books by author."
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "B2",
+      "word_list": ["agency", "alter", "heaven", "hollow", "extend", "imply", "numerous", "opponent", "process", "wise"],
+      "generated_sentences": [
+        "The UN has a special agency for disaster relief.",
+        "He altered his plans to accommodate the change.",
+        "Heaven is a place where there is no pain or sorrow.",
+        "The hollow tree was perfect for a hiding place.",
+        "The company extended its offer to include more products.",
+        "The poem implies a deeper meaning.",
+        "There were numerous people at the event.",
+        "The team has a strong opponent in the final match.",
+        "The process of learning a new language is challenging.",
+        "The wise decision was to save money for the future."
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "C1",
+      "word_list": ["backup", "default", "defy", "collaborate", "correspond", "instrumental", "embarrassment", "outbreak", "lethal", "sovereignty"],
+      "generated_sentences": [
+        "It's important to have a backup plan in case of emergencies.",
+        "The default setting on the computer is easy to use.",
+        "She defied the rules and entered the restricted area.",
+        "The team collaborated on the project to meet the deadline.",
+        "I correspond with my friend every week.",
+        "The instrument was instrumental in solving the problem.",
+        "He felt embarrassed when he made a mistake.",
+        "The outbreak of the disease caused panic.",
+        "The poison was lethal and dangerous to handle.",
+        "The country's sovereignty was threatened by the invasion."
+      ],
+      "timestamp": "2025-07-08"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "model_name": "Gemini 2.5 Flash",
+  "model_type": "commercial",
+  "generations": [
+    {
+      "cefr_level": "A1",
+      "word_list": ["age", "animal", "ask", "computer", "eat", "car", "but", "drive", "amazing", "funny"],
+      "generated_sentences": [
+        "My age is seven years old.",
+        "A cat is a small animal.",
+        "Please ask your teacher a question.",
+        "I have a new computer for my games.",
+        "We like to eat pizza for dinner.",
+        "My father has a red car.",
+        "I like apples, but I don't like bananas.",
+        "I want to learn to drive a truck.",
+        "This cake is amazing!",
+        "The clown is very funny."
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "A2",
+      "word_list": ["ability", "affect", "almost", "board", "connect", "context", "remove", "typical", "coal", "surprised"],
+      "generated_sentences": [
+        "She has the ability to sing very well.",
+        "The rain might affect our plans for the picnic.",
+        "It's almost time for the movie to start.",
+        "Please write your answers on the white board.",
+        "You can connect these two wires together.",
+        "Try to understand the word in its context in the sentence.",
+        "Please remove your shoes before entering the house.",
+        "It's typical for him to be late.",
+        "Coal is a black rock used for energy.",
+        "I was surprised when I saw the big present."
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "B1",
+      "word_list": ["earthquake", "frighten", "issue", "expand", "fancy", "imaginary", "poet", "religion", "obvious", "sort"],
+      "generated_sentences": [
+        "Many people were scared during the recent earthquake.",
+        "Loud noises often frighten small children and pets.",
+        "We need to discuss this important issue at our next meeting.",
+        "The company plans to expand its business into new countries next year.",
+        "She wore a very fancy dress to the party.",
+        "Unicorns are imaginary animals, not real ones.",
+        "William Shakespeare was a famous English poet.",
+        "Different cultures practice different forms of religion.",
+        "It was obvious that he was tired because he kept yawning.",
+        "Can you help me to sort these books by author?"
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "B2",
+      "word_list": ["agency", "alter", "heaven", "hollow", "extend", "imply", "numerous", "opponent", "process", "wise"],
+      "generated_sentences": [
+        "The travel agency helped us book our entire trip to Italy.",
+        "You might need to alter your plans if the weather changes.",
+        "Many cultures believe that good people go to heaven after they die.",
+        "The old tree trunk was hollow inside, providing a home for birds.",
+        "We decided to extend our stay in London by two more days.",
+        "His silence seemed to imply that he agreed with the decision.",
+        "There were numerous reasons why the project failed.",
+        "She easily defeated her opponent in the chess match.",
+        "Learning a new language is a long and continuous process.",
+        "It was a wise decision to save money for the future."
+      ],
+      "timestamp": "2025-07-08"
+    },
+    {
+      "cefr_level": "C1",
+      "word_list": ["backup", "default", "defy", "collaborate", "correspond", "instrumental", "embarrassment", "outbreak", "lethal", "sovereignty"],
+      "generated_sentences": [
+        "It's crucial to create a backup of all your important files to prevent data loss.",
+        "The program's default settings are usually sufficient for most users, but you can customize them.",
+        "The small nation chose to defy the ultimatum issued by the larger, more powerful country.",
+        "The success of the project depended heavily on the team's ability to collaborate effectively.",
+        "Her actions today do not correspond with the promises she made last week.",
+        "The support of the local community was instrumental in achieving the charity's fundraising goal.",
+        "He felt a deep sense of embarrassment after tripping on stage during his speech.",
+        "The sudden outbreak of the disease quickly overwhelmed the local healthcare system.",
+        "Certain chemicals can be lethal if not handled with extreme care and proper safety measures.",
+        "The newly independent state immediately asserted its sovereignty over its territorial waters."
+      ],
+      "timestamp": "2025-07-08"
+    }
+  ]
+}
