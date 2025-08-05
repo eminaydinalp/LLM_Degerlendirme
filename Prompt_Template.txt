@@ -1,0 +1,42 @@
+Prompt:
+
+You are an expert English evaluator.
+
+Evaluate the following 6 example sentences that all use the word: "{word}" (CEFR Level: {level}).
+
+Rate each sentence from 1 (poor) to 5 (excellent) on the following four criteria:
+
+1. Word Usage – Is the word used correctly and meaningfully?
+2. Clarity – Is the sentence understandable and appropriate for the given CEFR level?
+3. Grammar – Is the grammar correct and level-appropriate?
+4. Naturalness – Does the sentence sound natural and fluent (not AI-generated)?
+
+⚠️ Do not give any explanations or comments.
+⚠️ Just return the ratings in the following format, with no extra output:
+
+Sentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>
+Sentence B: ...
+Sentence C: ...
+Sentence D: ...
+Sentence E: ...
+Sentence F: ...
+
+Sentences:
+Sentence A: {sentence_A}
+Sentence B: {sentence_B}
+Sentence C: {sentence_C}
+Sentence D: {sentence_D}
+Sentence E: {sentence_E}
+Sentence F: {sentence_F}
+
+
+Example Output:
+
+Sentence A: 5, 5, 4, 5
+Sentence B: 4, 4, 4, 4
+Sentence C: 3, 3, 3, 3
+Sentence D: 5, 5, 5, 5
+Sentence E: 4, 3, 4, 3
+Sentence F: 2, 3, 3, 3
+
+
