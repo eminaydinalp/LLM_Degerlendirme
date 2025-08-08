@@ -1,0 +1,802 @@
+[
+  {
+    "level": "A2",
+    "word": "ability",
+    "mapping": {
+      "Sentence A": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A2",
+        "word": "ability",
+        "sentence": "She has the ability to sing very well."
+      },
+      "Sentence B": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "ability",
+        "sentence": "My ability to swim is improving every day."
+      },
+      "Sentence C": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A2",
+        "word": "ability",
+        "sentence": "I have the ability to speak two languages."
+      },
+      "Sentence D": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "ability",
+        "sentence": "She has the ability to speak three languages."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "ability",
+        "sentence": "She has a great ability to play the piano, and she practices every day."
+      },
+      "Sentence F": {
+        "model": "GPT-4-turbo",
+        "level": "A2",
+        "word": "ability",
+        "sentence": "She has the ability to speak three languages."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "A2",
+    "word": "affect",
+    "mapping": {
+      "Sentence A": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "affect",
+        "sentence": "The weather will affect the trip tomorrow."
+      },
+      "Sentence B": {
+        "model": "GPT-4-turbo",
+        "level": "A2",
+        "word": "affect",
+        "sentence": "Cold weather can affect your mood."
+      },
+      "Sentence C": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "affect",
+        "sentence": "The rain will affect our picnic plans today."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "affect",
+        "sentence": "The rain will affect the parade, so we need to cancel it."
+      },
+      "Sentence E": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A2",
+        "word": "affect",
+        "sentence": "The rain might affect our plans for the picnic."
+      },
+      "Sentence F": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A2",
+        "word": "affect",
+        "sentence": "The weather affected my plans."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "A2",
+    "word": "almost",
+    "mapping": {
+      "Sentence A": {
+        "model": "GPT-4-turbo",
+        "level": "A2",
+        "word": "almost",
+        "sentence": "I almost missed the bus this morning."
+      },
+      "Sentence B": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "almost",
+        "sentence": "I'm almost ready to go to school, but I need to finish my homework."
+      },
+      "Sentence C": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A2",
+        "word": "almost",
+        "sentence": "The train was almost empty."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "almost",
+        "sentence": "I'm almost ready to leave for school."
+      },
+      "Sentence E": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "almost",
+        "sentence": "I almost missed the bus this morning."
+      },
+      "Sentence F": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A2",
+        "word": "almost",
+        "sentence": "It's almost time for the movie to start."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "A2",
+    "word": "board",
+    "mapping": {
+      "Sentence A": {
+        "model": "GPT-4-turbo",
+        "level": "A2",
+        "word": "board",
+        "sentence": "The teacher wrote the answer on the board."
+      },
+      "Sentence B": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A2",
+        "word": "board",
+        "sentence": "Please write your answers on the white board."
+      },
+      "Sentence C": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "board",
+        "sentence": "The teacher wrote the homework on the board."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "board",
+        "sentence": "The school board decided to build a new library."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "board",
+        "sentence": "The board of directors meets every month to discuss business."
+      },
+      "Sentence F": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A2",
+        "word": "board",
+        "sentence": "She fell off the board."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "A2",
+    "word": "connect",
+    "mapping": {
+      "Sentence A": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "connect",
+        "sentence": "The phone can connect to the internet."
+      },
+      "Sentence B": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "connect",
+        "sentence": "Please connect your phone to the internet."
+      },
+      "Sentence C": {
+        "model": "GPT-4-turbo",
+        "level": "A2",
+        "word": "connect",
+        "sentence": "You need a password to connect to the Wi-Fi."
+      },
+      "Sentence D": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A2",
+        "word": "connect",
+        "sentence": "Can you connect your laptop to the TV?"
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "connect",
+        "sentence": "We need to connect the wires before we can turn on the lamp."
+      },
+      "Sentence F": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A2",
+        "word": "connect",
+        "sentence": "You can connect these two wires together."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "A2",
+    "word": "context",
+    "mapping": {
+      "Sentence A": {
+        "model": "GPT-4-turbo",
+        "level": "A2",
+        "word": "context",
+        "sentence": "I didn’t understand the word until I saw it in context."
+      },
+      "Sentence B": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "context",
+        "sentence": "The story is set in a historical context."
+      },
+      "Sentence C": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A2",
+        "word": "context",
+        "sentence": "Try to understand the word in its context in the sentence."
+      },
+      "Sentence D": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A2",
+        "word": "context",
+        "sentence": "The context of the story is important."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "context",
+        "sentence": "The teacher explained the context of the story to the students."
+      },
+      "Sentence F": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "context",
+        "sentence": "I didn't understand the word without context."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "A2",
+    "word": "remove",
+    "mapping": {
+      "Sentence A": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A2",
+        "word": "remove",
+        "sentence": "I removed the book from the shelf."
+      },
+      "Sentence B": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "remove",
+        "sentence": "Can you please remove the trash from the classroom?"
+      },
+      "Sentence C": {
+        "model": "GPT-4-turbo",
+        "level": "A2",
+        "word": "remove",
+        "sentence": "Please remove your shoes before entering the house."
+      },
+      "Sentence D": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "remove",
+        "sentence": "Can you remove your shoes before entering?"
+      },
+      "Sentence E": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A2",
+        "word": "remove",
+        "sentence": "Please remove your shoes before entering the house."
+      },
+      "Sentence F": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "remove",
+        "sentence": "Please remove your shoes before entering the house."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "A2",
+    "word": "typical",
+    "mapping": {
+      "Sentence A": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A2",
+        "word": "typical",
+        "sentence": "It's typical for him to be late."
+      },
+      "Sentence B": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "typical",
+        "sentence": "It's typical for students to feel nervous before exams."
+      },
+      "Sentence C": {
+        "model": "GPT-4-turbo",
+        "level": "A2",
+        "word": "typical",
+        "sentence": "It’s typical to have lunch at 1 p.m. in Spain."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "typical",
+        "sentence": "She is a typical student who loves reading books and playing sports."
+      },
+      "Sentence E": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A2",
+        "word": "typical",
+        "sentence": "That is a typical English breakfast."
+      },
+      "Sentence F": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "typical",
+        "sentence": "This food is typical of our country's cuisine."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "A2",
+    "word": "coal",
+    "mapping": {
+      "Sentence A": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A2",
+        "word": "coal",
+        "sentence": "The coal in the fire keeps the room warm."
+      },
+      "Sentence B": {
+        "model": "GPT-4-turbo",
+        "level": "A2",
+        "word": "coal",
+        "sentence": "The train was powered by coal."
+      },
+      "Sentence C": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A2",
+        "word": "coal",
+        "sentence": "Coal is a black rock used for energy."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "coal",
+        "sentence": "The fire was fueled by coal, which was used to heat the house."
+      },
+      "Sentence E": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "coal",
+        "sentence": "The power plant burns coal to make electricity."
+      },
+      "Sentence F": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "coal",
+        "sentence": "The fire was burning coal to produce heat."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "A2",
+    "word": "surprised",
+    "mapping": {
+      "Sentence A": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "surprised",
+        "sentence": "I was surprised to see my friend in the city."
+      },
+      "Sentence B": {
+        "model": "GPT-4-turbo",
+        "level": "A2",
+        "word": "surprised",
+        "sentence": "I was surprised to see her at the party."
+      },
+      "Sentence C": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "surprised",
+        "sentence": "I was surprised to see my friend at the store."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "surprised",
+        "sentence": "I was surprised by the news that my friend got a new job."
+      },
+      "Sentence E": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A2",
+        "word": "surprised",
+        "sentence": "I was surprised by the news."
+      },
+      "Sentence F": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A2",
+        "word": "surprised",
+        "sentence": "I was surprised when I saw the big present."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  }
+]

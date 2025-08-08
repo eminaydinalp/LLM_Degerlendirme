@@ -1,0 +1,422 @@
+[
+  {
+    "task_id": "B2_agency",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "B2",
+    "word": "agency",
+    "label": "Sentence A",
+    "sentence": "The UN has a special agency for disaster relief.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_agency",
+    "model": "GPT-4-turbo",
+    "level": "B2",
+    "word": "agency",
+    "label": "Sentence B",
+    "sentence": "She got a job through a recruitment agency that specializes in IT.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_agency",
+    "model": "Gemini 2.5 Flash",
+    "level": "B2",
+    "word": "agency",
+    "label": "Sentence C",
+    "sentence": "The travel agency helped us book our entire trip to Italy.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_agency",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "B2",
+    "word": "agency",
+    "label": "Sentence D",
+    "sentence": "The government agency is responsible for regulating the financial industry.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_agency",
+    "model": "Claude Sonnet 4",
+    "level": "B2",
+    "word": "agency",
+    "label": "Sentence E",
+    "sentence": "The marketing agency launched a successful campaign that increased sales by 30%.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_agency",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "B2",
+    "word": "agency",
+    "label": "Sentence F",
+    "sentence": "The government agency responsible for disaster relief is working tirelessly to help the affected areas.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_alter",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "B2",
+    "word": "alter",
+    "label": "Sentence A",
+    "sentence": "The company will alter its business strategy to adapt to the changing market conditions.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_alter",
+    "model": "Gemini 2.5 Flash",
+    "level": "B2",
+    "word": "alter",
+    "label": "Sentence B",
+    "sentence": "You might need to alter your plans if the weather changes.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_alter",
+    "model": "Claude Sonnet 4",
+    "level": "B2",
+    "word": "alter",
+    "label": "Sentence C",
+    "sentence": "Climate change has begun to alter weather patterns across the globe.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_alter",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "B2",
+    "word": "alter",
+    "label": "Sentence D",
+    "sentence": "She decided to alter her hairstyle to suit her new job.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_alter",
+    "model": "GPT-4-turbo",
+    "level": "B2",
+    "word": "alter",
+    "label": "Sentence E",
+    "sentence": "You can alter the dress if it doesn’t fit properly.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_alter",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "B2",
+    "word": "alter",
+    "label": "Sentence F",
+    "sentence": "He altered his plans to accommodate the change.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_heaven",
+    "model": "Claude Sonnet 4",
+    "level": "B2",
+    "word": "heaven",
+    "label": "Sentence A",
+    "sentence": "Many religions teach that good people will go to heaven after death.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_heaven",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "B2",
+    "word": "heaven",
+    "label": "Sentence B",
+    "sentence": "The idea of heaven is often associated with a life after death.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_heaven",
+    "model": "GPT-4-turbo",
+    "level": "B2",
+    "word": "heaven",
+    "label": "Sentence C",
+    "sentence": "After a long day, lying in a warm bath feels like heaven.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_heaven",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "B2",
+    "word": "heaven",
+    "label": "Sentence D",
+    "sentence": "Heaven is a place where there is no pain or sorrow.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_heaven",
+    "model": "Gemini 2.5 Flash",
+    "level": "B2",
+    "word": "heaven",
+    "label": "Sentence E",
+    "sentence": "Many cultures believe that good people go to heaven after they die.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_heaven",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "B2",
+    "word": "heaven",
+    "label": "Sentence F",
+    "sentence": "The concept of heaven is a central theme in many religious traditions.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_hollow",
+    "model": "Claude Sonnet 4",
+    "level": "B2",
+    "word": "hollow",
+    "label": "Sentence A",
+    "sentence": "The old tree had a hollow trunk where small animals often made their homes.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_hollow",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "B2",
+    "word": "hollow",
+    "label": "Sentence B",
+    "sentence": "The hollow tree was perfect for a hiding place.",
+    "ratings": {
+      "word_usage": 4,
+      "clarity": 4,
+      "grammar": 5,
+      "naturalness": 4
+    }
+  },
+  {
+    "task_id": "B2_hollow",
+    "model": "Gemini 2.5 Flash",
+    "level": "B2",
+    "word": "hollow",
+    "label": "Sentence C",
+    "sentence": "The old tree trunk was hollow inside, providing a home for birds.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_hollow",
+    "model": "GPT-4-turbo",
+    "level": "B2",
+    "word": "hollow",
+    "label": "Sentence D",
+    "sentence": "The tree trunk was hollow, and birds had made a nest inside.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_hollow",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "B2",
+    "word": "hollow",
+    "label": "Sentence E",
+    "sentence": "The hollow sound of the wind through the trees was soothing.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_hollow",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "B2",
+    "word": "hollow",
+    "label": "Sentence F",
+    "sentence": "The hollow sound of the old wooden door echoed through the empty hallway.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_extend",
+    "model": "GPT-4-turbo",
+    "level": "B2",
+    "word": "extend",
+    "label": "Sentence A",
+    "sentence": "They decided to extend their stay by two more days.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_extend",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "B2",
+    "word": "extend",
+    "label": "Sentence B",
+    "sentence": "The charity aims to extend its services to more countries in the future.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_extend",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "B2",
+    "word": "extend",
+    "label": "Sentence C",
+    "sentence": "The company extended its offer to include more products.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_extend",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "B2",
+    "word": "extend",
+    "label": "Sentence D",
+    "sentence": "The new policy will extend the deadline for submitting applications.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_extend",
+    "model": "Gemini 2.5 Flash",
+    "level": "B2",
+    "word": "extend",
+    "label": "Sentence E",
+    "sentence": "We decided to extend our stay in London by two more days.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  },
+  {
+    "task_id": "B2_extend",
+    "model": "Claude Sonnet 4",
+    "level": "B2",
+    "word": "extend",
+    "label": "Sentence F",
+    "sentence": "The university decided to extend the deadline for scholarship applications.",
+    "ratings": {
+      "word_usage": 5,
+      "clarity": 5,
+      "grammar": 5,
+      "naturalness": 5
+    }
+  }
+]

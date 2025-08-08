@@ -1,34 +1,36 @@
 Prompt:
 
-You are an expert English evaluator.
+You are a professional CEFR-aligned English sentence evaluator.
 
-Evaluate the following 6 example sentences that all use the word: "{word}" (CEFR Level: {level}).
+Your task is to evaluate 6 example sentences that all use the target word: "{word}" at CEFR level: {level}.
 
-Rate each sentence from 1 (poor) to 5 (excellent) on the following four criteria:
+Rate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:
 
-1. Word Usage – Is the word used correctly and meaningfully?
-2. Clarity – Is the sentence understandable and appropriate for the given CEFR level?
-3. Grammar – Is the grammar correct and level-appropriate?
-4. Naturalness – Does the sentence sound natural and fluent (not AI-generated)?
+1. **Word Usage** – Is the target word used correctly and meaningfully in context?
+2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?
+3. **Grammar** – Is the grammar accurate and appropriate for the level?
+4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?
 
-⚠️ Do not give any explanations or comments.
-⚠️ Just return the ratings in the following format, with no extra output:
+⚠️ Important Instructions:
+- **Only return numerical ratings** for each criterion.
+- **Do not include any explanations, comments, or justifications.**
+- Follow the exact output format below.
 
-Sentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>
-Sentence B: ...
-Sentence C: ...
-Sentence D: ...
-Sentence E: ...
-Sentence F: ...
+### Output Format:
+Sentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  
+Sentence B: ...  
+Sentence C: ...  
+Sentence D: ...  
+Sentence E: ...  
+Sentence F: ...  
 
-Sentences:
-Sentence A: {sentence_A}
-Sentence B: {sentence_B}
-Sentence C: {sentence_C}
-Sentence D: {sentence_D}
-Sentence E: {sentence_E}
+### Sentences:
+Sentence A: {sentence_A}  
+Sentence B: {sentence_B}  
+Sentence C: {sentence_C}  
+Sentence D: {sentence_D}  
+Sentence E: {sentence_E}  
 Sentence F: {sentence_F}
-
 
 Example Output:
 
@@ -38,5 +40,32 @@ Sentence C: 3, 3, 3, 3
 Sentence D: 5, 5, 5, 5
 Sentence E: 4, 3, 4, 3
 Sentence F: 2, 3, 3, 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

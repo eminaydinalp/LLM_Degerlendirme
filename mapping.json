@@ -1,0 +1,402 @@
+{
+  "A1::age": {
+    "Sentence A": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Claude Sonnet 4",
+    "Sentence C": "GPT-4-turbo",
+    "Sentence D": "Gemini 2.5 Flash",
+    "Sentence E": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence F": "Llama-3.2-3B-Instruct-Q4_K_M.gguf"
+  },
+  "A1::animal": {
+    "Sentence A": "GPT-4-turbo",
+    "Sentence B": "Claude Sonnet 4",
+    "Sentence C": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence D": "Gemini 2.5 Flash",
+    "Sentence E": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence F": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf"
+  },
+  "A1::ask": {
+    "Sentence A": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "Gemini 2.5 Flash",
+    "Sentence D": "GPT-4-turbo",
+    "Sentence E": "Claude Sonnet 4",
+    "Sentence F": "Ministral-8B-Instruct-2410.Q4_K_M.gguf"
+  },
+  "A1::computer": {
+    "Sentence A": "Gemini 2.5 Flash",
+    "Sentence B": "Claude Sonnet 4",
+    "Sentence C": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence D": "GPT-4-turbo",
+    "Sentence E": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence F": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf"
+  },
+  "A1::eat": {
+    "Sentence A": "GPT-4-turbo",
+    "Sentence B": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence D": "Gemini 2.5 Flash",
+    "Sentence E": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence F": "Claude Sonnet 4"
+  },
+  "A1::car": {
+    "Sentence A": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Gemini 2.5 Flash",
+    "Sentence C": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence D": "GPT-4-turbo",
+    "Sentence E": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence F": "Claude Sonnet 4"
+  },
+  "A1::but": {
+    "Sentence A": "GPT-4-turbo",
+    "Sentence B": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence C": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence D": "Claude Sonnet 4",
+    "Sentence E": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence F": "Gemini 2.5 Flash"
+  },
+  "A1::drive": {
+    "Sentence A": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Gemini 2.5 Flash",
+    "Sentence C": "GPT-4-turbo",
+    "Sentence D": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence E": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence F": "Claude Sonnet 4"
+  },
+  "A1::amazing": {
+    "Sentence A": "GPT-4-turbo",
+    "Sentence B": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence C": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence D": "Claude Sonnet 4",
+    "Sentence E": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence F": "Gemini 2.5 Flash"
+  },
+  "A1::funny": {
+    "Sentence A": "GPT-4-turbo",
+    "Sentence B": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence D": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Claude Sonnet 4",
+    "Sentence F": "Gemini 2.5 Flash"
+  },
+  "A2::ability": {
+    "Sentence A": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Gemini 2.5 Flash",
+    "Sentence C": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence D": "Claude Sonnet 4",
+    "Sentence E": "GPT-4-turbo",
+    "Sentence F": "Llama-3.2-3B-Instruct-Q4_K_M.gguf"
+  },
+  "A2::affect": {
+    "Sentence A": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Claude Sonnet 4",
+    "Sentence C": "GPT-4-turbo",
+    "Sentence D": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Gemini 2.5 Flash",
+    "Sentence F": "Ministral-8B-Instruct-2410.Q4_K_M.gguf"
+  },
+  "A2::almost": {
+    "Sentence A": "Gemini 2.5 Flash",
+    "Sentence B": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence C": "GPT-4-turbo",
+    "Sentence D": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Claude Sonnet 4",
+    "Sentence F": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf"
+  },
+  "A2::board": {
+    "Sentence A": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "GPT-4-turbo",
+    "Sentence C": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence D": "Claude Sonnet 4",
+    "Sentence E": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence F": "Gemini 2.5 Flash"
+  },
+  "A2::connect": {
+    "Sentence A": "Gemini 2.5 Flash",
+    "Sentence B": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence D": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence E": "Claude Sonnet 4",
+    "Sentence F": "GPT-4-turbo"
+  },
+  "A2::context": {
+    "Sentence A": "Claude Sonnet 4",
+    "Sentence B": "GPT-4-turbo",
+    "Sentence C": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence D": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Gemini 2.5 Flash",
+    "Sentence F": "Llama-3.2-3B-Instruct-Q4_K_M.gguf"
+  },
+  "A2::remove": {
+    "Sentence A": "Gemini 2.5 Flash",
+    "Sentence B": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence D": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "GPT-4-turbo",
+    "Sentence F": "Claude Sonnet 4"
+  },
+  "A2::typical": {
+    "Sentence A": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Gemini 2.5 Flash",
+    "Sentence C": "Claude Sonnet 4",
+    "Sentence D": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "GPT-4-turbo",
+    "Sentence F": "Ministral-8B-Instruct-2410.Q4_K_M.gguf"
+  },
+  "A2::coal": {
+    "Sentence A": "Claude Sonnet 4",
+    "Sentence B": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence D": "Gemini 2.5 Flash",
+    "Sentence E": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence F": "GPT-4-turbo"
+  },
+  "A2::surprised": {
+    "Sentence A": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "GPT-4-turbo",
+    "Sentence C": "Claude Sonnet 4",
+    "Sentence D": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence F": "Gemini 2.5 Flash"
+  },
+  "B1::earthquake": {
+    "Sentence A": "GPT-4-turbo",
+    "Sentence B": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "Gemini 2.5 Flash",
+    "Sentence D": "Claude Sonnet 4",
+    "Sentence E": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence F": "Ministral-8B-Instruct-2410.Q4_K_M.gguf"
+  },
+  "B1::frighten": {
+    "Sentence A": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Claude Sonnet 4",
+    "Sentence C": "Gemini 2.5 Flash",
+    "Sentence D": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence F": "GPT-4-turbo"
+  },
+  "B1::issue": {
+    "Sentence A": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Gemini 2.5 Flash",
+    "Sentence C": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence D": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Claude Sonnet 4",
+    "Sentence F": "GPT-4-turbo"
+  },
+  "B1::expand": {
+    "Sentence A": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "GPT-4-turbo",
+    "Sentence C": "Gemini 2.5 Flash",
+    "Sentence D": "Claude Sonnet 4",
+    "Sentence E": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence F": "Llama-3.2-3B-Instruct-Q4_K_M.gguf"
+  },
+  "B1::fancy": {
+    "Sentence A": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence B": "GPT-4-turbo",
+    "Sentence C": "Claude Sonnet 4",
+    "Sentence D": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence F": "Gemini 2.5 Flash"
+  },
+  "B1::imaginary": {
+    "Sentence A": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence C": "Gemini 2.5 Flash",
+    "Sentence D": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Claude Sonnet 4",
+    "Sentence F": "GPT-4-turbo"
+  },
+  "B1::poet": {
+    "Sentence A": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "GPT-4-turbo",
+    "Sentence D": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence E": "Gemini 2.5 Flash",
+    "Sentence F": "Claude Sonnet 4"
+  },
+  "B1::religion": {
+    "Sentence A": "Claude Sonnet 4",
+    "Sentence B": "Gemini 2.5 Flash",
+    "Sentence C": "GPT-4-turbo",
+    "Sentence D": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence F": "Ministral-8B-Instruct-2410.Q4_K_M.gguf"
+  },
+  "B1::obvious": {
+    "Sentence A": "Claude Sonnet 4",
+    "Sentence B": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "Gemini 2.5 Flash",
+    "Sentence D": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence F": "GPT-4-turbo"
+  },
+  "B1::sort": {
+    "Sentence A": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "GPT-4-turbo",
+    "Sentence C": "Gemini 2.5 Flash",
+    "Sentence D": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Claude Sonnet 4",
+    "Sentence F": "Ministral-8B-Instruct-2410.Q4_K_M.gguf"
+  },
+  "B2::agency": {
+    "Sentence A": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence C": "Gemini 2.5 Flash",
+    "Sentence D": "GPT-4-turbo",
+    "Sentence E": "Claude Sonnet 4",
+    "Sentence F": "Llama-3.2-3B-Instruct-Q4_K_M.gguf"
+  },
+  "B2::alter": {
+    "Sentence A": "GPT-4-turbo",
+    "Sentence B": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence C": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence D": "Claude Sonnet 4",
+    "Sentence E": "Gemini 2.5 Flash",
+    "Sentence F": "Llama-3.2-3B-Instruct-Q4_K_M.gguf"
+  },
+  "B2::heaven": {
+    "Sentence A": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "GPT-4-turbo",
+    "Sentence C": "Gemini 2.5 Flash",
+    "Sentence D": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Claude Sonnet 4",
+    "Sentence F": "Ministral-8B-Instruct-2410.Q4_K_M.gguf"
+  },
+  "B2::hollow": {
+    "Sentence A": "Claude Sonnet 4",
+    "Sentence B": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "Gemini 2.5 Flash",
+    "Sentence D": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "GPT-4-turbo",
+    "Sentence F": "Ministral-8B-Instruct-2410.Q4_K_M.gguf"
+  },
+  "B2::extend": {
+    "Sentence A": "GPT-4-turbo",
+    "Sentence B": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence D": "Claude Sonnet 4",
+    "Sentence E": "Gemini 2.5 Flash",
+    "Sentence F": "Ministral-8B-Instruct-2410.Q4_K_M.gguf"
+  },
+  "B2::imply": {
+    "Sentence A": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "Gemini 2.5 Flash",
+    "Sentence D": "Claude Sonnet 4",
+    "Sentence E": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence F": "GPT-4-turbo"
+  },
+  "B2::numerous": {
+    "Sentence A": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Gemini 2.5 Flash",
+    "Sentence C": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence D": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Claude Sonnet 4",
+    "Sentence F": "GPT-4-turbo"
+  },
+  "B2::opponent": {
+    "Sentence A": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Gemini 2.5 Flash",
+    "Sentence C": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence D": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "GPT-4-turbo",
+    "Sentence F": "Claude Sonnet 4"
+  },
+  "B2::process": {
+    "Sentence A": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence B": "Claude Sonnet 4",
+    "Sentence C": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence D": "GPT-4-turbo",
+    "Sentence E": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence F": "Gemini 2.5 Flash"
+  },
+  "B2::wise": {
+    "Sentence A": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Gemini 2.5 Flash",
+    "Sentence C": "GPT-4-turbo",
+    "Sentence D": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Claude Sonnet 4",
+    "Sentence F": "Ministral-8B-Instruct-2410.Q4_K_M.gguf"
+  },
+  "C1::backup": {
+    "Sentence A": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "GPT-4-turbo",
+    "Sentence C": "Gemini 2.5 Flash",
+    "Sentence D": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Claude Sonnet 4",
+    "Sentence F": "Ministral-8B-Instruct-2410.Q4_K_M.gguf"
+  },
+  "C1::default": {
+    "Sentence A": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "Claude Sonnet 4",
+    "Sentence D": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence E": "Gemini 2.5 Flash",
+    "Sentence F": "GPT-4-turbo"
+  },
+  "C1::defy": {
+    "Sentence A": "Gemini 2.5 Flash",
+    "Sentence B": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "GPT-4-turbo",
+    "Sentence D": "Claude Sonnet 4",
+    "Sentence E": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence F": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf"
+  },
+  "C1::collaborate": {
+    "Sentence A": "Gemini 2.5 Flash",
+    "Sentence B": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "GPT-4-turbo",
+    "Sentence D": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence E": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence F": "Claude Sonnet 4"
+  },
+  "C1::correspond": {
+    "Sentence A": "GPT-4-turbo",
+    "Sentence B": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "Gemini 2.5 Flash",
+    "Sentence D": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence E": "Claude Sonnet 4",
+    "Sentence F": "Llama-3.2-3B-Instruct-Q4_K_M.gguf"
+  },
+  "C1::instrumental": {
+    "Sentence A": "Gemini 2.5 Flash",
+    "Sentence B": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence C": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence D": "Claude Sonnet 4",
+    "Sentence E": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence F": "GPT-4-turbo"
+  },
+  "C1::embarrassment": {
+    "Sentence A": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Claude Sonnet 4",
+    "Sentence C": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence D": "Gemini 2.5 Flash",
+    "Sentence E": "GPT-4-turbo",
+    "Sentence F": "Ministral-8B-Instruct-2410.Q4_K_M.gguf"
+  },
+  "C1::outbreak": {
+    "Sentence A": "Claude Sonnet 4",
+    "Sentence B": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence D": "GPT-4-turbo",
+    "Sentence E": "Gemini 2.5 Flash",
+    "Sentence F": "Ministral-8B-Instruct-2410.Q4_K_M.gguf"
+  },
+  "C1::lethal": {
+    "Sentence A": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence B": "Claude Sonnet 4",
+    "Sentence C": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence D": "GPT-4-turbo",
+    "Sentence E": "Gemini 2.5 Flash",
+    "Sentence F": "Ministral-8B-Instruct-2410.Q4_K_M.gguf"
+  },
+  "C1::sovereignty": {
+    "Sentence A": "Gemini 2.5 Flash",
+    "Sentence B": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "Sentence C": "GPT-4-turbo",
+    "Sentence D": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "Sentence E": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "Sentence F": "Claude Sonnet 4"
+  }
+}

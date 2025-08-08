@@ -1,0 +1,802 @@
+[
+  {
+    "level": "C1",
+    "word": "backup",
+    "mapping": {
+      "Sentence A": {
+        "model": "Gemini 2.5 Flash",
+        "level": "C1",
+        "word": "backup",
+        "sentence": "It's crucial to create a backup of all your important files to prevent data loss."
+      },
+      "Sentence B": {
+        "model": "GPT-4-turbo",
+        "level": "C1",
+        "word": "backup",
+        "sentence": "It’s essential to create a backup of your files in case the system crashes unexpectedly."
+      },
+      "Sentence C": {
+        "model": "Claude Sonnet 4",
+        "level": "C1",
+        "word": "backup",
+        "sentence": "The IT department implemented a comprehensive backup system to prevent data loss during cyberattacks."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "backup",
+        "sentence": "The company has a backup plan in case of a major disaster."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "backup",
+        "sentence": "The company has a backup plan in case of a natural disaster."
+      },
+      "Sentence F": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "C1",
+        "word": "backup",
+        "sentence": "It's important to have a backup plan in case of emergencies."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "C1",
+    "word": "default",
+    "mapping": {
+      "Sentence A": {
+        "model": "Claude Sonnet 4",
+        "level": "C1",
+        "word": "default",
+        "sentence": "When users fail to customize their settings, the software will revert to its default configuration."
+      },
+      "Sentence B": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "default",
+        "sentence": "The default setting on the computer is usually set to public access."
+      },
+      "Sentence C": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "default",
+        "sentence": "The default setting on the computer is set to English."
+      },
+      "Sentence D": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "C1",
+        "word": "default",
+        "sentence": "The default setting on the computer is easy to use."
+      },
+      "Sentence E": {
+        "model": "GPT-4-turbo",
+        "level": "C1",
+        "word": "default",
+        "sentence": "If you don’t specify a language, the app will use English as the default setting."
+      },
+      "Sentence F": {
+        "model": "Gemini 2.5 Flash",
+        "level": "C1",
+        "word": "default",
+        "sentence": "The program's default settings are usually sufficient for most users, but you can customize them."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "C1",
+    "word": "defy",
+    "mapping": {
+      "Sentence A": {
+        "model": "GPT-4-turbo",
+        "level": "C1",
+        "word": "defy",
+        "sentence": "The protesters chose to defy the curfew, demanding justice despite the risks."
+      },
+      "Sentence B": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "defy",
+        "sentence": "She refused to defy the rules, even when it meant facing criticism."
+      },
+      "Sentence C": {
+        "model": "Gemini 2.5 Flash",
+        "level": "C1",
+        "word": "defy",
+        "sentence": "The small nation chose to defy the ultimatum issued by the larger, more powerful country."
+      },
+      "Sentence D": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "C1",
+        "word": "defy",
+        "sentence": "She defied the rules and entered the restricted area."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "defy",
+        "sentence": "The protesters refused to defy the police and disperse peacefully."
+      },
+      "Sentence F": {
+        "model": "Claude Sonnet 4",
+        "level": "C1",
+        "word": "defy",
+        "sentence": "The activist continued to defy government restrictions despite facing potential imprisonment."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "C1",
+    "word": "collaborate",
+    "mapping": {
+      "Sentence A": {
+        "model": "Claude Sonnet 4",
+        "level": "C1",
+        "word": "collaborate",
+        "sentence": "International researchers collaborate on groundbreaking studies that address global health challenges."
+      },
+      "Sentence B": {
+        "model": "GPT-4-turbo",
+        "level": "C1",
+        "word": "collaborate",
+        "sentence": "The two universities agreed to collaborate on a research project about climate change."
+      },
+      "Sentence C": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "collaborate",
+        "sentence": "The researchers will collaborate with experts from other countries to study the effects of climate change."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "collaborate",
+        "sentence": "The team will collaborate with experts from other fields to develop a new project."
+      },
+      "Sentence E": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "C1",
+        "word": "collaborate",
+        "sentence": "The team collaborated on the project to meet the deadline."
+      },
+      "Sentence F": {
+        "model": "Gemini 2.5 Flash",
+        "level": "C1",
+        "word": "collaborate",
+        "sentence": "The success of the project depended heavily on the team's ability to collaborate effectively."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "C1",
+    "word": "correspond",
+    "mapping": {
+      "Sentence A": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "C1",
+        "word": "correspond",
+        "sentence": "I correspond with my friend every week."
+      },
+      "Sentence B": {
+        "model": "Claude Sonnet 4",
+        "level": "C1",
+        "word": "correspond",
+        "sentence": "The archaeological findings correspond with historical accounts of ancient civilizations."
+      },
+      "Sentence C": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "correspond",
+        "sentence": "The letters correspond to each other in terms of style and tone."
+      },
+      "Sentence D": {
+        "model": "Gemini 2.5 Flash",
+        "level": "C1",
+        "word": "correspond",
+        "sentence": "Her actions today do not correspond with the promises she made last week."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "correspond",
+        "sentence": "The letters will correspond with each other, and we can use them to verify the information."
+      },
+      "Sentence F": {
+        "model": "GPT-4-turbo",
+        "level": "C1",
+        "word": "correspond",
+        "sentence": "The data from the latest study does not correspond with earlier findings."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "C1",
+    "word": "instrumental",
+    "mapping": {
+      "Sentence A": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "instrumental",
+        "sentence": "The violinist's instrumental solo was the highlight of the concert."
+      },
+      "Sentence B": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "C1",
+        "word": "instrumental",
+        "sentence": "The instrument was instrumental in solving the problem."
+      },
+      "Sentence C": {
+        "model": "GPT-4-turbo",
+        "level": "C1",
+        "word": "instrumental",
+        "sentence": "Her leadership was instrumental in securing funding for the project."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "instrumental",
+        "sentence": "The guitar is an instrumental part of the band's sound."
+      },
+      "Sentence E": {
+        "model": "Claude Sonnet 4",
+        "level": "C1",
+        "word": "instrumental",
+        "sentence": "Social media platforms have been instrumental in mobilizing grassroots political movements."
+      },
+      "Sentence F": {
+        "model": "Gemini 2.5 Flash",
+        "level": "C1",
+        "word": "instrumental",
+        "sentence": "The support of the local community was instrumental in achieving the charity's fundraising goal."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "C1",
+    "word": "embarrassment",
+    "mapping": {
+      "Sentence A": {
+        "model": "GPT-4-turbo",
+        "level": "C1",
+        "word": "embarrassment",
+        "sentence": "Forgetting his lines during the performance was a huge embarrassment for him."
+      },
+      "Sentence B": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "embarrassment",
+        "sentence": "The politician's embarrassment over the scandal has damaged his reputation."
+      },
+      "Sentence C": {
+        "model": "Claude Sonnet 4",
+        "level": "C1",
+        "word": "embarrassment",
+        "sentence": "The politician's public embarrassment stemmed from leaked documents revealing corruption."
+      },
+      "Sentence D": {
+        "model": "Gemini 2.5 Flash",
+        "level": "C1",
+        "word": "embarrassment",
+        "sentence": "He felt a deep sense of embarrassment after tripping on stage during his speech."
+      },
+      "Sentence E": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "C1",
+        "word": "embarrassment",
+        "sentence": "He felt embarrassed when he made a mistake."
+      },
+      "Sentence F": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "embarrassment",
+        "sentence": "The politician's words sparked an embarrassing admission of guilt."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "C1",
+    "word": "outbreak",
+    "mapping": {
+      "Sentence A": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "outbreak",
+        "sentence": "The outbreak of the disease spread rapidly across the country, and the government was forced to take drastic measures."
+      },
+      "Sentence B": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "C1",
+        "word": "outbreak",
+        "sentence": "The outbreak of the disease caused panic."
+      },
+      "Sentence C": {
+        "model": "GPT-4-turbo",
+        "level": "C1",
+        "word": "outbreak",
+        "sentence": "Authorities responded quickly to contain the outbreak of the infectious disease."
+      },
+      "Sentence D": {
+        "model": "Gemini 2.5 Flash",
+        "level": "C1",
+        "word": "outbreak",
+        "sentence": "The sudden outbreak of the disease quickly overwhelmed the local healthcare system."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "outbreak",
+        "sentence": "The outbreak of the disease has led to a global health crisis."
+      },
+      "Sentence F": {
+        "model": "Claude Sonnet 4",
+        "level": "C1",
+        "word": "outbreak",
+        "sentence": "Health authorities struggled to contain the outbreak of the highly contagious virus."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "C1",
+    "word": "lethal",
+    "mapping": {
+      "Sentence A": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "lethal",
+        "sentence": "The new medication has been found to be lethal to certain types of bacteria."
+      },
+      "Sentence B": {
+        "model": "Gemini 2.5 Flash",
+        "level": "C1",
+        "word": "lethal",
+        "sentence": "Certain chemicals can be lethal if not handled with extreme care and proper safety measures."
+      },
+      "Sentence C": {
+        "model": "Claude Sonnet 4",
+        "level": "C1",
+        "word": "lethal",
+        "sentence": "The combination of these two chemicals creates a lethal compound that poses serious risks."
+      },
+      "Sentence D": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "C1",
+        "word": "lethal",
+        "sentence": "The poison was lethal and dangerous to handle."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "lethal",
+        "sentence": "The lethal dose of the poison was so small that it was almost undetectable."
+      },
+      "Sentence F": {
+        "model": "GPT-4-turbo",
+        "level": "C1",
+        "word": "lethal",
+        "sentence": "The chemical is lethal in small doses and must be handled with extreme care."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  },
+  {
+    "level": "C1",
+    "word": "sovereignty",
+    "mapping": {
+      "Sentence A": {
+        "model": "GPT-4-turbo",
+        "level": "C1",
+        "word": "sovereignty",
+        "sentence": "The country continues to fight for its sovereignty and political independence."
+      },
+      "Sentence B": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "sovereignty",
+        "sentence": "The country's sovereignty was challenged by the neighboring nation, but the government was determined to defend its independence."
+      },
+      "Sentence C": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "C1",
+        "word": "sovereignty",
+        "sentence": "The country's sovereignty is not being respected by the neighboring state."
+      },
+      "Sentence D": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "C1",
+        "word": "sovereignty",
+        "sentence": "The country's sovereignty was threatened by the invasion."
+      },
+      "Sentence E": {
+        "model": "Claude Sonnet 4",
+        "level": "C1",
+        "word": "sovereignty",
+        "sentence": "The disputed territory's declaration of independence challenged the nation's sovereignty."
+      },
+      "Sentence F": {
+        "model": "Gemini 2.5 Flash",
+        "level": "C1",
+        "word": "sovereignty",
+        "sentence": "The newly independent state immediately asserted its sovereignty over its territorial waters."
+      }
+    },
+    "scores": {
+      "Sentence A": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      },
+      "Sentence B": {
+        "Word Usage": 4,
+        "Clarity": 4,
+        "Grammar": 4,
+        "Naturalness": 4
+      },
+      "Sentence C": {
+        "Word Usage": 3,
+        "Clarity": 3,
+        "Grammar": 3,
+        "Naturalness": 3
+      },
+      "Sentence D": {
+        "Word Usage": 2,
+        "Clarity": 2,
+        "Grammar": 2,
+        "Naturalness": 2
+      },
+      "Sentence E": {
+        "Word Usage": 1,
+        "Clarity": 1,
+        "Grammar": 1,
+        "Naturalness": 1
+      },
+      "Sentence F": {
+        "Word Usage": 5,
+        "Clarity": 5,
+        "Grammar": 5,
+        "Naturalness": 5
+      }
+    }
+  }
+]

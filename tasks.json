@@ -1,0 +1,602 @@
+[
+  {
+    "level": "A1",
+    "word": "age",
+    "sentences": {
+      "Sentence A": "My birthday is on January 12th.",
+      "Sentence B": "My age is twenty-five years old.",
+      "Sentence C": "I am ten years old.",
+      "Sentence D": "My age is seven years old.",
+      "Sentence E": "I am 20 years old.",
+      "Sentence F": "I am 10 years old, and I love playing with my pet dog."
+    }
+  },
+  {
+    "level": "A1",
+    "word": "animal",
+    "sentences": {
+      "Sentence A": "The dog is a friendly animal.",
+      "Sentence B": "I have a pet animal called Max.",
+      "Sentence C": "My favorite animal is the elephant, which is very big and grey.",
+      "Sentence D": "A cat is a small animal.",
+      "Sentence E": "This is a dog, a cat, and a bird. They are animals.",
+      "Sentence F": "The cat is a pet animal."
+    }
+  },
+  {
+    "level": "A1",
+    "word": "ask",
+    "sentences": {
+      "Sentence A": "Can you ask your teacher for help?",
+      "Sentence B": "Do you want to play with me, or will you ask your friend to join us?",
+      "Sentence C": "Please ask your teacher a question.",
+      "Sentence D": "I want to ask a question.",
+      "Sentence E": "Can I ask you a question?",
+      "Sentence F": "Can I ask you a question?"
+    }
+  },
+  {
+    "level": "A1",
+    "word": "computer",
+    "sentences": {
+      "Sentence A": "I have a new computer for my games.",
+      "Sentence B": "I use my computer every day.",
+      "Sentence C": "I need to use the computer to write an email.",
+      "Sentence D": "She has a new computer at home.",
+      "Sentence E": "My mother bought a new computer for our family last week.",
+      "Sentence F": "The computer is very useful for students."
+    }
+  },
+  {
+    "level": "A1",
+    "word": "eat",
+    "sentences": {
+      "Sentence A": "They eat lunch at noon.",
+      "Sentence B": "I like to eat pizza on Fridays.",
+      "Sentence C": "I like to eat pizza.",
+      "Sentence D": "We like to eat pizza for dinner.",
+      "Sentence E": "I am hungry, so I would like to eat a sandwich.",
+      "Sentence F": "We eat dinner at six o'clock."
+    }
+  },
+  {
+    "level": "A1",
+    "word": "car",
+    "sentences": {
+      "Sentence A": "My mom bought a new car last week.",
+      "Sentence B": "My father has a red car.",
+      "Sentence C": "This is my car. It is blue.",
+      "Sentence D": "My father drives a red car.",
+      "Sentence E": "My brother has a red car that he likes to drive.",
+      "Sentence F": "My father has a red car."
+    }
+  },
+  {
+    "level": "A1",
+    "word": "but",
+    "sentences": {
+      "Sentence A": "I like apples, but I don’t like bananas.",
+      "Sentence B": "I am not hungry, but I can eat later.",
+      "Sentence C": "I don't like coffee, but I like tea.",
+      "Sentence D": "I like tea but I don't like coffee.",
+      "Sentence E": "I don't want to go to school, but my parents will make me go.",
+      "Sentence F": "I like apples, but I don't like bananas."
+    }
+  },
+  {
+    "level": "A1",
+    "word": "drive",
+    "sentences": {
+      "Sentence A": "My brother can drive a car now.",
+      "Sentence B": "I want to learn to drive a truck.",
+      "Sentence C": "Can you drive this big truck?",
+      "Sentence D": "I can drive a car.",
+      "Sentence E": "My father will drive us to the park on the weekend.",
+      "Sentence F": "My brother can drive very well."
+    }
+  },
+  {
+    "level": "A1",
+    "word": "amazing",
+    "sentences": {
+      "Sentence A": "The view from the mountain is amazing.",
+      "Sentence B": "The movie was amazing.",
+      "Sentence C": "The fireworks display was amazing, and everyone was cheering.",
+      "Sentence D": "The movie was amazing!",
+      "Sentence E": "The fireworks display was amazing tonight.",
+      "Sentence F": "This cake is amazing!"
+    }
+  },
+  {
+    "level": "A1",
+    "word": "funny",
+    "sentences": {
+      "Sentence A": "That movie was very funny.",
+      "Sentence B": "The clown was so funny at the party.",
+      "Sentence C": "That joke was funny.",
+      "Sentence D": "The clown at the birthday party was very funny and made us laugh.",
+      "Sentence E": "That joke is very funny.",
+      "Sentence F": "The clown is very funny."
+    }
+  },
+  {
+    "level": "A2",
+    "word": "ability",
+    "sentences": {
+      "Sentence A": "My ability to swim is improving every day.",
+      "Sentence B": "She has the ability to sing very well.",
+      "Sentence C": "I have the ability to speak two languages.",
+      "Sentence D": "She has the ability to speak three languages.",
+      "Sentence E": "She has the ability to speak three languages.",
+      "Sentence F": "She has a great ability to play the piano, and she practices every day."
+    }
+  },
+  {
+    "level": "A2",
+    "word": "affect",
+    "sentences": {
+      "Sentence A": "The rain will affect the parade, so we need to cancel it.",
+      "Sentence B": "The rain will affect our picnic plans today.",
+      "Sentence C": "Cold weather can affect your mood.",
+      "Sentence D": "The weather will affect the trip tomorrow.",
+      "Sentence E": "The rain might affect our plans for the picnic.",
+      "Sentence F": "The weather affected my plans."
+    }
+  },
+  {
+    "level": "A2",
+    "word": "almost",
+    "sentences": {
+      "Sentence A": "It's almost time for the movie to start.",
+      "Sentence B": "The train was almost empty.",
+      "Sentence C": "I almost missed the bus this morning.",
+      "Sentence D": "I'm almost ready to go to school, but I need to finish my homework.",
+      "Sentence E": "I almost missed the bus this morning.",
+      "Sentence F": "I'm almost ready to leave for school."
+    }
+  },
+  {
+    "level": "A2",
+    "word": "board",
+    "sentences": {
+      "Sentence A": "The school board decided to build a new library.",
+      "Sentence B": "The teacher wrote the answer on the board.",
+      "Sentence C": "She fell off the board.",
+      "Sentence D": "The teacher wrote the homework on the board.",
+      "Sentence E": "The board of directors meets every month to discuss business.",
+      "Sentence F": "Please write your answers on the white board."
+    }
+  },
+  {
+    "level": "A2",
+    "word": "connect",
+    "sentences": {
+      "Sentence A": "You can connect these two wires together.",
+      "Sentence B": "The phone can connect to the internet.",
+      "Sentence C": "We need to connect the wires before we can turn on the lamp.",
+      "Sentence D": "Can you connect your laptop to the TV?",
+      "Sentence E": "Please connect your phone to the internet.",
+      "Sentence F": "You need a password to connect to the Wi-Fi."
+    }
+  },
+  {
+    "level": "A2",
+    "word": "context",
+    "sentences": {
+      "Sentence A": "I didn't understand the word without context.",
+      "Sentence B": "I didn’t understand the word until I saw it in context.",
+      "Sentence C": "The context of the story is important.",
+      "Sentence D": "The story is set in a historical context.",
+      "Sentence E": "Try to understand the word in its context in the sentence.",
+      "Sentence F": "The teacher explained the context of the story to the students."
+    }
+  },
+  {
+    "level": "A2",
+    "word": "remove",
+    "sentences": {
+      "Sentence A": "Please remove your shoes before entering the house.",
+      "Sentence B": "Please remove your shoes before entering the house.",
+      "Sentence C": "I removed the book from the shelf.",
+      "Sentence D": "Can you please remove the trash from the classroom?",
+      "Sentence E": "Please remove your shoes before entering the house.",
+      "Sentence F": "Can you remove your shoes before entering?"
+    }
+  },
+  {
+    "level": "A2",
+    "word": "typical",
+    "sentences": {
+      "Sentence A": "This food is typical of our country's cuisine.",
+      "Sentence B": "It's typical for him to be late.",
+      "Sentence C": "It's typical for students to feel nervous before exams.",
+      "Sentence D": "She is a typical student who loves reading books and playing sports.",
+      "Sentence E": "It’s typical to have lunch at 1 p.m. in Spain.",
+      "Sentence F": "That is a typical English breakfast."
+    }
+  },
+  {
+    "level": "A2",
+    "word": "coal",
+    "sentences": {
+      "Sentence A": "The power plant burns coal to make electricity.",
+      "Sentence B": "The fire was fueled by coal, which was used to heat the house.",
+      "Sentence C": "The fire was burning coal to produce heat.",
+      "Sentence D": "Coal is a black rock used for energy.",
+      "Sentence E": "The coal in the fire keeps the room warm.",
+      "Sentence F": "The train was powered by coal."
+    }
+  },
+  {
+    "level": "A2",
+    "word": "surprised",
+    "sentences": {
+      "Sentence A": "I was surprised by the news that my friend got a new job.",
+      "Sentence B": "I was surprised to see her at the party.",
+      "Sentence C": "I was surprised to see my friend at the store.",
+      "Sentence D": "I was surprised to see my friend in the city.",
+      "Sentence E": "I was surprised by the news.",
+      "Sentence F": "I was surprised when I saw the big present."
+    }
+  },
+  {
+    "level": "B1",
+    "word": "earthquake",
+    "sentences": {
+      "Sentence A": "The earthquake damaged many buildings in the city.",
+      "Sentence B": "The city is prone to earthquakes, so we need to be prepared.",
+      "Sentence C": "Many people were scared during the recent earthquake.",
+      "Sentence D": "The earthquake destroyed many buildings in the city center.",
+      "Sentence E": "The earthquake caused a lot of damage to the city.",
+      "Sentence F": "The earthquake caused a lot of damage."
+    }
+  },
+  {
+    "level": "B1",
+    "word": "frighten",
+    "sentences": {
+      "Sentence A": "The loud noise will frighten the animals in the zoo.",
+      "Sentence B": "Thunder and lightning can frighten young children during storms.",
+      "Sentence C": "Loud noises often frighten small children and pets.",
+      "Sentence D": "The loud noise will frighten the animals in the zoo.",
+      "Sentence E": "He was frightened by the noise.",
+      "Sentence F": "Loud noises can easily frighten small children."
+    }
+  },
+  {
+    "level": "B1",
+    "word": "issue",
+    "sentences": {
+      "Sentence A": "There is an issue with the water supply in our town, and we need to fix it.",
+      "Sentence B": "We need to discuss this important issue at our next meeting.",
+      "Sentence C": "There are many issues to discuss.",
+      "Sentence D": "The issue of climate change is a serious problem.",
+      "Sentence E": "We need to discuss this issue at tomorrow's meeting.",
+      "Sentence F": "Climate change is a serious issue we need to discuss."
+    }
+  },
+  {
+    "level": "B1",
+    "word": "expand",
+    "sentences": {
+      "Sentence A": "The company plans to expand its business to other countries.",
+      "Sentence B": "The company plans to expand into new markets next year.",
+      "Sentence C": "The company plans to expand its business into new countries next year.",
+      "Sentence D": "The company plans to expand its business to other countries.",
+      "Sentence E": "The company plans to expand its business.",
+      "Sentence F": "The company plans to expand its operations to other countries."
+    }
+  },
+  {
+    "level": "B1",
+    "word": "fancy",
+    "sentences": {
+      "Sentence A": "She has a fancy for flowers.",
+      "Sentence B": "She wore a fancy dress to the wedding.",
+      "Sentence C": "She wore a fancy dress to the wedding celebration.",
+      "Sentence D": "She has a fancy car that she bought last year.",
+      "Sentence E": "She has a fancy handbag that she got for her birthday.",
+      "Sentence F": "She wore a very fancy dress to the party."
+    }
+  },
+  {
+    "level": "B1",
+    "word": "imaginary",
+    "sentences": {
+      "Sentence A": "The story was so imaginary that I couldn't distinguish reality from fantasy.",
+      "Sentence B": "The imaginary world of the story was fascinating.",
+      "Sentence C": "Unicorns are imaginary animals, not real ones.",
+      "Sentence D": "The imaginary world in the book is very interesting.",
+      "Sentence E": "The children created an imaginary friend to play with.",
+      "Sentence F": "As a child, he had an imaginary friend."
+    }
+  },
+  {
+    "level": "B1",
+    "word": "poet",
+    "sentences": {
+      "Sentence A": "The poet wrote beautiful verses about love and nature.",
+      "Sentence B": "The poet's latest collection of poems is a bestseller.",
+      "Sentence C": "William Shakespeare was a famous English poet.",
+      "Sentence D": "The poet wrote about love.",
+      "Sentence E": "William Shakespeare was a famous English poet.",
+      "Sentence F": "Shakespeare was a famous poet who wrote beautiful sonnets."
+    }
+  },
+  {
+    "level": "B1",
+    "word": "religion",
+    "sentences": {
+      "Sentence A": "Different cultures have their own religion and traditions.",
+      "Sentence B": "Different cultures practice different forms of religion.",
+      "Sentence C": "People should respect each other's religion.",
+      "Sentence D": "The religion of Buddhism emphasizes the importance of meditation and compassion.",
+      "Sentence E": "The new employee has to respect the company's religion policy.",
+      "Sentence F": "Her religion is important to her."
+    }
+  },
+  {
+    "level": "B1",
+    "word": "obvious",
+    "sentences": {
+      "Sentence A": "It was obvious that he hadn't studied for the test.",
+      "Sentence B": "It's obvious that the new policy will have a negative impact.",
+      "Sentence C": "It was obvious that he was tired because he kept yawning.",
+      "Sentence D": "It's obvious that she's not interested in the conversation, so let's move on.",
+      "Sentence E": "The obvious solution was to call the police.",
+      "Sentence F": "It’s obvious that he didn’t study for the exam."
+    }
+  },
+  {
+    "level": "B1",
+    "word": "sort",
+    "sentences": {
+      "Sentence A": "We need to sort the files on our computer to make it easier to find them.",
+      "Sentence B": "Let’s sort these books by size and color.",
+      "Sentence C": "Can you help me to sort these books by author?",
+      "Sentence D": "Can you sort out the papers on my desk and file them away?",
+      "Sentence E": "What sort of music do you prefer listening to?",
+      "Sentence F": "I sorted the books by author."
+    }
+  },
+  {
+    "level": "B2",
+    "word": "agency",
+    "sentences": {
+      "Sentence A": "The government agency responsible for disaster relief is working tirelessly to help the affected areas.",
+      "Sentence B": "The UN has a special agency for disaster relief.",
+      "Sentence C": "The travel agency helped us book our entire trip to Italy.",
+      "Sentence D": "She got a job through a recruitment agency that specializes in IT.",
+      "Sentence E": "The marketing agency launched a successful campaign that increased sales by 30%.",
+      "Sentence F": "The government agency is responsible for regulating the financial industry."
+    }
+  },
+  {
+    "level": "B2",
+    "word": "alter",
+    "sentences": {
+      "Sentence A": "You can alter the dress if it doesn’t fit properly.",
+      "Sentence B": "He altered his plans to accommodate the change.",
+      "Sentence C": "The company will alter its business strategy to adapt to the changing market conditions.",
+      "Sentence D": "Climate change has begun to alter weather patterns across the globe.",
+      "Sentence E": "You might need to alter your plans if the weather changes.",
+      "Sentence F": "She decided to alter her hairstyle to suit her new job."
+    }
+  },
+  {
+    "level": "B2",
+    "word": "heaven",
+    "sentences": {
+      "Sentence A": "The idea of heaven is often associated with a life after death.",
+      "Sentence B": "After a long day, lying in a warm bath feels like heaven.",
+      "Sentence C": "Many cultures believe that good people go to heaven after they die.",
+      "Sentence D": "The concept of heaven is a central theme in many religious traditions.",
+      "Sentence E": "Many religions teach that good people will go to heaven after death.",
+      "Sentence F": "Heaven is a place where there is no pain or sorrow."
+    }
+  },
+  {
+    "level": "B2",
+    "word": "hollow",
+    "sentences": {
+      "Sentence A": "The old tree had a hollow trunk where small animals often made their homes.",
+      "Sentence B": "The hollow sound of the wind through the trees was soothing.",
+      "Sentence C": "The old tree trunk was hollow inside, providing a home for birds.",
+      "Sentence D": "The hollow sound of the old wooden door echoed through the empty hallway.",
+      "Sentence E": "The tree trunk was hollow, and birds had made a nest inside.",
+      "Sentence F": "The hollow tree was perfect for a hiding place."
+    }
+  },
+  {
+    "level": "B2",
+    "word": "extend",
+    "sentences": {
+      "Sentence A": "They decided to extend their stay by two more days.",
+      "Sentence B": "The new policy will extend the deadline for submitting applications.",
+      "Sentence C": "The charity aims to extend its services to more countries in the future.",
+      "Sentence D": "The university decided to extend the deadline for scholarship applications.",
+      "Sentence E": "We decided to extend our stay in London by two more days.",
+      "Sentence F": "The company extended its offer to include more products."
+    }
+  },
+  {
+    "level": "B2",
+    "word": "imply",
+    "sentences": {
+      "Sentence A": "The company's decision to downsize implies that they are struggling financially.",
+      "Sentence B": "The article implies that the company is in financial trouble.",
+      "Sentence C": "His silence seemed to imply that he agreed with the decision.",
+      "Sentence D": "His tone seemed to imply that he disagreed with the proposal.",
+      "Sentence E": "The poem implies a deeper meaning.",
+      "Sentence F": "Are you trying to imply that this was my fault?"
+    }
+  },
+  {
+    "level": "B2",
+    "word": "numerous",
+    "sentences": {
+      "Sentence A": "There are numerous options available for choosing a career, but it's essential to find the right one.",
+      "Sentence B": "There were numerous reasons why the project failed.",
+      "Sentence C": "There were numerous people at the event.",
+      "Sentence D": "The numerous reports of corruption have damaged the company's reputation.",
+      "Sentence E": "The researcher conducted numerous experiments before reaching a conclusion.",
+      "Sentence F": "He has made numerous attempts to fix the problem, but nothing worked."
+    }
+  },
+  {
+    "level": "B2",
+    "word": "opponent",
+    "sentences": {
+      "Sentence A": "The opponent in the debate was well-prepared and presented a strong argument.",
+      "Sentence B": "She easily defeated her opponent in the chess match.",
+      "Sentence C": "The team has a strong opponent in the final match.",
+      "Sentence D": "My opponent in the debate argued that the policy was unfair to certain groups.",
+      "Sentence E": "Her opponent in the final match was very strong.",
+      "Sentence F": "The chess player carefully studied her opponent's previous games."
+    }
+  },
+  {
+    "level": "B2",
+    "word": "process",
+    "sentences": {
+      "Sentence A": "The process of learning a new language is challenging.",
+      "Sentence B": "Learning a foreign language is a gradual process that requires patience.",
+      "Sentence C": "The complex process of creating a work of art requires patience and dedication.",
+      "Sentence D": "Learning a new language is a long but rewarding process.",
+      "Sentence E": "The process of creating a new product involves several stages, from design to production.",
+      "Sentence F": "Learning a new language is a long and continuous process."
+    }
+  },
+  {
+    "level": "B2",
+    "word": "wise",
+    "sentences": {
+      "Sentence A": "The wise old man was respected by everyone in the village for his knowledge and experience.",
+      "Sentence B": "It was a wise decision to save money for the future.",
+      "Sentence C": "It was wise of you to save some money for emergencies.",
+      "Sentence D": "She is a wise and experienced teacher who has taught many students over the years.",
+      "Sentence E": "It would be wise to save money for unexpected expenses.",
+      "Sentence F": "The wise decision was to save money for the future."
+    }
+  },
+  {
+    "level": "C1",
+    "word": "backup",
+    "sentences": {
+      "Sentence A": "The company has a backup plan in case of a major disaster.",
+      "Sentence B": "It’s essential to create a backup of your files in case the system crashes unexpectedly.",
+      "Sentence C": "It's crucial to create a backup of all your important files to prevent data loss.",
+      "Sentence D": "The company has a backup plan in case of a natural disaster.",
+      "Sentence E": "The IT department implemented a comprehensive backup system to prevent data loss during cyberattacks.",
+      "Sentence F": "It's important to have a backup plan in case of emergencies."
+    }
+  },
+  {
+    "level": "C1",
+    "word": "default",
+    "sentences": {
+      "Sentence A": "The default setting on the computer is usually set to public access.",
+      "Sentence B": "The default setting on the computer is set to English.",
+      "Sentence C": "When users fail to customize their settings, the software will revert to its default configuration.",
+      "Sentence D": "The default setting on the computer is easy to use.",
+      "Sentence E": "The program's default settings are usually sufficient for most users, but you can customize them.",
+      "Sentence F": "If you don’t specify a language, the app will use English as the default setting."
+    }
+  },
+  {
+    "level": "C1",
+    "word": "defy",
+    "sentences": {
+      "Sentence A": "The small nation chose to defy the ultimatum issued by the larger, more powerful country.",
+      "Sentence B": "She refused to defy the rules, even when it meant facing criticism.",
+      "Sentence C": "The protesters chose to defy the curfew, demanding justice despite the risks.",
+      "Sentence D": "The activist continued to defy government restrictions despite facing potential imprisonment.",
+      "Sentence E": "She defied the rules and entered the restricted area.",
+      "Sentence F": "The protesters refused to defy the police and disperse peacefully."
+    }
+  },
+  {
+    "level": "C1",
+    "word": "collaborate",
+    "sentences": {
+      "Sentence A": "The success of the project depended heavily on the team's ability to collaborate effectively.",
+      "Sentence B": "The researchers will collaborate with experts from other countries to study the effects of climate change.",
+      "Sentence C": "The two universities agreed to collaborate on a research project about climate change.",
+      "Sentence D": "The team will collaborate with experts from other fields to develop a new project.",
+      "Sentence E": "The team collaborated on the project to meet the deadline.",
+      "Sentence F": "International researchers collaborate on groundbreaking studies that address global health challenges."
+    }
+  },
+  {
+    "level": "C1",
+    "word": "correspond",
+    "sentences": {
+      "Sentence A": "The data from the latest study does not correspond with earlier findings.",
+      "Sentence B": "The letters correspond to each other in terms of style and tone.",
+      "Sentence C": "Her actions today do not correspond with the promises she made last week.",
+      "Sentence D": "I correspond with my friend every week.",
+      "Sentence E": "The archaeological findings correspond with historical accounts of ancient civilizations.",
+      "Sentence F": "The letters will correspond with each other, and we can use them to verify the information."
+    }
+  },
+  {
+    "level": "C1",
+    "word": "instrumental",
+    "sentences": {
+      "Sentence A": "The support of the local community was instrumental in achieving the charity's fundraising goal.",
+      "Sentence B": "The instrument was instrumental in solving the problem.",
+      "Sentence C": "The violinist's instrumental solo was the highlight of the concert.",
+      "Sentence D": "Social media platforms have been instrumental in mobilizing grassroots political movements.",
+      "Sentence E": "The guitar is an instrumental part of the band's sound.",
+      "Sentence F": "Her leadership was instrumental in securing funding for the project."
+    }
+  },
+  {
+    "level": "C1",
+    "word": "embarrassment",
+    "sentences": {
+      "Sentence A": "The politician's words sparked an embarrassing admission of guilt.",
+      "Sentence B": "The politician's public embarrassment stemmed from leaked documents revealing corruption.",
+      "Sentence C": "The politician's embarrassment over the scandal has damaged his reputation.",
+      "Sentence D": "He felt a deep sense of embarrassment after tripping on stage during his speech.",
+      "Sentence E": "Forgetting his lines during the performance was a huge embarrassment for him.",
+      "Sentence F": "He felt embarrassed when he made a mistake."
+    }
+  },
+  {
+    "level": "C1",
+    "word": "outbreak",
+    "sentences": {
+      "Sentence A": "Health authorities struggled to contain the outbreak of the highly contagious virus.",
+      "Sentence B": "The outbreak of the disease has led to a global health crisis.",
+      "Sentence C": "The outbreak of the disease spread rapidly across the country, and the government was forced to take drastic measures.",
+      "Sentence D": "Authorities responded quickly to contain the outbreak of the infectious disease.",
+      "Sentence E": "The sudden outbreak of the disease quickly overwhelmed the local healthcare system.",
+      "Sentence F": "The outbreak of the disease caused panic."
+    }
+  },
+  {
+    "level": "C1",
+    "word": "lethal",
+    "sentences": {
+      "Sentence A": "The new medication has been found to be lethal to certain types of bacteria.",
+      "Sentence B": "The combination of these two chemicals creates a lethal compound that poses serious risks.",
+      "Sentence C": "The lethal dose of the poison was so small that it was almost undetectable.",
+      "Sentence D": "The chemical is lethal in small doses and must be handled with extreme care.",
+      "Sentence E": "Certain chemicals can be lethal if not handled with extreme care and proper safety measures.",
+      "Sentence F": "The poison was lethal and dangerous to handle."
+    }
+  },
+  {
+    "level": "C1",
+    "word": "sovereignty",
+    "sentences": {
+      "Sentence A": "The newly independent state immediately asserted its sovereignty over its territorial waters.",
+      "Sentence B": "The country's sovereignty was challenged by the neighboring nation, but the government was determined to defend its independence.",
+      "Sentence C": "The country continues to fight for its sovereignty and political independence.",
+      "Sentence D": "The country's sovereignty was threatened by the invasion.",
+      "Sentence E": "The country's sovereignty is not being respected by the neighboring state.",
+      "Sentence F": "The disputed territory's declaration of independence challenged the nation's sovereignty."
+    }
+  }
+]
