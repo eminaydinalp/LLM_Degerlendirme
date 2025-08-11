@@ -6,68 +6,68 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "The city is prone to earthquakes, so we need to be prepared."
+        "Many people were scared during the recent earthquake."
       ],
       [
         "Sentence B",
-        "The earthquake caused a lot of damage to the city."
-      ],
-      [
-        "Sentence C",
-        "The earthquake destroyed many buildings in the city center."
-      ],
-      [
-        "Sentence D",
-        "The earthquake damaged many buildings in the city."
-      ],
-      [
-        "Sentence E",
         "The earthquake caused a lot of damage."
       ],
       [
+        "Sentence C",
+        "The earthquake damaged many buildings in the city."
+      ],
+      [
+        "Sentence D",
+        "The city is prone to earthquakes, so we need to be prepared."
+      ],
+      [
+        "Sentence E",
+        "The earthquake destroyed many buildings in the city center."
+      ],
+      [
         "Sentence F",
-        "Many people were scared during the recent earthquake."
+        "The earthquake caused a lot of damage to the city."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "model": "Gemini 2.5 Flash",
         "level": "B1",
         "word": "earthquake",
-        "sentence": "The city is prone to earthquakes, so we need to be prepared."
+        "sentence": "Many people were scared during the recent earthquake."
       },
       "Sentence B": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
-        "level": "B1",
-        "word": "earthquake",
-        "sentence": "The earthquake caused a lot of damage to the city."
-      },
-      "Sentence C": {
-        "model": "Claude Sonnet 4",
-        "level": "B1",
-        "word": "earthquake",
-        "sentence": "The earthquake destroyed many buildings in the city center."
-      },
-      "Sentence D": {
-        "model": "GPT-4-turbo",
-        "level": "B1",
-        "word": "earthquake",
-        "sentence": "The earthquake damaged many buildings in the city."
-      },
-      "Sentence E": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B1",
         "word": "earthquake",
         "sentence": "The earthquake caused a lot of damage."
       },
-      "Sentence F": {
-        "model": "Gemini 2.5 Flash",
+      "Sentence C": {
+        "model": "GPT-4-turbo",
         "level": "B1",
         "word": "earthquake",
-        "sentence": "Many people were scared during the recent earthquake."
+        "sentence": "The earthquake damaged many buildings in the city."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "B1",
+        "word": "earthquake",
+        "sentence": "The city is prone to earthquakes, so we need to be prepared."
+      },
+      "Sentence E": {
+        "model": "Claude Sonnet 4",
+        "level": "B1",
+        "word": "earthquake",
+        "sentence": "The earthquake destroyed many buildings in the city center."
+      },
+      "Sentence F": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "B1",
+        "word": "earthquake",
+        "sentence": "The earthquake caused a lot of damage to the city."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"earthquake\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The city is prone to earthquakes, so we need to be prepared.\nSentence B: The earthquake caused a lot of damage to the city.\nSentence C: The earthquake destroyed many buildings in the city center.\nSentence D: The earthquake damaged many buildings in the city.\nSentence E: The earthquake caused a lot of damage.\nSentence F: Many people were scared during the recent earthquake.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"earthquake\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: Many people were scared during the recent earthquake.\nSentence B: The earthquake caused a lot of damage.\nSentence C: The earthquake damaged many buildings in the city.\nSentence D: The city is prone to earthquakes, so we need to be prepared.\nSentence E: The earthquake destroyed many buildings in the city center.\nSentence F: The earthquake caused a lot of damage to the city.\n"
   },
   {
     "task_id": "B1_frighten",
@@ -80,23 +80,23 @@
       ],
       [
         "Sentence B",
-        "He was frightened by the noise."
-      ],
-      [
-        "Sentence C",
         "Loud noises often frighten small children and pets."
       ],
       [
-        "Sentence D",
+        "Sentence C",
         "Thunder and lightning can frighten young children during storms."
       ],
       [
+        "Sentence D",
+        "The loud noise will frighten the animals in the zoo."
+      ],
+      [
         "Sentence E",
-        "Loud noises can easily frighten small children."
+        "He was frightened by the noise."
       ],
       [
         "Sentence F",
-        "The loud noise will frighten the animals in the zoo."
+        "Loud noises can easily frighten small children."
       ]
     ],
     "mapping": {
@@ -107,37 +107,37 @@
         "sentence": "The loud noise will frighten the animals in the zoo."
       },
       "Sentence B": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-        "level": "B1",
-        "word": "frighten",
-        "sentence": "He was frightened by the noise."
-      },
-      "Sentence C": {
         "model": "Gemini 2.5 Flash",
         "level": "B1",
         "word": "frighten",
         "sentence": "Loud noises often frighten small children and pets."
       },
-      "Sentence D": {
+      "Sentence C": {
         "model": "Claude Sonnet 4",
         "level": "B1",
         "word": "frighten",
         "sentence": "Thunder and lightning can frighten young children during storms."
       },
-      "Sentence E": {
-        "model": "GPT-4-turbo",
-        "level": "B1",
-        "word": "frighten",
-        "sentence": "Loud noises can easily frighten small children."
-      },
-      "Sentence F": {
+      "Sentence D": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "B1",
         "word": "frighten",
         "sentence": "The loud noise will frighten the animals in the zoo."
+      },
+      "Sentence E": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "B1",
+        "word": "frighten",
+        "sentence": "He was frightened by the noise."
+      },
+      "Sentence F": {
+        "model": "GPT-4-turbo",
+        "level": "B1",
+        "word": "frighten",
+        "sentence": "Loud noises can easily frighten small children."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"frighten\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The loud noise will frighten the animals in the zoo.\nSentence B: He was frightened by the noise.\nSentence C: Loud noises often frighten small children and pets.\nSentence D: Thunder and lightning can frighten young children during storms.\nSentence E: Loud noises can easily frighten small children.\nSentence F: The loud noise will frighten the animals in the zoo.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"frighten\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The loud noise will frighten the animals in the zoo.\nSentence B: Loud noises often frighten small children and pets.\nSentence C: Thunder and lightning can frighten young children during storms.\nSentence D: The loud noise will frighten the animals in the zoo.\nSentence E: He was frightened by the noise.\nSentence F: Loud noises can easily frighten small children.\n"
   },
   {
     "task_id": "B1_issue",
@@ -146,7 +146,7 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "There are many issues to discuss."
+        "Climate change is a serious issue we need to discuss."
       ],
       [
         "Sentence B",
@@ -154,7 +154,7 @@
       ],
       [
         "Sentence C",
-        "Climate change is a serious issue we need to discuss."
+        "We need to discuss this important issue at our next meeting."
       ],
       [
         "Sentence D",
@@ -166,15 +166,15 @@
       ],
       [
         "Sentence F",
-        "We need to discuss this important issue at our next meeting."
+        "There are many issues to discuss."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "model": "GPT-4-turbo",
         "level": "B1",
         "word": "issue",
-        "sentence": "There are many issues to discuss."
+        "sentence": "Climate change is a serious issue we need to discuss."
       },
       "Sentence B": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
@@ -183,10 +183,10 @@
         "sentence": "There is an issue with the water supply in our town, and we need to fix it."
       },
       "Sentence C": {
-        "model": "GPT-4-turbo",
+        "model": "Gemini 2.5 Flash",
         "level": "B1",
         "word": "issue",
-        "sentence": "Climate change is a serious issue we need to discuss."
+        "sentence": "We need to discuss this important issue at our next meeting."
       },
       "Sentence D": {
         "model": "Claude Sonnet 4",
@@ -201,13 +201,13 @@
         "sentence": "The issue of climate change is a serious problem."
       },
       "Sentence F": {
-        "model": "Gemini 2.5 Flash",
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B1",
         "word": "issue",
-        "sentence": "We need to discuss this important issue at our next meeting."
+        "sentence": "There are many issues to discuss."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"issue\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: There are many issues to discuss.\nSentence B: There is an issue with the water supply in our town, and we need to fix it.\nSentence C: Climate change is a serious issue we need to discuss.\nSentence D: We need to discuss this issue at tomorrow's meeting.\nSentence E: The issue of climate change is a serious problem.\nSentence F: We need to discuss this important issue at our next meeting.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"issue\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: Climate change is a serious issue we need to discuss.\nSentence B: There is an issue with the water supply in our town, and we need to fix it.\nSentence C: We need to discuss this important issue at our next meeting.\nSentence D: We need to discuss this issue at tomorrow's meeting.\nSentence E: The issue of climate change is a serious problem.\nSentence F: There are many issues to discuss.\n"
   },
   {
     "task_id": "B1_expand",
@@ -277,7 +277,7 @@
         "sentence": "The company plans to expand into new markets next year."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"expand\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The company plans to expand its operations to other countries.\nSentence B: The company plans to expand its business into new countries next year.\nSentence C: The company plans to expand its business to other countries.\nSentence D: The company plans to expand its business to other countries.\nSentence E: The company plans to expand its business.\nSentence F: The company plans to expand into new markets next year.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"expand\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The company plans to expand its operations to other countries.\nSentence B: The company plans to expand its business into new countries next year.\nSentence C: The company plans to expand its business to other countries.\nSentence D: The company plans to expand its business to other countries.\nSentence E: The company plans to expand its business.\nSentence F: The company plans to expand into new markets next year.\n"
   },
   {
     "task_id": "B1_fancy",
@@ -286,19 +286,19 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "She has a fancy for flowers."
+        "She has a fancy handbag that she got for her birthday."
       ],
       [
         "Sentence B",
-        "She wore a fancy dress to the wedding."
+        "She wore a fancy dress to the wedding celebration."
       ],
       [
         "Sentence C",
-        "She has a fancy car that she bought last year."
+        "She wore a fancy dress to the wedding."
       ],
       [
         "Sentence D",
-        "She wore a fancy dress to the wedding celebration."
+        "She has a fancy car that she bought last year."
       ],
       [
         "Sentence E",
@@ -306,33 +306,33 @@
       ],
       [
         "Sentence F",
-        "She has a fancy handbag that she got for her birthday."
+        "She has a fancy for flowers."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "B1",
         "word": "fancy",
-        "sentence": "She has a fancy for flowers."
+        "sentence": "She has a fancy handbag that she got for her birthday."
       },
       "Sentence B": {
+        "model": "Claude Sonnet 4",
+        "level": "B1",
+        "word": "fancy",
+        "sentence": "She wore a fancy dress to the wedding celebration."
+      },
+      "Sentence C": {
         "model": "GPT-4-turbo",
         "level": "B1",
         "word": "fancy",
         "sentence": "She wore a fancy dress to the wedding."
       },
-      "Sentence C": {
+      "Sentence D": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "B1",
         "word": "fancy",
         "sentence": "She has a fancy car that she bought last year."
-      },
-      "Sentence D": {
-        "model": "Claude Sonnet 4",
-        "level": "B1",
-        "word": "fancy",
-        "sentence": "She wore a fancy dress to the wedding celebration."
       },
       "Sentence E": {
         "model": "Gemini 2.5 Flash",
@@ -341,13 +341,13 @@
         "sentence": "She wore a very fancy dress to the party."
       },
       "Sentence F": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B1",
         "word": "fancy",
-        "sentence": "She has a fancy handbag that she got for her birthday."
+        "sentence": "She has a fancy for flowers."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"fancy\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: She has a fancy for flowers.\nSentence B: She wore a fancy dress to the wedding.\nSentence C: She has a fancy car that she bought last year.\nSentence D: She wore a fancy dress to the wedding celebration.\nSentence E: She wore a very fancy dress to the party.\nSentence F: She has a fancy handbag that she got for her birthday.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"fancy\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: She has a fancy handbag that she got for her birthday.\nSentence B: She wore a fancy dress to the wedding celebration.\nSentence C: She wore a fancy dress to the wedding.\nSentence D: She has a fancy car that she bought last year.\nSentence E: She wore a very fancy dress to the party.\nSentence F: She has a fancy for flowers.\n"
   },
   {
     "task_id": "B1_imaginary",
@@ -356,68 +356,68 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "The imaginary world of the story was fascinating."
-      ],
-      [
-        "Sentence B",
-        "The imaginary world in the book is very interesting."
-      ],
-      [
-        "Sentence C",
-        "Unicorns are imaginary animals, not real ones."
-      ],
-      [
-        "Sentence D",
         "As a child, he had an imaginary friend."
       ],
       [
-        "Sentence E",
+        "Sentence B",
+        "The story was so imaginary that I couldn't distinguish reality from fantasy."
+      ],
+      [
+        "Sentence C",
         "The children created an imaginary friend to play with."
       ],
       [
+        "Sentence D",
+        "The imaginary world of the story was fascinating."
+      ],
+      [
+        "Sentence E",
+        "Unicorns are imaginary animals, not real ones."
+      ],
+      [
         "Sentence F",
-        "The story was so imaginary that I couldn't distinguish reality from fantasy."
+        "The imaginary world in the book is very interesting."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-        "level": "B1",
-        "word": "imaginary",
-        "sentence": "The imaginary world of the story was fascinating."
-      },
-      "Sentence B": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
-        "level": "B1",
-        "word": "imaginary",
-        "sentence": "The imaginary world in the book is very interesting."
-      },
-      "Sentence C": {
-        "model": "Gemini 2.5 Flash",
-        "level": "B1",
-        "word": "imaginary",
-        "sentence": "Unicorns are imaginary animals, not real ones."
-      },
-      "Sentence D": {
         "model": "GPT-4-turbo",
         "level": "B1",
         "word": "imaginary",
         "sentence": "As a child, he had an imaginary friend."
       },
-      "Sentence E": {
+      "Sentence B": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "B1",
+        "word": "imaginary",
+        "sentence": "The story was so imaginary that I couldn't distinguish reality from fantasy."
+      },
+      "Sentence C": {
         "model": "Claude Sonnet 4",
         "level": "B1",
         "word": "imaginary",
         "sentence": "The children created an imaginary friend to play with."
       },
-      "Sentence F": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "Sentence D": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B1",
         "word": "imaginary",
-        "sentence": "The story was so imaginary that I couldn't distinguish reality from fantasy."
+        "sentence": "The imaginary world of the story was fascinating."
+      },
+      "Sentence E": {
+        "model": "Gemini 2.5 Flash",
+        "level": "B1",
+        "word": "imaginary",
+        "sentence": "Unicorns are imaginary animals, not real ones."
+      },
+      "Sentence F": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "B1",
+        "word": "imaginary",
+        "sentence": "The imaginary world in the book is very interesting."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"imaginary\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The imaginary world of the story was fascinating.\nSentence B: The imaginary world in the book is very interesting.\nSentence C: Unicorns are imaginary animals, not real ones.\nSentence D: As a child, he had an imaginary friend.\nSentence E: The children created an imaginary friend to play with.\nSentence F: The story was so imaginary that I couldn't distinguish reality from fantasy.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"imaginary\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: As a child, he had an imaginary friend.\nSentence B: The story was so imaginary that I couldn't distinguish reality from fantasy.\nSentence C: The children created an imaginary friend to play with.\nSentence D: The imaginary world of the story was fascinating.\nSentence E: Unicorns are imaginary animals, not real ones.\nSentence F: The imaginary world in the book is very interesting.\n"
   },
   {
     "task_id": "B1_poet",
@@ -430,15 +430,15 @@
       ],
       [
         "Sentence B",
-        "The poet's latest collection of poems is a bestseller."
-      ],
-      [
-        "Sentence C",
         "The poet wrote beautiful verses about love and nature."
       ],
       [
-        "Sentence D",
+        "Sentence C",
         "The poet wrote about love."
+      ],
+      [
+        "Sentence D",
+        "William Shakespeare was a famous English poet."
       ],
       [
         "Sentence E",
@@ -446,33 +446,33 @@
       ],
       [
         "Sentence F",
-        "William Shakespeare was a famous English poet."
+        "The poet's latest collection of poems is a bestseller."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Gemini 2.5 Flash",
+        "model": "GPT-4-turbo",
         "level": "B1",
         "word": "poet",
         "sentence": "William Shakespeare was a famous English poet."
       },
       "Sentence B": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
-        "level": "B1",
-        "word": "poet",
-        "sentence": "The poet's latest collection of poems is a bestseller."
-      },
-      "Sentence C": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "B1",
         "word": "poet",
         "sentence": "The poet wrote beautiful verses about love and nature."
       },
-      "Sentence D": {
+      "Sentence C": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B1",
         "word": "poet",
         "sentence": "The poet wrote about love."
+      },
+      "Sentence D": {
+        "model": "Gemini 2.5 Flash",
+        "level": "B1",
+        "word": "poet",
+        "sentence": "William Shakespeare was a famous English poet."
       },
       "Sentence E": {
         "model": "Claude Sonnet 4",
@@ -481,13 +481,13 @@
         "sentence": "Shakespeare was a famous poet who wrote beautiful sonnets."
       },
       "Sentence F": {
-        "model": "GPT-4-turbo",
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "B1",
         "word": "poet",
-        "sentence": "William Shakespeare was a famous English poet."
+        "sentence": "The poet's latest collection of poems is a bestseller."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"poet\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: William Shakespeare was a famous English poet.\nSentence B: The poet's latest collection of poems is a bestseller.\nSentence C: The poet wrote beautiful verses about love and nature.\nSentence D: The poet wrote about love.\nSentence E: Shakespeare was a famous poet who wrote beautiful sonnets.\nSentence F: William Shakespeare was a famous English poet.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"poet\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: William Shakespeare was a famous English poet.\nSentence B: The poet wrote beautiful verses about love and nature.\nSentence C: The poet wrote about love.\nSentence D: William Shakespeare was a famous English poet.\nSentence E: Shakespeare was a famous poet who wrote beautiful sonnets.\nSentence F: The poet's latest collection of poems is a bestseller.\n"
   },
   {
     "task_id": "B1_religion",
@@ -496,23 +496,23 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "Different cultures have their own religion and traditions."
-      ],
-      [
-        "Sentence B",
-        "People should respect each other's religion."
-      ],
-      [
-        "Sentence C",
-        "The new employee has to respect the company's religion policy."
-      ],
-      [
-        "Sentence D",
         "Her religion is important to her."
       ],
       [
-        "Sentence E",
+        "Sentence B",
+        "Different cultures have their own religion and traditions."
+      ],
+      [
+        "Sentence C",
         "Different cultures practice different forms of religion."
+      ],
+      [
+        "Sentence D",
+        "The new employee has to respect the company's religion policy."
+      ],
+      [
+        "Sentence E",
+        "People should respect each other's religion."
       ],
       [
         "Sentence F",
@@ -521,34 +521,34 @@
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Claude Sonnet 4",
-        "level": "B1",
-        "word": "religion",
-        "sentence": "Different cultures have their own religion and traditions."
-      },
-      "Sentence B": {
-        "model": "GPT-4-turbo",
-        "level": "B1",
-        "word": "religion",
-        "sentence": "People should respect each other's religion."
-      },
-      "Sentence C": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
-        "level": "B1",
-        "word": "religion",
-        "sentence": "The new employee has to respect the company's religion policy."
-      },
-      "Sentence D": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B1",
         "word": "religion",
         "sentence": "Her religion is important to her."
       },
-      "Sentence E": {
+      "Sentence B": {
+        "model": "Claude Sonnet 4",
+        "level": "B1",
+        "word": "religion",
+        "sentence": "Different cultures have their own religion and traditions."
+      },
+      "Sentence C": {
         "model": "Gemini 2.5 Flash",
         "level": "B1",
         "word": "religion",
         "sentence": "Different cultures practice different forms of religion."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "B1",
+        "word": "religion",
+        "sentence": "The new employee has to respect the company's religion policy."
+      },
+      "Sentence E": {
+        "model": "GPT-4-turbo",
+        "level": "B1",
+        "word": "religion",
+        "sentence": "People should respect each other's religion."
       },
       "Sentence F": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
@@ -557,7 +557,7 @@
         "sentence": "The religion of Buddhism emphasizes the importance of meditation and compassion."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"religion\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: Different cultures have their own religion and traditions.\nSentence B: People should respect each other's religion.\nSentence C: The new employee has to respect the company's religion policy.\nSentence D: Her religion is important to her.\nSentence E: Different cultures practice different forms of religion.\nSentence F: The religion of Buddhism emphasizes the importance of meditation and compassion.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"religion\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: Her religion is important to her.\nSentence B: Different cultures have their own religion and traditions.\nSentence C: Different cultures practice different forms of religion.\nSentence D: The new employee has to respect the company's religion policy.\nSentence E: People should respect each other's religion.\nSentence F: The religion of Buddhism emphasizes the importance of meditation and compassion.\n"
   },
   {
     "task_id": "B1_obvious",
@@ -566,68 +566,68 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "It’s obvious that he didn’t study for the exam."
+        "It's obvious that the new policy will have a negative impact."
       ],
       [
         "Sentence B",
-        "It was obvious that he hadn't studied for the test."
-      ],
-      [
-        "Sentence C",
         "The obvious solution was to call the police."
       ],
       [
-        "Sentence D",
-        "It's obvious that she's not interested in the conversation, so let's move on."
-      ],
-      [
-        "Sentence E",
+        "Sentence C",
         "It was obvious that he was tired because he kept yawning."
       ],
       [
+        "Sentence D",
+        "It was obvious that he hadn't studied for the test."
+      ],
+      [
+        "Sentence E",
+        "It's obvious that she's not interested in the conversation, so let's move on."
+      ],
+      [
         "Sentence F",
-        "It's obvious that the new policy will have a negative impact."
+        "It’s obvious that he didn’t study for the exam."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "GPT-4-turbo",
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "B1",
         "word": "obvious",
-        "sentence": "It’s obvious that he didn’t study for the exam."
+        "sentence": "It's obvious that the new policy will have a negative impact."
       },
       "Sentence B": {
-        "model": "Claude Sonnet 4",
-        "level": "B1",
-        "word": "obvious",
-        "sentence": "It was obvious that he hadn't studied for the test."
-      },
-      "Sentence C": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B1",
         "word": "obvious",
         "sentence": "The obvious solution was to call the police."
       },
-      "Sentence D": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-        "level": "B1",
-        "word": "obvious",
-        "sentence": "It's obvious that she's not interested in the conversation, so let's move on."
-      },
-      "Sentence E": {
+      "Sentence C": {
         "model": "Gemini 2.5 Flash",
         "level": "B1",
         "word": "obvious",
         "sentence": "It was obvious that he was tired because he kept yawning."
       },
-      "Sentence F": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+      "Sentence D": {
+        "model": "Claude Sonnet 4",
         "level": "B1",
         "word": "obvious",
-        "sentence": "It's obvious that the new policy will have a negative impact."
+        "sentence": "It was obvious that he hadn't studied for the test."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "B1",
+        "word": "obvious",
+        "sentence": "It's obvious that she's not interested in the conversation, so let's move on."
+      },
+      "Sentence F": {
+        "model": "GPT-4-turbo",
+        "level": "B1",
+        "word": "obvious",
+        "sentence": "It’s obvious that he didn’t study for the exam."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"obvious\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: It’s obvious that he didn’t study for the exam.\nSentence B: It was obvious that he hadn't studied for the test.\nSentence C: The obvious solution was to call the police.\nSentence D: It's obvious that she's not interested in the conversation, so let's move on.\nSentence E: It was obvious that he was tired because he kept yawning.\nSentence F: It's obvious that the new policy will have a negative impact.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"obvious\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: It's obvious that the new policy will have a negative impact.\nSentence B: The obvious solution was to call the police.\nSentence C: It was obvious that he was tired because he kept yawning.\nSentence D: It was obvious that he hadn't studied for the test.\nSentence E: It's obvious that she's not interested in the conversation, so let's move on.\nSentence F: It’s obvious that he didn’t study for the exam.\n"
   },
   {
     "task_id": "B1_sort",
@@ -636,7 +636,7 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "We need to sort the files on our computer to make it easier to find them."
+        "I sorted the books by author."
       ],
       [
         "Sentence B",
@@ -644,11 +644,11 @@
       ],
       [
         "Sentence C",
-        "I sorted the books by author."
+        "What sort of music do you prefer listening to?"
       ],
       [
         "Sentence D",
-        "Can you sort out the papers on my desk and file them away?"
+        "We need to sort the files on our computer to make it easier to find them."
       ],
       [
         "Sentence E",
@@ -656,15 +656,15 @@
       ],
       [
         "Sentence F",
-        "What sort of music do you prefer listening to?"
+        "Can you sort out the papers on my desk and file them away?"
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B1",
         "word": "sort",
-        "sentence": "We need to sort the files on our computer to make it easier to find them."
+        "sentence": "I sorted the books by author."
       },
       "Sentence B": {
         "model": "GPT-4-turbo",
@@ -673,16 +673,16 @@
         "sentence": "Let’s sort these books by size and color."
       },
       "Sentence C": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "model": "Claude Sonnet 4",
         "level": "B1",
         "word": "sort",
-        "sentence": "I sorted the books by author."
+        "sentence": "What sort of music do you prefer listening to?"
       },
       "Sentence D": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "B1",
         "word": "sort",
-        "sentence": "Can you sort out the papers on my desk and file them away?"
+        "sentence": "We need to sort the files on our computer to make it easier to find them."
       },
       "Sentence E": {
         "model": "Gemini 2.5 Flash",
@@ -691,12 +691,12 @@
         "sentence": "Can you help me to sort these books by author?"
       },
       "Sentence F": {
-        "model": "Claude Sonnet 4",
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "B1",
         "word": "sort",
-        "sentence": "What sort of music do you prefer listening to?"
+        "sentence": "Can you sort out the papers on my desk and file them away?"
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"sort\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: We need to sort the files on our computer to make it easier to find them.\nSentence B: Let’s sort these books by size and color.\nSentence C: I sorted the books by author.\nSentence D: Can you sort out the papers on my desk and file them away?\nSentence E: Can you help me to sort these books by author?\nSentence F: What sort of music do you prefer listening to?\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"sort\" at CEFR level: B1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: I sorted the books by author.\nSentence B: Let’s sort these books by size and color.\nSentence C: What sort of music do you prefer listening to?\nSentence D: We need to sort the files on our computer to make it easier to find them.\nSentence E: Can you help me to sort these books by author?\nSentence F: Can you sort out the papers on my desk and file them away?\n"
   }
 ]

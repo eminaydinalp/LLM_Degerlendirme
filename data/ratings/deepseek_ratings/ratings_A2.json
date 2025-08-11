@@ -1,0 +1,842 @@
+[
+  {
+    "task_id": "A2_ability",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "ability",
+    "label": "Sentence A",
+    "sentence": "She has a great ability to play the piano, and she practices every day.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_ability",
+    "model": "Claude Sonnet 4",
+    "level": "A2",
+    "word": "ability",
+    "label": "Sentence B",
+    "sentence": "She has the ability to speak three languages.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_ability",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "ability",
+    "label": "Sentence C",
+    "sentence": "My ability to swim is improving every day.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_ability",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "A2",
+    "word": "ability",
+    "label": "Sentence D",
+    "sentence": "I have the ability to speak two languages.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_ability",
+    "model": "GPT-4-turbo",
+    "level": "A2",
+    "word": "ability",
+    "label": "Sentence E",
+    "sentence": "She has the ability to speak three languages.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_ability",
+    "model": "Gemini 2.5 Flash",
+    "level": "A2",
+    "word": "ability",
+    "label": "Sentence F",
+    "sentence": "She has the ability to sing very well.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_affect",
+    "model": "GPT-4-turbo",
+    "level": "A2",
+    "word": "affect",
+    "label": "Sentence A",
+    "sentence": "Cold weather can affect your mood.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_affect",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "A2",
+    "word": "affect",
+    "label": "Sentence B",
+    "sentence": "The weather affected my plans.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_affect",
+    "model": "Gemini 2.5 Flash",
+    "level": "A2",
+    "word": "affect",
+    "label": "Sentence C",
+    "sentence": "The rain might affect our plans for the picnic.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_affect",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "affect",
+    "label": "Sentence D",
+    "sentence": "The weather will affect the trip tomorrow.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_affect",
+    "model": "Claude Sonnet 4",
+    "level": "A2",
+    "word": "affect",
+    "label": "Sentence E",
+    "sentence": "The rain will affect our picnic plans today.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_affect",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "affect",
+    "label": "Sentence F",
+    "sentence": "The rain will affect the parade, so we need to cancel it.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_almost",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "A2",
+    "word": "almost",
+    "label": "Sentence A",
+    "sentence": "The train was almost empty.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_almost",
+    "model": "Gemini 2.5 Flash",
+    "level": "A2",
+    "word": "almost",
+    "label": "Sentence B",
+    "sentence": "It's almost time for the movie to start.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_almost",
+    "model": "Claude Sonnet 4",
+    "level": "A2",
+    "word": "almost",
+    "label": "Sentence C",
+    "sentence": "I almost missed the bus this morning.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_almost",
+    "model": "GPT-4-turbo",
+    "level": "A2",
+    "word": "almost",
+    "label": "Sentence D",
+    "sentence": "I almost missed the bus this morning.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_almost",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "almost",
+    "label": "Sentence E",
+    "sentence": "I'm almost ready to go to school, but I need to finish my homework.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_almost",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "almost",
+    "label": "Sentence F",
+    "sentence": "I'm almost ready to leave for school.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_board",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "A2",
+    "word": "board",
+    "label": "Sentence A",
+    "sentence": "She fell off the board.",
+    "ratings": {
+      "word_usage": 3.5,
+      "clarity": 3.0,
+      "grammar": 4.0,
+      "naturalness": 3.5
+    }
+  },
+  {
+    "task_id": "A2_board",
+    "model": "GPT-4-turbo",
+    "level": "A2",
+    "word": "board",
+    "label": "Sentence B",
+    "sentence": "The teacher wrote the answer on the board.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_board",
+    "model": "Gemini 2.5 Flash",
+    "level": "A2",
+    "word": "board",
+    "label": "Sentence C",
+    "sentence": "Please write your answers on the white board.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_board",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "board",
+    "label": "Sentence D",
+    "sentence": "The school board decided to build a new library.",
+    "ratings": {
+      "word_usage": 4.5,
+      "clarity": 4.0,
+      "grammar": 4.5,
+      "naturalness": 4.5
+    }
+  },
+  {
+    "task_id": "A2_board",
+    "model": "Claude Sonnet 4",
+    "level": "A2",
+    "word": "board",
+    "label": "Sentence E",
+    "sentence": "The teacher wrote the homework on the board.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_board",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "board",
+    "label": "Sentence F",
+    "sentence": "The board of directors meets every month to discuss business.",
+    "ratings": {
+      "word_usage": 4.5,
+      "clarity": 4.0,
+      "grammar": 4.5,
+      "naturalness": 4.5
+    }
+  },
+  {
+    "task_id": "A2_connect",
+    "model": "GPT-4-turbo",
+    "level": "A2",
+    "word": "connect",
+    "label": "Sentence A",
+    "sentence": "You need a password to connect to the Wi-Fi.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_connect",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "A2",
+    "word": "connect",
+    "label": "Sentence B",
+    "sentence": "Can you connect your laptop to the TV?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_connect",
+    "model": "Gemini 2.5 Flash",
+    "level": "A2",
+    "word": "connect",
+    "label": "Sentence C",
+    "sentence": "You can connect these two wires together.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_connect",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "connect",
+    "label": "Sentence D",
+    "sentence": "We need to connect the wires before we can turn on the lamp.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_connect",
+    "model": "Claude Sonnet 4",
+    "level": "A2",
+    "word": "connect",
+    "label": "Sentence E",
+    "sentence": "Please connect your phone to the internet.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_connect",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "connect",
+    "label": "Sentence F",
+    "sentence": "The phone can connect to the internet.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_context",
+    "model": "Gemini 2.5 Flash",
+    "level": "A2",
+    "word": "context",
+    "label": "Sentence A",
+    "sentence": "Try to understand the word in its context in the sentence.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_context",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "context",
+    "label": "Sentence B",
+    "sentence": "The story is set in a historical context.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_context",
+    "model": "GPT-4-turbo",
+    "level": "A2",
+    "word": "context",
+    "label": "Sentence C",
+    "sentence": "I didn’t understand the word until I saw it in context.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_context",
+    "model": "Claude Sonnet 4",
+    "level": "A2",
+    "word": "context",
+    "label": "Sentence D",
+    "sentence": "I didn't understand the word without context.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_context",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "A2",
+    "word": "context",
+    "label": "Sentence E",
+    "sentence": "The context of the story is important.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_context",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "context",
+    "label": "Sentence F",
+    "sentence": "The teacher explained the context of the story to the students.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_remove",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "A2",
+    "word": "remove",
+    "label": "Sentence A",
+    "sentence": "I removed the book from the shelf.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_remove",
+    "model": "Gemini 2.5 Flash",
+    "level": "A2",
+    "word": "remove",
+    "label": "Sentence B",
+    "sentence": "Please remove your shoes before entering the house.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_remove",
+    "model": "GPT-4-turbo",
+    "level": "A2",
+    "word": "remove",
+    "label": "Sentence C",
+    "sentence": "Please remove your shoes before entering the house.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_remove",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "remove",
+    "label": "Sentence D",
+    "sentence": "Can you please remove the trash from the classroom?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_remove",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "remove",
+    "label": "Sentence E",
+    "sentence": "Please remove your shoes before entering the house.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_remove",
+    "model": "Claude Sonnet 4",
+    "level": "A2",
+    "word": "remove",
+    "label": "Sentence F",
+    "sentence": "Can you remove your shoes before entering?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_typical",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "A2",
+    "word": "typical",
+    "label": "Sentence A",
+    "sentence": "That is a typical English breakfast.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_typical",
+    "model": "Claude Sonnet 4",
+    "level": "A2",
+    "word": "typical",
+    "label": "Sentence B",
+    "sentence": "It's typical for students to feel nervous before exams.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_typical",
+    "model": "Gemini 2.5 Flash",
+    "level": "A2",
+    "word": "typical",
+    "label": "Sentence C",
+    "sentence": "It's typical for him to be late.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_typical",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "typical",
+    "label": "Sentence D",
+    "sentence": "She is a typical student who loves reading books and playing sports.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_typical",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "typical",
+    "label": "Sentence E",
+    "sentence": "This food is typical of our country's cuisine.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_typical",
+    "model": "GPT-4-turbo",
+    "level": "A2",
+    "word": "typical",
+    "label": "Sentence F",
+    "sentence": "It’s typical to have lunch at 1 p.m. in Spain.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_coal",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "coal",
+    "label": "Sentence A",
+    "sentence": "The fire was fueled by coal, which was used to heat the house.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_coal",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "coal",
+    "label": "Sentence B",
+    "sentence": "The fire was burning coal to produce heat.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_coal",
+    "model": "GPT-4-turbo",
+    "level": "A2",
+    "word": "coal",
+    "label": "Sentence C",
+    "sentence": "The train was powered by coal.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_coal",
+    "model": "Claude Sonnet 4",
+    "level": "A2",
+    "word": "coal",
+    "label": "Sentence D",
+    "sentence": "The power plant burns coal to make electricity.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_coal",
+    "model": "Gemini 2.5 Flash",
+    "level": "A2",
+    "word": "coal",
+    "label": "Sentence E",
+    "sentence": "Coal is a black rock used for energy.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_coal",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "A2",
+    "word": "coal",
+    "label": "Sentence F",
+    "sentence": "The coal in the fire keeps the room warm.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_surprised",
+    "model": "GPT-4-turbo",
+    "level": "A2",
+    "word": "surprised",
+    "label": "Sentence A",
+    "sentence": "I was surprised to see her at the party.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_surprised",
+    "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "surprised",
+    "label": "Sentence B",
+    "sentence": "I was surprised to see my friend in the city.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_surprised",
+    "model": "Claude Sonnet 4",
+    "level": "A2",
+    "word": "surprised",
+    "label": "Sentence C",
+    "sentence": "I was surprised to see my friend at the store.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_surprised",
+    "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "level": "A2",
+    "word": "surprised",
+    "label": "Sentence D",
+    "sentence": "I was surprised by the news that my friend got a new job.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_surprised",
+    "model": "Gemini 2.5 Flash",
+    "level": "A2",
+    "word": "surprised",
+    "label": "Sentence E",
+    "sentence": "I was surprised when I saw the big present.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  },
+  {
+    "task_id": "A2_surprised",
+    "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+    "level": "A2",
+    "word": "surprised",
+    "label": "Sentence F",
+    "sentence": "I was surprised by the news.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    }
+  }
+]

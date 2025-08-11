@@ -6,7 +6,7 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "My birthday is on January 12th."
+        "I am ten years old."
       ],
       [
         "Sentence B",
@@ -14,27 +14,27 @@
       ],
       [
         "Sentence C",
-        "I am 20 years old."
-      ],
-      [
-        "Sentence D",
         "I am 10 years old, and I love playing with my pet dog."
       ],
       [
-        "Sentence E",
+        "Sentence D",
         "My age is seven years old."
       ],
       [
+        "Sentence E",
+        "My birthday is on January 12th."
+      ],
+      [
         "Sentence F",
-        "I am ten years old."
+        "I am 20 years old."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "model": "GPT-4-turbo",
         "level": "A1",
         "word": "age",
-        "sentence": "My birthday is on January 12th."
+        "sentence": "I am ten years old."
       },
       "Sentence B": {
         "model": "Claude Sonnet 4",
@@ -43,31 +43,31 @@
         "sentence": "My age is twenty-five years old."
       },
       "Sentence C": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-        "level": "A1",
-        "word": "age",
-        "sentence": "I am 20 years old."
-      },
-      "Sentence D": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A1",
         "word": "age",
         "sentence": "I am 10 years old, and I love playing with my pet dog."
       },
-      "Sentence E": {
+      "Sentence D": {
         "model": "Gemini 2.5 Flash",
         "level": "A1",
         "word": "age",
         "sentence": "My age is seven years old."
       },
-      "Sentence F": {
-        "model": "GPT-4-turbo",
+      "Sentence E": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "A1",
         "word": "age",
-        "sentence": "I am ten years old."
+        "sentence": "My birthday is on January 12th."
+      },
+      "Sentence F": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A1",
+        "word": "age",
+        "sentence": "I am 20 years old."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"age\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: My birthday is on January 12th.\nSentence B: My age is twenty-five years old.\nSentence C: I am 20 years old.\nSentence D: I am 10 years old, and I love playing with my pet dog.\nSentence E: My age is seven years old.\nSentence F: I am ten years old.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"age\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: I am ten years old.\nSentence B: My age is twenty-five years old.\nSentence C: I am 10 years old, and I love playing with my pet dog.\nSentence D: My age is seven years old.\nSentence E: My birthday is on January 12th.\nSentence F: I am 20 years old.\n"
   },
   {
     "task_id": "A1_animal",
@@ -76,7 +76,7 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "This is a dog, a cat, and a bird. They are animals."
+        "I have a pet animal called Max."
       ],
       [
         "Sentence B",
@@ -84,15 +84,15 @@
       ],
       [
         "Sentence C",
-        "The dog is a friendly animal."
+        "My favorite animal is the elephant, which is very big and grey."
       ],
       [
         "Sentence D",
-        "I have a pet animal called Max."
+        "The dog is a friendly animal."
       ],
       [
         "Sentence E",
-        "My favorite animal is the elephant, which is very big and grey."
+        "This is a dog, a cat, and a bird. They are animals."
       ],
       [
         "Sentence F",
@@ -101,10 +101,10 @@
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "model": "Claude Sonnet 4",
         "level": "A1",
         "word": "animal",
-        "sentence": "This is a dog, a cat, and a bird. They are animals."
+        "sentence": "I have a pet animal called Max."
       },
       "Sentence B": {
         "model": "Gemini 2.5 Flash",
@@ -113,22 +113,22 @@
         "sentence": "A cat is a small animal."
       },
       "Sentence C": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "A1",
+        "word": "animal",
+        "sentence": "My favorite animal is the elephant, which is very big and grey."
+      },
+      "Sentence D": {
         "model": "GPT-4-turbo",
         "level": "A1",
         "word": "animal",
         "sentence": "The dog is a friendly animal."
       },
-      "Sentence D": {
-        "model": "Claude Sonnet 4",
-        "level": "A1",
-        "word": "animal",
-        "sentence": "I have a pet animal called Max."
-      },
       "Sentence E": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "A1",
         "word": "animal",
-        "sentence": "My favorite animal is the elephant, which is very big and grey."
+        "sentence": "This is a dog, a cat, and a bird. They are animals."
       },
       "Sentence F": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
@@ -137,7 +137,7 @@
         "sentence": "The cat is a pet animal."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"animal\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: This is a dog, a cat, and a bird. They are animals.\nSentence B: A cat is a small animal.\nSentence C: The dog is a friendly animal.\nSentence D: I have a pet animal called Max.\nSentence E: My favorite animal is the elephant, which is very big and grey.\nSentence F: The cat is a pet animal.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"animal\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: I have a pet animal called Max.\nSentence B: A cat is a small animal.\nSentence C: My favorite animal is the elephant, which is very big and grey.\nSentence D: The dog is a friendly animal.\nSentence E: This is a dog, a cat, and a bird. They are animals.\nSentence F: The cat is a pet animal.\n"
   },
   {
     "task_id": "A1_ask",
@@ -150,23 +150,23 @@
       ],
       [
         "Sentence B",
-        "I want to ask a question."
+        "Can I ask you a question?"
       ],
       [
         "Sentence C",
-        "Please ask your teacher a question."
+        "I want to ask a question."
       ],
       [
         "Sentence D",
-        "Can I ask you a question?"
-      ],
-      [
-        "Sentence E",
         "Do you want to play with me, or will you ask your friend to join us?"
       ],
       [
-        "Sentence F",
+        "Sentence E",
         "Can I ask you a question?"
+      ],
+      [
+        "Sentence F",
+        "Please ask your teacher a question."
       ]
     ],
     "mapping": {
@@ -177,37 +177,37 @@
         "sentence": "Can you ask your teacher for help?"
       },
       "Sentence B": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A1",
+        "word": "ask",
+        "sentence": "Can I ask you a question?"
+      },
+      "Sentence C": {
         "model": "GPT-4-turbo",
         "level": "A1",
         "word": "ask",
         "sentence": "I want to ask a question."
       },
-      "Sentence C": {
-        "model": "Gemini 2.5 Flash",
-        "level": "A1",
-        "word": "ask",
-        "sentence": "Please ask your teacher a question."
-      },
       "Sentence D": {
-        "model": "Claude Sonnet 4",
-        "level": "A1",
-        "word": "ask",
-        "sentence": "Can I ask you a question?"
-      },
-      "Sentence E": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A1",
         "word": "ask",
         "sentence": "Do you want to play with me, or will you ask your friend to join us?"
       },
-      "Sentence F": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+      "Sentence E": {
+        "model": "Claude Sonnet 4",
         "level": "A1",
         "word": "ask",
         "sentence": "Can I ask you a question?"
+      },
+      "Sentence F": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A1",
+        "word": "ask",
+        "sentence": "Please ask your teacher a question."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"ask\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: Can you ask your teacher for help?\nSentence B: I want to ask a question.\nSentence C: Please ask your teacher a question.\nSentence D: Can I ask you a question?\nSentence E: Do you want to play with me, or will you ask your friend to join us?\nSentence F: Can I ask you a question?\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"ask\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: Can you ask your teacher for help?\nSentence B: Can I ask you a question?\nSentence C: I want to ask a question.\nSentence D: Do you want to play with me, or will you ask your friend to join us?\nSentence E: Can I ask you a question?\nSentence F: Please ask your teacher a question.\n"
   },
   {
     "task_id": "A1_computer",
@@ -216,11 +216,11 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "The computer is very useful for students."
+        "She has a new computer at home."
       ],
       [
         "Sentence B",
-        "I need to use the computer to write an email."
+        "I use my computer every day."
       ],
       [
         "Sentence C",
@@ -228,11 +228,11 @@
       ],
       [
         "Sentence D",
-        "She has a new computer at home."
+        "I need to use the computer to write an email."
       ],
       [
         "Sentence E",
-        "I use my computer every day."
+        "The computer is very useful for students."
       ],
       [
         "Sentence F",
@@ -241,16 +241,16 @@
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "model": "GPT-4-turbo",
         "level": "A1",
         "word": "computer",
-        "sentence": "The computer is very useful for students."
+        "sentence": "She has a new computer at home."
       },
       "Sentence B": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "model": "Claude Sonnet 4",
         "level": "A1",
         "word": "computer",
-        "sentence": "I need to use the computer to write an email."
+        "sentence": "I use my computer every day."
       },
       "Sentence C": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
@@ -259,16 +259,16 @@
         "sentence": "My mother bought a new computer for our family last week."
       },
       "Sentence D": {
-        "model": "GPT-4-turbo",
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "A1",
         "word": "computer",
-        "sentence": "She has a new computer at home."
+        "sentence": "I need to use the computer to write an email."
       },
       "Sentence E": {
-        "model": "Claude Sonnet 4",
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "A1",
         "word": "computer",
-        "sentence": "I use my computer every day."
+        "sentence": "The computer is very useful for students."
       },
       "Sentence F": {
         "model": "Gemini 2.5 Flash",
@@ -277,7 +277,7 @@
         "sentence": "I have a new computer for my games."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"computer\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The computer is very useful for students.\nSentence B: I need to use the computer to write an email.\nSentence C: My mother bought a new computer for our family last week.\nSentence D: She has a new computer at home.\nSentence E: I use my computer every day.\nSentence F: I have a new computer for my games.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"computer\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: She has a new computer at home.\nSentence B: I use my computer every day.\nSentence C: My mother bought a new computer for our family last week.\nSentence D: I need to use the computer to write an email.\nSentence E: The computer is very useful for students.\nSentence F: I have a new computer for my games.\n"
   },
   {
     "task_id": "A1_eat",
@@ -286,68 +286,68 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "I like to eat pizza."
-      ],
-      [
-        "Sentence B",
-        "We like to eat pizza for dinner."
-      ],
-      [
-        "Sentence C",
-        "They eat lunch at noon."
-      ],
-      [
-        "Sentence D",
-        "We eat dinner at six o'clock."
-      ],
-      [
-        "Sentence E",
         "I am hungry, so I would like to eat a sandwich."
       ],
       [
-        "Sentence F",
+        "Sentence B",
+        "We eat dinner at six o'clock."
+      ],
+      [
+        "Sentence C",
         "I like to eat pizza on Fridays."
+      ],
+      [
+        "Sentence D",
+        "I like to eat pizza."
+      ],
+      [
+        "Sentence E",
+        "They eat lunch at noon."
+      ],
+      [
+        "Sentence F",
+        "We like to eat pizza for dinner."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-        "level": "A1",
-        "word": "eat",
-        "sentence": "I like to eat pizza."
-      },
-      "Sentence B": {
-        "model": "Gemini 2.5 Flash",
-        "level": "A1",
-        "word": "eat",
-        "sentence": "We like to eat pizza for dinner."
-      },
-      "Sentence C": {
-        "model": "GPT-4-turbo",
-        "level": "A1",
-        "word": "eat",
-        "sentence": "They eat lunch at noon."
-      },
-      "Sentence D": {
-        "model": "Claude Sonnet 4",
-        "level": "A1",
-        "word": "eat",
-        "sentence": "We eat dinner at six o'clock."
-      },
-      "Sentence E": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A1",
         "word": "eat",
         "sentence": "I am hungry, so I would like to eat a sandwich."
       },
-      "Sentence F": {
+      "Sentence B": {
+        "model": "Claude Sonnet 4",
+        "level": "A1",
+        "word": "eat",
+        "sentence": "We eat dinner at six o'clock."
+      },
+      "Sentence C": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "A1",
         "word": "eat",
         "sentence": "I like to eat pizza on Fridays."
+      },
+      "Sentence D": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A1",
+        "word": "eat",
+        "sentence": "I like to eat pizza."
+      },
+      "Sentence E": {
+        "model": "GPT-4-turbo",
+        "level": "A1",
+        "word": "eat",
+        "sentence": "They eat lunch at noon."
+      },
+      "Sentence F": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A1",
+        "word": "eat",
+        "sentence": "We like to eat pizza for dinner."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"eat\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: I like to eat pizza.\nSentence B: We like to eat pizza for dinner.\nSentence C: They eat lunch at noon.\nSentence D: We eat dinner at six o'clock.\nSentence E: I am hungry, so I would like to eat a sandwich.\nSentence F: I like to eat pizza on Fridays.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"eat\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: I am hungry, so I would like to eat a sandwich.\nSentence B: We eat dinner at six o'clock.\nSentence C: I like to eat pizza on Fridays.\nSentence D: I like to eat pizza.\nSentence E: They eat lunch at noon.\nSentence F: We like to eat pizza for dinner.\n"
   },
   {
     "task_id": "A1_car",
@@ -360,15 +360,15 @@
       ],
       [
         "Sentence B",
-        "This is my car. It is blue."
+        "My father has a red car."
       ],
       [
         "Sentence C",
-        "My father has a red car."
+        "My brother has a red car that he likes to drive."
       ],
       [
         "Sentence D",
-        "My father has a red car."
+        "This is my car. It is blue."
       ],
       [
         "Sentence E",
@@ -376,7 +376,7 @@
       ],
       [
         "Sentence F",
-        "My brother has a red car that he likes to drive."
+        "My father has a red car."
       ]
     ],
     "mapping": {
@@ -387,22 +387,22 @@
         "sentence": "My father drives a red car."
       },
       "Sentence B": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-        "level": "A1",
-        "word": "car",
-        "sentence": "This is my car. It is blue."
-      },
-      "Sentence C": {
         "model": "Claude Sonnet 4",
         "level": "A1",
         "word": "car",
         "sentence": "My father has a red car."
       },
-      "Sentence D": {
-        "model": "Gemini 2.5 Flash",
+      "Sentence C": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A1",
         "word": "car",
-        "sentence": "My father has a red car."
+        "sentence": "My brother has a red car that he likes to drive."
+      },
+      "Sentence D": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A1",
+        "word": "car",
+        "sentence": "This is my car. It is blue."
       },
       "Sentence E": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
@@ -411,13 +411,13 @@
         "sentence": "My mom bought a new car last week."
       },
       "Sentence F": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "model": "Gemini 2.5 Flash",
         "level": "A1",
         "word": "car",
-        "sentence": "My brother has a red car that he likes to drive."
+        "sentence": "My father has a red car."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"car\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: My father drives a red car.\nSentence B: This is my car. It is blue.\nSentence C: My father has a red car.\nSentence D: My father has a red car.\nSentence E: My mom bought a new car last week.\nSentence F: My brother has a red car that he likes to drive.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"car\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: My father drives a red car.\nSentence B: My father has a red car.\nSentence C: My brother has a red car that he likes to drive.\nSentence D: This is my car. It is blue.\nSentence E: My mom bought a new car last week.\nSentence F: My father has a red car.\n"
   },
   {
     "task_id": "A1_but",
@@ -426,15 +426,15 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "I like apples, but I don’t like bananas."
+        "I don't like coffee, but I like tea."
       ],
       [
         "Sentence B",
-        "I am not hungry, but I can eat later."
+        "I like apples, but I don't like bananas."
       ],
       [
         "Sentence C",
-        "I don't like coffee, but I like tea."
+        "I am not hungry, but I can eat later."
       ],
       [
         "Sentence D",
@@ -442,31 +442,31 @@
       ],
       [
         "Sentence E",
-        "I like apples, but I don't like bananas."
+        "I don't want to go to school, but my parents will make me go."
       ],
       [
         "Sentence F",
-        "I don't want to go to school, but my parents will make me go."
+        "I like apples, but I don’t like bananas."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "GPT-4-turbo",
-        "level": "A1",
-        "word": "but",
-        "sentence": "I like apples, but I don’t like bananas."
-      },
-      "Sentence B": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-        "level": "A1",
-        "word": "but",
-        "sentence": "I am not hungry, but I can eat later."
-      },
-      "Sentence C": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "A1",
         "word": "but",
         "sentence": "I don't like coffee, but I like tea."
+      },
+      "Sentence B": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A1",
+        "word": "but",
+        "sentence": "I like apples, but I don't like bananas."
+      },
+      "Sentence C": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A1",
+        "word": "but",
+        "sentence": "I am not hungry, but I can eat later."
       },
       "Sentence D": {
         "model": "Claude Sonnet 4",
@@ -475,19 +475,19 @@
         "sentence": "I like tea but I don't like coffee."
       },
       "Sentence E": {
-        "model": "Gemini 2.5 Flash",
-        "level": "A1",
-        "word": "but",
-        "sentence": "I like apples, but I don't like bananas."
-      },
-      "Sentence F": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A1",
         "word": "but",
         "sentence": "I don't want to go to school, but my parents will make me go."
+      },
+      "Sentence F": {
+        "model": "GPT-4-turbo",
+        "level": "A1",
+        "word": "but",
+        "sentence": "I like apples, but I don’t like bananas."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"but\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: I like apples, but I don’t like bananas.\nSentence B: I am not hungry, but I can eat later.\nSentence C: I don't like coffee, but I like tea.\nSentence D: I like tea but I don't like coffee.\nSentence E: I like apples, but I don't like bananas.\nSentence F: I don't want to go to school, but my parents will make me go.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"but\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: I don't like coffee, but I like tea.\nSentence B: I like apples, but I don't like bananas.\nSentence C: I am not hungry, but I can eat later.\nSentence D: I like tea but I don't like coffee.\nSentence E: I don't want to go to school, but my parents will make me go.\nSentence F: I like apples, but I don’t like bananas.\n"
   },
   {
     "task_id": "A1_drive",
@@ -496,7 +496,7 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "Can you drive this big truck?"
+        "My brother can drive very well."
       ],
       [
         "Sentence B",
@@ -504,7 +504,7 @@
       ],
       [
         "Sentence C",
-        "My father will drive us to the park on the weekend."
+        "Can you drive this big truck?"
       ],
       [
         "Sentence D",
@@ -516,15 +516,15 @@
       ],
       [
         "Sentence F",
-        "My brother can drive very well."
+        "My father will drive us to the park on the weekend."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "GPT-4-turbo",
+        "model": "Claude Sonnet 4",
         "level": "A1",
         "word": "drive",
-        "sentence": "Can you drive this big truck?"
+        "sentence": "My brother can drive very well."
       },
       "Sentence B": {
         "model": "Gemini 2.5 Flash",
@@ -533,10 +533,10 @@
         "sentence": "I want to learn to drive a truck."
       },
       "Sentence C": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "model": "GPT-4-turbo",
         "level": "A1",
         "word": "drive",
-        "sentence": "My father will drive us to the park on the weekend."
+        "sentence": "Can you drive this big truck?"
       },
       "Sentence D": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
@@ -551,13 +551,13 @@
         "sentence": "My brother can drive a car now."
       },
       "Sentence F": {
-        "model": "Claude Sonnet 4",
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A1",
         "word": "drive",
-        "sentence": "My brother can drive very well."
+        "sentence": "My father will drive us to the park on the weekend."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"drive\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: Can you drive this big truck?\nSentence B: I want to learn to drive a truck.\nSentence C: My father will drive us to the park on the weekend.\nSentence D: I can drive a car.\nSentence E: My brother can drive a car now.\nSentence F: My brother can drive very well.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"drive\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: My brother can drive very well.\nSentence B: I want to learn to drive a truck.\nSentence C: Can you drive this big truck?\nSentence D: I can drive a car.\nSentence E: My brother can drive a car now.\nSentence F: My father will drive us to the park on the weekend.\n"
   },
   {
     "task_id": "A1_amazing",
@@ -566,68 +566,68 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "The fireworks display was amazing, and everyone was cheering."
-      ],
-      [
-        "Sentence B",
-        "The movie was amazing!"
-      ],
-      [
-        "Sentence C",
         "The fireworks display was amazing tonight."
       ],
       [
-        "Sentence D",
+        "Sentence B",
         "The view from the mountain is amazing."
       ],
       [
+        "Sentence C",
+        "The fireworks display was amazing, and everyone was cheering."
+      ],
+      [
+        "Sentence D",
+        "The movie was amazing."
+      ],
+      [
         "Sentence E",
-        "This cake is amazing!"
+        "The movie was amazing!"
       ],
       [
         "Sentence F",
-        "The movie was amazing."
+        "This cake is amazing!"
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-        "level": "A1",
-        "word": "amazing",
-        "sentence": "The fireworks display was amazing, and everyone was cheering."
-      },
-      "Sentence B": {
-        "model": "Claude Sonnet 4",
-        "level": "A1",
-        "word": "amazing",
-        "sentence": "The movie was amazing!"
-      },
-      "Sentence C": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "A1",
         "word": "amazing",
         "sentence": "The fireworks display was amazing tonight."
       },
-      "Sentence D": {
+      "Sentence B": {
         "model": "GPT-4-turbo",
         "level": "A1",
         "word": "amazing",
         "sentence": "The view from the mountain is amazing."
       },
-      "Sentence E": {
-        "model": "Gemini 2.5 Flash",
+      "Sentence C": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A1",
         "word": "amazing",
-        "sentence": "This cake is amazing!"
+        "sentence": "The fireworks display was amazing, and everyone was cheering."
       },
-      "Sentence F": {
+      "Sentence D": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "A1",
         "word": "amazing",
         "sentence": "The movie was amazing."
+      },
+      "Sentence E": {
+        "model": "Claude Sonnet 4",
+        "level": "A1",
+        "word": "amazing",
+        "sentence": "The movie was amazing!"
+      },
+      "Sentence F": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A1",
+        "word": "amazing",
+        "sentence": "This cake is amazing!"
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"amazing\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The fireworks display was amazing, and everyone was cheering.\nSentence B: The movie was amazing!\nSentence C: The fireworks display was amazing tonight.\nSentence D: The view from the mountain is amazing.\nSentence E: This cake is amazing!\nSentence F: The movie was amazing.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"amazing\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The fireworks display was amazing tonight.\nSentence B: The view from the mountain is amazing.\nSentence C: The fireworks display was amazing, and everyone was cheering.\nSentence D: The movie was amazing.\nSentence E: The movie was amazing!\nSentence F: This cake is amazing!\n"
   },
   {
     "task_id": "A1_funny",
@@ -636,67 +636,67 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "The clown is very funny."
+        "The clown at the birthday party was very funny and made us laugh."
       ],
       [
         "Sentence B",
-        "That joke is very funny."
-      ],
-      [
-        "Sentence C",
-        "That joke was funny."
-      ],
-      [
-        "Sentence D",
-        "The clown was so funny at the party."
-      ],
-      [
-        "Sentence E",
         "That movie was very funny."
       ],
       [
+        "Sentence C",
+        "That joke is very funny."
+      ],
+      [
+        "Sentence D",
+        "The clown is very funny."
+      ],
+      [
+        "Sentence E",
+        "That joke was funny."
+      ],
+      [
         "Sentence F",
-        "The clown at the birthday party was very funny and made us laugh."
+        "The clown was so funny at the party."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Gemini 2.5 Flash",
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A1",
         "word": "funny",
-        "sentence": "The clown is very funny."
+        "sentence": "The clown at the birthday party was very funny and made us laugh."
       },
       "Sentence B": {
-        "model": "Claude Sonnet 4",
-        "level": "A1",
-        "word": "funny",
-        "sentence": "That joke is very funny."
-      },
-      "Sentence C": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-        "level": "A1",
-        "word": "funny",
-        "sentence": "That joke was funny."
-      },
-      "Sentence D": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
-        "level": "A1",
-        "word": "funny",
-        "sentence": "The clown was so funny at the party."
-      },
-      "Sentence E": {
         "model": "GPT-4-turbo",
         "level": "A1",
         "word": "funny",
         "sentence": "That movie was very funny."
       },
-      "Sentence F": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "Sentence C": {
+        "model": "Claude Sonnet 4",
         "level": "A1",
         "word": "funny",
-        "sentence": "The clown at the birthday party was very funny and made us laugh."
+        "sentence": "That joke is very funny."
+      },
+      "Sentence D": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A1",
+        "word": "funny",
+        "sentence": "The clown is very funny."
+      },
+      "Sentence E": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A1",
+        "word": "funny",
+        "sentence": "That joke was funny."
+      },
+      "Sentence F": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "A1",
+        "word": "funny",
+        "sentence": "The clown was so funny at the party."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"funny\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1. **Word Usage** – Is the target word used correctly and meaningfully in context?\n2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?\n3. **Grammar** – Is the grammar accurate and appropriate for the level?\n4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The clown is very funny.\nSentence B: That joke is very funny.\nSentence C: That joke was funny.\nSentence D: The clown was so funny at the party.\nSentence E: That movie was very funny.\nSentence F: The clown at the birthday party was very funny and made us laugh.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"funny\" at CEFR level: A1.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The clown at the birthday party was very funny and made us laugh.\nSentence B: That movie was very funny.\nSentence C: That joke is very funny.\nSentence D: The clown is very funny.\nSentence E: That joke was funny.\nSentence F: The clown was so funny at the party.\n"
   }
 ]

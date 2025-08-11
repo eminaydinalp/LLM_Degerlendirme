@@ -1,36 +1,35 @@
-Prompt:
-
 You are a professional CEFR-aligned English sentence evaluator.
 
 Your task is to evaluate 6 example sentences that all use the target word: "{word}" at CEFR level: {level}.
 
-Rate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:
+Rate each sentence from 1 (poor) to 5 (excellent) for the following four independent criteria:
 
-1. **Word Usage** – Is the target word used correctly and meaningfully in context?
-2. **Clarity** – Is the sentence understandable and suitable for the given CEFR level?
-3. **Grammar** – Is the grammar accurate and appropriate for the level?
-4. **Naturalness** – Does the sentence sound fluent and natural to a native speaker?
+1) Word Usage — Is the given word used with the correct meaning and appropriately in context?
+2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?
+3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?
+4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?
 
 ⚠️ Important Instructions:
-- **Only return numerical ratings** for each criterion.
-- **Do not include any explanations, comments, or justifications.**
+- Only return numerical ratings (integers 1–5) for each criterion.
+- Do not include any explanations, comments, or justifications.
 - Follow the exact output format below.
 
 ### Output Format:
-Sentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  
-Sentence B: ...  
-Sentence C: ...  
-Sentence D: ...  
-Sentence E: ...  
-Sentence F: ...  
+Sentence A: <Word Usage>, <Level Appropriateness>, <Grammatical Accuracy>, <Naturalness>
+Sentence B: ...
+Sentence C: ...
+Sentence D: ...
+Sentence E: ...
+Sentence F: ...
 
 ### Sentences:
-Sentence A: {sentence_A}  
-Sentence B: {sentence_B}  
-Sentence C: {sentence_C}  
-Sentence D: {sentence_D}  
-Sentence E: {sentence_E}  
+Sentence A: {sentence_A}
+Sentence B: {sentence_B}
+Sentence C: {sentence_C}
+Sentence D: {sentence_D}
+Sentence E: {sentence_E}
 Sentence F: {sentence_F}
+
 
 Example Output:
 

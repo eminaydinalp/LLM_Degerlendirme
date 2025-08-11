@@ -1,0 +1,31 @@
+model,level,word_usage,clarity,grammar,naturalness,overall
+Claude Sonnet 4,A1,4.9,4.9,4.9,4.9,4.9
+Claude Sonnet 4,A2,5.0,5.0,5.0,5.0,5.0
+Claude Sonnet 4,B1,5.0,5.0,5.0,5.0,5.0
+Claude Sonnet 4,B2,5.0,5.0,5.0,5.0,5.0
+Claude Sonnet 4,C1,5.0,5.0,5.0,5.0,5.0
+GPT-4-turbo,A1,5.0,5.0,5.0,5.0,5.0
+GPT-4-turbo,A2,5.0,5.0,5.0,5.0,5.0
+GPT-4-turbo,B1,5.0,5.0,5.0,5.0,5.0
+GPT-4-turbo,B2,5.0,5.0,5.0,5.0,5.0
+GPT-4-turbo,C1,5.0,5.0,5.0,5.0,5.0
+Gemini 2.5 Flash,A1,4.9,4.9,4.9,4.9,4.9
+Gemini 2.5 Flash,A2,5.0,5.0,5.0,5.0,5.0
+Gemini 2.5 Flash,B1,5.0,5.0,5.0,5.0,5.0
+Gemini 2.5 Flash,B2,5.0,5.0,5.0,5.0,5.0
+Gemini 2.5 Flash,C1,5.0,5.0,5.0,5.0,5.0
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,A1,4.95,4.65,4.7,4.95,4.8125
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,A2,4.95,4.8,4.95,4.95,4.9125
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,B1,4.9,4.9,4.9,4.9,4.9
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,B2,5.0,5.0,5.0,5.0,5.0
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,C1,4.5,4.6,4.85,4.65,4.65
+Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf,A1,4.8,4.8,5.0,5.0,4.9
+Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf,A2,4.95,4.9,4.95,4.95,4.9375
+Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf,B1,4.8,4.9,4.95,4.8,4.8625
+Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf,B2,5.0,5.0,5.0,5.0,5.0
+Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf,C1,4.6,4.65,4.9,4.65,4.7
+Ministral-8B-Instruct-2410.Q4_K_M.gguf,A1,5.0,5.0,5.0,5.0,5.0
+Ministral-8B-Instruct-2410.Q4_K_M.gguf,A2,4.85,4.8,4.9,4.85,4.85
+Ministral-8B-Instruct-2410.Q4_K_M.gguf,B1,4.75,4.65,4.9,4.65,4.7375
+Ministral-8B-Instruct-2410.Q4_K_M.gguf,B2,4.85,4.85,5.0,4.85,4.8875
+Ministral-8B-Instruct-2410.Q4_K_M.gguf,C1,4.0,4.0,4.55,4.15,4.175
