@@ -10,11 +10,11 @@
       ],
       [
         "Sentence B",
-        "She got a job through a recruitment agency that specializes in IT."
+        "The UN has a special agency for disaster relief."
       ],
       [
         "Sentence C",
-        "The marketing agency launched a successful campaign that increased sales by 30%."
+        "The government agency responsible for disaster relief is working tirelessly to help the affected areas."
       ],
       [
         "Sentence D",
@@ -22,11 +22,7 @@
       ],
       [
         "Sentence E",
-        "The UN has a special agency for disaster relief."
-      ],
-      [
-        "Sentence F",
-        "The government agency responsible for disaster relief is working tirelessly to help the affected areas."
+        "The marketing agency launched a successful campaign that increased sales by 30%."
       ]
     ],
     "mapping": {
@@ -37,16 +33,16 @@
         "sentence": "The government agency is responsible for regulating the financial industry."
       },
       "Sentence B": {
-        "model": "GPT-4-turbo",
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B2",
         "word": "agency",
-        "sentence": "She got a job through a recruitment agency that specializes in IT."
+        "sentence": "The UN has a special agency for disaster relief."
       },
       "Sentence C": {
-        "model": "Claude Sonnet 4",
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "B2",
         "word": "agency",
-        "sentence": "The marketing agency launched a successful campaign that increased sales by 30%."
+        "sentence": "The government agency responsible for disaster relief is working tirelessly to help the affected areas."
       },
       "Sentence D": {
         "model": "Gemini 2.5 Flash",
@@ -55,19 +51,13 @@
         "sentence": "The travel agency helped us book our entire trip to Italy."
       },
       "Sentence E": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "model": "Claude Sonnet 4",
         "level": "B2",
         "word": "agency",
-        "sentence": "The UN has a special agency for disaster relief."
-      },
-      "Sentence F": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
-        "level": "B2",
-        "word": "agency",
-        "sentence": "The government agency responsible for disaster relief is working tirelessly to help the affected areas."
+        "sentence": "The marketing agency launched a successful campaign that increased sales by 30%."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"agency\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The government agency is responsible for regulating the financial industry.\nSentence B: She got a job through a recruitment agency that specializes in IT.\nSentence C: The marketing agency launched a successful campaign that increased sales by 30%.\nSentence D: The travel agency helped us book our entire trip to Italy.\nSentence E: The UN has a special agency for disaster relief.\nSentence F: The government agency responsible for disaster relief is working tirelessly to help the affected areas.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"agency\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: The government agency is responsible for regulating the financial industry.\nSentence B: The UN has a special agency for disaster relief.\nSentence C: The government agency responsible for disaster relief is working tirelessly to help the affected areas.\nSentence D: The travel agency helped us book our entire trip to Italy.\nSentence E: The marketing agency launched a successful campaign that increased sales by 30%.\n"
   },
   {
     "task_id": "B2_alter",
@@ -76,68 +66,58 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "She decided to alter her hairstyle to suit her new job."
-      ],
-      [
-        "Sentence B",
-        "He altered his plans to accommodate the change."
-      ],
-      [
-        "Sentence C",
         "Climate change has begun to alter weather patterns across the globe."
       ],
       [
-        "Sentence D",
+        "Sentence B",
         "You might need to alter your plans if the weather changes."
       ],
       [
-        "Sentence E",
+        "Sentence C",
         "The company will alter its business strategy to adapt to the changing market conditions."
       ],
       [
-        "Sentence F",
-        "You can alter the dress if it doesn’t fit properly."
+        "Sentence D",
+        "She decided to alter her hairstyle to suit her new job."
+      ],
+      [
+        "Sentence E",
+        "He altered his plans to accommodate the change."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-        "level": "B2",
-        "word": "alter",
-        "sentence": "She decided to alter her hairstyle to suit her new job."
-      },
-      "Sentence B": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-        "level": "B2",
-        "word": "alter",
-        "sentence": "He altered his plans to accommodate the change."
-      },
-      "Sentence C": {
         "model": "Claude Sonnet 4",
         "level": "B2",
         "word": "alter",
         "sentence": "Climate change has begun to alter weather patterns across the globe."
       },
-      "Sentence D": {
+      "Sentence B": {
         "model": "Gemini 2.5 Flash",
         "level": "B2",
         "word": "alter",
         "sentence": "You might need to alter your plans if the weather changes."
       },
-      "Sentence E": {
+      "Sentence C": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "B2",
         "word": "alter",
         "sentence": "The company will alter its business strategy to adapt to the changing market conditions."
       },
-      "Sentence F": {
-        "model": "GPT-4-turbo",
+      "Sentence D": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "B2",
         "word": "alter",
-        "sentence": "You can alter the dress if it doesn’t fit properly."
+        "sentence": "She decided to alter her hairstyle to suit her new job."
+      },
+      "Sentence E": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "B2",
+        "word": "alter",
+        "sentence": "He altered his plans to accommodate the change."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"alter\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: She decided to alter her hairstyle to suit her new job.\nSentence B: He altered his plans to accommodate the change.\nSentence C: Climate change has begun to alter weather patterns across the globe.\nSentence D: You might need to alter your plans if the weather changes.\nSentence E: The company will alter its business strategy to adapt to the changing market conditions.\nSentence F: You can alter the dress if it doesn’t fit properly.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"alter\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: Climate change has begun to alter weather patterns across the globe.\nSentence B: You might need to alter your plans if the weather changes.\nSentence C: The company will alter its business strategy to adapt to the changing market conditions.\nSentence D: She decided to alter her hairstyle to suit her new job.\nSentence E: He altered his plans to accommodate the change.\n"
   },
   {
     "task_id": "B2_heaven",
@@ -146,68 +126,58 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "The idea of heaven is often associated with a life after death."
-      ],
-      [
-        "Sentence B",
-        "Many cultures believe that good people go to heaven after they die."
-      ],
-      [
-        "Sentence C",
-        "After a long day, lying in a warm bath feels like heaven."
-      ],
-      [
-        "Sentence D",
         "Many religions teach that good people will go to heaven after death."
       ],
       [
-        "Sentence E",
+        "Sentence B",
         "Heaven is a place where there is no pain or sorrow."
       ],
       [
-        "Sentence F",
+        "Sentence C",
         "The concept of heaven is a central theme in many religious traditions."
+      ],
+      [
+        "Sentence D",
+        "Many cultures believe that good people go to heaven after they die."
+      ],
+      [
+        "Sentence E",
+        "The idea of heaven is often associated with a life after death."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-        "level": "B2",
-        "word": "heaven",
-        "sentence": "The idea of heaven is often associated with a life after death."
-      },
-      "Sentence B": {
-        "model": "Gemini 2.5 Flash",
-        "level": "B2",
-        "word": "heaven",
-        "sentence": "Many cultures believe that good people go to heaven after they die."
-      },
-      "Sentence C": {
-        "model": "GPT-4-turbo",
-        "level": "B2",
-        "word": "heaven",
-        "sentence": "After a long day, lying in a warm bath feels like heaven."
-      },
-      "Sentence D": {
         "model": "Claude Sonnet 4",
         "level": "B2",
         "word": "heaven",
         "sentence": "Many religions teach that good people will go to heaven after death."
       },
-      "Sentence E": {
+      "Sentence B": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B2",
         "word": "heaven",
         "sentence": "Heaven is a place where there is no pain or sorrow."
       },
-      "Sentence F": {
+      "Sentence C": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "B2",
         "word": "heaven",
         "sentence": "The concept of heaven is a central theme in many religious traditions."
+      },
+      "Sentence D": {
+        "model": "Gemini 2.5 Flash",
+        "level": "B2",
+        "word": "heaven",
+        "sentence": "Many cultures believe that good people go to heaven after they die."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "B2",
+        "word": "heaven",
+        "sentence": "The idea of heaven is often associated with a life after death."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"heaven\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The idea of heaven is often associated with a life after death.\nSentence B: Many cultures believe that good people go to heaven after they die.\nSentence C: After a long day, lying in a warm bath feels like heaven.\nSentence D: Many religions teach that good people will go to heaven after death.\nSentence E: Heaven is a place where there is no pain or sorrow.\nSentence F: The concept of heaven is a central theme in many religious traditions.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"heaven\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: Many religions teach that good people will go to heaven after death.\nSentence B: Heaven is a place where there is no pain or sorrow.\nSentence C: The concept of heaven is a central theme in many religious traditions.\nSentence D: Many cultures believe that good people go to heaven after they die.\nSentence E: The idea of heaven is often associated with a life after death.\n"
   },
   {
     "task_id": "B2_hollow",
@@ -216,68 +186,58 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "The old tree had a hollow trunk where small animals often made their homes."
-      ],
-      [
-        "Sentence B",
         "The hollow tree was perfect for a hiding place."
       ],
       [
-        "Sentence C",
-        "The tree trunk was hollow, and birds had made a nest inside."
-      ],
-      [
-        "Sentence D",
-        "The hollow sound of the wind through the trees was soothing."
-      ],
-      [
-        "Sentence E",
+        "Sentence B",
         "The hollow sound of the old wooden door echoed through the empty hallway."
       ],
       [
-        "Sentence F",
+        "Sentence C",
+        "The hollow sound of the wind through the trees was soothing."
+      ],
+      [
+        "Sentence D",
+        "The old tree had a hollow trunk where small animals often made their homes."
+      ],
+      [
+        "Sentence E",
         "The old tree trunk was hollow inside, providing a home for birds."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Claude Sonnet 4",
-        "level": "B2",
-        "word": "hollow",
-        "sentence": "The old tree had a hollow trunk where small animals often made their homes."
-      },
-      "Sentence B": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B2",
         "word": "hollow",
         "sentence": "The hollow tree was perfect for a hiding place."
       },
-      "Sentence C": {
-        "model": "GPT-4-turbo",
-        "level": "B2",
-        "word": "hollow",
-        "sentence": "The tree trunk was hollow, and birds had made a nest inside."
-      },
-      "Sentence D": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-        "level": "B2",
-        "word": "hollow",
-        "sentence": "The hollow sound of the wind through the trees was soothing."
-      },
-      "Sentence E": {
+      "Sentence B": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "B2",
         "word": "hollow",
         "sentence": "The hollow sound of the old wooden door echoed through the empty hallway."
       },
-      "Sentence F": {
+      "Sentence C": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "B2",
+        "word": "hollow",
+        "sentence": "The hollow sound of the wind through the trees was soothing."
+      },
+      "Sentence D": {
+        "model": "Claude Sonnet 4",
+        "level": "B2",
+        "word": "hollow",
+        "sentence": "The old tree had a hollow trunk where small animals often made their homes."
+      },
+      "Sentence E": {
         "model": "Gemini 2.5 Flash",
         "level": "B2",
         "word": "hollow",
         "sentence": "The old tree trunk was hollow inside, providing a home for birds."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"hollow\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The old tree had a hollow trunk where small animals often made their homes.\nSentence B: The hollow tree was perfect for a hiding place.\nSentence C: The tree trunk was hollow, and birds had made a nest inside.\nSentence D: The hollow sound of the wind through the trees was soothing.\nSentence E: The hollow sound of the old wooden door echoed through the empty hallway.\nSentence F: The old tree trunk was hollow inside, providing a home for birds.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"hollow\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: The hollow tree was perfect for a hiding place.\nSentence B: The hollow sound of the old wooden door echoed through the empty hallway.\nSentence C: The hollow sound of the wind through the trees was soothing.\nSentence D: The old tree had a hollow trunk where small animals often made their homes.\nSentence E: The old tree trunk was hollow inside, providing a home for birds.\n"
   },
   {
     "task_id": "B2_extend",
@@ -286,68 +246,58 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "The new policy will extend the deadline for submitting applications."
-      ],
-      [
-        "Sentence B",
-        "We decided to extend our stay in London by two more days."
-      ],
-      [
-        "Sentence C",
-        "The charity aims to extend its services to more countries in the future."
-      ],
-      [
-        "Sentence D",
-        "They decided to extend their stay by two more days."
-      ],
-      [
-        "Sentence E",
         "The company extended its offer to include more products."
       ],
       [
-        "Sentence F",
+        "Sentence B",
         "The university decided to extend the deadline for scholarship applications."
+      ],
+      [
+        "Sentence C",
+        "The new policy will extend the deadline for submitting applications."
+      ],
+      [
+        "Sentence D",
+        "The charity aims to extend its services to more countries in the future."
+      ],
+      [
+        "Sentence E",
+        "We decided to extend our stay in London by two more days."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
-        "level": "B2",
-        "word": "extend",
-        "sentence": "The new policy will extend the deadline for submitting applications."
-      },
-      "Sentence B": {
-        "model": "Gemini 2.5 Flash",
-        "level": "B2",
-        "word": "extend",
-        "sentence": "We decided to extend our stay in London by two more days."
-      },
-      "Sentence C": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-        "level": "B2",
-        "word": "extend",
-        "sentence": "The charity aims to extend its services to more countries in the future."
-      },
-      "Sentence D": {
-        "model": "GPT-4-turbo",
-        "level": "B2",
-        "word": "extend",
-        "sentence": "They decided to extend their stay by two more days."
-      },
-      "Sentence E": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B2",
         "word": "extend",
         "sentence": "The company extended its offer to include more products."
       },
-      "Sentence F": {
+      "Sentence B": {
         "model": "Claude Sonnet 4",
         "level": "B2",
         "word": "extend",
         "sentence": "The university decided to extend the deadline for scholarship applications."
+      },
+      "Sentence C": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "B2",
+        "word": "extend",
+        "sentence": "The new policy will extend the deadline for submitting applications."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "B2",
+        "word": "extend",
+        "sentence": "The charity aims to extend its services to more countries in the future."
+      },
+      "Sentence E": {
+        "model": "Gemini 2.5 Flash",
+        "level": "B2",
+        "word": "extend",
+        "sentence": "We decided to extend our stay in London by two more days."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"extend\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The new policy will extend the deadline for submitting applications.\nSentence B: We decided to extend our stay in London by two more days.\nSentence C: The charity aims to extend its services to more countries in the future.\nSentence D: They decided to extend their stay by two more days.\nSentence E: The company extended its offer to include more products.\nSentence F: The university decided to extend the deadline for scholarship applications.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"extend\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: The company extended its offer to include more products.\nSentence B: The university decided to extend the deadline for scholarship applications.\nSentence C: The new policy will extend the deadline for submitting applications.\nSentence D: The charity aims to extend its services to more countries in the future.\nSentence E: We decided to extend our stay in London by two more days.\n"
   },
   {
     "task_id": "B2_imply",
@@ -356,68 +306,58 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "Are you trying to imply that this was my fault?"
-      ],
-      [
-        "Sentence B",
         "The article implies that the company is in financial trouble."
       ],
       [
-        "Sentence C",
-        "The company's decision to downsize implies that they are struggling financially."
-      ],
-      [
-        "Sentence D",
-        "The poem implies a deeper meaning."
-      ],
-      [
-        "Sentence E",
+        "Sentence B",
         "His silence seemed to imply that he agreed with the decision."
       ],
       [
-        "Sentence F",
+        "Sentence C",
         "His tone seemed to imply that he disagreed with the proposal."
+      ],
+      [
+        "Sentence D",
+        "The company's decision to downsize implies that they are struggling financially."
+      ],
+      [
+        "Sentence E",
+        "The poem implies a deeper meaning."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "GPT-4-turbo",
-        "level": "B2",
-        "word": "imply",
-        "sentence": "Are you trying to imply that this was my fault?"
-      },
-      "Sentence B": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "B2",
         "word": "imply",
         "sentence": "The article implies that the company is in financial trouble."
       },
-      "Sentence C": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
-        "level": "B2",
-        "word": "imply",
-        "sentence": "The company's decision to downsize implies that they are struggling financially."
-      },
-      "Sentence D": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-        "level": "B2",
-        "word": "imply",
-        "sentence": "The poem implies a deeper meaning."
-      },
-      "Sentence E": {
+      "Sentence B": {
         "model": "Gemini 2.5 Flash",
         "level": "B2",
         "word": "imply",
         "sentence": "His silence seemed to imply that he agreed with the decision."
       },
-      "Sentence F": {
+      "Sentence C": {
         "model": "Claude Sonnet 4",
         "level": "B2",
         "word": "imply",
         "sentence": "His tone seemed to imply that he disagreed with the proposal."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "B2",
+        "word": "imply",
+        "sentence": "The company's decision to downsize implies that they are struggling financially."
+      },
+      "Sentence E": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "B2",
+        "word": "imply",
+        "sentence": "The poem implies a deeper meaning."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"imply\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: Are you trying to imply that this was my fault?\nSentence B: The article implies that the company is in financial trouble.\nSentence C: The company's decision to downsize implies that they are struggling financially.\nSentence D: The poem implies a deeper meaning.\nSentence E: His silence seemed to imply that he agreed with the decision.\nSentence F: His tone seemed to imply that he disagreed with the proposal.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"imply\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: The article implies that the company is in financial trouble.\nSentence B: His silence seemed to imply that he agreed with the decision.\nSentence C: His tone seemed to imply that he disagreed with the proposal.\nSentence D: The company's decision to downsize implies that they are struggling financially.\nSentence E: The poem implies a deeper meaning.\n"
   },
   {
     "task_id": "B2_numerous",
@@ -426,68 +366,58 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "There were numerous reasons why the project failed."
-      ],
-      [
-        "Sentence B",
-        "The researcher conducted numerous experiments before reaching a conclusion."
-      ],
-      [
-        "Sentence C",
-        "There are numerous options available for choosing a career, but it's essential to find the right one."
-      ],
-      [
-        "Sentence D",
         "There were numerous people at the event."
       ],
       [
-        "Sentence E",
-        "He has made numerous attempts to fix the problem, but nothing worked."
+        "Sentence B",
+        "The numerous reports of corruption have damaged the company's reputation."
       ],
       [
-        "Sentence F",
-        "The numerous reports of corruption have damaged the company's reputation."
+        "Sentence C",
+        "There were numerous reasons why the project failed."
+      ],
+      [
+        "Sentence D",
+        "There are numerous options available for choosing a career, but it's essential to find the right one."
+      ],
+      [
+        "Sentence E",
+        "The researcher conducted numerous experiments before reaching a conclusion."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Gemini 2.5 Flash",
-        "level": "B2",
-        "word": "numerous",
-        "sentence": "There were numerous reasons why the project failed."
-      },
-      "Sentence B": {
-        "model": "Claude Sonnet 4",
-        "level": "B2",
-        "word": "numerous",
-        "sentence": "The researcher conducted numerous experiments before reaching a conclusion."
-      },
-      "Sentence C": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-        "level": "B2",
-        "word": "numerous",
-        "sentence": "There are numerous options available for choosing a career, but it's essential to find the right one."
-      },
-      "Sentence D": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B2",
         "word": "numerous",
         "sentence": "There were numerous people at the event."
       },
-      "Sentence E": {
-        "model": "GPT-4-turbo",
-        "level": "B2",
-        "word": "numerous",
-        "sentence": "He has made numerous attempts to fix the problem, but nothing worked."
-      },
-      "Sentence F": {
+      "Sentence B": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "B2",
         "word": "numerous",
         "sentence": "The numerous reports of corruption have damaged the company's reputation."
+      },
+      "Sentence C": {
+        "model": "Gemini 2.5 Flash",
+        "level": "B2",
+        "word": "numerous",
+        "sentence": "There were numerous reasons why the project failed."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "B2",
+        "word": "numerous",
+        "sentence": "There are numerous options available for choosing a career, but it's essential to find the right one."
+      },
+      "Sentence E": {
+        "model": "Claude Sonnet 4",
+        "level": "B2",
+        "word": "numerous",
+        "sentence": "The researcher conducted numerous experiments before reaching a conclusion."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"numerous\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: There were numerous reasons why the project failed.\nSentence B: The researcher conducted numerous experiments before reaching a conclusion.\nSentence C: There are numerous options available for choosing a career, but it's essential to find the right one.\nSentence D: There were numerous people at the event.\nSentence E: He has made numerous attempts to fix the problem, but nothing worked.\nSentence F: The numerous reports of corruption have damaged the company's reputation.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"numerous\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: There were numerous people at the event.\nSentence B: The numerous reports of corruption have damaged the company's reputation.\nSentence C: There were numerous reasons why the project failed.\nSentence D: There are numerous options available for choosing a career, but it's essential to find the right one.\nSentence E: The researcher conducted numerous experiments before reaching a conclusion.\n"
   },
   {
     "task_id": "B2_opponent",
@@ -496,68 +426,58 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "The chess player carefully studied her opponent's previous games."
-      ],
-      [
-        "Sentence B",
-        "Her opponent in the final match was very strong."
-      ],
-      [
-        "Sentence C",
         "The team has a strong opponent in the final match."
       ],
       [
-        "Sentence D",
+        "Sentence B",
+        "The chess player carefully studied her opponent's previous games."
+      ],
+      [
+        "Sentence C",
         "The opponent in the debate was well-prepared and presented a strong argument."
       ],
       [
-        "Sentence E",
+        "Sentence D",
         "My opponent in the debate argued that the policy was unfair to certain groups."
       ],
       [
-        "Sentence F",
+        "Sentence E",
         "She easily defeated her opponent in the chess match."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Claude Sonnet 4",
-        "level": "B2",
-        "word": "opponent",
-        "sentence": "The chess player carefully studied her opponent's previous games."
-      },
-      "Sentence B": {
-        "model": "GPT-4-turbo",
-        "level": "B2",
-        "word": "opponent",
-        "sentence": "Her opponent in the final match was very strong."
-      },
-      "Sentence C": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B2",
         "word": "opponent",
         "sentence": "The team has a strong opponent in the final match."
       },
-      "Sentence D": {
+      "Sentence B": {
+        "model": "Claude Sonnet 4",
+        "level": "B2",
+        "word": "opponent",
+        "sentence": "The chess player carefully studied her opponent's previous games."
+      },
+      "Sentence C": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "B2",
         "word": "opponent",
         "sentence": "The opponent in the debate was well-prepared and presented a strong argument."
       },
-      "Sentence E": {
+      "Sentence D": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "B2",
         "word": "opponent",
         "sentence": "My opponent in the debate argued that the policy was unfair to certain groups."
       },
-      "Sentence F": {
+      "Sentence E": {
         "model": "Gemini 2.5 Flash",
         "level": "B2",
         "word": "opponent",
         "sentence": "She easily defeated her opponent in the chess match."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"opponent\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The chess player carefully studied her opponent's previous games.\nSentence B: Her opponent in the final match was very strong.\nSentence C: The team has a strong opponent in the final match.\nSentence D: The opponent in the debate was well-prepared and presented a strong argument.\nSentence E: My opponent in the debate argued that the policy was unfair to certain groups.\nSentence F: She easily defeated her opponent in the chess match.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"opponent\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: The team has a strong opponent in the final match.\nSentence B: The chess player carefully studied her opponent's previous games.\nSentence C: The opponent in the debate was well-prepared and presented a strong argument.\nSentence D: My opponent in the debate argued that the policy was unfair to certain groups.\nSentence E: She easily defeated her opponent in the chess match.\n"
   },
   {
     "task_id": "B2_process",
@@ -566,68 +486,58 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "The complex process of creating a work of art requires patience and dedication."
-      ],
-      [
-        "Sentence B",
-        "Learning a foreign language is a gradual process that requires patience."
-      ],
-      [
-        "Sentence C",
-        "Learning a new language is a long but rewarding process."
-      ],
-      [
-        "Sentence D",
         "The process of learning a new language is challenging."
       ],
       [
-        "Sentence E",
+        "Sentence B",
         "Learning a new language is a long and continuous process."
       ],
       [
-        "Sentence F",
+        "Sentence C",
+        "Learning a foreign language is a gradual process that requires patience."
+      ],
+      [
+        "Sentence D",
         "The process of creating a new product involves several stages, from design to production."
+      ],
+      [
+        "Sentence E",
+        "The complex process of creating a work of art requires patience and dedication."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-        "level": "B2",
-        "word": "process",
-        "sentence": "The complex process of creating a work of art requires patience and dedication."
-      },
-      "Sentence B": {
-        "model": "Claude Sonnet 4",
-        "level": "B2",
-        "word": "process",
-        "sentence": "Learning a foreign language is a gradual process that requires patience."
-      },
-      "Sentence C": {
-        "model": "GPT-4-turbo",
-        "level": "B2",
-        "word": "process",
-        "sentence": "Learning a new language is a long but rewarding process."
-      },
-      "Sentence D": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B2",
         "word": "process",
         "sentence": "The process of learning a new language is challenging."
       },
-      "Sentence E": {
+      "Sentence B": {
         "model": "Gemini 2.5 Flash",
         "level": "B2",
         "word": "process",
         "sentence": "Learning a new language is a long and continuous process."
       },
-      "Sentence F": {
+      "Sentence C": {
+        "model": "Claude Sonnet 4",
+        "level": "B2",
+        "word": "process",
+        "sentence": "Learning a foreign language is a gradual process that requires patience."
+      },
+      "Sentence D": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "B2",
         "word": "process",
         "sentence": "The process of creating a new product involves several stages, from design to production."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "B2",
+        "word": "process",
+        "sentence": "The complex process of creating a work of art requires patience and dedication."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"process\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The complex process of creating a work of art requires patience and dedication.\nSentence B: Learning a foreign language is a gradual process that requires patience.\nSentence C: Learning a new language is a long but rewarding process.\nSentence D: The process of learning a new language is challenging.\nSentence E: Learning a new language is a long and continuous process.\nSentence F: The process of creating a new product involves several stages, from design to production.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"process\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: The process of learning a new language is challenging.\nSentence B: Learning a new language is a long and continuous process.\nSentence C: Learning a foreign language is a gradual process that requires patience.\nSentence D: The process of creating a new product involves several stages, from design to production.\nSentence E: The complex process of creating a work of art requires patience and dedication.\n"
   },
   {
     "task_id": "B2_wise",
@@ -636,67 +546,57 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "The wise decision was to save money for the future."
-      ],
-      [
-        "Sentence B",
         "The wise old man was respected by everyone in the village for his knowledge and experience."
       ],
       [
-        "Sentence C",
+        "Sentence B",
         "It was a wise decision to save money for the future."
       ],
       [
-        "Sentence D",
-        "She is a wise and experienced teacher who has taught many students over the years."
-      ],
-      [
-        "Sentence E",
+        "Sentence C",
         "It would be wise to save money for unexpected expenses."
       ],
       [
-        "Sentence F",
-        "It was wise of you to save some money for emergencies."
+        "Sentence D",
+        "The wise decision was to save money for the future."
+      ],
+      [
+        "Sentence E",
+        "She is a wise and experienced teacher who has taught many students over the years."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-        "level": "B2",
-        "word": "wise",
-        "sentence": "The wise decision was to save money for the future."
-      },
-      "Sentence B": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "B2",
         "word": "wise",
         "sentence": "The wise old man was respected by everyone in the village for his knowledge and experience."
       },
-      "Sentence C": {
+      "Sentence B": {
         "model": "Gemini 2.5 Flash",
         "level": "B2",
         "word": "wise",
         "sentence": "It was a wise decision to save money for the future."
       },
-      "Sentence D": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-        "level": "B2",
-        "word": "wise",
-        "sentence": "She is a wise and experienced teacher who has taught many students over the years."
-      },
-      "Sentence E": {
+      "Sentence C": {
         "model": "Claude Sonnet 4",
         "level": "B2",
         "word": "wise",
         "sentence": "It would be wise to save money for unexpected expenses."
       },
-      "Sentence F": {
-        "model": "GPT-4-turbo",
+      "Sentence D": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "B2",
         "word": "wise",
-        "sentence": "It was wise of you to save some money for emergencies."
+        "sentence": "The wise decision was to save money for the future."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "B2",
+        "word": "wise",
+        "sentence": "She is a wise and experienced teacher who has taught many students over the years."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"wise\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The wise decision was to save money for the future.\nSentence B: The wise old man was respected by everyone in the village for his knowledge and experience.\nSentence C: It was a wise decision to save money for the future.\nSentence D: She is a wise and experienced teacher who has taught many students over the years.\nSentence E: It would be wise to save money for unexpected expenses.\nSentence F: It was wise of you to save some money for emergencies.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"wise\" at CEFR level: B2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: The wise old man was respected by everyone in the village for his knowledge and experience.\nSentence B: It was a wise decision to save money for the future.\nSentence C: It would be wise to save money for unexpected expenses.\nSentence D: The wise decision was to save money for the future.\nSentence E: She is a wise and experienced teacher who has taught many students over the years.\n"
   }
 ]

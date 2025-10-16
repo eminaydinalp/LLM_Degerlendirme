@@ -6,68 +6,58 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "She has a great ability to play the piano, and she practices every day."
-      ],
-      [
-        "Sentence B",
-        "She has the ability to speak three languages."
-      ],
-      [
-        "Sentence C",
         "My ability to swim is improving every day."
       ],
       [
-        "Sentence D",
+        "Sentence B",
+        "She has the ability to sing very well."
+      ],
+      [
+        "Sentence C",
         "I have the ability to speak two languages."
       ],
       [
-        "Sentence E",
+        "Sentence D",
         "She has the ability to speak three languages."
       ],
       [
-        "Sentence F",
-        "She has the ability to sing very well."
+        "Sentence E",
+        "She has a great ability to play the piano, and she practices every day."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-        "level": "A2",
-        "word": "ability",
-        "sentence": "She has a great ability to play the piano, and she practices every day."
-      },
-      "Sentence B": {
-        "model": "Claude Sonnet 4",
-        "level": "A2",
-        "word": "ability",
-        "sentence": "She has the ability to speak three languages."
-      },
-      "Sentence C": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "ability",
         "sentence": "My ability to swim is improving every day."
       },
-      "Sentence D": {
+      "Sentence B": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A2",
+        "word": "ability",
+        "sentence": "She has the ability to sing very well."
+      },
+      "Sentence C": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "A2",
         "word": "ability",
         "sentence": "I have the ability to speak two languages."
       },
-      "Sentence E": {
-        "model": "GPT-4-turbo",
+      "Sentence D": {
+        "model": "Claude Sonnet 4",
         "level": "A2",
         "word": "ability",
         "sentence": "She has the ability to speak three languages."
       },
-      "Sentence F": {
-        "model": "Gemini 2.5 Flash",
+      "Sentence E": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "ability",
-        "sentence": "She has the ability to sing very well."
+        "sentence": "She has a great ability to play the piano, and she practices every day."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"ability\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: She has a great ability to play the piano, and she practices every day.\nSentence B: She has the ability to speak three languages.\nSentence C: My ability to swim is improving every day.\nSentence D: I have the ability to speak two languages.\nSentence E: She has the ability to speak three languages.\nSentence F: She has the ability to sing very well.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"ability\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: My ability to swim is improving every day.\nSentence B: She has the ability to sing very well.\nSentence C: I have the ability to speak two languages.\nSentence D: She has the ability to speak three languages.\nSentence E: She has a great ability to play the piano, and she practices every day.\n"
   },
   {
     "task_id": "A2_affect",
@@ -76,7 +66,7 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "Cold weather can affect your mood."
+        "The rain will affect the parade, so we need to cancel it."
       ],
       [
         "Sentence B",
@@ -84,27 +74,23 @@
       ],
       [
         "Sentence C",
-        "The rain might affect our plans for the picnic."
-      ],
-      [
-        "Sentence D",
-        "The weather will affect the trip tomorrow."
-      ],
-      [
-        "Sentence E",
         "The rain will affect our picnic plans today."
       ],
       [
-        "Sentence F",
-        "The rain will affect the parade, so we need to cancel it."
+        "Sentence D",
+        "The rain might affect our plans for the picnic."
+      ],
+      [
+        "Sentence E",
+        "The weather will affect the trip tomorrow."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "GPT-4-turbo",
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "affect",
-        "sentence": "Cold weather can affect your mood."
+        "sentence": "The rain will affect the parade, so we need to cancel it."
       },
       "Sentence B": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
@@ -113,31 +99,25 @@
         "sentence": "The weather affected my plans."
       },
       "Sentence C": {
-        "model": "Gemini 2.5 Flash",
-        "level": "A2",
-        "word": "affect",
-        "sentence": "The rain might affect our plans for the picnic."
-      },
-      "Sentence D": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
-        "level": "A2",
-        "word": "affect",
-        "sentence": "The weather will affect the trip tomorrow."
-      },
-      "Sentence E": {
         "model": "Claude Sonnet 4",
         "level": "A2",
         "word": "affect",
         "sentence": "The rain will affect our picnic plans today."
       },
-      "Sentence F": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "Sentence D": {
+        "model": "Gemini 2.5 Flash",
         "level": "A2",
         "word": "affect",
-        "sentence": "The rain will affect the parade, so we need to cancel it."
+        "sentence": "The rain might affect our plans for the picnic."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "affect",
+        "sentence": "The weather will affect the trip tomorrow."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"affect\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: Cold weather can affect your mood.\nSentence B: The weather affected my plans.\nSentence C: The rain might affect our plans for the picnic.\nSentence D: The weather will affect the trip tomorrow.\nSentence E: The rain will affect our picnic plans today.\nSentence F: The rain will affect the parade, so we need to cancel it.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"affect\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: The rain will affect the parade, so we need to cancel it.\nSentence B: The weather affected my plans.\nSentence C: The rain will affect our picnic plans today.\nSentence D: The rain might affect our plans for the picnic.\nSentence E: The weather will affect the trip tomorrow.\n"
   },
   {
     "task_id": "A2_almost",
@@ -146,7 +126,7 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "The train was almost empty."
+        "I'm almost ready to leave for school."
       ],
       [
         "Sentence B",
@@ -154,27 +134,23 @@
       ],
       [
         "Sentence C",
-        "I almost missed the bus this morning."
+        "The train was almost empty."
       ],
       [
         "Sentence D",
-        "I almost missed the bus this morning."
-      ],
-      [
-        "Sentence E",
         "I'm almost ready to go to school, but I need to finish my homework."
       ],
       [
-        "Sentence F",
-        "I'm almost ready to leave for school."
+        "Sentence E",
+        "I almost missed the bus this morning."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "almost",
-        "sentence": "The train was almost empty."
+        "sentence": "I'm almost ready to leave for school."
       },
       "Sentence B": {
         "model": "Gemini 2.5 Flash",
@@ -183,31 +159,25 @@
         "sentence": "It's almost time for the movie to start."
       },
       "Sentence C": {
-        "model": "Claude Sonnet 4",
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "A2",
         "word": "almost",
-        "sentence": "I almost missed the bus this morning."
+        "sentence": "The train was almost empty."
       },
       "Sentence D": {
-        "model": "GPT-4-turbo",
-        "level": "A2",
-        "word": "almost",
-        "sentence": "I almost missed the bus this morning."
-      },
-      "Sentence E": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "almost",
         "sentence": "I'm almost ready to go to school, but I need to finish my homework."
       },
-      "Sentence F": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+      "Sentence E": {
+        "model": "Claude Sonnet 4",
         "level": "A2",
         "word": "almost",
-        "sentence": "I'm almost ready to leave for school."
+        "sentence": "I almost missed the bus this morning."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"almost\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The train was almost empty.\nSentence B: It's almost time for the movie to start.\nSentence C: I almost missed the bus this morning.\nSentence D: I almost missed the bus this morning.\nSentence E: I'm almost ready to go to school, but I need to finish my homework.\nSentence F: I'm almost ready to leave for school.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"almost\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: I'm almost ready to leave for school.\nSentence B: It's almost time for the movie to start.\nSentence C: The train was almost empty.\nSentence D: I'm almost ready to go to school, but I need to finish my homework.\nSentence E: I almost missed the bus this morning.\n"
   },
   {
     "task_id": "A2_board",
@@ -220,11 +190,11 @@
       ],
       [
         "Sentence B",
-        "The teacher wrote the answer on the board."
+        "Please write your answers on the white board."
       ],
       [
         "Sentence C",
-        "Please write your answers on the white board."
+        "The teacher wrote the homework on the board."
       ],
       [
         "Sentence D",
@@ -232,10 +202,6 @@
       ],
       [
         "Sentence E",
-        "The teacher wrote the homework on the board."
-      ],
-      [
-        "Sentence F",
         "The board of directors meets every month to discuss business."
       ]
     ],
@@ -247,16 +213,16 @@
         "sentence": "She fell off the board."
       },
       "Sentence B": {
-        "model": "GPT-4-turbo",
-        "level": "A2",
-        "word": "board",
-        "sentence": "The teacher wrote the answer on the board."
-      },
-      "Sentence C": {
         "model": "Gemini 2.5 Flash",
         "level": "A2",
         "word": "board",
         "sentence": "Please write your answers on the white board."
+      },
+      "Sentence C": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "board",
+        "sentence": "The teacher wrote the homework on the board."
       },
       "Sentence D": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
@@ -265,19 +231,13 @@
         "sentence": "The school board decided to build a new library."
       },
       "Sentence E": {
-        "model": "Claude Sonnet 4",
-        "level": "A2",
-        "word": "board",
-        "sentence": "The teacher wrote the homework on the board."
-      },
-      "Sentence F": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "board",
         "sentence": "The board of directors meets every month to discuss business."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"board\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: She fell off the board.\nSentence B: The teacher wrote the answer on the board.\nSentence C: Please write your answers on the white board.\nSentence D: The school board decided to build a new library.\nSentence E: The teacher wrote the homework on the board.\nSentence F: The board of directors meets every month to discuss business.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"board\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: She fell off the board.\nSentence B: Please write your answers on the white board.\nSentence C: The teacher wrote the homework on the board.\nSentence D: The school board decided to build a new library.\nSentence E: The board of directors meets every month to discuss business.\n"
   },
   {
     "task_id": "A2_connect",
@@ -286,68 +246,58 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "You need a password to connect to the Wi-Fi."
-      ],
-      [
-        "Sentence B",
-        "Can you connect your laptop to the TV?"
-      ],
-      [
-        "Sentence C",
         "You can connect these two wires together."
       ],
       [
-        "Sentence D",
+        "Sentence B",
         "We need to connect the wires before we can turn on the lamp."
       ],
       [
-        "Sentence E",
+        "Sentence C",
         "Please connect your phone to the internet."
       ],
       [
-        "Sentence F",
+        "Sentence D",
         "The phone can connect to the internet."
+      ],
+      [
+        "Sentence E",
+        "Can you connect your laptop to the TV?"
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "GPT-4-turbo",
-        "level": "A2",
-        "word": "connect",
-        "sentence": "You need a password to connect to the Wi-Fi."
-      },
-      "Sentence B": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-        "level": "A2",
-        "word": "connect",
-        "sentence": "Can you connect your laptop to the TV?"
-      },
-      "Sentence C": {
         "model": "Gemini 2.5 Flash",
         "level": "A2",
         "word": "connect",
         "sentence": "You can connect these two wires together."
       },
-      "Sentence D": {
+      "Sentence B": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "connect",
         "sentence": "We need to connect the wires before we can turn on the lamp."
       },
-      "Sentence E": {
+      "Sentence C": {
         "model": "Claude Sonnet 4",
         "level": "A2",
         "word": "connect",
         "sentence": "Please connect your phone to the internet."
       },
-      "Sentence F": {
+      "Sentence D": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "connect",
         "sentence": "The phone can connect to the internet."
+      },
+      "Sentence E": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A2",
+        "word": "connect",
+        "sentence": "Can you connect your laptop to the TV?"
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"connect\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: You need a password to connect to the Wi-Fi.\nSentence B: Can you connect your laptop to the TV?\nSentence C: You can connect these two wires together.\nSentence D: We need to connect the wires before we can turn on the lamp.\nSentence E: Please connect your phone to the internet.\nSentence F: The phone can connect to the internet.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"connect\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: You can connect these two wires together.\nSentence B: We need to connect the wires before we can turn on the lamp.\nSentence C: Please connect your phone to the internet.\nSentence D: The phone can connect to the internet.\nSentence E: Can you connect your laptop to the TV?\n"
   },
   {
     "task_id": "A2_context",
@@ -356,68 +306,58 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "Try to understand the word in its context in the sentence."
+        "The teacher explained the context of the story to the students."
       ],
       [
         "Sentence B",
-        "The story is set in a historical context."
+        "I didn't understand the word without context."
       ],
       [
         "Sentence C",
-        "I didn’t understand the word until I saw it in context."
+        "The story is set in a historical context."
       ],
       [
         "Sentence D",
-        "I didn't understand the word without context."
+        "Try to understand the word in its context in the sentence."
       ],
       [
         "Sentence E",
         "The context of the story is important."
-      ],
-      [
-        "Sentence F",
-        "The teacher explained the context of the story to the students."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Gemini 2.5 Flash",
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "context",
-        "sentence": "Try to understand the word in its context in the sentence."
+        "sentence": "The teacher explained the context of the story to the students."
       },
       "Sentence B": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "context",
+        "sentence": "I didn't understand the word without context."
+      },
+      "Sentence C": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "context",
         "sentence": "The story is set in a historical context."
       },
-      "Sentence C": {
-        "model": "GPT-4-turbo",
-        "level": "A2",
-        "word": "context",
-        "sentence": "I didn’t understand the word until I saw it in context."
-      },
       "Sentence D": {
-        "model": "Claude Sonnet 4",
+        "model": "Gemini 2.5 Flash",
         "level": "A2",
         "word": "context",
-        "sentence": "I didn't understand the word without context."
+        "sentence": "Try to understand the word in its context in the sentence."
       },
       "Sentence E": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "A2",
         "word": "context",
         "sentence": "The context of the story is important."
-      },
-      "Sentence F": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-        "level": "A2",
-        "word": "context",
-        "sentence": "The teacher explained the context of the story to the students."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"context\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: Try to understand the word in its context in the sentence.\nSentence B: The story is set in a historical context.\nSentence C: I didn’t understand the word until I saw it in context.\nSentence D: I didn't understand the word without context.\nSentence E: The context of the story is important.\nSentence F: The teacher explained the context of the story to the students.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"context\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: The teacher explained the context of the story to the students.\nSentence B: I didn't understand the word without context.\nSentence C: The story is set in a historical context.\nSentence D: Try to understand the word in its context in the sentence.\nSentence E: The context of the story is important.\n"
   },
   {
     "task_id": "A2_remove",
@@ -426,11 +366,11 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "I removed the book from the shelf."
+        "Please remove your shoes before entering the house."
       ],
       [
         "Sentence B",
-        "Please remove your shoes before entering the house."
+        "Can you remove your shoes before entering?"
       ],
       [
         "Sentence C",
@@ -442,28 +382,24 @@
       ],
       [
         "Sentence E",
-        "Please remove your shoes before entering the house."
-      ],
-      [
-        "Sentence F",
-        "Can you remove your shoes before entering?"
+        "I removed the book from the shelf."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-        "level": "A2",
-        "word": "remove",
-        "sentence": "I removed the book from the shelf."
-      },
-      "Sentence B": {
         "model": "Gemini 2.5 Flash",
         "level": "A2",
         "word": "remove",
         "sentence": "Please remove your shoes before entering the house."
       },
+      "Sentence B": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "remove",
+        "sentence": "Can you remove your shoes before entering?"
+      },
       "Sentence C": {
-        "model": "GPT-4-turbo",
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "remove",
         "sentence": "Please remove your shoes before entering the house."
@@ -475,19 +411,13 @@
         "sentence": "Can you please remove the trash from the classroom?"
       },
       "Sentence E": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "A2",
         "word": "remove",
-        "sentence": "Please remove your shoes before entering the house."
-      },
-      "Sentence F": {
-        "model": "Claude Sonnet 4",
-        "level": "A2",
-        "word": "remove",
-        "sentence": "Can you remove your shoes before entering?"
+        "sentence": "I removed the book from the shelf."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"remove\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: I removed the book from the shelf.\nSentence B: Please remove your shoes before entering the house.\nSentence C: Please remove your shoes before entering the house.\nSentence D: Can you please remove the trash from the classroom?\nSentence E: Please remove your shoes before entering the house.\nSentence F: Can you remove your shoes before entering?\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"remove\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: Please remove your shoes before entering the house.\nSentence B: Can you remove your shoes before entering?\nSentence C: Please remove your shoes before entering the house.\nSentence D: Can you please remove the trash from the classroom?\nSentence E: I removed the book from the shelf.\n"
   },
   {
     "task_id": "A2_typical",
@@ -496,68 +426,58 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "That is a typical English breakfast."
-      ],
-      [
-        "Sentence B",
-        "It's typical for students to feel nervous before exams."
-      ],
-      [
-        "Sentence C",
-        "It's typical for him to be late."
-      ],
-      [
-        "Sentence D",
-        "She is a typical student who loves reading books and playing sports."
-      ],
-      [
-        "Sentence E",
         "This food is typical of our country's cuisine."
       ],
       [
-        "Sentence F",
-        "It’s typical to have lunch at 1 p.m. in Spain."
+        "Sentence B",
+        "She is a typical student who loves reading books and playing sports."
+      ],
+      [
+        "Sentence C",
+        "That is a typical English breakfast."
+      ],
+      [
+        "Sentence D",
+        "It's typical for him to be late."
+      ],
+      [
+        "Sentence E",
+        "It's typical for students to feel nervous before exams."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-        "level": "A2",
-        "word": "typical",
-        "sentence": "That is a typical English breakfast."
-      },
-      "Sentence B": {
-        "model": "Claude Sonnet 4",
-        "level": "A2",
-        "word": "typical",
-        "sentence": "It's typical for students to feel nervous before exams."
-      },
-      "Sentence C": {
-        "model": "Gemini 2.5 Flash",
-        "level": "A2",
-        "word": "typical",
-        "sentence": "It's typical for him to be late."
-      },
-      "Sentence D": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-        "level": "A2",
-        "word": "typical",
-        "sentence": "She is a typical student who loves reading books and playing sports."
-      },
-      "Sentence E": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "typical",
         "sentence": "This food is typical of our country's cuisine."
       },
-      "Sentence F": {
-        "model": "GPT-4-turbo",
+      "Sentence B": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "typical",
-        "sentence": "It’s typical to have lunch at 1 p.m. in Spain."
+        "sentence": "She is a typical student who loves reading books and playing sports."
+      },
+      "Sentence C": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A2",
+        "word": "typical",
+        "sentence": "That is a typical English breakfast."
+      },
+      "Sentence D": {
+        "model": "Gemini 2.5 Flash",
+        "level": "A2",
+        "word": "typical",
+        "sentence": "It's typical for him to be late."
+      },
+      "Sentence E": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "typical",
+        "sentence": "It's typical for students to feel nervous before exams."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"typical\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: That is a typical English breakfast.\nSentence B: It's typical for students to feel nervous before exams.\nSentence C: It's typical for him to be late.\nSentence D: She is a typical student who loves reading books and playing sports.\nSentence E: This food is typical of our country's cuisine.\nSentence F: It’s typical to have lunch at 1 p.m. in Spain.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"typical\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: This food is typical of our country's cuisine.\nSentence B: She is a typical student who loves reading books and playing sports.\nSentence C: That is a typical English breakfast.\nSentence D: It's typical for him to be late.\nSentence E: It's typical for students to feel nervous before exams.\n"
   },
   {
     "task_id": "A2_coal",
@@ -566,68 +486,58 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "The fire was fueled by coal, which was used to heat the house."
-      ],
-      [
-        "Sentence B",
-        "The fire was burning coal to produce heat."
-      ],
-      [
-        "Sentence C",
-        "The train was powered by coal."
-      ],
-      [
-        "Sentence D",
         "The power plant burns coal to make electricity."
       ],
       [
-        "Sentence E",
+        "Sentence B",
+        "The fire was fueled by coal, which was used to heat the house."
+      ],
+      [
+        "Sentence C",
         "Coal is a black rock used for energy."
       ],
       [
-        "Sentence F",
+        "Sentence D",
+        "The fire was burning coal to produce heat."
+      ],
+      [
+        "Sentence E",
         "The coal in the fire keeps the room warm."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-        "level": "A2",
-        "word": "coal",
-        "sentence": "The fire was fueled by coal, which was used to heat the house."
-      },
-      "Sentence B": {
-        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
-        "level": "A2",
-        "word": "coal",
-        "sentence": "The fire was burning coal to produce heat."
-      },
-      "Sentence C": {
-        "model": "GPT-4-turbo",
-        "level": "A2",
-        "word": "coal",
-        "sentence": "The train was powered by coal."
-      },
-      "Sentence D": {
         "model": "Claude Sonnet 4",
         "level": "A2",
         "word": "coal",
         "sentence": "The power plant burns coal to make electricity."
       },
-      "Sentence E": {
+      "Sentence B": {
+        "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "coal",
+        "sentence": "The fire was fueled by coal, which was used to heat the house."
+      },
+      "Sentence C": {
         "model": "Gemini 2.5 Flash",
         "level": "A2",
         "word": "coal",
         "sentence": "Coal is a black rock used for energy."
       },
-      "Sentence F": {
+      "Sentence D": {
+        "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+        "level": "A2",
+        "word": "coal",
+        "sentence": "The fire was burning coal to produce heat."
+      },
+      "Sentence E": {
         "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
         "level": "A2",
         "word": "coal",
         "sentence": "The coal in the fire keeps the room warm."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"coal\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: The fire was fueled by coal, which was used to heat the house.\nSentence B: The fire was burning coal to produce heat.\nSentence C: The train was powered by coal.\nSentence D: The power plant burns coal to make electricity.\nSentence E: Coal is a black rock used for energy.\nSentence F: The coal in the fire keeps the room warm.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"coal\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: The power plant burns coal to make electricity.\nSentence B: The fire was fueled by coal, which was used to heat the house.\nSentence C: Coal is a black rock used for energy.\nSentence D: The fire was burning coal to produce heat.\nSentence E: The coal in the fire keeps the room warm.\n"
   },
   {
     "task_id": "A2_surprised",
@@ -636,67 +546,57 @@
     "labeled_sentences": [
       [
         "Sentence A",
-        "I was surprised to see her at the party."
-      ],
-      [
-        "Sentence B",
         "I was surprised to see my friend in the city."
       ],
       [
+        "Sentence B",
+        "I was surprised by the news that my friend got a new job."
+      ],
+      [
         "Sentence C",
-        "I was surprised to see my friend at the store."
+        "I was surprised by the news."
       ],
       [
         "Sentence D",
-        "I was surprised by the news that my friend got a new job."
+        "I was surprised to see my friend at the store."
       ],
       [
         "Sentence E",
         "I was surprised when I saw the big present."
-      ],
-      [
-        "Sentence F",
-        "I was surprised by the news."
       ]
     ],
     "mapping": {
       "Sentence A": {
-        "model": "GPT-4-turbo",
-        "level": "A2",
-        "word": "surprised",
-        "sentence": "I was surprised to see her at the party."
-      },
-      "Sentence B": {
         "model": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "surprised",
         "sentence": "I was surprised to see my friend in the city."
       },
-      "Sentence C": {
-        "model": "Claude Sonnet 4",
-        "level": "A2",
-        "word": "surprised",
-        "sentence": "I was surprised to see my friend at the store."
-      },
-      "Sentence D": {
+      "Sentence B": {
         "model": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
         "level": "A2",
         "word": "surprised",
         "sentence": "I was surprised by the news that my friend got a new job."
+      },
+      "Sentence C": {
+        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
+        "level": "A2",
+        "word": "surprised",
+        "sentence": "I was surprised by the news."
+      },
+      "Sentence D": {
+        "model": "Claude Sonnet 4",
+        "level": "A2",
+        "word": "surprised",
+        "sentence": "I was surprised to see my friend at the store."
       },
       "Sentence E": {
         "model": "Gemini 2.5 Flash",
         "level": "A2",
         "word": "surprised",
         "sentence": "I was surprised when I saw the big present."
-      },
-      "Sentence F": {
-        "model": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-        "level": "A2",
-        "word": "surprised",
-        "sentence": "I was surprised by the news."
       }
     },
-    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"surprised\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \nSentence F: ...  \n\n### Sentences:\nSentence A: I was surprised to see her at the party.\nSentence B: I was surprised to see my friend in the city.\nSentence C: I was surprised to see my friend at the store.\nSentence D: I was surprised by the news that my friend got a new job.\nSentence E: I was surprised when I saw the big present.\nSentence F: I was surprised by the news.\n"
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 5 example sentences that all use the target word: \"surprised\" at CEFR level: A2.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context?\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Clarity>, <Grammar>, <Naturalness>  \nSentence B: ...  \nSentence C: ...  \nSentence D: ...  \nSentence E: ...  \n\n### Sentences:\nSentence A: I was surprised to see my friend in the city.\nSentence B: I was surprised by the news that my friend got a new job.\nSentence C: I was surprised by the news.\nSentence D: I was surprised to see my friend at the store.\nSentence E: I was surprised when I saw the big present.\n"
   }
 ]

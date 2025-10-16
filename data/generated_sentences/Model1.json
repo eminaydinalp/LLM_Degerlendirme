@@ -1,21 +1,21 @@
 {
-  "model_name": "GPT-4-turbo",
-  "model_type": "commercial",
+  "model_name": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
+  "model_type": "open",
   "generations": [
     {
       "cefr_level": "A1",
       "word_list": ["age", "animal", "ask", "computer", "eat", "car", "but", "drive", "amazing", "funny"],
       "generated_sentences": [
-        "I am ten years old.",
-        "The dog is a friendly animal.",
-        "I want to ask a question.",
-        "She has a new computer at home.",
-        "They eat lunch at noon.",
-        "My father drives a red car.",
-        "I like apples, but I don’t like bananas.",
-        "Can you drive this big truck?",
-        "The view from the mountain is amazing.",
-        "That movie was very funny."
+        "My birthday is on January 12th.",
+        "The cat is a pet animal.",
+        "Can you ask your teacher for help?",
+        "The computer is very useful for students.",
+        "I like to eat pizza on Fridays.",
+        "My mom bought a new car last week.",
+        "I don't like coffee, but I like tea.",
+        "My brother can drive a car now.",
+        "The fireworks display was amazing tonight.",
+        "The clown was so funny at the party."
       ],
       "timestamp": "2025-07-08"
     },
@@ -23,16 +23,16 @@
       "cefr_level": "A2",
       "word_list": ["ability", "affect", "almost", "board", "connect", "context", "remove", "typical", "coal", "surprised"],
       "generated_sentences": [
-        "She has the ability to speak three languages.",
-        "Cold weather can affect your mood.",
-        "I almost missed the bus this morning.",
-        "The teacher wrote the answer on the board.",
-        "You need a password to connect to the Wi-Fi.",
-        "I didn’t understand the word until I saw it in context.",
+        "My ability to swim is improving every day.",
+        "The weather will affect the trip tomorrow.",
+        "I'm almost ready to leave for school.",
+        "The school board decided to build a new library.",
+        "The phone can connect to the internet.",
+        "The story is set in a historical context.",
         "Please remove your shoes before entering the house.",
-        "It’s typical to have lunch at 1 p.m. in Spain.",
-        "The train was powered by coal.",
-        "I was surprised to see her at the party."
+        "This food is typical of our country's cuisine.",
+        "The fire was burning coal to produce heat.",
+        "I was surprised to see my friend in the city."
       ],
       "timestamp": "2025-07-08"
     },
@@ -40,16 +40,16 @@
       "cefr_level": "B1",
       "word_list": ["earthquake", "frighten", "issue", "expand", "fancy", "imaginary", "poet", "religion", "obvious", "sort"],
       "generated_sentences": [
-        "The earthquake damaged many buildings in the city.",
-        "Loud noises can easily frighten small children.",
-        "Climate change is a serious issue we need to discuss.",
-        "The company plans to expand into new markets next year.",
-        "She wore a fancy dress to the wedding.",
-        "As a child, he had an imaginary friend.",
-        "William Shakespeare was a famous English poet.",
-        "People should respect each other's religion.",
-        "It’s obvious that he didn’t study for the exam.",
-        "Let’s sort these books by size and color."
+        "The earthquake caused a lot of damage to the city.",
+        "The loud noise will frighten the animals in the zoo.",
+        "The issue of climate change is a serious problem.",
+        "The company plans to expand its business to other countries.",
+        "She has a fancy handbag that she got for her birthday.",
+        "The imaginary world in the book is very interesting.",
+        "The poet's latest collection of poems is a bestseller.",
+        "The new employee has to respect the company's religion policy.",
+        "It's obvious that the new policy will have a negative impact.",
+        "Can you sort out the papers on my desk and file them away?"
       ],
       "timestamp": "2025-07-08"
     },
@@ -57,16 +57,16 @@
       "cefr_level": "B2",
       "word_list": ["agency", "alter", "heaven", "hollow", "extend", "imply", "numerous", "opponent", "process", "wise"],
       "generated_sentences": [
-        "She got a job through a recruitment agency that specializes in IT.",
-        "You can alter the dress if it doesn’t fit properly.",
-        "After a long day, lying in a warm bath feels like heaven.",
-        "The tree trunk was hollow, and birds had made a nest inside.",
-        "They decided to extend their stay by two more days.",
-        "Are you trying to imply that this was my fault?",
-        "He has made numerous attempts to fix the problem, but nothing worked.",
-        "Her opponent in the final match was very strong.",
-        "Learning a new language is a long but rewarding process.",
-        "It was wise of you to save some money for emergencies."
+        "The government agency responsible for disaster relief is working tirelessly to help the affected areas.",
+        "The company will alter its business strategy to adapt to the changing market conditions.",
+        "The concept of heaven is a central theme in many religious traditions.",
+        "The hollow sound of the old wooden door echoed through the empty hallway.",
+        "The new policy will extend the deadline for submitting applications.",
+        "The company's decision to downsize implies that they are struggling financially.",
+        "The numerous reports of corruption have damaged the company's reputation.",
+        "The opponent in the debate was well-prepared and presented a strong argument.",
+        "The process of creating a new product involves several stages, from design to production.",
+        "The wise old man was respected by everyone in the village for his knowledge and experience."
       ],
       "timestamp": "2025-07-08"
     },
@@ -74,16 +74,16 @@
       "cefr_level": "C1",
       "word_list": ["backup", "default", "defy", "collaborate", "correspond", "instrumental", "embarrassment", "outbreak", "lethal", "sovereignty"],
       "generated_sentences": [
-        "It’s essential to create a backup of your files in case the system crashes unexpectedly.",
-        "If you don’t specify a language, the app will use English as the default setting.",
-        "The protesters chose to defy the curfew, demanding justice despite the risks.",
-        "The two universities agreed to collaborate on a research project about climate change.",
-        "The data from the latest study does not correspond with earlier findings.",
-        "Her leadership was instrumental in securing funding for the project.",
-        "Forgetting his lines during the performance was a huge embarrassment for him.",
-        "Authorities responded quickly to contain the outbreak of the infectious disease.",
-        "The chemical is lethal in small doses and must be handled with extreme care.",
-        "The country continues to fight for its sovereignty and political independence."
+        "The company has a backup plan in case of a natural disaster.",
+        "The default setting on the computer is set to English.",
+        "The protesters refused to defy the police and disperse peacefully.",
+        "The researchers will collaborate with experts from other countries to study the effects of climate change.",
+        "The letters correspond to each other in terms of style and tone.",
+        "The guitar is an instrumental part of the band's sound.",
+        "The politician's embarrassment over the scandal has damaged his reputation.",
+        "The outbreak of the disease has led to a global health crisis.",
+        "The new medication has been found to be lethal to certain types of bacteria.",
+        "The country's sovereignty is not being respected by the neighboring state."
       ],
       "timestamp": "2025-07-08"
     }

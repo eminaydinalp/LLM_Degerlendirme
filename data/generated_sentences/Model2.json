@@ -1,21 +1,21 @@
 {
-  "model_name": "Llama-3.2-8B-Instruct/Llama-3.2-8B-Instruct-Q4_K_M.gguf",
-  "model_type": "open",
+  "model_name": "Gemini 2.5 Flash",
+  "model_type": "commercial",
   "generations": [
     {
       "cefr_level": "A1",
       "word_list": ["age", "animal", "ask", "computer", "eat", "car", "but", "drive", "amazing", "funny"],
       "generated_sentences": [
-        "My birthday is on January 12th.",
-        "The cat is a pet animal.",
-        "Can you ask your teacher for help?",
-        "The computer is very useful for students.",
-        "I like to eat pizza on Fridays.",
-        "My mom bought a new car last week.",
-        "I don't like coffee, but I like tea.",
-        "My brother can drive a car now.",
-        "The fireworks display was amazing tonight.",
-        "The clown was so funny at the party."
+        "My age is seven years old.",
+        "A cat is a small animal.",
+        "Please ask your teacher a question.",
+        "I have a new computer for my games.",
+        "We like to eat pizza for dinner.",
+        "My father has a red car.",
+        "I like apples, but I don't like bananas.",
+        "I want to learn to drive a truck.",
+        "This cake is amazing!",
+        "The clown is very funny."
       ],
       "timestamp": "2025-07-08"
     },
@@ -23,16 +23,16 @@
       "cefr_level": "A2",
       "word_list": ["ability", "affect", "almost", "board", "connect", "context", "remove", "typical", "coal", "surprised"],
       "generated_sentences": [
-        "My ability to swim is improving every day.",
-        "The weather will affect the trip tomorrow.",
-        "I'm almost ready to leave for school.",
-        "The school board decided to build a new library.",
-        "The phone can connect to the internet.",
-        "The story is set in a historical context.",
+        "She has the ability to sing very well.",
+        "The rain might affect our plans for the picnic.",
+        "It's almost time for the movie to start.",
+        "Please write your answers on the white board.",
+        "You can connect these two wires together.",
+        "Try to understand the word in its context in the sentence.",
         "Please remove your shoes before entering the house.",
-        "This food is typical of our country's cuisine.",
-        "The fire was burning coal to produce heat.",
-        "I was surprised to see my friend in the city."
+        "It's typical for him to be late.",
+        "Coal is a black rock used for energy.",
+        "I was surprised when I saw the big present."
       ],
       "timestamp": "2025-07-08"
     },
@@ -40,16 +40,16 @@
       "cefr_level": "B1",
       "word_list": ["earthquake", "frighten", "issue", "expand", "fancy", "imaginary", "poet", "religion", "obvious", "sort"],
       "generated_sentences": [
-        "The earthquake caused a lot of damage to the city.",
-        "The loud noise will frighten the animals in the zoo.",
-        "The issue of climate change is a serious problem.",
-        "The company plans to expand its business to other countries.",
-        "She has a fancy handbag that she got for her birthday.",
-        "The imaginary world in the book is very interesting.",
-        "The poet's latest collection of poems is a bestseller.",
-        "The new employee has to respect the company's religion policy.",
-        "It's obvious that the new policy will have a negative impact.",
-        "Can you sort out the papers on my desk and file them away?"
+        "Many people were scared during the recent earthquake.",
+        "Loud noises often frighten small children and pets.",
+        "We need to discuss this important issue at our next meeting.",
+        "The company plans to expand its business into new countries next year.",
+        "She wore a very fancy dress to the party.",
+        "Unicorns are imaginary animals, not real ones.",
+        "William Shakespeare was a famous English poet.",
+        "Different cultures practice different forms of religion.",
+        "It was obvious that he was tired because he kept yawning.",
+        "Can you help me to sort these books by author?"
       ],
       "timestamp": "2025-07-08"
     },
@@ -57,16 +57,16 @@
       "cefr_level": "B2",
       "word_list": ["agency", "alter", "heaven", "hollow", "extend", "imply", "numerous", "opponent", "process", "wise"],
       "generated_sentences": [
-        "The government agency responsible for disaster relief is working tirelessly to help the affected areas.",
-        "The company will alter its business strategy to adapt to the changing market conditions.",
-        "The concept of heaven is a central theme in many religious traditions.",
-        "The hollow sound of the old wooden door echoed through the empty hallway.",
-        "The new policy will extend the deadline for submitting applications.",
-        "The company's decision to downsize implies that they are struggling financially.",
-        "The numerous reports of corruption have damaged the company's reputation.",
-        "The opponent in the debate was well-prepared and presented a strong argument.",
-        "The process of creating a new product involves several stages, from design to production.",
-        "The wise old man was respected by everyone in the village for his knowledge and experience."
+        "The travel agency helped us book our entire trip to Italy.",
+        "You might need to alter your plans if the weather changes.",
+        "Many cultures believe that good people go to heaven after they die.",
+        "The old tree trunk was hollow inside, providing a home for birds.",
+        "We decided to extend our stay in London by two more days.",
+        "His silence seemed to imply that he agreed with the decision.",
+        "There were numerous reasons why the project failed.",
+        "She easily defeated her opponent in the chess match.",
+        "Learning a new language is a long and continuous process.",
+        "It was a wise decision to save money for the future."
       ],
       "timestamp": "2025-07-08"
     },
@@ -74,16 +74,16 @@
       "cefr_level": "C1",
       "word_list": ["backup", "default", "defy", "collaborate", "correspond", "instrumental", "embarrassment", "outbreak", "lethal", "sovereignty"],
       "generated_sentences": [
-        "The company has a backup plan in case of a natural disaster.",
-        "The default setting on the computer is set to English.",
-        "The protesters refused to defy the police and disperse peacefully.",
-        "The researchers will collaborate with experts from other countries to study the effects of climate change.",
-        "The letters correspond to each other in terms of style and tone.",
-        "The guitar is an instrumental part of the band's sound.",
-        "The politician's embarrassment over the scandal has damaged his reputation.",
-        "The outbreak of the disease has led to a global health crisis.",
-        "The new medication has been found to be lethal to certain types of bacteria.",
-        "The country's sovereignty is not being respected by the neighboring state."
+        "It's crucial to create a backup of all your important files to prevent data loss.",
+        "The program's default settings are usually sufficient for most users, but you can customize them.",
+        "The small nation chose to defy the ultimatum issued by the larger, more powerful country.",
+        "The success of the project depended heavily on the team's ability to collaborate effectively.",
+        "Her actions today do not correspond with the promises she made last week.",
+        "The support of the local community was instrumental in achieving the charity's fundraising goal.",
+        "He felt a deep sense of embarrassment after tripping on stage during his speech.",
+        "The sudden outbreak of the disease quickly overwhelmed the local healthcare system.",
+        "Certain chemicals can be lethal if not handled with extreme care and proper safety measures.",
+        "The newly independent state immediately asserted its sovereignty over its territorial waters."
       ],
       "timestamp": "2025-07-08"
     }

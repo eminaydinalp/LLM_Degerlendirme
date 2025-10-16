@@ -1,21 +1,21 @@
 {
-  "model_name": "Ministral-8B-Instruct-2410.Q4_K_M.gguf",
-  "model_type": "open",
+  "model_name": "Claude Sonnet 4",
+  "model_type": "commercial",
   "generations": [
     {
       "cefr_level": "A1",
       "word_list": ["age", "animal", "ask", "computer", "eat", "car", "but", "drive", "amazing", "funny"],
       "generated_sentences": [
-        "I am 20 years old.",
-        "This is a dog, a cat, and a bird. They are animals.",
+        "My age is twenty-five years old.",
+        "I have a pet animal called Max.",
         "Can I ask you a question?",
-        "I need to use the computer to write an email.",
-        "I like to eat pizza.",
-        "This is my car. It is blue.",
-        "I am not hungry, but I can eat later.",
-        "I can drive a car.",
-        "The movie was amazing.",
-        "That joke was funny."
+        "I use my computer every day.",
+        "We eat dinner at six o'clock.",
+        "My father has a red car.",
+        "I like tea but I don't like coffee.",
+        "My brother can drive very well.",
+        "The movie was amazing!",
+        "That joke is very funny."
       ],
       "timestamp": "2025-07-08"
     },
@@ -23,16 +23,16 @@
       "cefr_level": "A2",
       "word_list": ["ability", "affect", "almost", "board", "connect", "context", "remove", "typical", "coal", "surprised"],
       "generated_sentences": [
-        "I have the ability to speak two languages.",
-        "The weather affected my plans.",
-        "The train was almost empty.",
-        "She fell off the board.",
-        "Can you connect your laptop to the TV?",
-        "The context of the story is important.",
-        "I removed the book from the shelf.",
-        "That is a typical English breakfast.",
-        "The coal in the fire keeps the room warm.",
-        "I was surprised by the news."
+        "She has the ability to speak three languages.",
+        "The rain will affect our picnic plans today.",
+        "I almost missed the bus this morning.",
+        "The teacher wrote the homework on the board.",
+        "Please connect your phone to the internet.",
+        "I didn't understand the word without context.",
+        "Can you remove your shoes before entering?",
+        "It's typical for students to feel nervous before exams.",
+        "The power plant burns coal to make electricity.",
+        "I was surprised to see my friend at the store."
       ],
       "timestamp": "2025-07-08"
     },
@@ -40,16 +40,16 @@
       "cefr_level": "B1",
       "word_list": ["earthquake", "frighten", "issue", "expand", "fancy", "imaginary", "poet", "religion", "obvious", "sort"],
       "generated_sentences": [
-        "The earthquake caused a lot of damage.",
-        "He was frightened by the noise.",
-        "There are many issues to discuss.",
-        "The company plans to expand its business.",
-        "She has a fancy for flowers.",
-        "The imaginary world of the story was fascinating.",
-        "The poet wrote about love.",
-        "Her religion is important to her.",
-        "The obvious solution was to call the police.",
-        "I sorted the books by author."
+        "The earthquake destroyed many buildings in the city center.",
+        "Thunder and lightning can frighten young children during storms.",
+        "We need to discuss this issue at tomorrow's meeting.",
+        "The company plans to expand its business to other countries.",
+        "She wore a fancy dress to the wedding celebration.",
+        "The children created an imaginary friend to play with.",
+        "Shakespeare was a famous poet who wrote beautiful sonnets.",
+        "Different cultures have their own religion and traditions.",
+        "It was obvious that he hadn't studied for the test.",
+        "What sort of music do you prefer listening to?"
       ],
       "timestamp": "2025-07-08"
     },
@@ -57,16 +57,16 @@
       "cefr_level": "B2",
       "word_list": ["agency", "alter", "heaven", "hollow", "extend", "imply", "numerous", "opponent", "process", "wise"],
       "generated_sentences": [
-        "The UN has a special agency for disaster relief.",
-        "He altered his plans to accommodate the change.",
-        "Heaven is a place where there is no pain or sorrow.",
-        "The hollow tree was perfect for a hiding place.",
-        "The company extended its offer to include more products.",
-        "The poem implies a deeper meaning.",
-        "There were numerous people at the event.",
-        "The team has a strong opponent in the final match.",
-        "The process of learning a new language is challenging.",
-        "The wise decision was to save money for the future."
+        "The marketing agency launched a successful campaign that increased sales by 30%.",
+        "Climate change has begun to alter weather patterns across the globe.",
+        "Many religions teach that good people will go to heaven after death.",
+        "The old tree had a hollow trunk where small animals often made their homes.",
+        "The university decided to extend the deadline for scholarship applications.",
+        "His tone seemed to imply that he disagreed with the proposal.",
+        "The researcher conducted numerous experiments before reaching a conclusion.",
+        "The chess player carefully studied her opponent's previous games.",
+        "Learning a foreign language is a gradual process that requires patience.",
+        "It would be wise to save money for unexpected expenses."
       ],
       "timestamp": "2025-07-08"
     },
@@ -74,16 +74,16 @@
       "cefr_level": "C1",
       "word_list": ["backup", "default", "defy", "collaborate", "correspond", "instrumental", "embarrassment", "outbreak", "lethal", "sovereignty"],
       "generated_sentences": [
-        "It's important to have a backup plan in case of emergencies.",
-        "The default setting on the computer is easy to use.",
-        "She defied the rules and entered the restricted area.",
-        "The team collaborated on the project to meet the deadline.",
-        "I correspond with my friend every week.",
-        "The instrument was instrumental in solving the problem.",
-        "He felt embarrassed when he made a mistake.",
-        "The outbreak of the disease caused panic.",
-        "The poison was lethal and dangerous to handle.",
-        "The country's sovereignty was threatened by the invasion."
+        "The IT department implemented a comprehensive backup system to prevent data loss during cyberattacks.",
+        "When users fail to customize their settings, the software will revert to its default configuration.",
+        "The activist continued to defy government restrictions despite facing potential imprisonment.",
+        "International researchers collaborate on groundbreaking studies that address global health challenges.",
+        "The archaeological findings correspond with historical accounts of ancient civilizations.",
+        "Social media platforms have been instrumental in mobilizing grassroots political movements.",
+        "The politician's public embarrassment stemmed from leaked documents revealing corruption.",
+        "Health authorities struggled to contain the outbreak of the highly contagious virus.",
+        "The combination of these two chemicals creates a lethal compound that poses serious risks.",
+        "The disputed territory's declaration of independence challenged the nation's sovereignty."
       ],
       "timestamp": "2025-07-08"
     }
