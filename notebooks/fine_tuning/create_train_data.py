@@ -13,8 +13,8 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Dosya yolları
 current_dir = os.path.dirname(os.path.abspath(__file__))
-words_file = os.path.join(current_dir, "words", "C1_words.csv")
-output_file = os.path.join(current_dir, "training_data_c1.json")
+words_file = os.path.join(current_dir, "words", "A1_words.csv")
+output_file = os.path.join(current_dir, "training_data_a1.json")
 
 # Kelimeleri oku
 words = []
@@ -41,18 +41,18 @@ for i, word in enumerate(words, 1):
     for j in range(1, SENTENCES_PER_WORD + 1):
         try:
             # ChatGPT'ye prompt gönder
-            prompt = f"""Generate a high-quality C1-level English sentence using the word "{word}".
+            prompt = f"""Generate a high-quality A1-level English sentence using the word "{word}".
 
 Return ONLY a valid JSON object in this exact format (no additional text):
 {{
-    "input": "Generate a C1-level sentence with {word}",
+    "input": "Generate a A1-level sentence with {word}",
     "output": "your generated sentence here"
 }}"""
 
             response = client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[
-                    {"role": "system", "content": "You are an expert English teacher specialized in CEFR C1 level content. Return only valid JSON. Generate diverse and unique sentences."},
+                    {"role": "system", "content": "You are an expert English teacher specialized in CEFR A1 level content. Return only valid JSON. Generate diverse and unique sentences with simple vocabulary and basic grammar suitable for beginners."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=1.0,
