@@ -1,0 +1,30 @@
+{
+  "model_name": "Model2",
+  "real_model_name": "Gemini 2.5 Flash",
+  "cefr_level": "A1",
+  "word_count": 10,
+  "words": [
+    "year",
+    "animal",
+    "play",
+    "ball",
+    "eat",
+    "apple",
+    "but",
+    "drive",
+    "amazing",
+    "pencil"
+  ],
+  "sentences": [
+    "This is a new year.",
+    "My favorite animal is a cat.",
+    "Let us play a fun game.",
+    "I can throw the ball.",
+    "I want to eat dinner now.",
+    "An apple is a red fruit.",
+    "I like blue, but she likes green.",
+    "He will drive us home soon.",
+    "She has an amazing new bike.",
+    "Give me one yellow pencil."
+  ]
+}

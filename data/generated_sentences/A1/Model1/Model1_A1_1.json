@@ -1,0 +1,30 @@
+{
+  "model_name": "Model1",
+  "real_model_name": "Claude Sonnet 4.5",
+  "cefr_level": "A1",
+  "word_count": 10,
+  "words": [
+    "age",
+    "animal",
+    "ask",
+    "computer",
+    "eat",
+    "car",
+    "but",
+    "drive",
+    "amazing",
+    "funny"
+  ],
+  "sentences": [
+    "My age is 25 years old.",
+    "I have a pet animal at home.",
+    "Can I ask you a question?",
+    "I use my computer every day.",
+    "We eat breakfast in the morning.",
+    "My father has a red car.",
+    "I like tea, but I don't like coffee.",
+    "My brother can drive a bus.",
+    "This book is amazing!",
+    "That cat is very funny."
+  ]
+}
