@@ -165,24 +165,8 @@ cp training_data_a1_list_format.txt \
 
 ### LoRA Parametreleri
 
-| Parametre | Değer | Açıklama |
-|-----------|-------|----------|
-| **Name** | llama1b-a1 | LoRA model adı |
-| **LoRA Rank** | 128 | Rank boyutu (yüksek = daha fazla parametre) |
-| **LoRA Alpha** | 256 | Scaling factor (genelde rank × 2) |
-| **LoRA Target Projections** | q+v | Query ve Value projection'ları |
-
-### Training Parametreleri
-
-| Parametre | Değer | Açıklama |
-|-----------|-------|----------|
-| **Epochs** | 3 | Veri seti üzerinden 3 kez geçiş |
-| **Learning Rate** | 2e-4 | Öğrenme hızı |
-| **LR Scheduler** | cosine | Cosine annealing |
-| **True Batch Size** | 16 | Gerçek batch boyutu |
-| **Gradient Accumulation** | 4 | 4 adımda biriktir |
-| **Warmup Steps** | 100 | İlk 100 adım ısınma |
-
+cdcd /media/muhammet/3f3fe6f9-0b61-46bd-a5b7-6cabd78bbc9a/text-generation-webui
+python3 server.py --chat --listen --auto-devices
 ### Dataset Ayarları
 
 | Parametre | Değer | Açıklama |

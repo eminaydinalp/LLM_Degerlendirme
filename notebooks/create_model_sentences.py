@@ -116,37 +116,37 @@ def create_model_sentences_file(
 # ============================================
 
 if __name__ == "__main__":
-    # MODEL 2 - Gemini 2.5 Flash (İkinci Batch)
+    # Model 3 - Llama-3.2-1B-Instruct
     words = [
-        "year",
+        "age",
         "animal",
-        "play",
-        "ball",
+        "ask",
+        "computer",
         "eat",
-        "apple",
+        "car",
         "but",
         "drive",
         "amazing",
-        "pencil"
+        "funny"
     ]
 
     sentences = [
-        "This is a new year.",
-        "My favorite animal is a cat.",
-        "Let us play a fun game.",
-        "I can throw the ball.",
-        "I want to eat dinner now.",
-        "An apple is a red fruit.",
-        "I like blue, but she likes green.",
-        "He will drive us home soon.",
-        "She has an amazing new bike.",
-        "Give me one yellow pencil."
+        "I am going to the age with my friends.",
+        "I have an animal in my room.",
+        "Can you ask me what you want?",
+        "I have to use the computer to watch a funny video.",
+        "I want to eat some food now.",
+        "My favorite car is the red one.",
+        "I want to go, but I am tired.",
+        "Do you want to drive to the park?",
+        "This car is amazing and very fast.",
+        "My friend is very funny and always makes me laugh."
     ]
 
     create_from_lists(
         cefr_level="A1",
-        model_name="Model2",
-        real_model_name="Gemini 2.5 Flash",
+        model_name="Model3",
+        real_model_name="Llama-3.2-1B-Instruct",
         words=words,
         sentences=sentences
     )

@@ -1,9 +1,41 @@
 import json
 import random
+import sys
+import os
 from collections import defaultdict
 
+# Komut satırından dosya adını al veya varsayılan kullan
+if len(sys.argv) > 1:
+    input_filename = sys.argv[1]
+else:
+    print("Kullanım: python create_list_format_training_data.py <input_filename>")
+    print("Örnek: python create_list_format_training_data.py training_data_b1.json")
+    print("\nMevcut dosyalar:")
+    data_dir = 'training_data'
+    if os.path.exists(data_dir):
+        files = [f for f in os.listdir(data_dir) if f.endswith('.json')]
+        for f in files:
+            print(f"  - {f}")
+    input_filename = input("\nHangi dosyayı işlemek istiyorsunuz? (örn: training_data_b1.json): ").strip()
+
+# Dosya yolunu belirle
+if os.path.exists(input_filename):
+    input_filepath = input_filename
+elif os.path.exists(os.path.join('training_data', input_filename)):
+    input_filepath = os.path.join('training_data', input_filename)
+else:
+    print(f"❌ Hata: '{input_filename}' dosyası bulunamadı!")
+    sys.exit(1)
+
+# Dosya adından seviyeyi çıkar (a1, a2, b1, vb.)
+base_filename = os.path.basename(input_filepath)
+level = base_filename.replace('training_data_', '').replace('.json', '').upper()
+
+print(f"\n📂 İşleniyor: {input_filepath}")
+print(f"📊 Seviye: {level}")
+
 # JSON dosyasını oku
-with open('training_data_a1.json', 'r', encoding='utf-8') as f:
+with open(input_filepath, 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 print(f"Toplam {len(data)} entry bulundu")
@@ -15,7 +47,7 @@ for item in data:
     input_text = item.get('input', '')
     output_text = item.get('output', '')
     
-    # Kelimeyi çıkar: "Generate a A1-level sentence with [WORD]"
+    # Kelimeyi çıkar: "Generate a [LEVEL]-level sentence with [WORD]"
     if 'sentence with ' in input_text:
         word = input_text.split('sentence with ')[-1].strip()
         word_sentences[word].append(output_text)
@@ -52,40 +84,22 @@ def create_group_entry(words_list, group_size):
     numbered_words = "\n".join([f"{i}. {word}" for i, word in enumerate(selected_words, 1)])
     
     entry = {
-        "instruction": f"Generate A1-level English sentences for these {group_size} words:\n{numbered_words}\n\nProvide numbered sentences (1-{group_size}), using each word naturally and appropriately for A1 level.",
+        "instruction": f"Generate {level}-level English sentences for these {group_size} words:\n{numbered_words}\n\nProvide numbered sentences (1-{group_size}), using each word naturally and appropriately for {level} level.",
         "input": "",
         "output": "\n".join(sentences)
     }
     
     return entry
 
-# Farklı boyutlarda gruplar oluştur
+# Sadece 10 kelime/10 cümle formatında örnekler oluştur
 random.seed(42)  # Tekrarlanabilirlik için
 
-# Hibrit Stratejik dağılım:
-# - 70% 10 kelime (ana kullanım durumu)
-# - 20% 8-9 kelime (yakın varyasyonlar)
-# - 10% 6-7 kelime (küçük varyasyonlar)
-
 num_examples = 2000  # Toplam örnek sayısı
+group_size = 10  # Sabit: 10 kelime/10 cümle
 
-# 10 kelime (ana format)
-for _ in range(int(num_examples * 0.70)):
-    group_size = 10
-    entry = create_group_entry(all_words, group_size)
-    if entry:
-        training_data.append(entry)
+print(f"\n🎯 {num_examples} adet 10 kelime/10 cümle örneği oluşturuluyor...")
 
-# 8-9 kelime (yakın varyasyonlar)
-for _ in range(int(num_examples * 0.20)):
-    group_size = random.randint(8, 9)
-    entry = create_group_entry(all_words, group_size)
-    if entry:
-        training_data.append(entry)
-
-# 6-7 kelime (küçük varyasyonlar)
-for _ in range(int(num_examples * 0.10)):
-    group_size = random.randint(6, 7)
+for _ in range(num_examples):
     entry = create_group_entry(all_words, group_size)
     if entry:
         training_data.append(entry)
@@ -93,42 +107,40 @@ for _ in range(int(num_examples * 0.10)):
 # Veriyi karıştır
 random.shuffle(training_data)
 
-print(f"\n✓ Toplam {len(training_data)} eğitim örneği oluşturuldu")
-print(f"  - 10 kelime: ~{int(num_examples * 0.70)} (ana format - %70)")
-print(f"  - 8-9 kelime: ~{int(num_examples * 0.20)} (varyasyon - %20)")
-print(f"  - 6-7 kelime: ~{int(num_examples * 0.10)} (küçük varyasyon - %10)")
+print(f"✓ Toplam {len(training_data)} örnek oluşturuldu (tümü 10 kelime/10 cümle formatında)")
 
-# JSON formatında kaydet
-with open('training_data_a1_list_format.json', 'w', encoding='utf-8') as f:
-    json.dump(training_data, f, indent=2, ensure_ascii=False)
+# Train/Eval split yap (%90 / %10)
+train_ratio = 0.9
+split_index = int(len(training_data) * train_ratio)
 
-print(f"\n✓ JSON kaydedildi: training_data_a1_list_format.json")
+train_data = training_data[:split_index]
+eval_data = training_data[split_index:]
 
-# Text formatına çevir (text-generation-webui için)
-with open('training_data_a1_list_format.txt', 'w', encoding='utf-8') as f:
-    for i, item in enumerate(training_data):
-        instruction = item.get('instruction', '')
-        input_text = item.get('input', '')
-        output_text = item.get('output', '')
-        
-        # Alpaca format
-        f.write(f"### Instruction:\n{instruction}\n\n")
-        if input_text:
-            f.write(f"### Input:\n{input_text}\n\n")
-        f.write(f"### Response:\n{output_text}\n\n")
-        
-        # Ayırıcı (son entry hariç)
-        if i < len(training_data) - 1:
-            f.write("\n")
+print(f"\n📊 Train/Eval Split:")
+print(f"  - Train: {len(train_data)} örnekler (%{train_ratio*100:.0f})")
+print(f"  - Eval:  {len(eval_data)} örnekler (%{(1-train_ratio)*100:.0f})")
 
-print(f"✓ Text formatına çevrildi: training_data_a1_list_format.txt")
+# Çıktı dosya adlarını oluştur
+output_train_json = f'training_data_{level.lower()}_list_format_train.json'
+output_eval_json = f'training_data_{level.lower()}_list_format_eval.json'
+
+# JSON formatında kaydet (Train)
+with open(output_train_json, 'w', encoding='utf-8') as f:
+    json.dump(train_data, f, indent=2, ensure_ascii=False)
+
+# JSON formatında kaydet (Eval)
+with open(output_eval_json, 'w', encoding='utf-8') as f:
+    json.dump(eval_data, f, indent=2, ensure_ascii=False)
+
+print(f"\n✓ Train JSON kaydedildi: {output_train_json}")
+print(f"✓ Eval JSON kaydedildi:  {output_eval_json}")
 
 # Örnek göster
 print("\n" + "="*60)
-print("İLK 3 ÖRNEK:")
+print("İLK 3 TRAIN ÖRNEĞİ:")
 print("="*60)
-for i in range(min(3, len(training_data))):
+for i in range(min(3, len(train_data))):
     print(f"\n--- Örnek {i+1} ---")
-    print(f"Instruction: {training_data[i]['instruction']}")
-    print(f"Response:\n{training_data[i]['output']}")
+    print(f"Instruction: {train_data[i]['instruction']}")
+    print(f"Response:\n{train_data[i]['output']}")
     print()
