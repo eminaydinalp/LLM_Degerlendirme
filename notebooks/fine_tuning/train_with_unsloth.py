@@ -32,8 +32,10 @@ LEVEL_CONFIGS = {
 CURRENT_LEVEL = 'A1'
 
 # Paths
-MODEL_PATH = "/media/muhammet/3f3fe6f9-0b61-46bd-a5b7-6cabd78bbc9a/home/user/text-generation-webui/user_data/models/meta-llama_Llama-3.2-1B-Instruct"
-OUTPUT_DIR = "/media/muhammet/3f3fe6f9-0b61-46bd-a5b7-6cabd78bbc9a/home/user/text-generation-webui/user_data/loras"
+BASE_DIR = "/media/muhammet/3f3fe6f9-0b61-46bd-a5b7-6cabd78bbc9a/home/user/text-generation-webui/user_data"
+MODEL_PATH = os.path.join(BASE_DIR, "models/meta-llama_Llama-3.2-1B-Instruct")
+LORAS_DIR = os.path.join(BASE_DIR, "loras")
+MODELS_DIR = os.path.join(BASE_DIR, "models")
 LORA_NAME = f"llama1b-{CURRENT_LEVEL.lower()}-unsloth-v2"
 
 # Seviye konfigürasyonunu al
@@ -41,13 +43,16 @@ config = LEVEL_CONFIGS[CURRENT_LEVEL]
 MAX_SEQ_LENGTH = config['max_seq_length']
 BATCH_SIZE = config['batch_size']
 
-# Output path oluştur
-output_path = os.path.join(OUTPUT_DIR, LORA_NAME)
+# Output paths oluştur
+lora_output_path = os.path.join(LORAS_DIR, LORA_NAME)
+merged_output_path = os.path.join(MODELS_DIR, LORA_NAME + "_merged")
 
 print(f"🎯 Seviye: {CURRENT_LEVEL}")
 print(f"📏 Max Sequence Length: {MAX_SEQ_LENGTH}")
 print(f"📦 Batch Size: {BATCH_SIZE}")
-print(f"📦 Model yükleniyor: {MODEL_PATH}")
+print(f"� LoRA çıktı yolu: {lora_output_path}")
+print(f"📂 Merged model çıktı yolu: {merged_output_path}")
+print(f"�📦 Base model yükleniyor: {MODEL_PATH}")
 
 # Model ve tokenizer yükle - RTX 4090 için 4-bit quantization
 model, tokenizer = FastLanguageModel.from_pretrained(
@@ -101,30 +106,32 @@ eval_dataset = eval_dataset.map(formatting_func, batched=True)
 
 # Training arguments - RTX 4090 24GB ve Training PRO parametreleri için optimize edilmiş
 training_args = TrainingArguments(
-    output_dir = output_path,
-    per_device_train_batch_size = BATCH_SIZE,  # Seviye bazlı batch size
-    per_device_eval_batch_size = BATCH_SIZE,
-    gradient_accumulation_steps = 4,  # grad_accumulation (Training PRO'daki gibi)
-    warmup_ratio = 0.1,  # İlk %10 warmup (warmup_steps yerine daha dinamik)
-    num_train_epochs = 10,  # 3 → 10 epochs (daha iyi öğrenme)
-    learning_rate = 2e-4,  # learning_rate (Training PRO'daki gibi)
-    fp16 = not torch.cuda.is_bf16_supported(),  # RTX 4090 bf16 destekler
+    output_dir = lora_output_path,
+    per_device_train_batch_size = BATCH_SIZE,
+    gradient_accumulation_steps = 4,  # Effective batch size = 16 * 4 = 64
+    warmup_ratio = 0.1,  # İlk %10'da learning rate yavaşça artır
+    num_train_epochs = 10,  # 3'ten 10'a çıkarıldı (daha iyi öğrenme için)
+    learning_rate = 2e-4,
+    fp16 = not torch.cuda.is_bf16_supported(),
     bf16 = torch.cuda.is_bf16_supported(),
     logging_steps = 10,
-    eval_steps = 50,  # Her 50 step'te eval
-    save_steps = 50,  # save_steps = eval_steps (uyumluluk için)
-    eval_strategy = "steps",  # Transformers 4.56+ için eval_strategy
-    save_strategy = "steps",
-    optim = "adamw_torch",  # optimizer (Training PRO'daki gibi)
+    optim = "adamw_8bit",
     weight_decay = 0.01,
-    lr_scheduler_type = "cosine",  # lr_scheduler_type (Training PRO'daki gibi)
-    seed = 3407,
-    max_grad_norm = 1.0,
-    load_best_model_at_end = True,
-    metric_for_best_model = "eval_loss",
-    greater_is_better = False,
-    save_total_limit = 5,  # En iyi 5 checkpoint'i tut
-    report_to = "tensorboard",  # TensorBoard logging
+    lr_scheduler_type = "cosine",
+    seed = 42,
+    
+    # Evaluation parametreleri
+    eval_strategy = "steps",  # Her N step'te eval yap
+    eval_steps = 50,  # Her 50 step'te eval
+    save_strategy = "steps",
+    save_steps = 50,
+    load_best_model_at_end = True,  # En iyi modeli yükle
+    metric_for_best_model = "eval_loss",  # Eval loss'a göre en iyi model
+    greater_is_better = False,  # Loss düşük olmalı
+    save_total_limit = 5,  # Sadece son 5 checkpoint'i tut (disk tasarrufu)
+    
+    # TensorBoard logging
+    report_to = "tensorboard",
 )
 
 print(f"🎯 Eğitim parametreleri:")
@@ -157,22 +164,22 @@ trainer.train()
 # En iyi modeli kaydet
 print("\n" + "="*60)
 print("💾 Model kaydediliyor...")
-model.save_pretrained(output_path)
-tokenizer.save_pretrained(output_path)
+model.save_pretrained(lora_output_path)
+tokenizer.save_pretrained(lora_output_path)
 
-# Merged model de kaydet (LoRA + base model birleşik)
-print("💾 Merged model kaydediliyor...")
+# Merged model de kaydet (LoRA + base model birleşik) - MODELS klasörüne!
+print("💾 Merged model kaydediliyor (models/ klasörüne)...")
 model.save_pretrained_merged(
-    output_path + "_merged",
+    merged_output_path,
     tokenizer,
     save_method = "merged_16bit",
 )
 
 print("\n" + "="*60)
 print("✓ Eğitim tamamlandı!")
-print(f"✓ LoRA modeli kaydedildi: {output_path}")
-print(f"✓ Merged model kaydedildi: {output_path}_merged")
-print(f"\n📊 TensorBoard logları: {output_path}/runs")
+print(f"✓ LoRA adaptörleri kaydedildi: {lora_output_path}")
+print(f"✓ Merged model kaydedildi: {merged_output_path}")
+print(f"\n📊 TensorBoard logları: {lora_output_path}/runs")
 print("   TensorBoard'u başlatmak için:")
-print(f"   tensorboard --logdir={output_path}")
+print(f"   tensorboard --logdir={lora_output_path}")
 print("="*60)

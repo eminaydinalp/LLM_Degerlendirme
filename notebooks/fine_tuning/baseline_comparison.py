@@ -13,7 +13,7 @@ import math
 
 # Paths
 BASE_MODEL = "/media/muhammet/3f3fe6f9-0b61-46bd-a5b7-6cabd78bbc9a/home/user/text-generation-webui/user_data/models/meta-llama_Llama-3.2-1B-Instruct"
-FINETUNED_MODEL = "/media/muhammet/3f3fe6f9-0b61-46bd-a5b7-6cabd78bbc9a/home/user/text-generation-webui/user_data/loras/llama1b-a1-unsloth-v2_merged"
+FINETUNED_MODEL = "/media/muhammet/3f3fe6f9-0b61-46bd-a5b7-6cabd78bbc9a/home/user/text-generation-webui/user_data/models/llama1b-a1-unsloth-v2_merged"
 EVAL_DATA = "/home/muhammet/Documents/Tez/LLM_Degerlendirme/notebooks/fine_tuning/formatted_data/A1/training_data_a1_list_format_eval.json"
 
 def format_instruction(sample):
