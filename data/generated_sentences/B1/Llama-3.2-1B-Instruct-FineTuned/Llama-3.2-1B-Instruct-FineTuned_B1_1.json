@@ -1,0 +1,29 @@
+{
+  "model_name": "Llama-3.2-1B-Instruct-FineTuned",
+  "cefr_level": "B1",
+  "word_count": 10,
+  "words": [
+    "earthquake",
+    "frighten",
+    "issue",
+    "expand",
+    "fancy",
+    "imaginary",
+    "poet",
+    "religion",
+    "obvious",
+    "sort"
+  ],
+  "sentences": [
+    "I was very scared during the earthquake, but I felt safe in my house.",
+    "The loud thunder frightened the little girl during the storm.",
+    "There is an issue with the schedule, and we need to change the time of the meeting.",
+    "As you read more books, your imagination can expand in many different ways.",
+    "They have a fancy dinner party every year for their closest friends.",
+    "She has an imaginary friend that she talks to when she feels lonely.",
+    "In our school, we read a famous poet's work to understand more about feelings and ideas.",
+    "In my country, religion plays a big role in people's daily lives and celebrations.",
+    "The answer is obvious, so we should all agree on it.",
+    "There are many sorts of music, but I like pop the best."
+  ]
+}

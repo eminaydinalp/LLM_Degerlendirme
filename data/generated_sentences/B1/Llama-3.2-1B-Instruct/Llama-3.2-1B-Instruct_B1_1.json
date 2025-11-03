@@ -1,0 +1,29 @@
+{
+  "model_name": "Llama-3.2-1B-Instruct",
+  "cefr_level": "B1",
+  "word_count": 10,
+  "words": [
+    "earthquake",
+    "frighten",
+    "issue",
+    "expand",
+    "fancy",
+    "imaginary",
+    "poet",
+    "religion",
+    "obvious",
+    "sort"
+  ],
+  "sentences": [
+    "The earthquake caused widespread destruction in the affected area.",
+    "She began to frighten the other students with her scary stories.",
+    "The new policy will help us issue more discounts to customers.",
+    "The architect's plan to expand the building was met with skepticism.",
+    "His love of art led him to become a fancy and talented painter.",
+    "The idea of an imaginary world was fascinating to him.",
+    "The famous poet wrote many famous poems during his lifetime.",
+    "The church teaches that the world has a special connection with God.",
+    "The obvious answer to the question was not too difficult to understand.",
+    "The teacher asked the student to sort the books by author and title."
+  ]
+}

@@ -25,18 +25,18 @@ LEVEL_CONFIGS = {
     'A2': {'max_seq_length': 512, 'batch_size': 16},   # A1 ile benzer
     'B1': {'max_seq_length': 512, 'batch_size': 16},  # Orta uzunluk
     'B2': {'max_seq_length': 512, 'batch_size': 16},  # B1 ile benzer
-    'C1': {'max_seq_length': 2048, 'batch_size': 8},   # Uzun cümleler
+    'C1': {'max_seq_length': 512, 'batch_size': 16},   # Uzun cümleler
 }
 
 # ⚙️ EĞİTİLECEK SEVİYE (SADECE BURAYI DEĞİŞTİR!)
-CURRENT_LEVEL = 'B2'
+CURRENT_LEVEL = 'C1'
 
 # Paths
 BASE_DIR = "/media/muhammet/3f3fe6f9-0b61-46bd-a5b7-6cabd78bbc9a/home/user/text-generation-webui/user_data"
 MODEL_PATH = os.path.join(BASE_DIR, "models/meta-llama_Llama-3.2-1B-Instruct")
 LORAS_DIR = os.path.join(BASE_DIR, "loras")
 MODELS_DIR = os.path.join(BASE_DIR, "models")
-LORA_NAME = f"llama1b-{CURRENT_LEVEL.lower()}-unsloth-v1"
+LORA_NAME = f"llama1b-{CURRENT_LEVEL.lower()}-unsloth-v2"
 
 # Seviye konfigürasyonunu al
 config = LEVEL_CONFIGS[CURRENT_LEVEL]

@@ -1,0 +1,29 @@
+{
+  "model_name": "Claude_Sonnet_4.5",
+  "cefr_level": "B1",
+  "word_count": 10,
+  "words": [
+    "earthquake",
+    "frighten",
+    "issue",
+    "expand",
+    "fancy",
+    "imaginary",
+    "poet",
+    "religion",
+    "obvious",
+    "sort"
+  ],
+  "sentences": [
+    "The earthquake damaged many buildings in the city, but fortunately no one was seriously hurt.",
+    "Loud noises at night can frighten young children, so we try to keep the house quiet.",
+    "Climate change is an important issue that affects people all around the world.",
+    "The company plans to expand its business by opening three new stores next year.",
+    "Would you fancy going to the cinema this weekend, or would you prefer to stay home?",
+    "My little sister has an imaginary friend called Sophie who she talks to every day.",
+    "Shakespeare was not only a famous playwright but also a talented poet who wrote beautiful sonnets.",
+    "People from different countries often practice different religions, such as Christianity, Islam, or Buddhism.",
+    "It was obvious that she was tired because she kept yawning during the meeting.",
+    "What sort of music do you like listening to when you exercise?"
+  ]
+}

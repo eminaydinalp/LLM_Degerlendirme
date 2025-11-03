@@ -1,0 +1,29 @@
+{
+  "model_name": "Llama-3.2-8B-Instruct",
+  "cefr_level": "B1",
+  "word_count": 10,
+  "words": [
+    "earthquake",
+    "frighten",
+    "issue",
+    "expand",
+    "fancy",
+    "imaginary",
+    "poet",
+    "religion",
+    "obvious",
+    "sort"
+  ],
+  "sentences": [
+    "The earthquake damaged many buildings in the city.",
+    "The loud noise frightened the children and they ran away.",
+    "The company will issue a statement to explain the situation.",
+    "The new policy will expand job opportunities for young people.",
+    "I have a fancy for Italian food and love to cook it at home.",
+    "The idea of a magical kingdom is an imaginary concept.",
+    "The poet's latest collection of poems has been well-received by critics.",
+    "Many people practice their own religion in the world.",
+    "It's obvious that she is telling the truth.",
+    "Can you sort these clothes into different categories for me?"
+  ]
+}

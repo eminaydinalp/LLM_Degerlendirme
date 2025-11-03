@@ -1,0 +1,29 @@
+{
+  "model_name": "mistralai_Ministral-8B-Instruct-2410",
+  "cefr_level": "B1",
+  "word_count": 10,
+  "words": [
+    "earthquake",
+    "frighten",
+    "issue",
+    "expand",
+    "fancy",
+    "imaginary",
+    "poet",
+    "religion",
+    "obvious",
+    "sort"
+  ],
+  "sentences": [
+    "An earthquake hit the city, causing widespread panic among the residents.",
+    "The sudden noise made me frighten so much that I couldn't move.",
+    "The issue of climate change has been a hot topic in the recent elections.",
+    "The company is planning to expand its operations to Asia.",
+    "I really fancy the idea of traveling around the world.",
+    "Children often believe in imaginary friends.",
+    "He is a famous poet who writes about nature and love.",
+    "The religion he practices is quite different from mine.",
+    "It is very obvious that she is nervous about the exam.",
+    "I need to sort out my books before moving to a new house."
+  ]
+}

@@ -135,35 +135,35 @@ if __name__ == "__main__":
     # Model ismi, gerçek model ismi, seviye, kelimeler ve cümleler
     
     words = [
-        "ability",
-        "affect",
-        "almost",
-        "board",
-        "connect",
-        "context",
-        "remove",
-        "typical",
-        "coal",
-        "surprised"
+        "earthquake",
+        "frighten",
+        "issue",
+        "expand",
+        "fancy",
+        "imaginary",
+        "poet",
+        "religion",
+        "obvious",
+        "sort"
     ]
 
     sentences = [
-        "He has the ability to speak three languages.",
-        "The weather will affect our plans for the picnic.",
-        "I am almost finished with my homework.",
-        "The teacher wrote the answer on the white board.",
-        "You need a password to connect to the Wi-Fi.",
-        "The pictures in the book give context to the story.",
-        "Please remove your hat when you are in class.",
-        "A typical day for me starts with breakfast at 7:00 AM.",
-        "Long ago, many trains used coal for power.",
-        "I was surprised to get a present today!"
+        "I was very scared during the earthquake, but I felt safe in my house.",
+        "The loud thunder frightened the little girl during the storm.",
+        "There is an issue with the schedule, and we need to change the time of the meeting.",
+        "As you read more books, your imagination can expand in many different ways.",
+        "They have a fancy dinner party every year for their closest friends.",
+        "She has an imaginary friend that she talks to when she feels lonely.",
+        "In our school, we read a famous poet's work to understand more about feelings and ideas.",
+        "In my country, religion plays a big role in people's daily lives and celebrations.",
+        "The answer is obvious, so we should all agree on it.",
+        "There are many sorts of music, but I like pop the best."
     ]
 
     # BURAYA MODEL BİLGİLERİNİ GİRİN
     create_from_lists(
-        cefr_level="A2",                                    # Seviye: A1, A2, B1, B2, C1
-        model_name="Gemini_Pro_2.5",                       # Model ismi (klasör adı olacak)
+        cefr_level="B1",                                    # Seviye: A1, A2, B1, B2, C1
+        model_name="Llama-3.2-1B-Instruct-FineTuned",      # Model ismi (klasör adı olacak)
         words=words,
         sentences=sentences
     )

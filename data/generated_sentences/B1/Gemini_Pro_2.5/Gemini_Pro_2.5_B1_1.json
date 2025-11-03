@@ -1,0 +1,29 @@
+{
+  "model_name": "Gemini_Pro_2.5",
+  "cefr_level": "B1",
+  "word_count": 10,
+  "words": [
+    "earthquake",
+    "frighten",
+    "issue",
+    "expand",
+    "fancy",
+    "imaginary",
+    "poet",
+    "religion",
+    "obvious",
+    "sort"
+  ],
+  "sentences": [
+    "The city was damaged when a strong earthquake hit the region last year.",
+    "The loud thunder during the storm began to frighten the little dog.",
+    "We need to discuss the main issue, which is the lack of public transport.",
+    "The company plans to expand and open new offices in Europe next year.",
+    "She wore a very fancy dress to the wedding, with lots of silk and lace.",
+    "As a child, he had an imaginary friend named Leo who he talked to.",
+    "William Shakespeare was a famous poet and playwright from England.",
+    "The festival is an important part of their religion and culture.",
+    "It was obvious that she was unhappy, even though she tried to smile.",
+    "What sort of music do you like to listen to?"
+  ]
+}
