@@ -1,10 +1,9 @@
 {
-  "model_name": "Model1",
-  "real_model_name": "Claude Sonnet 4.5",
+  "model_name": "Claude_Sonnet_4.5",
   "cefr_level": "A1",
   "word_count": 10,
   "words": [
-    "age",
+    "air",
     "animal",
     "ask",
     "computer",
@@ -16,15 +15,15 @@
     "funny"
   ],
   "sentences": [
-    "My age is 25 years old.",
-    "I have a pet animal at home.",
+    "I open the window because I need fresh air.",
+    "My favorite animal is a cat.",
     "Can I ask you a question?",
     "I use my computer every day.",
-    "We eat breakfast in the morning.",
+    "We eat breakfast at 7 o'clock.",
     "My father has a red car.",
-    "I like tea, but I don't like coffee.",
+    "I like coffee, but I don't like tea.",
     "My brother can drive a bus.",
-    "This book is amazing!",
-    "That cat is very funny."
+    "This movie is amazing!",
+    "That joke is very funny."
   ]
 }

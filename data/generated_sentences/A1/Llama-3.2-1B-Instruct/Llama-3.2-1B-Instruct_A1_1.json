@@ -1,0 +1,29 @@
+{
+  "model_name": "Llama-3.2-1B-Instruct",
+  "cefr_level": "A1",
+  "word_count": 10,
+  "words": [
+    "air",
+    "animal",
+    "ask",
+    "computer",
+    "eat",
+    "car",
+    "but",
+    "drive",
+    "amazing",
+    "funny"
+  ],
+  "sentences": [
+    "I like to go to the air in the sky.",
+    "My dog is a very happy animal.",
+    "Can I ask you to speak English, please?",
+    "I need a computer to do my homework.",
+    "I want to eat a sandwich for lunch.",
+    "I drive a car to school every day.",
+    "My friend says we should drive to the park.",
+    "I have a very funny joke.",
+    "The car is amazing, isn't it?",
+    "I like to play with my friend in the park."
+  ]
+}

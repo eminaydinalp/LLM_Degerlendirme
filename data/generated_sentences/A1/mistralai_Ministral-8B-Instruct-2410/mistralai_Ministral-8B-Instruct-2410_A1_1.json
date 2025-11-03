@@ -1,0 +1,29 @@
+{
+  "model_name": "mistralai_Ministral-8B-Instruct-2410",
+  "cefr_level": "A1",
+  "word_count": 10,
+  "words": [
+    "air",
+    "animal",
+    "ask",
+    "computer",
+    "eat",
+    "car",
+    "but",
+    "drive",
+    "amazing",
+    "funny"
+  ],
+  "sentences": [
+    "The air is fresh and clean today.",
+    "I have a pet animal at home.",
+    "Can you ask your friend for help?",
+    "I need to learn how to use the computer.",
+    "I am going to eat an apple for breakfast.",
+    "I saw a car on the road.",
+    "But I don't want to go to the park.",
+    "I learned how to drive a car.",
+    "The sunset was amazing last night.",
+    "This joke is very funny."
+  ]
+}

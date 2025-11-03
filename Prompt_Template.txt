@@ -4,7 +4,7 @@ Your task is to evaluate 6 example sentences that all use the target word: "{wor
 
 Rate each sentence from 1 (poor) to 5 (excellent) for the following four independent criteria:
 
-1) Word Usage — Is the given word used with the correct meaning and appropriately in context?
+1) Word Usage — Is the given word used with the correct meaning and appropriately in context? **If the word is not used at all, give the lowest score.**
 2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?
 3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?
 4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?

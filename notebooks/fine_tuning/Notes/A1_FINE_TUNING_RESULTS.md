@@ -29,7 +29,21 @@ lora_alpha = 256
 - **Total Steps:** 290
 - **Initial Train Loss:** 1.68
 - **Final Train Loss:** 0.41 (75.5% reduction)
-- **Best Eval Loss:** 0.57 (at epoch 6.92)
+- **Best Eval Loss:** 0.57 (at epoch 3.45)
+
+### Loss Progression
+
+| Epoch | Train Loss | Eval Loss | Note |
+|-------|-----------|-----------|------|
+| 0.34  | 1.68      | -         | Başlangıç |
+| 1.72  | -         | 0.68      | İlk eval |
+| 3.45  | -         | 0.57      | **En iyi nokta** ⭐ |
+| 5.17  | -         | 0.57      | Stabil |
+| 6.90  | -         | 0.57      | Stabil devam |
+| 8.62  | -         | 0.61      | Hafif overfitting |
+| 10.0  | 0.41      | -         | Son |
+
+**Best Model:** Epoch 3.45 (eval_loss = 0.5659)
 
 ## Baseline Comparison
 Evaluation on same test set (training_data_a1_list_format_eval.json):

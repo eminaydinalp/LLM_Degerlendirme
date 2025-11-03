@@ -1,0 +1,29 @@
+{
+  "model_name": "Gemini_Pro_2.5",
+  "cefr_level": "A2",
+  "word_count": 10,
+  "words": [
+    "ability",
+    "affect",
+    "almost",
+    "board",
+    "connect",
+    "context",
+    "remove",
+    "typical",
+    "coal",
+    "surprised"
+  ],
+  "sentences": [
+    "He has the ability to speak three languages.",
+    "The weather will affect our plans for the picnic.",
+    "I am almost finished with my homework.",
+    "The teacher wrote the answer on the white board.",
+    "You need a password to connect to the Wi-Fi.",
+    "The pictures in the book give context to the story.",
+    "Please remove your hat when you are in class.",
+    "A typical day for me starts with breakfast at 7:00 AM.",
+    "Long ago, many trains used coal for power.",
+    "I was surprised to get a present today!"
+  ]
+}

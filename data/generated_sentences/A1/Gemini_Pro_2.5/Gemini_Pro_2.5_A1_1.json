@@ -1,0 +1,29 @@
+{
+  "model_name": "Gemini_Pro_2.5",
+  "cefr_level": "A1",
+  "word_count": 10,
+  "words": [
+    "air",
+    "animal",
+    "ask",
+    "computer",
+    "eat",
+    "car",
+    "but",
+    "drive",
+    "amazing",
+    "funny"
+  ],
+  "sentences": [
+    "The air is cold today.",
+    "A dog is an animal.",
+    "Please ask the teacher.",
+    "I use a computer for school.",
+    "I eat breakfast at 8:00 AM.",
+    "My new car is blue.",
+    "She is small, but she is strong.",
+    "My mother can drive a truck.",
+    "This pizza is amazing!",
+    "The movie is very funny."
+  ]
+}

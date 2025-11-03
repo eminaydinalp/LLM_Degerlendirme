@@ -13,8 +13,8 @@ import math
 
 # Paths
 BASE_MODEL = "/media/muhammet/3f3fe6f9-0b61-46bd-a5b7-6cabd78bbc9a/home/user/text-generation-webui/user_data/models/meta-llama_Llama-3.2-1B-Instruct"
-FINETUNED_MODEL = "/media/muhammet/3f3fe6f9-0b61-46bd-a5b7-6cabd78bbc9a/home/user/text-generation-webui/user_data/models/llama1b-a1-unsloth-v2_merged"
-EVAL_DATA = "/home/muhammet/Documents/Tez/LLM_Degerlendirme/notebooks/fine_tuning/formatted_data/A1/training_data_a1_list_format_eval.json"
+FINETUNED_MODEL = "/media/muhammet/3f3fe6f9-0b61-46bd-a5b7-6cabd78bbc9a/home/user/text-generation-webui/user_data/models/llama1b-b2-unsloth-v1_merged"
+EVAL_DATA = "/home/muhammet/Documents/Tez/LLM_Degerlendirme/notebooks/fine_tuning/formatted_data/B2/training_data_b2_list_format_eval.json"
 
 def format_instruction(sample):
     """Alpaca formatında instruction oluştur"""
@@ -122,7 +122,7 @@ def main():
     
     # Evaluate Fine-tuned Model
     print("=" * 60)
-    print("2️⃣  FINE-TUNED MODEL (A1)")
+    print("2️⃣  FINE-TUNED MODEL (B2)")
     print("=" * 60)
     print(f"📁 Model: {FINETUNED_MODEL.split('/')[-1]}")
     print("⏳ Computing metrics...")
@@ -163,7 +163,7 @@ def main():
     print("| Model          | Eval Loss | Perplexity | İyileşme |")
     print("|----------------|-----------|------------|----------|")
     print(f"| Baseline       | {baseline_loss:8.2f}  | {baseline_ppl:10.2f} | -        |")
-    print(f"| Fine-tuned A1  | {finetuned_loss:8.2f}  | {finetuned_ppl:10.2f} | {loss_improvement:5.1f}%   |")
+    print(f"| Fine-tuned B2  | {finetuned_loss:8.2f}  | {finetuned_ppl:10.2f} | {loss_improvement:5.1f}%   |")
     print()
     print("=" * 60)
     print("✅ SUMMARY")
@@ -174,7 +174,7 @@ def main():
     print("💡 Interpretation:")
     print("   - Lower loss = Better fit to the training objective")
     print("   - Lower perplexity = More confident predictions")
-    print("   - Fine-tuning successfully adapted the model to A1 level tasks")
+    print("   - Fine-tuning successfully adapted the model to B2 level tasks")
     print()
     
     # Save results
@@ -185,7 +185,7 @@ def main():
         f.write("| Model          | Eval Loss | Perplexity | İyileşme |\n")
         f.write("|----------------|-----------|------------|----------|\n")
         f.write(f"| Baseline       | {baseline_loss:8.2f}  | {baseline_ppl:10.2f} | -        |\n")
-        f.write(f"| Fine-tuned A1  | {finetuned_loss:8.2f}  | {finetuned_ppl:10.2f} | {loss_improvement:5.1f}%   |\n")
+        f.write(f"| Fine-tuned B2  | {finetuned_loss:8.2f}  | {finetuned_ppl:10.2f} | {loss_improvement:5.1f}%   |\n")
         f.write("\n")
         f.write(f"Loss Reduction:       {loss_improvement:.1f}%\n")
         f.write(f"Perplexity Reduction: {ppl_improvement:.1f}%\n")

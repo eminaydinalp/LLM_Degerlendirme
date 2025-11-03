@@ -1,0 +1,29 @@
+{
+  "model_name": "Llama-3.1-8B-Instruct",
+  "cefr_level": "A1",
+  "word_count": 10,
+  "words": [
+    "air",
+    "animal",
+    "ask",
+    "computer",
+    "eat",
+    "car",
+    "but",
+    "drive",
+    "amazing",
+    "funny"
+  ],
+  "sentences": [
+    "The air in the city is very polluted.",
+    "We have a dog, it is an animal.",
+    "Can you ask your friend to help me?",
+    "My sister uses a computer to play games.",
+    "I like to eat an apple for breakfast.",
+    "My mom drives a car to work every day.",
+    "I want to go to the park, but it's raining.",
+    "My dad can drive a car very fast.",
+    "The Eiffel Tower is an amazing building.",
+    "My little brother is very funny sometimes."
+  ]
+}

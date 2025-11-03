@@ -23,20 +23,20 @@ import os
 LEVEL_CONFIGS = {
     'A1': {'max_seq_length': 512, 'batch_size': 16},   # Kısa cümleler, hızlı eğitim
     'A2': {'max_seq_length': 512, 'batch_size': 16},   # A1 ile benzer
-    'B1': {'max_seq_length': 1024, 'batch_size': 12},  # Orta uzunluk
-    'B2': {'max_seq_length': 1024, 'batch_size': 12},  # B1 ile benzer
+    'B1': {'max_seq_length': 512, 'batch_size': 16},  # Orta uzunluk
+    'B2': {'max_seq_length': 512, 'batch_size': 16},  # B1 ile benzer
     'C1': {'max_seq_length': 2048, 'batch_size': 8},   # Uzun cümleler
 }
 
 # ⚙️ EĞİTİLECEK SEVİYE (SADECE BURAYI DEĞİŞTİR!)
-CURRENT_LEVEL = 'A1'
+CURRENT_LEVEL = 'B2'
 
 # Paths
 BASE_DIR = "/media/muhammet/3f3fe6f9-0b61-46bd-a5b7-6cabd78bbc9a/home/user/text-generation-webui/user_data"
 MODEL_PATH = os.path.join(BASE_DIR, "models/meta-llama_Llama-3.2-1B-Instruct")
 LORAS_DIR = os.path.join(BASE_DIR, "loras")
 MODELS_DIR = os.path.join(BASE_DIR, "models")
-LORA_NAME = f"llama1b-{CURRENT_LEVEL.lower()}-unsloth-v2"
+LORA_NAME = f"llama1b-{CURRENT_LEVEL.lower()}-unsloth-v1"
 
 # Seviye konfigürasyonunu al
 config = LEVEL_CONFIGS[CURRENT_LEVEL]
@@ -77,9 +77,14 @@ model = FastLanguageModel.get_peft_model(
 
 print("📊 Dataset'ler yükleniyor...")
 
+# Dataset yollarını belirle (script'in bulunduğu dizine göre)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+train_data_path = os.path.join(script_dir, f'formatted_data/{CURRENT_LEVEL}/training_data_{CURRENT_LEVEL.lower()}_list_format_train.json')
+eval_data_path = os.path.join(script_dir, f'formatted_data/{CURRENT_LEVEL}/training_data_{CURRENT_LEVEL.lower()}_list_format_eval.json')
+
 # Dataset yükle (seviye bazlı)
-train_dataset = load_dataset('json', data_files=f'formatted_data/{CURRENT_LEVEL}/training_data_{CURRENT_LEVEL.lower()}_list_format_train.json', split='train')
-eval_dataset = load_dataset('json', data_files=f'formatted_data/{CURRENT_LEVEL}/training_data_{CURRENT_LEVEL.lower()}_list_format_eval.json', split='train')
+train_dataset = load_dataset('json', data_files=train_data_path, split='train')
+eval_dataset = load_dataset('json', data_files=eval_data_path, split='train')
 
 print(f"✓ Train dataset: {len(train_dataset)} örnekler")
 print(f"✓ Eval dataset: {len(eval_dataset)} örnekler")

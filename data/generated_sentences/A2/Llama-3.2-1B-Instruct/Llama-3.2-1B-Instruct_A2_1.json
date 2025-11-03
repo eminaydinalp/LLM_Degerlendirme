@@ -1,0 +1,29 @@
+{
+  "model_name": "Llama-3.2-1B-Instruct",
+  "cefr_level": "A2",
+  "word_count": 10,
+  "words": [
+    "ability",
+    "affect",
+    "almost",
+    "board",
+    "connect",
+    "context",
+    "remove",
+    "typical",
+    "coal",
+    "surprised"
+  ],
+  "sentences": [
+    "I have a good ability to play the piano.",
+    "She will affect the weather tomorrow.",
+    "I almost ate the whole cake.",
+    "The teacher asked us to draw on a big board.",
+    "Can you connect the dots in this picture?",
+    "The teacher gave us a lot of context for the story.",
+    "We need to remove the trash from the park.",
+    "This is a typical day for us in summer.",
+    "My brother has a big coal in his pocket.",
+    "I was surprised to hear that my friend was coming."
+  ]
+}

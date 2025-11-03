@@ -1,0 +1,29 @@
+{
+  "model_name": "Claude_Sonnet_4.5",
+  "cefr_level": "A2",
+  "word_count": 10,
+  "words": [
+    "ability",
+    "affect",
+    "almost",
+    "board",
+    "connect",
+    "context",
+    "remove",
+    "typical",
+    "coal",
+    "surprised"
+  ],
+  "sentences": [
+    "Maria has the ability to speak three languages.",
+    "The weather can affect your mood and feelings.",
+    "I almost missed the bus this morning!",
+    "The teacher wrote the new words on the board.",
+    "You need to connect your phone to the WiFi.",
+    "I don't understand this word without more context.",
+    "Please remove your shoes before you come inside.",
+    "A typical school day starts at 8 o'clock.",
+    "Many countries use coal to make electricity.",
+    "I was surprised when I got an A on my test!"
+  ]
+}

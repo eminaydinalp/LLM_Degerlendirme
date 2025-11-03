@@ -1,0 +1,29 @@
+{
+  "model_name": "Llama-3.2-8B-Instruct",
+  "cefr_level": "A2",
+  "word_count": 10,
+  "words": [
+    "ability",
+    "affect",
+    "almost",
+    "board",
+    "connect",
+    "context",
+    "remove",
+    "typical",
+    "coal",
+    "surprised"
+  ],
+  "sentences": [
+    "She has a big ability to sing beautifully.",
+    "The cold weather will affect the crops.",
+    "The movie is almost finished, let's watch it tonight.",
+    "The white board is used for writing and drawing.",
+    "Can you connect the wires for me?",
+    "Can you explain the context of the story?",
+    "Please remove the trash from the room.",
+    "The typical food in Japan is sushi.",
+    "The fire was burning coal in the fireplace.",
+    "I was surprised by the news that my friend got married."
+  ]
+}

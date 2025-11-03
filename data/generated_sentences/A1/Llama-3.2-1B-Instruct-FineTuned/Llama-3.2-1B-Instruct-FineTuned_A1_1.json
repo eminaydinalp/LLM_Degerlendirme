@@ -1,0 +1,29 @@
+{
+  "model_name": "Llama-3.2-1B-Instruct-FineTuned",
+  "cefr_level": "A1",
+  "word_count": 10,
+  "words": [
+    "air",
+    "animal",
+    "ask",
+    "computer",
+    "eat",
+    "car",
+    "but",
+    "drive",
+    "amazing",
+    "funny"
+  ],
+  "sentences": [
+    "The air is cool in the summer.",
+    "My favorite animal is a dog.",
+    "I ask my teacher questions.",
+    "My friend has a new computer for school.",
+    "She will eat a sandwich for breakfast.",
+    "I have a blue car.",
+    "I am tired, but I will finish my homework.",
+    "My dad likes to drive fast when he plays video games.",
+    "I saw an amazing movie last night.",
+    "The movie is funny and makes me laugh."
+  ]
+}

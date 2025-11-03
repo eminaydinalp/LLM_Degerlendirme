@@ -1,0 +1,29 @@
+{
+  "model_name": "mistralai_Ministral-8B-Instruct-2410",
+  "cefr_level": "A2",
+  "word_count": 10,
+  "words": [
+    "ability",
+    "affect",
+    "almost",
+    "board",
+    "connect",
+    "context",
+    "remove",
+    "typical",
+    "coal",
+    "surprised"
+  ],
+  "sentences": [
+    "She has the ability to play the piano beautifully.",
+    "The movie affected me deeply.",
+    "I will almost finish my homework by tomorrow.",
+    "The board is where we write our answers.",
+    "Let's connect our computers to the internet.",
+    "The context of the story helps me understand it better.",
+    "I will remove the stain from the carpet.",
+    "That is a typical day for a student.",
+    "The coal is used to heat the house in winter.",
+    "I was surprised to see my friend after so many years."
+  ]
+}

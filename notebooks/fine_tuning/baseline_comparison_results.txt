@@ -3,8 +3,8 @@ BASELINE VS FINE-TUNED MODEL COMPARISON
 
 | Model          | Eval Loss | Perplexity | İyileşme |
 |----------------|-----------|------------|----------|
-| Baseline       |     2.28  |       9.78 | -        |
-| Fine-tuned A1  |     0.80  |       2.23 |  64.8%   |
+| Baseline       |     2.34  |      10.33 | -        |
+| Fine-tuned B2  |     0.65  |       1.91 |  72.2%   |
 
-Loss Reduction:       64.8%
-Perplexity Reduction: 77.2%
+Loss Reduction:       72.2%
+Perplexity Reduction: 81.5%

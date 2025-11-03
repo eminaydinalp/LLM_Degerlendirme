@@ -1,0 +1,29 @@
+{
+  "model_name": "Llama-3.2-1B-Instruct-FineTuned",
+  "cefr_level": "A2",
+  "word_count": 10,
+  "words": [
+    "ability",
+    "affect",
+    "almost",
+    "board",
+    "connect",
+    "context",
+    "remove",
+    "typical",
+    "coal",
+    "surprised"
+  ],
+  "sentences": [
+    "His ability to speak in front of the class is improving every day.",
+    "The teacher said that our studies can affect our future jobs.",
+    "We almost missed the bus this morning.",
+    "He put the sign on the board in the classroom.",
+    "I need to connect with my friends after school.",
+    "The teacher gave us some context before the lesson started.",
+    "He wants to remove the dirt from his hands after gardening.",
+    "It is typical to see trees in the park during spring.",
+    "The children like to play with coal and make dolls.",
+    "I was surprised when I heard the good news."
+  ]
+}
