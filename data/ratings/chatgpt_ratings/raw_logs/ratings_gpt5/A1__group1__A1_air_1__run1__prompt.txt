@@ -1,0 +1,31 @@
+You are a professional CEFR-aligned English sentence evaluator.
+
+Your task is to evaluate 6 example sentences that all use the target word: "air" at CEFR level: A1.
+
+Rate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:
+
+1) Word Usage — Is the given word used with the correct meaning and appropriately in context? **If the word is not used at all, give the lowest score.**
+2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?
+3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?
+4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?
+
+⚠️ Important Instructions:
+- **Only return numerical ratings** for each criterion.
+- **Do not include any explanations, comments, or justifications.**
+- Follow the exact output format below.
+
+### Output Format:
+Sentence A: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>
+Sentence B: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>
+Sentence C: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>
+Sentence D: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>
+Sentence E: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>
+Sentence F: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>
+
+### Sentences:
+Sentence A: The air is cold today.
+Sentence B: The air in the city is very polluted.
+Sentence C: The air is fresh and clean today.
+Sentence D: The air is cool in the summer.
+Sentence E: I like to go to the air in the sky.
+Sentence F: I open the window because I need fresh air.

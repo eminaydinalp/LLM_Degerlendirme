@@ -1,0 +1,7 @@
+﻿model,mean,std,count,rank
+Claude_Sonnet_4.5,3.666,1.09,800,1
+Gemini_Pro_2.5,3.564,1.085,800,2
+mistralai_Ministral-8B-Instruct-2410,3.476,1.067,800,3
+Llama-3.2-1B-Instruct-FineTuned,3.396,1.17,800,4
+Llama-3.2-8B-Instruct,3.394,1.084,800,5
+Llama-3.2-1B-Instruct,3.206,1.201,800,6

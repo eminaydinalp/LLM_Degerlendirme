@@ -1,0 +1,962 @@
+[
+  {
+    "task_id": "A1_air_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A1",
+    "group": 1,
+    "word": "air",
+    "label": "Sentence A",
+    "sentence": "The air is cold today.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_air_1",
+    "model": "Llama-3.1-8B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "air",
+    "label": "Sentence B",
+    "sentence": "The air in the city is very polluted.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_air_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A1",
+    "group": 1,
+    "word": "air",
+    "label": "Sentence C",
+    "sentence": "The air is fresh and clean today.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_air_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A1",
+    "group": 1,
+    "word": "air",
+    "label": "Sentence D",
+    "sentence": "The air is cool in the summer.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_air_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "air",
+    "label": "Sentence E",
+    "sentence": "I like to go to the air in the sky.",
+    "ratings": {
+      "word_usage": 1.0,
+      "clarity": 5.0,
+      "grammar": 4.5,
+      "naturalness": 1.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_air_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A1",
+    "group": 1,
+    "word": "air",
+    "label": "Sentence F",
+    "sentence": "I open the window because I need fresh air.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_animal_1",
+    "model": "Llama-3.1-8B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "animal",
+    "label": "Sentence A",
+    "sentence": "We have a dog, it is an animal.",
+    "ratings": {
+      "word_usage": 4.5,
+      "clarity": 5.0,
+      "grammar": 2.0,
+      "naturalness": 2.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_animal_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A1",
+    "group": 1,
+    "word": "animal",
+    "label": "Sentence B",
+    "sentence": "I have a pet animal at home.",
+    "ratings": {
+      "word_usage": 4.5,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 3.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_animal_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A1",
+    "group": 1,
+    "word": "animal",
+    "label": "Sentence C",
+    "sentence": "A dog is an animal.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_animal_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A1",
+    "group": 1,
+    "word": "animal",
+    "label": "Sentence D",
+    "sentence": "My favorite animal is a cat.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_animal_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "animal",
+    "label": "Sentence E",
+    "sentence": "My dog is a very happy animal.",
+    "ratings": {
+      "word_usage": 4.5,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 3.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_animal_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A1",
+    "group": 1,
+    "word": "animal",
+    "label": "Sentence F",
+    "sentence": "My favorite animal is a dog.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_ask_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A1",
+    "group": 1,
+    "word": "ask",
+    "label": "Sentence A",
+    "sentence": "Can I ask you a question?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_ask_1",
+    "model": "Llama-3.1-8B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "ask",
+    "label": "Sentence B",
+    "sentence": "Can you ask your friend to help me?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_ask_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "ask",
+    "label": "Sentence C",
+    "sentence": "Can I ask you to speak English, please?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_ask_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A1",
+    "group": 1,
+    "word": "ask",
+    "label": "Sentence D",
+    "sentence": "I ask my teacher questions.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_ask_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A1",
+    "group": 1,
+    "word": "ask",
+    "label": "Sentence E",
+    "sentence": "Please ask the teacher.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_ask_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A1",
+    "group": 1,
+    "word": "ask",
+    "label": "Sentence F",
+    "sentence": "Can you ask your friend for help?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_computer_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A1",
+    "group": 1,
+    "word": "computer",
+    "label": "Sentence A",
+    "sentence": "I use my computer every day.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_computer_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A1",
+    "group": 1,
+    "word": "computer",
+    "label": "Sentence B",
+    "sentence": "I use a computer for school.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_computer_1",
+    "model": "Llama-3.1-8B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "computer",
+    "label": "Sentence C",
+    "sentence": "My sister uses a computer to play games.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_computer_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A1",
+    "group": 1,
+    "word": "computer",
+    "label": "Sentence D",
+    "sentence": "My friend has a new computer for school.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_computer_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "computer",
+    "label": "Sentence E",
+    "sentence": "I need a computer to do my homework.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_computer_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A1",
+    "group": 1,
+    "word": "computer",
+    "label": "Sentence F",
+    "sentence": "I need to learn how to use the computer.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_eat_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A1",
+    "group": 1,
+    "word": "eat",
+    "label": "Sentence A",
+    "sentence": "She will eat a sandwich for breakfast.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_eat_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A1",
+    "group": 1,
+    "word": "eat",
+    "label": "Sentence B",
+    "sentence": "I eat breakfast at 8:00 AM.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_eat_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A1",
+    "group": 1,
+    "word": "eat",
+    "label": "Sentence C",
+    "sentence": "We eat breakfast at 7 o'clock.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_eat_1",
+    "model": "Llama-3.1-8B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "eat",
+    "label": "Sentence D",
+    "sentence": "I like to eat an apple for breakfast.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_eat_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "eat",
+    "label": "Sentence E",
+    "sentence": "I want to eat a sandwich for lunch.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_eat_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A1",
+    "group": 1,
+    "word": "eat",
+    "label": "Sentence F",
+    "sentence": "I am going to eat an apple for breakfast.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_car_1",
+    "model": "Llama-3.1-8B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "car",
+    "label": "Sentence A",
+    "sentence": "My mom drives a car to work every day.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_car_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A1",
+    "group": 1,
+    "word": "car",
+    "label": "Sentence B",
+    "sentence": "My father has a red car.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_car_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A1",
+    "group": 1,
+    "word": "car",
+    "label": "Sentence C",
+    "sentence": "I saw a car on the road.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_car_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "car",
+    "label": "Sentence D",
+    "sentence": "I drive a car to school every day.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_car_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A1",
+    "group": 1,
+    "word": "car",
+    "label": "Sentence E",
+    "sentence": "My new car is blue.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_car_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A1",
+    "group": 1,
+    "word": "car",
+    "label": "Sentence F",
+    "sentence": "I have a blue car.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_but_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A1",
+    "group": 1,
+    "word": "but",
+    "label": "Sentence A",
+    "sentence": "I like coffee, but I don't like tea.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_but_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "but",
+    "label": "Sentence B",
+    "sentence": "My friend says we should drive to the park.",
+    "ratings": {
+      "word_usage": 1.0,
+      "clarity": 2.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_but_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A1",
+    "group": 1,
+    "word": "but",
+    "label": "Sentence C",
+    "sentence": "She is small, but she is strong.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_but_1",
+    "model": "Llama-3.1-8B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "but",
+    "label": "Sentence D",
+    "sentence": "I want to go to the park, but it's raining.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_but_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A1",
+    "group": 1,
+    "word": "but",
+    "label": "Sentence E",
+    "sentence": "But I don't want to go to the park.",
+    "ratings": {
+      "word_usage": 3.5,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 3.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_but_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A1",
+    "group": 1,
+    "word": "but",
+    "label": "Sentence F",
+    "sentence": "I am tired, but I will finish my homework.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_drive_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A1",
+    "group": 1,
+    "word": "drive",
+    "label": "Sentence A",
+    "sentence": "My dad likes to drive fast when he plays video games.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_drive_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A1",
+    "group": 1,
+    "word": "drive",
+    "label": "Sentence B",
+    "sentence": "My brother can drive a bus.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_drive_1",
+    "model": "Llama-3.1-8B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "drive",
+    "label": "Sentence C",
+    "sentence": "My dad can drive a car very fast.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_drive_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "drive",
+    "label": "Sentence D",
+    "sentence": "I have a very funny joke.",
+    "ratings": {
+      "word_usage": 1.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_drive_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A1",
+    "group": 1,
+    "word": "drive",
+    "label": "Sentence E",
+    "sentence": "My mother can drive a truck.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_drive_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A1",
+    "group": 1,
+    "word": "drive",
+    "label": "Sentence F",
+    "sentence": "I learned how to drive a car.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_amazing_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A1",
+    "group": 1,
+    "word": "amazing",
+    "label": "Sentence A",
+    "sentence": "This movie is amazing!",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_amazing_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A1",
+    "group": 1,
+    "word": "amazing",
+    "label": "Sentence B",
+    "sentence": "I saw an amazing movie last night.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_amazing_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A1",
+    "group": 1,
+    "word": "amazing",
+    "label": "Sentence C",
+    "sentence": "This pizza is amazing!",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_amazing_1",
+    "model": "Llama-3.1-8B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "amazing",
+    "label": "Sentence D",
+    "sentence": "The Eiffel Tower is an amazing building.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_amazing_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "amazing",
+    "label": "Sentence E",
+    "sentence": "The car is amazing, isn't it?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 2.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_amazing_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A1",
+    "group": 1,
+    "word": "amazing",
+    "label": "Sentence F",
+    "sentence": "The sunset was amazing last night.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_funny_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A1",
+    "group": 1,
+    "word": "funny",
+    "label": "Sentence A",
+    "sentence": "The movie is funny and makes me laugh.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_funny_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "funny",
+    "label": "Sentence B",
+    "sentence": "I like to play with my friend in the park.",
+    "ratings": {
+      "word_usage": 1.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_funny_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A1",
+    "group": 1,
+    "word": "funny",
+    "label": "Sentence C",
+    "sentence": "That joke is very funny.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_funny_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A1",
+    "group": 1,
+    "word": "funny",
+    "label": "Sentence D",
+    "sentence": "This joke is very funny.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_funny_1",
+    "model": "Llama-3.1-8B-Instruct",
+    "level": "A1",
+    "group": 1,
+    "word": "funny",
+    "label": "Sentence E",
+    "sentence": "My little brother is very funny sometimes.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A1_funny_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A1",
+    "group": 1,
+    "word": "funny",
+    "label": "Sentence F",
+    "sentence": "The movie is very funny.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  }
+]

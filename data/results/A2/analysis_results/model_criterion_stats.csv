@@ -1,0 +1,25 @@
+﻿model,criterion,mean,std,count
+Claude_Sonnet_4.5,Grammatical Accuracy,3.567,1.071,150
+Claude_Sonnet_4.5,Level Appropriateness,3.753,1.016,150
+Claude_Sonnet_4.5,Naturalness,3.42,1.088,150
+Claude_Sonnet_4.5,Word Usage,3.533,1.047,150
+Gemini_Pro_2.5,Grammatical Accuracy,3.46,1.133,150
+Gemini_Pro_2.5,Level Appropriateness,3.68,1.038,150
+Gemini_Pro_2.5,Naturalness,3.287,1.064,150
+Gemini_Pro_2.5,Word Usage,3.447,0.987,150
+Llama-3.2-1B-Instruct,Grammatical Accuracy,3.127,1.107,150
+Llama-3.2-1B-Instruct,Level Appropriateness,3.24,1.185,150
+Llama-3.2-1B-Instruct,Naturalness,2.82,1.159,150
+Llama-3.2-1B-Instruct,Word Usage,3.06,1.088,150
+Llama-3.2-1B-Instruct-FineTuned,Grammatical Accuracy,3.36,1.119,150
+Llama-3.2-1B-Instruct-FineTuned,Level Appropriateness,3.447,1.19,150
+Llama-3.2-1B-Instruct-FineTuned,Naturalness,3.133,1.18,150
+Llama-3.2-1B-Instruct-FineTuned,Word Usage,3.307,1.123,150
+Llama-3.2-8B-Instruct,Grammatical Accuracy,3.327,1.059,150
+Llama-3.2-8B-Instruct,Level Appropriateness,3.42,1.113,150
+Llama-3.2-8B-Instruct,Naturalness,3.033,1.102,150
+Llama-3.2-8B-Instruct,Word Usage,3.28,1.017,150
+mistralai_Ministral-8B-Instruct-2410,Grammatical Accuracy,3.367,1.102,150
+mistralai_Ministral-8B-Instruct-2410,Level Appropriateness,3.613,1.028,150
+mistralai_Ministral-8B-Instruct-2410,Naturalness,3.22,1.055,150
+mistralai_Ministral-8B-Instruct-2410,Word Usage,3.413,1.057,150

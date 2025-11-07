@@ -1,0 +1,6 @@
+Sentence A: 5, 5, 5, 5
+Sentence B: 5, 4, 5, 5
+Sentence C: 5, 5, 5, 5
+Sentence D: 5, 5, 5, 5
+Sentence E: 1, 5, 4, 1
+Sentence F: 5, 5, 5, 5

@@ -1,7 +1,14 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
-Human Ratings Analysis Script
-Bu script, form yanıtlarını tasks_A1_1.json dosyası ile eşleştirerek
+Generic Human Ratings Analysis Script
+Bu script, form yanıtlarını task dosyası ile eşleştirerek
 modellerin performanslarını analiz eder.
+
+Kullanım:
+    python analyze_human_ratings.py --level A1
+    python analyze_human_ratings.py --level A2
+    python analyze_human_ratings.py --level B1 --csv custom_file.csv
 """
 
 import pandas as pd
@@ -10,14 +17,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
-
-# Dosya yolları
-CSV_FILE = "../data/results/A1/A1 Seviyesi – Yapay Zeka Cümle Üretimi (Yanıtlar) - Form Yanıtları 1.csv"
-TASKS_FILE = "../data/tasks/A1/tasks_A1_1.json"
-OUTPUT_DIR = "../data/results/A1/analysis_results"
-
-# Çıktı dizinini oluştur
-Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
+import argparse
+import sys
 
 
 def parse_rating(rating_str):
@@ -273,22 +274,142 @@ def print_summary(model_overall, overall_ranking):
     print("="*80)
 
 
+def parse_arguments():
+    """Komut satırı argümanlarını parse et"""
+    parser = argparse.ArgumentParser(
+        description='İnsan değerlendirme sonuçlarını analiz et',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Örnekler:
+  python analyze_human_ratings.py --level A1
+  python analyze_human_ratings.py --level A2
+  python analyze_human_ratings.py --level A1 --csv custom.csv --tasks custom_tasks.json
+        """
+    )
+    
+    parser.add_argument(
+        '--level',
+        type=str,
+        required=True,
+        choices=['A1', 'A2', 'B1', 'B2', 'C1'],
+        help='CEFR seviyesi (A1, A2, B1, B2, C1)'
+    )
+    
+    parser.add_argument(
+        '--csv',
+        type=str,
+        help='CSV dosyası yolu (opsiyonel, varsayılan: data/results/{level}/)'
+    )
+    
+    parser.add_argument(
+        '--tasks',
+        type=str,
+        help='Tasks JSON dosyası yolu (opsiyonel, varsayılan: data/tasks/{level}/tasks_{level}_1.json)'
+    )
+    
+    parser.add_argument(
+        '--output',
+        type=str,
+        help='Çıktı dizini (opsiyonel, varsayılan: data/results/{level}/analysis_results)'
+    )
+    
+    return parser.parse_args()
+
+
+def get_file_paths(level, csv_path=None, tasks_path=None, output_path=None):
+    """Seviyeye göre dosya yollarını belirle"""
+    base_dir = Path(__file__).parent.parent
+    
+    # CSV dosyası
+    if csv_path:
+        csv_file = Path(csv_path)
+    else:
+        # Varsayılan CSV dosyası adlarını dene
+        results_dir = base_dir / 'data' / 'results' / level
+        possible_names = [
+            f'{level}_Sonuclar.csv',
+            f'{level} Seviyesi – Yapay Zeka Cümle Üretimi (Yanıtlar) - Form Yanıtları 1.csv',
+            f'{level}_results.csv'
+        ]
+        
+        csv_file = None
+        for name in possible_names:
+            candidate = results_dir / name
+            if candidate.exists():
+                csv_file = candidate
+                break
+        
+        if not csv_file:
+            print(f"\n❌ HATA: {level} seviyesi için CSV dosyası bulunamadı!")
+            print(f"Aranan dizin: {results_dir}")
+            print(f"Aranan dosyalar: {possible_names}")
+            sys.exit(1)
+    
+    # Tasks dosyası
+    if tasks_path:
+        tasks_file = Path(tasks_path)
+    else:
+        tasks_file = base_dir / 'data' / 'tasks' / level / f'tasks_{level}_1.json'
+    
+    # Output dizini
+    if output_path:
+        output_dir = Path(output_path)
+    else:
+        output_dir = base_dir / 'data' / 'results' / level / 'analysis_results'
+    
+    # Dosyaların varlığını kontrol et
+    if not csv_file.exists():
+        print(f"\n❌ HATA: CSV dosyası bulunamadı: {csv_file}")
+        sys.exit(1)
+    
+    if not tasks_file.exists():
+        print(f"\n❌ HATA: Tasks dosyası bulunamadı: {tasks_file}")
+        sys.exit(1)
+    
+    # Output dizinini oluştur
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    return csv_file, tasks_file, output_dir
+
+
 def main():
     """Ana fonksiyon"""
+    # Argümanları parse et
+    args = parse_arguments()
     
-    print("🔄 Veriler yükleniyor...")
+    print("=" * 80)
+    print(f"� {args.level} SEVİYESİ İNSAN DEĞERLENDİRME ANALİZİ")
+    print("=" * 80)
+    
+    # Dosya yollarını belirle
+    csv_file, tasks_file, output_dir = get_file_paths(
+        args.level, args.csv, args.tasks, args.output
+    )
+    
+    print(f"\n📂 Dosya Yolları:")
+    print(f"  • CSV: {csv_file.name}")
+    print(f"  • Tasks: {tasks_file.name}")
+    print(f"  • Output: {output_dir}")
+    
+    print("\n�🔄 Veriler yükleniyor...")
     
     # Tasks dosyasını yükle
-    tasks = load_tasks(TASKS_FILE)
+    tasks = load_tasks(str(tasks_file))
     print(f"✅ {len(tasks)} task yüklendi")
     
     # CSV dosyasını yükle
-    df, criteria, criteria_eng = extract_ratings_from_csv(CSV_FILE)
+    df, criteria, criteria_eng = extract_ratings_from_csv(str(csv_file))
     print(f"✅ {len(df)} katılımcı verisi yüklendi")
     
     # Analizleri yap
     print("\n🔄 Analizler yapılıyor...")
     results_df = analyze_model_performance(tasks, df, criteria, criteria_eng)
+    
+    if len(results_df) == 0:
+        print("\n❌ HATA: Hiç değerlendirme işlenemedi!")
+        print("CSV sütun adları ile task dosyası eşleşmesi kontrol edilmelidir.")
+        sys.exit(1)
+    
     print(f"✅ {len(results_df)} değerlendirme işlendi")
     
     # İstatistikleri hesapla
@@ -300,19 +421,19 @@ def main():
     
     # Görselleştirmeler
     print("\n🔄 Görselleştirmeler oluşturuluyor...")
-    create_visualizations(results_df, model_overall, model_criterion, OUTPUT_DIR)
+    create_visualizations(results_df, model_overall, model_criterion, str(output_dir))
     print("✅ Grafikler kaydedildi")
     
     # Sonuçları kaydet
     print("\n🔄 Sonuçlar kaydediliyor...")
     save_results(results_df, model_overall, model_criterion, model_word,
-                criterion_overall, overall_ranking, criterion_ranking_df, OUTPUT_DIR)
+                criterion_overall, overall_ranking, criterion_ranking_df, str(output_dir))
     print("✅ Tüm sonuçlar kaydedildi")
     
     # Özet yazdır
     print_summary(model_overall, overall_ranking)
     
-    print(f"\n📁 Tüm sonuçlar şu klasöre kaydedildi: {OUTPUT_DIR}")
+    print(f"\n📁 Tüm sonuçlar şu klasöre kaydedildi: {output_dir}")
     print("\n✨ Analiz tamamlandı!")
 
 
