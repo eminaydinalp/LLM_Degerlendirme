@@ -1,0 +1,29 @@
+{
+  "model_name": "Gemini_Pro_2.5",
+  "cefr_level": "C1",
+  "word_count": 10,
+  "words": [
+    "backup",
+    "default",
+    "defy",
+    "collaborate",
+    "correspond",
+    "instrumental",
+    "embarrassment",
+    "outbreak",
+    "lethal",
+    "sovereignty"
+  ],
+  "sentences": [
+    "Given the volatility of the market, the company secured a secondary credit line as a backup against unforeseen liquidity issues.",
+    "When faced with ambiguity, his default response was to meticulously analyze the data rather than rely on intuition.",
+    "The innovative architectural design seems to defy the laws of physics, creating a stunning visual effect of floating structures.",
+    "The research required particle physicists and marine biologists to collaborate on an interdisciplinary study of deep-sea phenomena.",
+    "The witness's testimony did not correspond with the physical evidence found at the scene, raising serious doubts about his credibility.",
+    "Her diplomatic efforts in the initial negotiations were instrumental in brokering the final ceasefire agreement.",
+    "To the immense embarrassment of the administration, the details of the confidential report were leaked to the press before the official announcement.",
+    "Public health officials are working rapidly to identify the source and contain the outbreak before it reaches pandemic proportions.",
+    "While the venom is rarely fatal to large animals, it proves lethal to the small rodents that constitute the snake's primary diet.",
+    "The new regional treaty raised complex constitutional questions about national sovereignty versus the benefits of economic integration."
+  ]
+}

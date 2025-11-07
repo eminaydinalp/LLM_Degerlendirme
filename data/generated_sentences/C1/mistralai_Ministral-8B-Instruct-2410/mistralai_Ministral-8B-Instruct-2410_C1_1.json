@@ -1,0 +1,29 @@
+{
+  "model_name": "mistralai_Ministral-8B-Instruct-2410",
+  "cefr_level": "C1",
+  "word_count": 10,
+  "words": [
+    "backup",
+    "default",
+    "defy",
+    "collaborate",
+    "correspond",
+    "instrumental",
+    "embarrassment",
+    "outbreak",
+    "lethal",
+    "sovereignty"
+  ],
+  "sentences": [
+    "In case of a power outage, having a backup generator is essential for maintaining business operations.",
+    "The default settings on the new software make it user-friendly, but they can be customized.",
+    "Despite the government's warnings, some protesters defied the curfew and continued their demonstrations.",
+    "The two companies collaborated on a joint venture to develop innovative renewable energy solutions.",
+    "The news correspondent reported live from the protest site, providing updates to viewers around the world.",
+    "The scientist's instrumental role in the discovery of the new element earned her worldwide recognition.",
+    "The politician's embarrassing gaffe during the debate cost him valuable votes in the upcoming election.",
+    "The outbreak of violence in the region prompted a temporary halt in trade negotiations.",
+    "The lethal dose of poison was found in the victim's drink, leading investigators to suspect foul play.",
+    "The country's sovereignty was challenged when a foreign nation claimed the disputed territory as its own."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "model_name": "Llama-3.2-1B-Instruct-FineTuned",
+  "cefr_level": "B2",
+  "word_count": 10,
+  "words": [
+    "agency",
+    "alter",
+    "heaven",
+    "hollow",
+    "extend",
+    "imply",
+    "numerous",
+    "opponent",
+    "process",
+    "wise"
+  ],
+  "sentences": [
+    "The travel agency helped us book an amazing vacation to Spain, which we had been planning for months.",
+    "In order to improve my fitness, I decided to alter my diet and start exercising regularly.",
+    "After a long day at work, sitting in her garden surrounded by flowers made her feel as if she had found her own little piece of heaven.",
+    "The tree trunk appeared hollow, suggesting that it might be home to various insects.",
+    "The teacher decided to extend the deadline for the project to give the students more time to complete their work.",
+    "The report may imply that further research is needed before we can make any final decisions.",
+    "The city is home to numerous parks, each offering a unique environment for relaxation and recreation.",
+    "The team celebrated their victory, but they acknowledged that their toughest opponent had pushed them to perform their best.",
+    "Learning a new language is a challenging process that requires patience and practice.",
+    "It was a wise move to consult multiple sources before making a final decision on the project."
+  ]
+}

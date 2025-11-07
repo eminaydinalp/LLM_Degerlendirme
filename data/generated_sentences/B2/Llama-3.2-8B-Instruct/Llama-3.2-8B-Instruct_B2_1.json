@@ -1,0 +1,29 @@
+{
+  "model_name": "Llama-3.2-8B-Instruct",
+  "cefr_level": "B2",
+  "word_count": 10,
+  "words": [
+    "agency",
+    "alter",
+    "heaven",
+    "hollow",
+    "extend",
+    "imply",
+    "numerous",
+    "opponent",
+    "process",
+    "wise"
+  ],
+  "sentences": [
+    "The government appointed a new agency to oversee the implementation of the environmental protection plan.",
+    "If you alter the recipe, it may affect the texture of the cake.",
+    "The concert was held in an outdoor venue with a breathtaking view of the heaven above.",
+    "The sound of the ocean waves echoed through the hollow cave.",
+    "The company plans to extend its operations to other countries in the near future.",
+    "Her words implied that she was unhappy with the situation, but didn't say it directly.",
+    "The numerous species of birds in the rainforest are a testament to its biodiversity.",
+    "The tennis player's opponent was a strong competitor, and the match was intense.",
+    "The process of making a film can take several months from start to finish.",
+    "After years of experience, she became wise in her decision-making and was respected by her colleagues."
+  ]
+}

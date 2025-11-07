@@ -1,0 +1,712 @@
+[
+  {
+    "task_id": "C1_backup_1",
+    "level": "C1",
+    "group": 1,
+    "word": "backup",
+    "labeled_sentences": [
+      [
+        "Sentence A",
+        "In case of a power outage, having a backup generator is essential for maintaining business operations."
+      ],
+      [
+        "Sentence B",
+        "The company's robust backup system enabled them to recover all critical data within hours of the cyberattack."
+      ],
+      [
+        "Sentence C",
+        "The backup systems ensured that the computer would remain operational during the power outage."
+      ],
+      [
+        "Sentence D",
+        "The company has a backup plan in place in case of a natural disaster, which could disrupt their operations."
+      ],
+      [
+        "Sentence E",
+        "Given the volatility of the market, the company secured a secondary credit line as a backup against unforeseen liquidity issues."
+      ],
+      [
+        "Sentence F",
+        "In order to ensure the software's stability, it was crucial to have a reliable backup system in place, allowing users to easily recover their data in case of system failures."
+      ]
+    ],
+    "mapping": {
+      "Sentence A": {
+        "model": "mistralai_Ministral-8B-Instruct-2410",
+        "level": "C1",
+        "word": "backup",
+        "sentence": "In case of a power outage, having a backup generator is essential for maintaining business operations."
+      },
+      "Sentence B": {
+        "model": "Claude_Sonnet_4.5",
+        "level": "C1",
+        "word": "backup",
+        "sentence": "The company's robust backup system enabled them to recover all critical data within hours of the cyberattack."
+      },
+      "Sentence C": {
+        "model": "Llama-3.2-1B-Instruct",
+        "level": "C1",
+        "word": "backup",
+        "sentence": "The backup systems ensured that the computer would remain operational during the power outage."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-8B-Instruct",
+        "level": "C1",
+        "word": "backup",
+        "sentence": "The company has a backup plan in place in case of a natural disaster, which could disrupt their operations."
+      },
+      "Sentence E": {
+        "model": "Gemini_Pro_2.5",
+        "level": "C1",
+        "word": "backup",
+        "sentence": "Given the volatility of the market, the company secured a secondary credit line as a backup against unforeseen liquidity issues."
+      },
+      "Sentence F": {
+        "model": "Llama-3.2-1B-Instruct-FineTuned",
+        "level": "C1",
+        "word": "backup",
+        "sentence": "In order to ensure the software's stability, it was crucial to have a reliable backup system in place, allowing users to easily recover their data in case of system failures."
+      }
+    },
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"{word}\" at CEFR level: {level}.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context? **If the word is not used at all, give the lowest score.**\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence B: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence C: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence D: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence E: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence F: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\n\n### Sentences:\n{sentences_block}\n"
+  },
+  {
+    "task_id": "C1_default_1",
+    "level": "C1",
+    "group": 1,
+    "word": "default",
+    "labeled_sentences": [
+      [
+        "Sentence A",
+        "The default setting on the new smartphone is to automatically update the operating system."
+      ],
+      [
+        "Sentence B",
+        "When faced with ambiguity, his default response was to meticulously analyze the data rather than rely on intuition."
+      ],
+      [
+        "Sentence C",
+        "Many users never change the default settings on their devices, which can leave them vulnerable to security breaches."
+      ],
+      [
+        "Sentence D",
+        "The default settings on the new software make it user-friendly, but they can be customized."
+      ],
+      [
+        "Sentence E",
+        "In the absence of explicit instructions, the software will revert to its default settings, which may not necessarily meet the user's preferences."
+      ],
+      [
+        "Sentence F",
+        "The company has a default policy of providing comprehensive insurance coverage to all employees."
+      ]
+    ],
+    "mapping": {
+      "Sentence A": {
+        "model": "Llama-3.2-8B-Instruct",
+        "level": "C1",
+        "word": "default",
+        "sentence": "The default setting on the new smartphone is to automatically update the operating system."
+      },
+      "Sentence B": {
+        "model": "Gemini_Pro_2.5",
+        "level": "C1",
+        "word": "default",
+        "sentence": "When faced with ambiguity, his default response was to meticulously analyze the data rather than rely on intuition."
+      },
+      "Sentence C": {
+        "model": "Claude_Sonnet_4.5",
+        "level": "C1",
+        "word": "default",
+        "sentence": "Many users never change the default settings on their devices, which can leave them vulnerable to security breaches."
+      },
+      "Sentence D": {
+        "model": "mistralai_Ministral-8B-Instruct-2410",
+        "level": "C1",
+        "word": "default",
+        "sentence": "The default settings on the new software make it user-friendly, but they can be customized."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-1B-Instruct-FineTuned",
+        "level": "C1",
+        "word": "default",
+        "sentence": "In the absence of explicit instructions, the software will revert to its default settings, which may not necessarily meet the user's preferences."
+      },
+      "Sentence F": {
+        "model": "Llama-3.2-1B-Instruct",
+        "level": "C1",
+        "word": "default",
+        "sentence": "The company has a default policy of providing comprehensive insurance coverage to all employees."
+      }
+    },
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"{word}\" at CEFR level: {level}.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context? **If the word is not used at all, give the lowest score.**\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence B: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence C: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence D: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence E: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence F: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\n\n### Sentences:\n{sentences_block}\n"
+  },
+  {
+    "task_id": "C1_defy_1",
+    "level": "C1",
+    "group": 1,
+    "word": "defy",
+    "labeled_sentences": [
+      [
+        "Sentence A",
+        "Despite her initial reluctance, she decided to defy the instructions and take on the challenge."
+      ],
+      [
+        "Sentence B",
+        "The artist's innovative work seemed to defy conventional categorization, blending elements of sculpture, painting, and performance art."
+      ],
+      [
+        "Sentence C",
+        "Despite the government's warnings, some protesters defied the curfew and continued their demonstrations."
+      ],
+      [
+        "Sentence D",
+        "The artist chose to defy conventional norms, creating a masterpiece that challenged the viewer's perceptions of beauty and meaning."
+      ],
+      [
+        "Sentence E",
+        "The protesters chose to defy the government's ban on the rally, arguing that it was a fundamental right."
+      ],
+      [
+        "Sentence F",
+        "The innovative architectural design seems to defy the laws of physics, creating a stunning visual effect of floating structures."
+      ]
+    ],
+    "mapping": {
+      "Sentence A": {
+        "model": "Llama-3.2-1B-Instruct",
+        "level": "C1",
+        "word": "defy",
+        "sentence": "Despite her initial reluctance, she decided to defy the instructions and take on the challenge."
+      },
+      "Sentence B": {
+        "model": "Claude_Sonnet_4.5",
+        "level": "C1",
+        "word": "defy",
+        "sentence": "The artist's innovative work seemed to defy conventional categorization, blending elements of sculpture, painting, and performance art."
+      },
+      "Sentence C": {
+        "model": "mistralai_Ministral-8B-Instruct-2410",
+        "level": "C1",
+        "word": "defy",
+        "sentence": "Despite the government's warnings, some protesters defied the curfew and continued their demonstrations."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-1B-Instruct-FineTuned",
+        "level": "C1",
+        "word": "defy",
+        "sentence": "The artist chose to defy conventional norms, creating a masterpiece that challenged the viewer's perceptions of beauty and meaning."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-8B-Instruct",
+        "level": "C1",
+        "word": "defy",
+        "sentence": "The protesters chose to defy the government's ban on the rally, arguing that it was a fundamental right."
+      },
+      "Sentence F": {
+        "model": "Gemini_Pro_2.5",
+        "level": "C1",
+        "word": "defy",
+        "sentence": "The innovative architectural design seems to defy the laws of physics, creating a stunning visual effect of floating structures."
+      }
+    },
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"{word}\" at CEFR level: {level}.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context? **If the word is not used at all, give the lowest score.**\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence B: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence C: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence D: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence E: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence F: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\n\n### Sentences:\n{sentences_block}\n"
+  },
+  {
+    "task_id": "C1_collaborate_1",
+    "level": "C1",
+    "group": 1,
+    "word": "collaborate",
+    "labeled_sentences": [
+      [
+        "Sentence A",
+        "Researchers from three continents collaborated on the groundbreaking study, sharing data and expertise through virtual meetings."
+      ],
+      [
+        "Sentence B",
+        "The two companies collaborated on a joint venture to develop innovative renewable energy solutions."
+      ],
+      [
+        "Sentence C",
+        "The team of engineers was asked to collaborate with the designers to create a more efficient product."
+      ],
+      [
+        "Sentence D",
+        "The researchers worked together to collaborate on the project, sharing their expertise and ideas."
+      ],
+      [
+        "Sentence E",
+        "The research required particle physicists and marine biologists to collaborate on an interdisciplinary study of deep-sea phenomena."
+      ],
+      [
+        "Sentence F",
+        "In order to tackle the complex challenges of climate change, scientists from various disciplines must collaborate and share their expertise to develop innovative solutions."
+      ]
+    ],
+    "mapping": {
+      "Sentence A": {
+        "model": "Claude_Sonnet_4.5",
+        "level": "C1",
+        "word": "collaborate",
+        "sentence": "Researchers from three continents collaborated on the groundbreaking study, sharing data and expertise through virtual meetings."
+      },
+      "Sentence B": {
+        "model": "mistralai_Ministral-8B-Instruct-2410",
+        "level": "C1",
+        "word": "collaborate",
+        "sentence": "The two companies collaborated on a joint venture to develop innovative renewable energy solutions."
+      },
+      "Sentence C": {
+        "model": "Llama-3.2-8B-Instruct",
+        "level": "C1",
+        "word": "collaborate",
+        "sentence": "The team of engineers was asked to collaborate with the designers to create a more efficient product."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-1B-Instruct",
+        "level": "C1",
+        "word": "collaborate",
+        "sentence": "The researchers worked together to collaborate on the project, sharing their expertise and ideas."
+      },
+      "Sentence E": {
+        "model": "Gemini_Pro_2.5",
+        "level": "C1",
+        "word": "collaborate",
+        "sentence": "The research required particle physicists and marine biologists to collaborate on an interdisciplinary study of deep-sea phenomena."
+      },
+      "Sentence F": {
+        "model": "Llama-3.2-1B-Instruct-FineTuned",
+        "level": "C1",
+        "word": "collaborate",
+        "sentence": "In order to tackle the complex challenges of climate change, scientists from various disciplines must collaborate and share their expertise to develop innovative solutions."
+      }
+    },
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"{word}\" at CEFR level: {level}.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context? **If the word is not used at all, give the lowest score.**\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence B: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence C: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence D: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence E: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence F: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\n\n### Sentences:\n{sentences_block}\n"
+  },
+  {
+    "task_id": "C1_correspond_1",
+    "level": "C1",
+    "group": 1,
+    "word": "correspond",
+    "labeled_sentences": [
+      [
+        "Sentence A",
+        "The correspondence between the two countries was extensive, covering a wide range of topics."
+      ],
+      [
+        "Sentence B",
+        "The archaeological evidence corresponds closely with accounts from ancient texts, confirming the historical accuracy of the narrative."
+      ],
+      [
+        "Sentence C",
+        "The intricate patterns observed in the data correspond closely with the theoretical predictions outlined in the earlier studies."
+      ],
+      [
+        "Sentence D",
+        "The news correspondent reported live from the protest site, providing updates to viewers around the world."
+      ],
+      [
+        "Sentence E",
+        "The witness's testimony did not correspond with the physical evidence found at the scene, raising serious doubts about his credibility."
+      ],
+      [
+        "Sentence F",
+        "The company's customer service department corresponds with clients to resolve any issues they may have."
+      ]
+    ],
+    "mapping": {
+      "Sentence A": {
+        "model": "Llama-3.2-1B-Instruct",
+        "level": "C1",
+        "word": "correspond",
+        "sentence": "The correspondence between the two countries was extensive, covering a wide range of topics."
+      },
+      "Sentence B": {
+        "model": "Claude_Sonnet_4.5",
+        "level": "C1",
+        "word": "correspond",
+        "sentence": "The archaeological evidence corresponds closely with accounts from ancient texts, confirming the historical accuracy of the narrative."
+      },
+      "Sentence C": {
+        "model": "Llama-3.2-1B-Instruct-FineTuned",
+        "level": "C1",
+        "word": "correspond",
+        "sentence": "The intricate patterns observed in the data correspond closely with the theoretical predictions outlined in the earlier studies."
+      },
+      "Sentence D": {
+        "model": "mistralai_Ministral-8B-Instruct-2410",
+        "level": "C1",
+        "word": "correspond",
+        "sentence": "The news correspondent reported live from the protest site, providing updates to viewers around the world."
+      },
+      "Sentence E": {
+        "model": "Gemini_Pro_2.5",
+        "level": "C1",
+        "word": "correspond",
+        "sentence": "The witness's testimony did not correspond with the physical evidence found at the scene, raising serious doubts about his credibility."
+      },
+      "Sentence F": {
+        "model": "Llama-3.2-8B-Instruct",
+        "level": "C1",
+        "word": "correspond",
+        "sentence": "The company's customer service department corresponds with clients to resolve any issues they may have."
+      }
+    },
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"{word}\" at CEFR level: {level}.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context? **If the word is not used at all, give the lowest score.**\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence B: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence C: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence D: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence E: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence F: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\n\n### Sentences:\n{sentences_block}\n"
+  },
+  {
+    "task_id": "C1_instrumental_1",
+    "level": "C1",
+    "group": 1,
+    "word": "instrumental",
+    "labeled_sentences": [
+      [
+        "Sentence A",
+        "The musician's instrumental skills on the guitar are truly exceptional."
+      ],
+      [
+        "Sentence B",
+        "The orchestra's performance was so instrumental in enhancing the overall atmosphere that it received a standing ovation."
+      ],
+      [
+        "Sentence C",
+        "The scientist found that the new material was instrumental in facilitating the groundbreaking research that could potentially revolutionize our understanding of climate change."
+      ],
+      [
+        "Sentence D",
+        "Her diplomatic skills were instrumental in negotiating the peace agreement that ended decades of conflict."
+      ],
+      [
+        "Sentence E",
+        "Her diplomatic efforts in the initial negotiations were instrumental in brokering the final ceasefire agreement."
+      ],
+      [
+        "Sentence F",
+        "The scientist's instrumental role in the discovery of the new element earned her worldwide recognition."
+      ]
+    ],
+    "mapping": {
+      "Sentence A": {
+        "model": "Llama-3.2-8B-Instruct",
+        "level": "C1",
+        "word": "instrumental",
+        "sentence": "The musician's instrumental skills on the guitar are truly exceptional."
+      },
+      "Sentence B": {
+        "model": "Llama-3.2-1B-Instruct",
+        "level": "C1",
+        "word": "instrumental",
+        "sentence": "The orchestra's performance was so instrumental in enhancing the overall atmosphere that it received a standing ovation."
+      },
+      "Sentence C": {
+        "model": "Llama-3.2-1B-Instruct-FineTuned",
+        "level": "C1",
+        "word": "instrumental",
+        "sentence": "The scientist found that the new material was instrumental in facilitating the groundbreaking research that could potentially revolutionize our understanding of climate change."
+      },
+      "Sentence D": {
+        "model": "Claude_Sonnet_4.5",
+        "level": "C1",
+        "word": "instrumental",
+        "sentence": "Her diplomatic skills were instrumental in negotiating the peace agreement that ended decades of conflict."
+      },
+      "Sentence E": {
+        "model": "Gemini_Pro_2.5",
+        "level": "C1",
+        "word": "instrumental",
+        "sentence": "Her diplomatic efforts in the initial negotiations were instrumental in brokering the final ceasefire agreement."
+      },
+      "Sentence F": {
+        "model": "mistralai_Ministral-8B-Instruct-2410",
+        "level": "C1",
+        "word": "instrumental",
+        "sentence": "The scientist's instrumental role in the discovery of the new element earned her worldwide recognition."
+      }
+    },
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"{word}\" at CEFR level: {level}.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context? **If the word is not used at all, give the lowest score.**\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence B: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence C: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence D: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence E: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence F: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\n\n### Sentences:\n{sentences_block}\n"
+  },
+  {
+    "task_id": "C1_embarrassment_1",
+    "level": "C1",
+    "group": 1,
+    "word": "embarrassment",
+    "labeled_sentences": [
+      [
+        "Sentence A",
+        "Despite her attempt to maintain composure, the overwhelming embarrassment of tripping on stage left her stuttering nervously as she apologized to the audience."
+      ],
+      [
+        "Sentence B",
+        "To the immense embarrassment of the administration, the details of the confidential report were leaked to the press before the official announcement."
+      ],
+      [
+        "Sentence C",
+        "The politician's embarrassment during the debate was a result of her lack of preparation."
+      ],
+      [
+        "Sentence D",
+        "The politician's embarrassment at being caught on camera was a major talking point during the press conference."
+      ],
+      [
+        "Sentence E",
+        "The politician's embarrassing gaffe during the debate cost him valuable votes in the upcoming election."
+      ],
+      [
+        "Sentence F",
+        "The politician's public gaffe caused considerable embarrassment to his party and damaged his credibility with voters."
+      ]
+    ],
+    "mapping": {
+      "Sentence A": {
+        "model": "Llama-3.2-1B-Instruct-FineTuned",
+        "level": "C1",
+        "word": "embarrassment",
+        "sentence": "Despite her attempt to maintain composure, the overwhelming embarrassment of tripping on stage left her stuttering nervously as she apologized to the audience."
+      },
+      "Sentence B": {
+        "model": "Gemini_Pro_2.5",
+        "level": "C1",
+        "word": "embarrassment",
+        "sentence": "To the immense embarrassment of the administration, the details of the confidential report were leaked to the press before the official announcement."
+      },
+      "Sentence C": {
+        "model": "Llama-3.2-8B-Instruct",
+        "level": "C1",
+        "word": "embarrassment",
+        "sentence": "The politician's embarrassment during the debate was a result of her lack of preparation."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-1B-Instruct",
+        "level": "C1",
+        "word": "embarrassment",
+        "sentence": "The politician's embarrassment at being caught on camera was a major talking point during the press conference."
+      },
+      "Sentence E": {
+        "model": "mistralai_Ministral-8B-Instruct-2410",
+        "level": "C1",
+        "word": "embarrassment",
+        "sentence": "The politician's embarrassing gaffe during the debate cost him valuable votes in the upcoming election."
+      },
+      "Sentence F": {
+        "model": "Claude_Sonnet_4.5",
+        "level": "C1",
+        "word": "embarrassment",
+        "sentence": "The politician's public gaffe caused considerable embarrassment to his party and damaged his credibility with voters."
+      }
+    },
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"{word}\" at CEFR level: {level}.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context? **If the word is not used at all, give the lowest score.**\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence B: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence C: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence D: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence E: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence F: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\n\n### Sentences:\n{sentences_block}\n"
+  },
+  {
+    "task_id": "C1_outbreak_1",
+    "level": "C1",
+    "group": 1,
+    "word": "outbreak",
+    "labeled_sentences": [
+      [
+        "Sentence A",
+        "The outbreak of pneumonia led to a surge in hospital admissions, putting a strain on the healthcare system."
+      ],
+      [
+        "Sentence B",
+        "The sudden outbreak of the virus in the densely populated city raised significant concerns about public health and the effectiveness of preventive measures."
+      ],
+      [
+        "Sentence C",
+        "Public health officials are working rapidly to identify the source and contain the outbreak before it reaches pandemic proportions."
+      ],
+      [
+        "Sentence D",
+        "Health authorities responded swiftly to the outbreak of food poisoning, tracing its source to a contaminated water supply."
+      ],
+      [
+        "Sentence E",
+        "The outbreak of violence in the region prompted a temporary halt in trade negotiations."
+      ],
+      [
+        "Sentence F",
+        "The outbreak of the disease was attributed to poor sanitation and hygiene practices."
+      ]
+    ],
+    "mapping": {
+      "Sentence A": {
+        "model": "Llama-3.2-1B-Instruct",
+        "level": "C1",
+        "word": "outbreak",
+        "sentence": "The outbreak of pneumonia led to a surge in hospital admissions, putting a strain on the healthcare system."
+      },
+      "Sentence B": {
+        "model": "Llama-3.2-1B-Instruct-FineTuned",
+        "level": "C1",
+        "word": "outbreak",
+        "sentence": "The sudden outbreak of the virus in the densely populated city raised significant concerns about public health and the effectiveness of preventive measures."
+      },
+      "Sentence C": {
+        "model": "Gemini_Pro_2.5",
+        "level": "C1",
+        "word": "outbreak",
+        "sentence": "Public health officials are working rapidly to identify the source and contain the outbreak before it reaches pandemic proportions."
+      },
+      "Sentence D": {
+        "model": "Claude_Sonnet_4.5",
+        "level": "C1",
+        "word": "outbreak",
+        "sentence": "Health authorities responded swiftly to the outbreak of food poisoning, tracing its source to a contaminated water supply."
+      },
+      "Sentence E": {
+        "model": "mistralai_Ministral-8B-Instruct-2410",
+        "level": "C1",
+        "word": "outbreak",
+        "sentence": "The outbreak of violence in the region prompted a temporary halt in trade negotiations."
+      },
+      "Sentence F": {
+        "model": "Llama-3.2-8B-Instruct",
+        "level": "C1",
+        "word": "outbreak",
+        "sentence": "The outbreak of the disease was attributed to poor sanitation and hygiene practices."
+      }
+    },
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"{word}\" at CEFR level: {level}.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context? **If the word is not used at all, give the lowest score.**\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence B: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence C: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence D: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence E: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence F: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\n\n### Sentences:\n{sentences_block}\n"
+  },
+  {
+    "task_id": "C1_lethal_1",
+    "level": "C1",
+    "group": 1,
+    "word": "lethal",
+    "labeled_sentences": [
+      [
+        "Sentence A",
+        "The lethal dose of poison was found in the victim's drink, leading investigators to suspect foul play."
+      ],
+      [
+        "Sentence B",
+        "While the venom is rarely fatal to large animals, it proves lethal to the small rodents that constitute the snake's primary diet."
+      ],
+      [
+        "Sentence C",
+        "The company's decision to invest in a new, lethal technology was met with skepticism from the board of directors."
+      ],
+      [
+        "Sentence D",
+        "The toxic gas released during the explosion was lethal to anyone in the surrounding area."
+      ],
+      [
+        "Sentence E",
+        "The venom of the box jellyfish contains toxins so lethal that victims can die within minutes without immediate treatment."
+      ],
+      [
+        "Sentence F",
+        "The researchers found that the newly developed pesticide had lethal effects on non-target species, highlighting the need for more targeted and environmentally sustainable agricultural practices."
+      ]
+    ],
+    "mapping": {
+      "Sentence A": {
+        "model": "mistralai_Ministral-8B-Instruct-2410",
+        "level": "C1",
+        "word": "lethal",
+        "sentence": "The lethal dose of poison was found in the victim's drink, leading investigators to suspect foul play."
+      },
+      "Sentence B": {
+        "model": "Gemini_Pro_2.5",
+        "level": "C1",
+        "word": "lethal",
+        "sentence": "While the venom is rarely fatal to large animals, it proves lethal to the small rodents that constitute the snake's primary diet."
+      },
+      "Sentence C": {
+        "model": "Llama-3.2-1B-Instruct",
+        "level": "C1",
+        "word": "lethal",
+        "sentence": "The company's decision to invest in a new, lethal technology was met with skepticism from the board of directors."
+      },
+      "Sentence D": {
+        "model": "Llama-3.2-8B-Instruct",
+        "level": "C1",
+        "word": "lethal",
+        "sentence": "The toxic gas released during the explosion was lethal to anyone in the surrounding area."
+      },
+      "Sentence E": {
+        "model": "Claude_Sonnet_4.5",
+        "level": "C1",
+        "word": "lethal",
+        "sentence": "The venom of the box jellyfish contains toxins so lethal that victims can die within minutes without immediate treatment."
+      },
+      "Sentence F": {
+        "model": "Llama-3.2-1B-Instruct-FineTuned",
+        "level": "C1",
+        "word": "lethal",
+        "sentence": "The researchers found that the newly developed pesticide had lethal effects on non-target species, highlighting the need for more targeted and environmentally sustainable agricultural practices."
+      }
+    },
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"{word}\" at CEFR level: {level}.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context? **If the word is not used at all, give the lowest score.**\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence B: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence C: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence D: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence E: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence F: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\n\n### Sentences:\n{sentences_block}\n"
+  },
+  {
+    "task_id": "C1_sovereignty_1",
+    "level": "C1",
+    "group": 1,
+    "word": "sovereignty",
+    "labeled_sentences": [
+      [
+        "Sentence A",
+        "The country's sovereignty was challenged when a foreign nation claimed the disputed territory as its own."
+      ],
+      [
+        "Sentence B",
+        "The nation's sovereignty was threatened by the invasion, and the international community was quick to condemn the act."
+      ],
+      [
+        "Sentence C",
+        "The delicate balance of global sovereignty often hinges on the ability of nations to make informed decisions while navigating the complexities of international relations."
+      ],
+      [
+        "Sentence D",
+        "The new regional treaty raised complex constitutional questions about national sovereignty versus the benefits of economic integration."
+      ],
+      [
+        "Sentence E",
+        "The country's sovereignty is being threatened by the neighboring nation's aggressive military actions."
+      ],
+      [
+        "Sentence F",
+        "The nation fiercely defended its sovereignty against external interference in its domestic affairs."
+      ]
+    ],
+    "mapping": {
+      "Sentence A": {
+        "model": "mistralai_Ministral-8B-Instruct-2410",
+        "level": "C1",
+        "word": "sovereignty",
+        "sentence": "The country's sovereignty was challenged when a foreign nation claimed the disputed territory as its own."
+      },
+      "Sentence B": {
+        "model": "Llama-3.2-1B-Instruct",
+        "level": "C1",
+        "word": "sovereignty",
+        "sentence": "The nation's sovereignty was threatened by the invasion, and the international community was quick to condemn the act."
+      },
+      "Sentence C": {
+        "model": "Llama-3.2-1B-Instruct-FineTuned",
+        "level": "C1",
+        "word": "sovereignty",
+        "sentence": "The delicate balance of global sovereignty often hinges on the ability of nations to make informed decisions while navigating the complexities of international relations."
+      },
+      "Sentence D": {
+        "model": "Gemini_Pro_2.5",
+        "level": "C1",
+        "word": "sovereignty",
+        "sentence": "The new regional treaty raised complex constitutional questions about national sovereignty versus the benefits of economic integration."
+      },
+      "Sentence E": {
+        "model": "Llama-3.2-8B-Instruct",
+        "level": "C1",
+        "word": "sovereignty",
+        "sentence": "The country's sovereignty is being threatened by the neighboring nation's aggressive military actions."
+      },
+      "Sentence F": {
+        "model": "Claude_Sonnet_4.5",
+        "level": "C1",
+        "word": "sovereignty",
+        "sentence": "The nation fiercely defended its sovereignty against external interference in its domestic affairs."
+      }
+    },
+    "prompt": "You are a professional CEFR-aligned English sentence evaluator.\n\nYour task is to evaluate 6 example sentences that all use the target word: \"{word}\" at CEFR level: {level}.\n\nRate each sentence from 1 (poor) to 5 (excellent) for the following **four independent criteria**:\n\n1) Word Usage — Is the given word used with the correct meaning and appropriately in context? **If the word is not used at all, give the lowest score.**\n2) Level Appropriateness — Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?\n3) Grammatical Accuracy — Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?\n4) Naturalness — Does the sentence sound natural and align with standard usage by native English speakers?\n\n⚠️ Important Instructions:\n- **Only return numerical ratings** for each criterion.\n- **Do not include any explanations, comments, or justifications.**\n- Follow the exact output format below.\n\n### Output Format:\nSentence A: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence B: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence C: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence D: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence E: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\nSentence F: <Word Usage>, <Level Appropriateness>, <Grammar>, <Naturalness>\n\n### Sentences:\n{sentences_block}\n"
+  }
+]

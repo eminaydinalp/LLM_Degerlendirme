@@ -1,0 +1,29 @@
+{
+  "model_name": "Llama-3.2-8B-Instruct",
+  "cefr_level": "C1",
+  "word_count": 10,
+  "words": [
+    "backup",
+    "default",
+    "defy",
+    "collaborate",
+    "correspond",
+    "instrumental",
+    "embarrassment",
+    "outbreak",
+    "lethal",
+    "sovereignty"
+  ],
+  "sentences": [
+    "The company has a backup plan in place in case of a natural disaster, which could disrupt their operations.",
+    "The default setting on the new smartphone is to automatically update the operating system.",
+    "The protesters chose to defy the government's ban on the rally, arguing that it was a fundamental right.",
+    "The team of engineers was asked to collaborate with the designers to create a more efficient product.",
+    "The company's customer service department corresponds with clients to resolve any issues they may have.",
+    "The musician's instrumental skills on the guitar are truly exceptional.",
+    "The politician's embarrassment during the debate was a result of her lack of preparation.",
+    "The outbreak of the disease was attributed to poor sanitation and hygiene practices.",
+    "The toxic gas released during the explosion was lethal to anyone in the surrounding area.",
+    "The country's sovereignty is being threatened by the neighboring nation's aggressive military actions."
+  ]
+}

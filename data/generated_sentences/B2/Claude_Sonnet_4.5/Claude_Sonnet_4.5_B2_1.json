@@ -1,0 +1,29 @@
+{
+  "model_name": "Claude_Sonnet_4.5",
+  "cefr_level": "B2",
+  "word_count": 10,
+  "words": [
+    "agency",
+    "alter",
+    "heaven",
+    "hollow",
+    "extend",
+    "imply",
+    "numerous",
+    "opponent",
+    "process",
+    "wise"
+  ],
+  "sentences": [
+    "The marketing agency helped the company develop a new brand identity and reach more customers online.",
+    "Climate change could significantly alter the migration patterns of birds and other wildlife in the coming decades.",
+    "After weeks of stressful exams, lying on the beach with a good book felt like absolute heaven.",
+    "The old tree trunk was completely hollow inside, providing a perfect shelter for small animals and birds.",
+    "The university decided to extend the deadline for scholarship applications by two weeks due to technical problems.",
+    "When she said the project was \"interesting,\" her tone seemed to imply that she didn't actually like it very much.",
+    "The researcher conducted numerous experiments before finally discovering a solution to the problem.",
+    "The chess champion carefully studied her opponent's previous games to identify weaknesses in their strategy.",
+    "Learning a foreign language is a gradual process that requires patience, practice, and consistent effort.",
+    "It would be wise to save some money each month rather than spending your entire salary immediately."
+  ]
+}

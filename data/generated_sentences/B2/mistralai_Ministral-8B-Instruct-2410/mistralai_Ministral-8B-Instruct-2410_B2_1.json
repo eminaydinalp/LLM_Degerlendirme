@@ -1,0 +1,29 @@
+{
+  "model_name": "mistralai_Ministral-8B-Instruct-2410",
+  "cefr_level": "B2",
+  "word_count": 10,
+  "words": [
+    "agency",
+    "alter",
+    "heaven",
+    "hollow",
+    "extend",
+    "imply",
+    "numerous",
+    "opponent",
+    "process",
+    "wise"
+  ],
+  "sentences": [
+    "The agency has been helping me find a new job.",
+    "She decided to alter her plans and go on vacation instead.",
+    "Heaven is the place where angels live.",
+    "The hollow tree was perfect for hiding our treasure.",
+    "The company extended its offer to include a bonus.",
+    "The report implied that the project would be delayed.",
+    "There are numerous reasons why we should vote for this candidate.",
+    "His opponent has been campaigning for the past six months.",
+    "The process of making sushi requires patience and practice.",
+    "She gave him a wise piece of advice that he will never forget."
+  ]
+}

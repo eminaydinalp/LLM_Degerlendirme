@@ -1,0 +1,29 @@
+{
+  "model_name": "Gemini_Pro_2.5",
+  "cefr_level": "B2",
+  "word_count": 10,
+  "words": [
+    "agency",
+    "alter",
+    "heaven",
+    "hollow",
+    "extend",
+    "imply",
+    "numerous",
+    "opponent",
+    "process",
+    "wise"
+  ],
+  "sentences": [
+    "Studying abroad gave her a real sense of personal agency, as she had to manage her own budget, housing, and schedule.",
+    "The project manager had to alter the timeline after realizing that some key tasks would take longer than anticipated.",
+    "For the exhausted hiker, reaching the mountain cabin and sitting by the warm fire felt like absolute heaven.",
+    "The ancient statue was surprisingly lightweight, as the sculptor had made it hollow on the inside.",
+    "On behalf of the entire team, I would like to extend a warm welcome to the new members joining us today.",
+    "While he never said it directly, his constant complaints seemed to imply that he was unhappy with his job.",
+    "The author has received numerous awards for her contributions to modern literature.",
+    "In the final debate, the candidate remained respectful while clearly challenging her opponent's policies.",
+    "The process of applying for a visa can be complicated, so it's important to read all the instructions carefully.",
+    "It was a wise decision to start saving for retirement at an early age."
+  ]
+}

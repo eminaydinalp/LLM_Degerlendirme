@@ -1,0 +1,29 @@
+{
+  "model_name": "Claude_Sonnet_4.5",
+  "cefr_level": "C1",
+  "word_count": 10,
+  "words": [
+    "backup",
+    "default",
+    "defy",
+    "collaborate",
+    "correspond",
+    "instrumental",
+    "embarrassment",
+    "outbreak",
+    "lethal",
+    "sovereignty"
+  ],
+  "sentences": [
+    "The company's robust backup system enabled them to recover all critical data within hours of the cyberattack.",
+    "Many users never change the default settings on their devices, which can leave them vulnerable to security breaches.",
+    "The artist's innovative work seemed to defy conventional categorization, blending elements of sculpture, painting, and performance art.",
+    "Researchers from three continents collaborated on the groundbreaking study, sharing data and expertise through virtual meetings.",
+    "The archaeological evidence corresponds closely with accounts from ancient texts, confirming the historical accuracy of the narrative.",
+    "Her diplomatic skills were instrumental in negotiating the peace agreement that ended decades of conflict.",
+    "The politician's public gaffe caused considerable embarrassment to his party and damaged his credibility with voters.",
+    "Health authorities responded swiftly to the outbreak of food poisoning, tracing its source to a contaminated water supply.",
+    "The venom of the box jellyfish contains toxins so lethal that victims can die within minutes without immediate treatment.",
+    "The nation fiercely defended its sovereignty against external interference in its domestic affairs."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "model_name": "Llama-3.2-1B-Instruct",
+  "cefr_level": "B2",
+  "word_count": 10,
+  "words": [
+    "agency",
+    "alter",
+    "heaven",
+    "hollow",
+    "extend",
+    "imply",
+    "numerous",
+    "opponent",
+    "process",
+    "wise"
+  ],
+  "sentences": [
+    "The new agency was established to provide social services to the local community.",
+    "The artist's alter ego was a completely different person, known for her striking style.",
+    "The serene atmosphere of the heavenly landscape was a perfect escape from the hustle and bustle of city life.",
+    "The old mansion had a hollow, abandoned feel that seemed to suck the life out of the surrounding environment.",
+    "The company decided to extend its business operations to several countries around the world.",
+    "The new policy implies that it will be implemented gradually over a period of time, giving people time to adjust.",
+    "The city's population is increasing rapidly, leading to numerous construction projects and urban development initiatives.",
+    "The opposing team's coach was a seasoned professional with years of experience in the sport.",
+    "The new process for filing tax returns has made it easier for individuals to manage their finances more efficiently.",
+    "The wise decision to invest in renewable energy sources is expected to benefit the environment in the long run."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "model_name": "Llama-3.2-1B-Instruct-FineTuned",
+  "cefr_level": "C1",
+  "word_count": 10,
+  "words": [
+    "backup",
+    "default",
+    "defy",
+    "collaborate",
+    "correspond",
+    "instrumental",
+    "embarrassment",
+    "outbreak",
+    "lethal",
+    "sovereignty"
+  ],
+  "sentences": [
+    "In order to ensure the software's stability, it was crucial to have a reliable backup system in place, allowing users to easily recover their data in case of system failures.",
+    "In the absence of explicit instructions, the software will revert to its default settings, which may not necessarily meet the user's preferences.",
+    "The artist chose to defy conventional norms, creating a masterpiece that challenged the viewer's perceptions of beauty and meaning.",
+    "In order to tackle the complex challenges of climate change, scientists from various disciplines must collaborate and share their expertise to develop innovative solutions.",
+    "The intricate patterns observed in the data correspond closely with the theoretical predictions outlined in the earlier studies.",
+    "The scientist found that the new material was instrumental in facilitating the groundbreaking research that could potentially revolutionize our understanding of climate change.",
+    "Despite her attempt to maintain composure, the overwhelming embarrassment of tripping on stage left her stuttering nervously as she apologized to the audience.",
+    "The sudden outbreak of the virus in the densely populated city raised significant concerns about public health and the effectiveness of preventive measures.",
+    "The researchers found that the newly developed pesticide had lethal effects on non-target species, highlighting the need for more targeted and environmentally sustainable agricultural practices.",
+    "The delicate balance of global sovereignty often hinges on the ability of nations to make informed decisions while navigating the complexities of international relations."
+  ]
+}
