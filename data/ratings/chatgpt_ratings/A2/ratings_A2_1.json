@@ -1,0 +1,962 @@
+[
+  {
+    "task_id": "A2_ability_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A2",
+    "group": 1,
+    "word": "ability",
+    "label": "Sentence A",
+    "sentence": "She has the ability to play the piano beautifully.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_ability_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "ability",
+    "label": "Sentence B",
+    "sentence": "I have a good ability to play the piano.",
+    "ratings": {
+      "word_usage": 3.0,
+      "clarity": 5.0,
+      "grammar": 4.5,
+      "naturalness": 2.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_ability_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A2",
+    "group": 1,
+    "word": "ability",
+    "label": "Sentence C",
+    "sentence": "Maria has the ability to speak three languages.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_ability_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A2",
+    "group": 1,
+    "word": "ability",
+    "label": "Sentence D",
+    "sentence": "His ability to speak in front of the class is improving every day.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_ability_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "ability",
+    "label": "Sentence E",
+    "sentence": "She has a big ability to sing beautifully.",
+    "ratings": {
+      "word_usage": 2.0,
+      "clarity": 5.0,
+      "grammar": 4.5,
+      "naturalness": 1.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_ability_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A2",
+    "group": 1,
+    "word": "ability",
+    "label": "Sentence F",
+    "sentence": "He has the ability to speak three languages.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_affect_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A2",
+    "group": 1,
+    "word": "affect",
+    "label": "Sentence A",
+    "sentence": "The weather will affect our plans for the picnic.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_affect_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A2",
+    "group": 1,
+    "word": "affect",
+    "label": "Sentence B",
+    "sentence": "The weather can affect your mood and feelings.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_affect_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A2",
+    "group": 1,
+    "word": "affect",
+    "label": "Sentence C",
+    "sentence": "The movie affected me deeply.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_affect_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "affect",
+    "label": "Sentence D",
+    "sentence": "She will affect the weather tomorrow.",
+    "ratings": {
+      "word_usage": 2.5,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 2.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_affect_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A2",
+    "group": 1,
+    "word": "affect",
+    "label": "Sentence E",
+    "sentence": "The teacher said that our studies can affect our future jobs.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_affect_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "affect",
+    "label": "Sentence F",
+    "sentence": "The cold weather will affect the crops.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_almost_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A2",
+    "group": 1,
+    "word": "almost",
+    "label": "Sentence A",
+    "sentence": "I am almost finished with my homework.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_almost_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "almost",
+    "label": "Sentence B",
+    "sentence": "The movie is almost finished, let's watch it tonight.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 2.0,
+      "naturalness": 2.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_almost_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A2",
+    "group": 1,
+    "word": "almost",
+    "label": "Sentence C",
+    "sentence": "I almost missed the bus this morning!",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_almost_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A2",
+    "group": 1,
+    "word": "almost",
+    "label": "Sentence D",
+    "sentence": "I will almost finish my homework by tomorrow.",
+    "ratings": {
+      "word_usage": 3.0,
+      "clarity": 4.0,
+      "grammar": 3.5,
+      "naturalness": 2.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_almost_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "almost",
+    "label": "Sentence E",
+    "sentence": "I almost ate the whole cake.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_almost_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A2",
+    "group": 1,
+    "word": "almost",
+    "label": "Sentence F",
+    "sentence": "We almost missed the bus this morning.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_board_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A2",
+    "group": 1,
+    "word": "board",
+    "label": "Sentence A",
+    "sentence": "The teacher wrote the answer on the white board.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_board_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "board",
+    "label": "Sentence B",
+    "sentence": "The white board is used for writing and drawing.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_board_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A2",
+    "group": 1,
+    "word": "board",
+    "label": "Sentence C",
+    "sentence": "The teacher wrote the new words on the board.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_board_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A2",
+    "group": 1,
+    "word": "board",
+    "label": "Sentence D",
+    "sentence": "The board is where we write our answers.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_board_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A2",
+    "group": 1,
+    "word": "board",
+    "label": "Sentence E",
+    "sentence": "He put the sign on the board in the classroom.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_board_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "board",
+    "label": "Sentence F",
+    "sentence": "The teacher asked us to draw on a big board.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_connect_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A2",
+    "group": 1,
+    "word": "connect",
+    "label": "Sentence A",
+    "sentence": "You need to connect your phone to the WiFi.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_connect_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A2",
+    "group": 1,
+    "word": "connect",
+    "label": "Sentence B",
+    "sentence": "You need a password to connect to the Wi-Fi.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_connect_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A2",
+    "group": 1,
+    "word": "connect",
+    "label": "Sentence C",
+    "sentence": "Let's connect our computers to the internet.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_connect_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "connect",
+    "label": "Sentence D",
+    "sentence": "Can you connect the wires for me?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_connect_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "connect",
+    "label": "Sentence E",
+    "sentence": "Can you connect the dots in this picture?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_connect_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A2",
+    "group": 1,
+    "word": "connect",
+    "label": "Sentence F",
+    "sentence": "I need to connect with my friends after school.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_context_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "context",
+    "label": "Sentence A",
+    "sentence": "Can you explain the context of the story?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_context_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A2",
+    "group": 1,
+    "word": "context",
+    "label": "Sentence B",
+    "sentence": "The context of the story helps me understand it better.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_context_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A2",
+    "group": 1,
+    "word": "context",
+    "label": "Sentence C",
+    "sentence": "The teacher gave us some context before the lesson started.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_context_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "context",
+    "label": "Sentence D",
+    "sentence": "The teacher gave us a lot of context for the story.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_context_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A2",
+    "group": 1,
+    "word": "context",
+    "label": "Sentence E",
+    "sentence": "I don't understand this word without more context.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_context_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A2",
+    "group": 1,
+    "word": "context",
+    "label": "Sentence F",
+    "sentence": "The pictures in the book give context to the story.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_remove_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A2",
+    "group": 1,
+    "word": "remove",
+    "label": "Sentence A",
+    "sentence": "Please remove your hat when you are in class.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_remove_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "remove",
+    "label": "Sentence B",
+    "sentence": "We need to remove the trash from the park.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_remove_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "remove",
+    "label": "Sentence C",
+    "sentence": "Please remove the trash from the room.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_remove_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A2",
+    "group": 1,
+    "word": "remove",
+    "label": "Sentence D",
+    "sentence": "Please remove your shoes before you come inside.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_remove_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A2",
+    "group": 1,
+    "word": "remove",
+    "label": "Sentence E",
+    "sentence": "I will remove the stain from the carpet.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_remove_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A2",
+    "group": 1,
+    "word": "remove",
+    "label": "Sentence F",
+    "sentence": "He wants to remove the dirt from his hands after gardening.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_typical_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "typical",
+    "label": "Sentence A",
+    "sentence": "The typical food in Japan is sushi.",
+    "ratings": {
+      "word_usage": 4.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 3.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_typical_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A2",
+    "group": 1,
+    "word": "typical",
+    "label": "Sentence B",
+    "sentence": "It is typical to see trees in the park during spring.",
+    "ratings": {
+      "word_usage": 3.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 2.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_typical_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A2",
+    "group": 1,
+    "word": "typical",
+    "label": "Sentence C",
+    "sentence": "That is a typical day for a student.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_typical_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "typical",
+    "label": "Sentence D",
+    "sentence": "This is a typical day for us in summer.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_typical_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A2",
+    "group": 1,
+    "word": "typical",
+    "label": "Sentence E",
+    "sentence": "A typical school day starts at 8 o'clock.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_typical_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A2",
+    "group": 1,
+    "word": "typical",
+    "label": "Sentence F",
+    "sentence": "A typical day for me starts with breakfast at 7:00 AM.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_coal_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "coal",
+    "label": "Sentence A",
+    "sentence": "The fire was burning coal in the fireplace.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_coal_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A2",
+    "group": 1,
+    "word": "coal",
+    "label": "Sentence B",
+    "sentence": "The children like to play with coal and make dolls.",
+    "ratings": {
+      "word_usage": 2.5,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 2.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_coal_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A2",
+    "group": 1,
+    "word": "coal",
+    "label": "Sentence C",
+    "sentence": "Long ago, many trains used coal for power.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_coal_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A2",
+    "group": 1,
+    "word": "coal",
+    "label": "Sentence D",
+    "sentence": "The coal is used to heat the house in winter.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_coal_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "coal",
+    "label": "Sentence E",
+    "sentence": "My brother has a big coal in his pocket.",
+    "ratings": {
+      "word_usage": 3.0,
+      "clarity": 5.0,
+      "grammar": 2.0,
+      "naturalness": 1.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_coal_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A2",
+    "group": 1,
+    "word": "coal",
+    "label": "Sentence F",
+    "sentence": "Many countries use coal to make electricity.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_surprised_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "A2",
+    "group": 1,
+    "word": "surprised",
+    "label": "Sentence A",
+    "sentence": "I was surprised when I heard the good news.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_surprised_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "surprised",
+    "label": "Sentence B",
+    "sentence": "I was surprised by the news that my friend got married.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_surprised_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "A2",
+    "group": 1,
+    "word": "surprised",
+    "label": "Sentence C",
+    "sentence": "I was surprised when I got an A on my test!",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_surprised_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "A2",
+    "group": 1,
+    "word": "surprised",
+    "label": "Sentence D",
+    "sentence": "I was surprised to get a present today!",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_surprised_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "A2",
+    "group": 1,
+    "word": "surprised",
+    "label": "Sentence E",
+    "sentence": "I was surprised to hear that my friend was coming.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "A2_surprised_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "A2",
+    "group": 1,
+    "word": "surprised",
+    "label": "Sentence F",
+    "sentence": "I was surprised to see my friend after so many years.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  }
+]

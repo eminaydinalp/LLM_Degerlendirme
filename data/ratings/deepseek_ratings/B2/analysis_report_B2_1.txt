@@ -1,0 +1,103 @@
+================================================================================
+CHATGPT RATING ANALYSIS REPORT - B2 LEVEL
+================================================================================
+Report Date: 2025-11-14 22:00:48
+Source File: ratings_B2_1.json
+Evaluator: deepseek-reasoner (ChatGPT)
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Total Evaluations: 60
+Total Words: 10
+Total Models: 6
+Words: agency, alter, extend, heaven, hollow, imply, numerous, opponent, process, wise
+
+--------------------------------------------------------------------------------
+OVERALL SCORES
+--------------------------------------------------------------------------------
+Word Usage (Kelime Kullanımı)  : 4.89 / 5.00
+Clarity (Netlik)               : 4.92 / 5.00
+Grammar (Dilbilgisi)           : 4.98 / 5.00
+Naturalness (Doğallık)         : 4.93 / 5.00
+Overall Average                : 4.93 / 5.00
+
+--------------------------------------------------------------------------------
+MODEL PERFORMANCE RANKING
+--------------------------------------------------------------------------------
+Rank   Model                                         WU     CL     GR     NT     AVG    STD  
+--------------------------------------------------------------------------------
+1      Claude_Sonnet_4.5                             5.00   5.00   5.00   5.00   5.00   0.000
+2      Gemini_Pro_2.5                                5.00   5.00   5.00   5.00   5.00   0.000
+3      Llama-3.2-1B-Instruct-FineTuned               5.00   5.00   5.00   5.00   5.00   0.000
+4      Llama-3.2-1B-Instruct                         4.60   5.00   5.00   5.00   4.90   0.320
+5      mistralai_Ministral-8B-Instruct-2410          5.00   4.55   5.00   4.95   4.88   0.190
+6      Llama-3.2-8B-Instruct                         4.75   4.95   4.90   4.65   4.81   0.370
+
+Legend: WU=Word Usage, CL=Clarity, GR=Grammar, NT=Naturalness, STD=Standard Deviation
+
+--------------------------------------------------------------------------------
+WORD DIFFICULTY ANALYSIS
+--------------------------------------------------------------------------------
+Word            WU     CL     GR     NT     AVG   
+--------------------------------------------------------------------------------
+agency          5.00   5.00   5.00   5.00   5.00
+alter           5.00   5.00   5.00   5.00   5.00
+extend          5.00   5.00   5.00   5.00   5.00
+imply           5.00   5.00   5.00   5.00   5.00
+numerous        5.00   5.00   5.00   5.00   5.00
+process         5.00   4.92   5.00   5.00   4.98
+hollow          5.00   4.75   5.00   5.00   4.94
+opponent        4.33   5.00   5.00   5.00   4.83
+wise            4.83   4.75   4.92   4.67   4.79
+heaven          4.75   4.75   4.92   4.67   4.77
+
+--------------------------------------------------------------------------------
+CRITICAL ISSUES
+--------------------------------------------------------------------------------
+WARNING: 1 sentences have critical word usage errors (score <= 1.5)
+
+  Word: opponent
+  Model: Llama-3.2-1B-Instruct
+  Sentence: "The opposing team's coach was a seasoned professional with years of experience in the sport."
+  Issue: Word not used or completely misused
+
+--------------------------------------------------------------------------------
+SCORE DISTRIBUTION
+--------------------------------------------------------------------------------
+Perfect (5.0)       :  52 sentences ( 86.7%)
+Good (4.0-4.9)      :   8 sentences ( 13.3%)
+Poor (<4.0)         :   0 sentences (  0.0%)
+
+--------------------------------------------------------------------------------
+KEY FINDINGS
+--------------------------------------------------------------------------------
+• Best Performing Model: Claude_Sonnet_4.5 (5.00/5.0)
+• Most Consistent Model: Claude_Sonnet_4.5 (std: 0.000)
+• Weakest Criterion: Word Usage (4.89)
+• Strongest Criterion: Grammar (4.98)
+• Perfect Score Rate: 86.7%
+• Problematic Sentences: 0 out of 60
+
+--------------------------------------------------------------------------------
+RECOMMENDATIONS
+--------------------------------------------------------------------------------
+✓ Claude_Sonnet_4.5 shows excellent performance
+✓ Gemini_Pro_2.5 shows excellent performance
+✓ Llama-3.2-1B-Instruct-FineTuned shows excellent performance
+• Words requiring attention: heaven, wise, opponent (lower scoring words)
+
+--------------------------------------------------------------------------------
+VISUALIZATIONS
+--------------------------------------------------------------------------------
+The following charts have been generated:
+  1. chart_1_model_overall.png         - Model Overall Performance
+  2. chart_2_model_by_criteria.png     - Model Performance by Criteria
+  3. chart_3_word_difficulty.png       - Word Difficulty Analysis
+  4. chart_4_criteria_distribution.png - Overall Performance by Criteria
+  5. chart_5_model_consistency.png     - Model Consistency Analysis
+  6. chart_6_score_distribution.png    - Score Distribution
+
+================================================================================
+END OF REPORT
+================================================================================

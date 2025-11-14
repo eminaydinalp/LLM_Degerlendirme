@@ -1,0 +1,110 @@
+================================================================================
+CHATGPT RATING ANALYSIS REPORT - C1 LEVEL
+================================================================================
+Report Date: 2025-11-14 22:00:53
+Source File: ratings_C1_1.json
+Evaluator: deepseek-reasoner (ChatGPT)
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Total Evaluations: 60
+Total Words: 10
+Total Models: 6
+Words: backup, collaborate, correspond, default, defy, embarrassment, instrumental, lethal, outbreak, sovereignty
+
+--------------------------------------------------------------------------------
+OVERALL SCORES
+--------------------------------------------------------------------------------
+Word Usage (Kelime Kullanımı)  : 4.89 / 5.00
+Clarity (Netlik)               : 4.83 / 5.00
+Grammar (Dilbilgisi)           : 4.99 / 5.00
+Naturalness (Doğallık)         : 4.94 / 5.00
+Overall Average                : 4.91 / 5.00
+
+--------------------------------------------------------------------------------
+MODEL PERFORMANCE RANKING
+--------------------------------------------------------------------------------
+Rank   Model                                         WU     CL     GR     NT     AVG    STD  
+--------------------------------------------------------------------------------
+1      Gemini_Pro_2.5                                5.00   5.00   5.00   5.00   5.00   0.000
+2      Llama-3.2-1B-Instruct-FineTuned               5.00   5.00   5.00   5.00   5.00   0.000
+3      Claude_Sonnet_4.5                             5.00   4.90   5.00   5.00   4.97   0.080
+4      Llama-3.2-8B-Instruct                         5.00   4.65   5.00   5.00   4.91   0.130
+5      mistralai_Ministral-8B-Instruct-2410          4.60   4.85   5.00   5.00   4.86   0.310
+6      Llama-3.2-1B-Instruct                         4.75   4.60   4.95   4.65   4.74   0.580
+
+Legend: WU=Word Usage, CL=Clarity, GR=Grammar, NT=Naturalness, STD=Standard Deviation
+
+--------------------------------------------------------------------------------
+WORD DIFFICULTY ANALYSIS
+--------------------------------------------------------------------------------
+Word            WU     CL     GR     NT     AVG   
+--------------------------------------------------------------------------------
+correspond      5.00   5.00   5.00   5.00   5.00
+defy            5.00   5.00   5.00   5.00   5.00
+outbreak        5.00   5.00   5.00   5.00   5.00
+backup          5.00   4.92   5.00   5.00   4.98
+default         5.00   4.92   5.00   5.00   4.98
+lethal          4.92   4.92   5.00   4.92   4.94
+instrumental    5.00   4.67   5.00   5.00   4.92
+sovereignty     5.00   4.50   5.00   5.00   4.88
+embarrassment   4.33   4.83   5.00   5.00   4.79
+collaborate     4.67   4.58   4.92   4.50   4.67
+
+--------------------------------------------------------------------------------
+CRITICAL ISSUES
+--------------------------------------------------------------------------------
+WARNING: 1 sentences have critical word usage errors (score <= 1.5)
+
+  Word: embarrassment
+  Model: mistralai_Ministral-8B-Instruct-2410
+  Sentence: "The politician's embarrassing gaffe during the debate cost him valuable votes in the upcoming election."
+  Issue: Word not used or completely misused
+
+--------------------------------------------------------------------------------
+SCORE DISTRIBUTION
+--------------------------------------------------------------------------------
+Perfect (5.0)       :  46 sentences ( 76.7%)
+Good (4.0-4.9)      :  13 sentences ( 21.7%)
+Poor (<4.0)         :   1 sentences (  1.7%)
+
+--------------------------------------------------------------------------------
+PROBLEMATIC SENTENCES (Score < 4.0)
+--------------------------------------------------------------------------------
+Word: collaborate | Model: Llama-3.2-1B-Instruct
+Sentence: "The researchers worked together to collaborate on the project, sharing their expertise and ideas."
+Scores - WU: 3.0, CL: 3.0, GR: 4.5, NT: 2.0 | AVG: 3.12
+
+--------------------------------------------------------------------------------
+KEY FINDINGS
+--------------------------------------------------------------------------------
+• Best Performing Model: Gemini_Pro_2.5 (5.00/5.0)
+• Most Consistent Model: Gemini_Pro_2.5 (std: 0.000)
+• Weakest Criterion: Clarity (4.83)
+• Strongest Criterion: Grammar (4.99)
+• Perfect Score Rate: 76.7%
+• Problematic Sentences: 1 out of 60
+
+--------------------------------------------------------------------------------
+RECOMMENDATIONS
+--------------------------------------------------------------------------------
+✓ Gemini_Pro_2.5 shows excellent performance
+✓ Llama-3.2-1B-Instruct-FineTuned shows excellent performance
+✓ Claude_Sonnet_4.5 shows excellent performance
+• Words requiring attention: collaborate, embarrassment, sovereignty (lower scoring words)
+
+--------------------------------------------------------------------------------
+VISUALIZATIONS
+--------------------------------------------------------------------------------
+The following charts have been generated:
+  1. chart_1_model_overall.png         - Model Overall Performance
+  2. chart_2_model_by_criteria.png     - Model Performance by Criteria
+  3. chart_3_word_difficulty.png       - Word Difficulty Analysis
+  4. chart_4_criteria_distribution.png - Overall Performance by Criteria
+  5. chart_5_model_consistency.png     - Model Consistency Analysis
+  6. chart_6_score_distribution.png    - Score Distribution
+
+================================================================================
+END OF REPORT
+================================================================================

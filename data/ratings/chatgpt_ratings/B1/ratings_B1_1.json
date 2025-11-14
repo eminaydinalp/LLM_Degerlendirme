@@ -1,0 +1,962 @@
+[
+  {
+    "task_id": "B1_earthquake_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B1",
+    "group": 1,
+    "word": "earthquake",
+    "label": "Sentence A",
+    "sentence": "An earthquake hit the city, causing widespread panic among the residents.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_earthquake_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B1",
+    "group": 1,
+    "word": "earthquake",
+    "label": "Sentence B",
+    "sentence": "The city was damaged when a strong earthquake hit the region last year.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_earthquake_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "earthquake",
+    "label": "Sentence C",
+    "sentence": "The earthquake damaged many buildings in the city.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_earthquake_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "earthquake",
+    "label": "Sentence D",
+    "sentence": "The earthquake caused widespread destruction in the affected area.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_earthquake_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B1",
+    "group": 1,
+    "word": "earthquake",
+    "label": "Sentence E",
+    "sentence": "The earthquake damaged many buildings in the city, but fortunately no one was seriously hurt.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_earthquake_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B1",
+    "group": 1,
+    "word": "earthquake",
+    "label": "Sentence F",
+    "sentence": "I was very scared during the earthquake, but I felt safe in my house.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_frighten_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B1",
+    "group": 1,
+    "word": "frighten",
+    "label": "Sentence A",
+    "sentence": "The sudden noise made me frighten so much that I couldn't move.",
+    "ratings": {
+      "word_usage": 1.0,
+      "clarity": 3.5,
+      "grammar": 1.5,
+      "naturalness": 1.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_frighten_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B1",
+    "group": 1,
+    "word": "frighten",
+    "label": "Sentence B",
+    "sentence": "The loud thunder during the storm began to frighten the little dog.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_frighten_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "frighten",
+    "label": "Sentence C",
+    "sentence": "She began to frighten the other students with her scary stories.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_frighten_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "frighten",
+    "label": "Sentence D",
+    "sentence": "The loud noise frightened the children and they ran away.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_frighten_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B1",
+    "group": 1,
+    "word": "frighten",
+    "label": "Sentence E",
+    "sentence": "Loud noises at night can frighten young children, so we try to keep the house quiet.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_frighten_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B1",
+    "group": 1,
+    "word": "frighten",
+    "label": "Sentence F",
+    "sentence": "The loud thunder frightened the little girl during the storm.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_issue_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B1",
+    "group": 1,
+    "word": "issue",
+    "label": "Sentence A",
+    "sentence": "Climate change is an important issue that affects people all around the world.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_issue_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "issue",
+    "label": "Sentence B",
+    "sentence": "The company will issue a statement to explain the situation.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_issue_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B1",
+    "group": 1,
+    "word": "issue",
+    "label": "Sentence C",
+    "sentence": "There is an issue with the schedule, and we need to change the time of the meeting.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_issue_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "issue",
+    "label": "Sentence D",
+    "sentence": "The new policy will help us issue more discounts to customers.",
+    "ratings": {
+      "word_usage": 2.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 2.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_issue_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B1",
+    "group": 1,
+    "word": "issue",
+    "label": "Sentence E",
+    "sentence": "The issue of climate change has been a hot topic in the recent elections.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_issue_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B1",
+    "group": 1,
+    "word": "issue",
+    "label": "Sentence F",
+    "sentence": "We need to discuss the main issue, which is the lack of public transport.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_expand_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B1",
+    "group": 1,
+    "word": "expand",
+    "label": "Sentence A",
+    "sentence": "The company plans to expand and open new offices in Europe next year.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_expand_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B1",
+    "group": 1,
+    "word": "expand",
+    "label": "Sentence B",
+    "sentence": "As you read more books, your imagination can expand in many different ways.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_expand_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "expand",
+    "label": "Sentence C",
+    "sentence": "The new policy will expand job opportunities for young people.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_expand_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B1",
+    "group": 1,
+    "word": "expand",
+    "label": "Sentence D",
+    "sentence": "The company plans to expand its business by opening three new stores next year.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_expand_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B1",
+    "group": 1,
+    "word": "expand",
+    "label": "Sentence E",
+    "sentence": "The company is planning to expand its operations to Asia.",
+    "ratings": {
+      "word_usage": 4.5,
+      "clarity": 5.0,
+      "grammar": 4.5,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_expand_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "expand",
+    "label": "Sentence F",
+    "sentence": "The architect's plan to expand the building was met with skepticism.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_fancy_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "fancy",
+    "label": "Sentence A",
+    "sentence": "I have a fancy for Italian food and love to cook it at home.",
+    "ratings": {
+      "word_usage": 4.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 3.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_fancy_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B1",
+    "group": 1,
+    "word": "fancy",
+    "label": "Sentence B",
+    "sentence": "Would you fancy going to the cinema this weekend, or would you prefer to stay home?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_fancy_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B1",
+    "group": 1,
+    "word": "fancy",
+    "label": "Sentence C",
+    "sentence": "She wore a very fancy dress to the wedding, with lots of silk and lace.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_fancy_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B1",
+    "group": 1,
+    "word": "fancy",
+    "label": "Sentence D",
+    "sentence": "I really fancy the idea of traveling around the world.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_fancy_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B1",
+    "group": 1,
+    "word": "fancy",
+    "label": "Sentence E",
+    "sentence": "They have a fancy dinner party every year for their closest friends.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_fancy_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "fancy",
+    "label": "Sentence F",
+    "sentence": "His love of art led him to become a fancy and talented painter.",
+    "ratings": {
+      "word_usage": 1.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 1.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_imaginary_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B1",
+    "group": 1,
+    "word": "imaginary",
+    "label": "Sentence A",
+    "sentence": "My little sister has an imaginary friend called Sophie who she talks to every day.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_imaginary_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "imaginary",
+    "label": "Sentence B",
+    "sentence": "The idea of an imaginary world was fascinating to him.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_imaginary_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "imaginary",
+    "label": "Sentence C",
+    "sentence": "The idea of a magical kingdom is an imaginary concept.",
+    "ratings": {
+      "word_usage": 3.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 2.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_imaginary_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B1",
+    "group": 1,
+    "word": "imaginary",
+    "label": "Sentence D",
+    "sentence": "Children often believe in imaginary friends.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_imaginary_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B1",
+    "group": 1,
+    "word": "imaginary",
+    "label": "Sentence E",
+    "sentence": "She has an imaginary friend that she talks to when she feels lonely.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_imaginary_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B1",
+    "group": 1,
+    "word": "imaginary",
+    "label": "Sentence F",
+    "sentence": "As a child, he had an imaginary friend named Leo who he talked to.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_poet_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B1",
+    "group": 1,
+    "word": "poet",
+    "label": "Sentence A",
+    "sentence": "Shakespeare was not only a famous playwright but also a talented poet who wrote beautiful sonnets.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_poet_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B1",
+    "group": 1,
+    "word": "poet",
+    "label": "Sentence B",
+    "sentence": "In our school, we read a famous poet's work to understand more about feelings and ideas.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_poet_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "poet",
+    "label": "Sentence C",
+    "sentence": "The poet's latest collection of poems has been well-received by critics.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_poet_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B1",
+    "group": 1,
+    "word": "poet",
+    "label": "Sentence D",
+    "sentence": "He is a famous poet who writes about nature and love.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_poet_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B1",
+    "group": 1,
+    "word": "poet",
+    "label": "Sentence E",
+    "sentence": "William Shakespeare was a famous poet and playwright from England.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_poet_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "poet",
+    "label": "Sentence F",
+    "sentence": "The famous poet wrote many famous poems during his lifetime.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 3.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_religion_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "religion",
+    "label": "Sentence A",
+    "sentence": "Many people practice their own religion in the world.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 3.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_religion_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B1",
+    "group": 1,
+    "word": "religion",
+    "label": "Sentence B",
+    "sentence": "The religion he practices is quite different from mine.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_religion_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "religion",
+    "label": "Sentence C",
+    "sentence": "The church teaches that the world has a special connection with God.",
+    "ratings": {
+      "word_usage": 1.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_religion_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B1",
+    "group": 1,
+    "word": "religion",
+    "label": "Sentence D",
+    "sentence": "People from different countries often practice different religions, such as Christianity, Islam, or Buddhism.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_religion_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B1",
+    "group": 1,
+    "word": "religion",
+    "label": "Sentence E",
+    "sentence": "The festival is an important part of their religion and culture.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_religion_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B1",
+    "group": 1,
+    "word": "religion",
+    "label": "Sentence F",
+    "sentence": "In my country, religion plays a big role in people's daily lives and celebrations.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_obvious_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "obvious",
+    "label": "Sentence A",
+    "sentence": "The obvious answer to the question was not too difficult to understand.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_obvious_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B1",
+    "group": 1,
+    "word": "obvious",
+    "label": "Sentence B",
+    "sentence": "It was obvious that she was tired because she kept yawning during the meeting.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_obvious_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B1",
+    "group": 1,
+    "word": "obvious",
+    "label": "Sentence C",
+    "sentence": "It is very obvious that she is nervous about the exam.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_obvious_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B1",
+    "group": 1,
+    "word": "obvious",
+    "label": "Sentence D",
+    "sentence": "It was obvious that she was unhappy, even though she tried to smile.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_obvious_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "obvious",
+    "label": "Sentence E",
+    "sentence": "It's obvious that she is telling the truth.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_obvious_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B1",
+    "group": 1,
+    "word": "obvious",
+    "label": "Sentence F",
+    "sentence": "The answer is obvious, so we should all agree on it.",
+    "ratings": {
+      "word_usage": 4.5,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_sort_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "sort",
+    "label": "Sentence A",
+    "sentence": "The teacher asked the student to sort the books by author and title.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_sort_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B1",
+    "group": 1,
+    "word": "sort",
+    "label": "Sentence B",
+    "sentence": "Can you sort these clothes into different categories for me?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_sort_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B1",
+    "group": 1,
+    "word": "sort",
+    "label": "Sentence C",
+    "sentence": "What sort of music do you like listening to when you exercise?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_sort_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B1",
+    "group": 1,
+    "word": "sort",
+    "label": "Sentence D",
+    "sentence": "What sort of music do you like to listen to?",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_sort_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B1",
+    "group": 1,
+    "word": "sort",
+    "label": "Sentence E",
+    "sentence": "There are many sorts of music, but I like pop the best.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B1_sort_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B1",
+    "group": 1,
+    "word": "sort",
+    "label": "Sentence F",
+    "sentence": "I need to sort out my books before moving to a new house.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  }
+]

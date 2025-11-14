@@ -1,0 +1,962 @@
+[
+  {
+    "task_id": "B2_agency_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B2",
+    "group": 1,
+    "word": "agency",
+    "label": "Sentence A",
+    "sentence": "The agency has been helping me find a new job.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_agency_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B2",
+    "group": 1,
+    "word": "agency",
+    "label": "Sentence B",
+    "sentence": "Studying abroad gave her a real sense of personal agency, as she had to manage her own budget, housing, and schedule.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_agency_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "agency",
+    "label": "Sentence C",
+    "sentence": "The government appointed a new agency to oversee the implementation of the environmental protection plan.",
+    "ratings": {
+      "word_usage": 3.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 3.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_agency_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B2",
+    "group": 1,
+    "word": "agency",
+    "label": "Sentence D",
+    "sentence": "The travel agency helped us book an amazing vacation to Spain, which we had been planning for months.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_agency_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "agency",
+    "label": "Sentence E",
+    "sentence": "The new agency was established to provide social services to the local community.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_agency_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B2",
+    "group": 1,
+    "word": "agency",
+    "label": "Sentence F",
+    "sentence": "The marketing agency helped the company develop a new brand identity and reach more customers online.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_alter_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "alter",
+    "label": "Sentence A",
+    "sentence": "The artist's alter ego was a completely different person, known for her striking style.",
+    "ratings": {
+      "word_usage": 1.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_alter_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B2",
+    "group": 1,
+    "word": "alter",
+    "label": "Sentence B",
+    "sentence": "In order to improve my fitness, I decided to alter my diet and start exercising regularly.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_alter_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B2",
+    "group": 1,
+    "word": "alter",
+    "label": "Sentence C",
+    "sentence": "Climate change could significantly alter the migration patterns of birds and other wildlife in the coming decades.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_alter_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B2",
+    "group": 1,
+    "word": "alter",
+    "label": "Sentence D",
+    "sentence": "She decided to alter her plans and go on vacation instead.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_alter_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "alter",
+    "label": "Sentence E",
+    "sentence": "If you alter the recipe, it may affect the texture of the cake.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_alter_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B2",
+    "group": 1,
+    "word": "alter",
+    "label": "Sentence F",
+    "sentence": "The project manager had to alter the timeline after realizing that some key tasks would take longer than anticipated.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_heaven_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B2",
+    "group": 1,
+    "word": "heaven",
+    "label": "Sentence A",
+    "sentence": "Heaven is the place where angels live.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 2.5,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_heaven_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "heaven",
+    "label": "Sentence B",
+    "sentence": "The serene atmosphere of the heavenly landscape was a perfect escape from the hustle and bustle of city life.",
+    "ratings": {
+      "word_usage": 1.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_heaven_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B2",
+    "group": 1,
+    "word": "heaven",
+    "label": "Sentence C",
+    "sentence": "For the exhausted hiker, reaching the mountain cabin and sitting by the warm fire felt like absolute heaven.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_heaven_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B2",
+    "group": 1,
+    "word": "heaven",
+    "label": "Sentence D",
+    "sentence": "After a long day at work, sitting in her garden surrounded by flowers made her feel as if she had found her own little piece of heaven.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_heaven_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "heaven",
+    "label": "Sentence E",
+    "sentence": "The concert was held in an outdoor venue with a breathtaking view of the heaven above.",
+    "ratings": {
+      "word_usage": 2.0,
+      "clarity": 4.5,
+      "grammar": 2.5,
+      "naturalness": 2.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_heaven_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B2",
+    "group": 1,
+    "word": "heaven",
+    "label": "Sentence F",
+    "sentence": "After weeks of stressful exams, lying on the beach with a good book felt like absolute heaven.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_hollow_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B2",
+    "group": 1,
+    "word": "hollow",
+    "label": "Sentence A",
+    "sentence": "The tree trunk appeared hollow, suggesting that it might be home to various insects.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_hollow_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "hollow",
+    "label": "Sentence B",
+    "sentence": "The old mansion had a hollow, abandoned feel that seemed to suck the life out of the surrounding environment.",
+    "ratings": {
+      "word_usage": 4.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_hollow_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "hollow",
+    "label": "Sentence C",
+    "sentence": "The sound of the ocean waves echoed through the hollow cave.",
+    "ratings": {
+      "word_usage": 3.5,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 3.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_hollow_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B2",
+    "group": 1,
+    "word": "hollow",
+    "label": "Sentence D",
+    "sentence": "The old tree trunk was completely hollow inside, providing a perfect shelter for small animals and birds.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_hollow_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B2",
+    "group": 1,
+    "word": "hollow",
+    "label": "Sentence E",
+    "sentence": "The ancient statue was surprisingly lightweight, as the sculptor had made it hollow on the inside.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_hollow_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B2",
+    "group": 1,
+    "word": "hollow",
+    "label": "Sentence F",
+    "sentence": "The hollow tree was perfect for hiding our treasure.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_extend_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B2",
+    "group": 1,
+    "word": "extend",
+    "label": "Sentence A",
+    "sentence": "The university decided to extend the deadline for scholarship applications by two weeks due to technical problems.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_extend_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B2",
+    "group": 1,
+    "word": "extend",
+    "label": "Sentence B",
+    "sentence": "The teacher decided to extend the deadline for the project to give the students more time to complete their work.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_extend_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B2",
+    "group": 1,
+    "word": "extend",
+    "label": "Sentence C",
+    "sentence": "The company extended its offer to include a bonus.",
+    "ratings": {
+      "word_usage": 4.5,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_extend_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "extend",
+    "label": "Sentence D",
+    "sentence": "The company decided to extend its business operations to several countries around the world.",
+    "ratings": {
+      "word_usage": 4.5,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_extend_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B2",
+    "group": 1,
+    "word": "extend",
+    "label": "Sentence E",
+    "sentence": "On behalf of the entire team, I would like to extend a warm welcome to the new members joining us today.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_extend_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "extend",
+    "label": "Sentence F",
+    "sentence": "The company plans to extend its operations to other countries in the near future.",
+    "ratings": {
+      "word_usage": 4.5,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_imply_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "imply",
+    "label": "Sentence A",
+    "sentence": "Her words implied that she was unhappy with the situation, but didn't say it directly.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 3.0,
+      "naturalness": 3.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_imply_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B2",
+    "group": 1,
+    "word": "imply",
+    "label": "Sentence B",
+    "sentence": "When she said the project was \"interesting,\" her tone seemed to imply that she didn't actually like it very much.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_imply_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B2",
+    "group": 1,
+    "word": "imply",
+    "label": "Sentence C",
+    "sentence": "The report may imply that further research is needed before we can make any final decisions.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_imply_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B2",
+    "group": 1,
+    "word": "imply",
+    "label": "Sentence D",
+    "sentence": "While he never said it directly, his constant complaints seemed to imply that he was unhappy with his job.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_imply_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "imply",
+    "label": "Sentence E",
+    "sentence": "The new policy implies that it will be implemented gradually over a period of time, giving people time to adjust.",
+    "ratings": {
+      "word_usage": 4.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_imply_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B2",
+    "group": 1,
+    "word": "imply",
+    "label": "Sentence F",
+    "sentence": "The report implied that the project would be delayed.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_numerous_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B2",
+    "group": 1,
+    "word": "numerous",
+    "label": "Sentence A",
+    "sentence": "There are numerous reasons why we should vote for this candidate.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_numerous_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B2",
+    "group": 1,
+    "word": "numerous",
+    "label": "Sentence B",
+    "sentence": "The researcher conducted numerous experiments before finally discovering a solution to the problem.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_numerous_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B2",
+    "group": 1,
+    "word": "numerous",
+    "label": "Sentence C",
+    "sentence": "The author has received numerous awards for her contributions to modern literature.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_numerous_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B2",
+    "group": 1,
+    "word": "numerous",
+    "label": "Sentence D",
+    "sentence": "The city is home to numerous parks, each offering a unique environment for relaxation and recreation.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_numerous_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "numerous",
+    "label": "Sentence E",
+    "sentence": "The numerous species of birds in the rainforest are a testament to its biodiversity.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_numerous_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "numerous",
+    "label": "Sentence F",
+    "sentence": "The city's population is increasing rapidly, leading to numerous construction projects and urban development initiatives.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_opponent_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B2",
+    "group": 1,
+    "word": "opponent",
+    "label": "Sentence A",
+    "sentence": "The chess champion carefully studied her opponent's previous games to identify weaknesses in their strategy.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_opponent_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B2",
+    "group": 1,
+    "word": "opponent",
+    "label": "Sentence B",
+    "sentence": "His opponent has been campaigning for the past six months.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_opponent_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "opponent",
+    "label": "Sentence C",
+    "sentence": "The opposing team's coach was a seasoned professional with years of experience in the sport.",
+    "ratings": {
+      "word_usage": 1.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_opponent_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "opponent",
+    "label": "Sentence D",
+    "sentence": "The tennis player's opponent was a strong competitor, and the match was intense.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_opponent_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B2",
+    "group": 1,
+    "word": "opponent",
+    "label": "Sentence E",
+    "sentence": "In the final debate, the candidate remained respectful while clearly challenging her opponent's policies.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_opponent_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B2",
+    "group": 1,
+    "word": "opponent",
+    "label": "Sentence F",
+    "sentence": "The team celebrated their victory, but they acknowledged that their toughest opponent had pushed them to perform their best.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_process_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "process",
+    "label": "Sentence A",
+    "sentence": "The new process for filing tax returns has made it easier for individuals to manage their finances more efficiently.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_process_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B2",
+    "group": 1,
+    "word": "process",
+    "label": "Sentence B",
+    "sentence": "Learning a foreign language is a gradual process that requires patience, practice, and consistent effort.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_process_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "process",
+    "label": "Sentence C",
+    "sentence": "The process of making a film can take several months from start to finish.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_process_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B2",
+    "group": 1,
+    "word": "process",
+    "label": "Sentence D",
+    "sentence": "The process of making sushi requires patience and practice.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_process_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B2",
+    "group": 1,
+    "word": "process",
+    "label": "Sentence E",
+    "sentence": "Learning a new language is a challenging process that requires patience and practice.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_process_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B2",
+    "group": 1,
+    "word": "process",
+    "label": "Sentence F",
+    "sentence": "The process of applying for a visa can be complicated, so it's important to read all the instructions carefully.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_wise_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "B2",
+    "group": 1,
+    "word": "wise",
+    "label": "Sentence A",
+    "sentence": "It would be wise to save some money each month rather than spending your entire salary immediately.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_wise_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "B2",
+    "group": 1,
+    "word": "wise",
+    "label": "Sentence B",
+    "sentence": "It was a wise move to consult multiple sources before making a final decision on the project.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_wise_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "wise",
+    "label": "Sentence C",
+    "sentence": "After years of experience, she became wise in her decision-making and was respected by her colleagues.",
+    "ratings": {
+      "word_usage": 4.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_wise_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "B2",
+    "group": 1,
+    "word": "wise",
+    "label": "Sentence D",
+    "sentence": "She gave him a wise piece of advice that he will never forget.",
+    "ratings": {
+      "word_usage": 4.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 3.5
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_wise_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "B2",
+    "group": 1,
+    "word": "wise",
+    "label": "Sentence E",
+    "sentence": "It was a wise decision to start saving for retirement at an early age.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  },
+  {
+    "task_id": "B2_wise_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "B2",
+    "group": 1,
+    "word": "wise",
+    "label": "Sentence F",
+    "sentence": "The wise decision to invest in renewable energy sources is expected to benefit the environment in the long run.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "gpt-5"
+  }
+]

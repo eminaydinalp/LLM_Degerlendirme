@@ -1,0 +1,962 @@
+[
+  {
+    "task_id": "C1_backup_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "C1",
+    "group": 1,
+    "word": "backup",
+    "label": "Sentence A",
+    "sentence": "In case of a power outage, having a backup generator is essential for maintaining business operations.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_backup_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "C1",
+    "group": 1,
+    "word": "backup",
+    "label": "Sentence B",
+    "sentence": "The company's robust backup system enabled them to recover all critical data within hours of the cyberattack.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_backup_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "backup",
+    "label": "Sentence C",
+    "sentence": "The backup systems ensured that the computer would remain operational during the power outage.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_backup_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "backup",
+    "label": "Sentence D",
+    "sentence": "The company has a backup plan in place in case of a natural disaster, which could disrupt their operations.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_backup_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "C1",
+    "group": 1,
+    "word": "backup",
+    "label": "Sentence E",
+    "sentence": "Given the volatility of the market, the company secured a secondary credit line as a backup against unforeseen liquidity issues.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_backup_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "C1",
+    "group": 1,
+    "word": "backup",
+    "label": "Sentence F",
+    "sentence": "In order to ensure the software's stability, it was crucial to have a reliable backup system in place, allowing users to easily recover their data in case of system failures.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_default_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "default",
+    "label": "Sentence A",
+    "sentence": "The default setting on the new smartphone is to automatically update the operating system.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_default_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "C1",
+    "group": 1,
+    "word": "default",
+    "label": "Sentence B",
+    "sentence": "When faced with ambiguity, his default response was to meticulously analyze the data rather than rely on intuition.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_default_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "C1",
+    "group": 1,
+    "word": "default",
+    "label": "Sentence C",
+    "sentence": "Many users never change the default settings on their devices, which can leave them vulnerable to security breaches.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_default_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "C1",
+    "group": 1,
+    "word": "default",
+    "label": "Sentence D",
+    "sentence": "The default settings on the new software make it user-friendly, but they can be customized.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_default_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "C1",
+    "group": 1,
+    "word": "default",
+    "label": "Sentence E",
+    "sentence": "In the absence of explicit instructions, the software will revert to its default settings, which may not necessarily meet the user's preferences.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_default_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "default",
+    "label": "Sentence F",
+    "sentence": "The company has a default policy of providing comprehensive insurance coverage to all employees.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_defy_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "defy",
+    "label": "Sentence A",
+    "sentence": "Despite her initial reluctance, she decided to defy the instructions and take on the challenge.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_defy_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "C1",
+    "group": 1,
+    "word": "defy",
+    "label": "Sentence B",
+    "sentence": "The artist's innovative work seemed to defy conventional categorization, blending elements of sculpture, painting, and performance art.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_defy_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "C1",
+    "group": 1,
+    "word": "defy",
+    "label": "Sentence C",
+    "sentence": "Despite the government's warnings, some protesters defied the curfew and continued their demonstrations.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_defy_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "C1",
+    "group": 1,
+    "word": "defy",
+    "label": "Sentence D",
+    "sentence": "The artist chose to defy conventional norms, creating a masterpiece that challenged the viewer's perceptions of beauty and meaning.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_defy_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "defy",
+    "label": "Sentence E",
+    "sentence": "The protesters chose to defy the government's ban on the rally, arguing that it was a fundamental right.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_defy_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "C1",
+    "group": 1,
+    "word": "defy",
+    "label": "Sentence F",
+    "sentence": "The innovative architectural design seems to defy the laws of physics, creating a stunning visual effect of floating structures.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_collaborate_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "C1",
+    "group": 1,
+    "word": "collaborate",
+    "label": "Sentence A",
+    "sentence": "Researchers from three continents collaborated on the groundbreaking study, sharing data and expertise through virtual meetings.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_collaborate_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "C1",
+    "group": 1,
+    "word": "collaborate",
+    "label": "Sentence B",
+    "sentence": "The two companies collaborated on a joint venture to develop innovative renewable energy solutions.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_collaborate_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "collaborate",
+    "label": "Sentence C",
+    "sentence": "The team of engineers was asked to collaborate with the designers to create a more efficient product.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_collaborate_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "collaborate",
+    "label": "Sentence D",
+    "sentence": "The researchers worked together to collaborate on the project, sharing their expertise and ideas.",
+    "ratings": {
+      "word_usage": 3.0,
+      "clarity": 3.0,
+      "grammar": 4.5,
+      "naturalness": 2.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_collaborate_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "C1",
+    "group": 1,
+    "word": "collaborate",
+    "label": "Sentence E",
+    "sentence": "The research required particle physicists and marine biologists to collaborate on an interdisciplinary study of deep-sea phenomena.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_collaborate_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "C1",
+    "group": 1,
+    "word": "collaborate",
+    "label": "Sentence F",
+    "sentence": "In order to tackle the complex challenges of climate change, scientists from various disciplines must collaborate and share their expertise to develop innovative solutions.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_correspond_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "correspond",
+    "label": "Sentence A",
+    "sentence": "The correspondence between the two countries was extensive, covering a wide range of topics.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_correspond_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "C1",
+    "group": 1,
+    "word": "correspond",
+    "label": "Sentence B",
+    "sentence": "The archaeological evidence corresponds closely with accounts from ancient texts, confirming the historical accuracy of the narrative.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_correspond_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "C1",
+    "group": 1,
+    "word": "correspond",
+    "label": "Sentence C",
+    "sentence": "The intricate patterns observed in the data correspond closely with the theoretical predictions outlined in the earlier studies.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_correspond_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "C1",
+    "group": 1,
+    "word": "correspond",
+    "label": "Sentence D",
+    "sentence": "The news correspondent reported live from the protest site, providing updates to viewers around the world.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_correspond_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "C1",
+    "group": 1,
+    "word": "correspond",
+    "label": "Sentence E",
+    "sentence": "The witness's testimony did not correspond with the physical evidence found at the scene, raising serious doubts about his credibility.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_correspond_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "correspond",
+    "label": "Sentence F",
+    "sentence": "The company's customer service department corresponds with clients to resolve any issues they may have.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_instrumental_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "instrumental",
+    "label": "Sentence A",
+    "sentence": "The musician's instrumental skills on the guitar are truly exceptional.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 3.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_instrumental_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "instrumental",
+    "label": "Sentence B",
+    "sentence": "The orchestra's performance was so instrumental in enhancing the overall atmosphere that it received a standing ovation.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_instrumental_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "C1",
+    "group": 1,
+    "word": "instrumental",
+    "label": "Sentence C",
+    "sentence": "The scientist found that the new material was instrumental in facilitating the groundbreaking research that could potentially revolutionize our understanding of climate change.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_instrumental_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "C1",
+    "group": 1,
+    "word": "instrumental",
+    "label": "Sentence D",
+    "sentence": "Her diplomatic skills were instrumental in negotiating the peace agreement that ended decades of conflict.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_instrumental_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "C1",
+    "group": 1,
+    "word": "instrumental",
+    "label": "Sentence E",
+    "sentence": "Her diplomatic efforts in the initial negotiations were instrumental in brokering the final ceasefire agreement.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_instrumental_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "C1",
+    "group": 1,
+    "word": "instrumental",
+    "label": "Sentence F",
+    "sentence": "The scientist's instrumental role in the discovery of the new element earned her worldwide recognition.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_embarrassment_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "C1",
+    "group": 1,
+    "word": "embarrassment",
+    "label": "Sentence A",
+    "sentence": "Despite her attempt to maintain composure, the overwhelming embarrassment of tripping on stage left her stuttering nervously as she apologized to the audience.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_embarrassment_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "C1",
+    "group": 1,
+    "word": "embarrassment",
+    "label": "Sentence B",
+    "sentence": "To the immense embarrassment of the administration, the details of the confidential report were leaked to the press before the official announcement.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_embarrassment_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "embarrassment",
+    "label": "Sentence C",
+    "sentence": "The politician's embarrassment during the debate was a result of her lack of preparation.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_embarrassment_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "embarrassment",
+    "label": "Sentence D",
+    "sentence": "The politician's embarrassment at being caught on camera was a major talking point during the press conference.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_embarrassment_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "C1",
+    "group": 1,
+    "word": "embarrassment",
+    "label": "Sentence E",
+    "sentence": "The politician's embarrassing gaffe during the debate cost him valuable votes in the upcoming election.",
+    "ratings": {
+      "word_usage": 1.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_embarrassment_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "C1",
+    "group": 1,
+    "word": "embarrassment",
+    "label": "Sentence F",
+    "sentence": "The politician's public gaffe caused considerable embarrassment to his party and damaged his credibility with voters.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_outbreak_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "outbreak",
+    "label": "Sentence A",
+    "sentence": "The outbreak of pneumonia led to a surge in hospital admissions, putting a strain on the healthcare system.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_outbreak_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "C1",
+    "group": 1,
+    "word": "outbreak",
+    "label": "Sentence B",
+    "sentence": "The sudden outbreak of the virus in the densely populated city raised significant concerns about public health and the effectiveness of preventive measures.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_outbreak_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "C1",
+    "group": 1,
+    "word": "outbreak",
+    "label": "Sentence C",
+    "sentence": "Public health officials are working rapidly to identify the source and contain the outbreak before it reaches pandemic proportions.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_outbreak_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "C1",
+    "group": 1,
+    "word": "outbreak",
+    "label": "Sentence D",
+    "sentence": "Health authorities responded swiftly to the outbreak of food poisoning, tracing its source to a contaminated water supply.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_outbreak_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "C1",
+    "group": 1,
+    "word": "outbreak",
+    "label": "Sentence E",
+    "sentence": "The outbreak of violence in the region prompted a temporary halt in trade negotiations.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_outbreak_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "outbreak",
+    "label": "Sentence F",
+    "sentence": "The outbreak of the disease was attributed to poor sanitation and hygiene practices.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_lethal_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "C1",
+    "group": 1,
+    "word": "lethal",
+    "label": "Sentence A",
+    "sentence": "The lethal dose of poison was found in the victim's drink, leading investigators to suspect foul play.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_lethal_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "C1",
+    "group": 1,
+    "word": "lethal",
+    "label": "Sentence B",
+    "sentence": "While the venom is rarely fatal to large animals, it proves lethal to the small rodents that constitute the snake's primary diet.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_lethal_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "lethal",
+    "label": "Sentence C",
+    "sentence": "The company's decision to invest in a new, lethal technology was met with skepticism from the board of directors.",
+    "ratings": {
+      "word_usage": 4.5,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 4.5
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_lethal_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "lethal",
+    "label": "Sentence D",
+    "sentence": "The toxic gas released during the explosion was lethal to anyone in the surrounding area.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.5,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_lethal_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "C1",
+    "group": 1,
+    "word": "lethal",
+    "label": "Sentence E",
+    "sentence": "The venom of the box jellyfish contains toxins so lethal that victims can die within minutes without immediate treatment.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_lethal_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "C1",
+    "group": 1,
+    "word": "lethal",
+    "label": "Sentence F",
+    "sentence": "The researchers found that the newly developed pesticide had lethal effects on non-target species, highlighting the need for more targeted and environmentally sustainable agricultural practices.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_sovereignty_1",
+    "model": "mistralai_Ministral-8B-Instruct-2410",
+    "level": "C1",
+    "group": 1,
+    "word": "sovereignty",
+    "label": "Sentence A",
+    "sentence": "The country's sovereignty was challenged when a foreign nation claimed the disputed territory as its own.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_sovereignty_1",
+    "model": "Llama-3.2-1B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "sovereignty",
+    "label": "Sentence B",
+    "sentence": "The nation's sovereignty was threatened by the invasion, and the international community was quick to condemn the act.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_sovereignty_1",
+    "model": "Llama-3.2-1B-Instruct-FineTuned",
+    "level": "C1",
+    "group": 1,
+    "word": "sovereignty",
+    "label": "Sentence C",
+    "sentence": "The delicate balance of global sovereignty often hinges on the ability of nations to make informed decisions while navigating the complexities of international relations.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_sovereignty_1",
+    "model": "Gemini_Pro_2.5",
+    "level": "C1",
+    "group": 1,
+    "word": "sovereignty",
+    "label": "Sentence D",
+    "sentence": "The new regional treaty raised complex constitutional questions about national sovereignty versus the benefits of economic integration.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 5.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_sovereignty_1",
+    "model": "Llama-3.2-8B-Instruct",
+    "level": "C1",
+    "group": 1,
+    "word": "sovereignty",
+    "label": "Sentence E",
+    "sentence": "The country's sovereignty is being threatened by the neighboring nation's aggressive military actions.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  },
+  {
+    "task_id": "C1_sovereignty_1",
+    "model": "Claude_Sonnet_4.5",
+    "level": "C1",
+    "group": 1,
+    "word": "sovereignty",
+    "label": "Sentence F",
+    "sentence": "The nation fiercely defended its sovereignty against external interference in its domestic affairs.",
+    "ratings": {
+      "word_usage": 5.0,
+      "clarity": 4.0,
+      "grammar": 5.0,
+      "naturalness": 5.0
+    },
+    "evaluator": "deepseek-reasoner"
+  }
+]
