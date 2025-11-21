@@ -19,17 +19,12 @@ from transformers import TrainingArguments
 import torch
 import os
 
-# Seviye bazlı konfigürasyonlar
-LEVEL_CONFIGS = {
-    'A1': {'max_seq_length': 512, 'batch_size': 16},   # Kısa cümleler, hızlı eğitim
-    'A2': {'max_seq_length': 512, 'batch_size': 16},   # A1 ile benzer
-    'B1': {'max_seq_length': 512, 'batch_size': 16},  # Orta uzunluk
-    'B2': {'max_seq_length': 512, 'batch_size': 16},  # B1 ile benzer
-    'C1': {'max_seq_length': 512, 'batch_size': 16},   # Uzun cümleler
-}
-
 # ⚙️ EĞİTİLECEK SEVİYE (SADECE BURAYI DEĞİŞTİR!)
 CURRENT_LEVEL = 'C1'
+
+# Sabit konfigürasyon (tüm seviyeler için aynı)
+MAX_SEQ_LENGTH = 512
+BATCH_SIZE = 16
 
 # Paths
 BASE_DIR = "/media/muhammet/3f3fe6f9-0b61-46bd-a5b7-6cabd78bbc9a/home/user/text-generation-webui/user_data"
@@ -37,11 +32,6 @@ MODEL_PATH = os.path.join(BASE_DIR, "models/meta-llama_Llama-3.2-1B-Instruct")
 LORAS_DIR = os.path.join(BASE_DIR, "loras")
 MODELS_DIR = os.path.join(BASE_DIR, "models")
 LORA_NAME = f"llama1b-{CURRENT_LEVEL.lower()}-unsloth-v2"
-
-# Seviye konfigürasyonunu al
-config = LEVEL_CONFIGS[CURRENT_LEVEL]
-MAX_SEQ_LENGTH = config['max_seq_length']
-BATCH_SIZE = config['batch_size']
 
 # Output paths oluştur
 lora_output_path = os.path.join(LORAS_DIR, LORA_NAME)
@@ -58,18 +48,16 @@ print(f"�📦 Base model yükleniyor: {MODEL_PATH}")
 model, tokenizer = FastLanguageModel.from_pretrained(
     model_name = MODEL_PATH,
     max_seq_length = MAX_SEQ_LENGTH,
-    dtype = None,  # Auto detect (bf16 veya fp16)
-    load_in_4bit = True,  # 4-bit quantization (VRAM tasarrufu)
+    dtype = None,  
+    load_in_4bit = True,  
 )
 
-# LoRA adaptörü ekle - Training PRO parametreleri ile uyumlu
 model = FastLanguageModel.get_peft_model(
     model,
-    r = 128,  # lora_rank (Training PRO'daki gibi)
-    target_modules = ["q_proj", "k_proj", "v_proj", "o_proj",
-                      "gate_proj", "up_proj", "down_proj"],
-    lora_alpha = 256,  # lora_alpha (Training PRO'daki gibi)
-    lora_dropout = 0.05,  # lora_dropout (Training PRO'daki gibi)
+    r = 8,  
+    target_modules = ["q_proj", "v_proj"],
+    lora_alpha = 32,  
+    lora_dropout = 0.05,  
     bias = "none",
     use_gradient_checkpointing = "unsloth",  # Hafıza optimizasyonu
     random_state = 3407,

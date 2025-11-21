@@ -1,0 +1,328 @@
+3. Metot
+
+Bu bölümde araştırmada izlenen deneysel yaklaşım, kullanılan dil modelleri, ince ayar (fine-tuning) süreci ve bu süreçte yararlanılan veri seti, çalışma akışına uygun bir sırayla ayrıntılı olarak açıklanmaktadır.
+
+
+3.1 Kullanılan Modeller
+
+Çalışmamızda, CEFR seviyelerine göre verilen kelimeyi kullanarak cümle üretimi yapabilmek amacıyla toplam beş farklı model kullanılmıştır. Bu modellerin ikisi ticari, üçü ise açık kaynaklıdır. Ticari modeller olarak Claude Sonnet 4.5 ve Gemini Pro 2.5, açık kaynak modeller olarak ise Llama-3.1-8B-Instruct, Llama-3.1-1B-Instruct ve Mistral-8B-Instruct-2410 tercih edilmiştir. Ayrıca Llama-3.1-1B-Instruct modeli üzerinde ince ayar uygulanmış ve bu sayede toplam altı model değerlendirmeye dâhil edilmiştir.
+
+Bu modellerin seçilme sebebi; ticari ve açık kaynak modelleri karşılaştırmak, benzer parametre boyutuna sahip fakat farklı mimarilerdeki açık kaynak modellerin performansını değerlendirmek ve aynı mimariyi paylaşmalarına rağmen farklı parametre boyutlarında tasarlanan modeller arasındaki performans farklılıklarını ortaya koymaktır. Buna ek olarak, en düşük parametreli model üzerinde ince ayar yaparak performansa olan etkisini ölçmek de çalışmanın önemli amaçları arasındadır.
+
+3.1.1 Claude Sonnet 4.5
+
+Anthropic tarafından geliştirilen Claude Sonnet  4.5, özellikle gelişmiş kod anlama ve üretme yetenekleriyle güncel ticari modeller arasında en güçlü kodlama modellerinden biri olarak öne çıkmaktadır (Anthropic, 2024). Karmaşık yazılım görevlerini çözme, çok adımlı mantıksal çıkarımları yürütme ve araçları etkin şekilde kullanarak bilgisayar üzerinde işlem yapma kapasitesi sayesinde özellikle teknik problemler ve analitik süreçlerde yüksek performans sergilemektedir.
+
+3.1.2 Gemini Pro 2.5
+
+Google’ın geniş ve optimize edilmiş veri ekosistemi üzerinde eğitilen model, hem genel amaçlı doğal dil işleme görevlerinde hem de multimodal analiz gerektiren uygulamalarda kararlı ve yüksek doğruluklu çıktılar üreterek ticari modeller arasında üst sıralarda konumlanmaktadır (Google DeepMind, 2024).
+
+3.1.3 Llama-3.1-8B-Instruct
+
+Meta AI tarafından geliştirilen Llama-3.1-8B-Instruct, 8 milyar parametreli, açık kaynaklı ve yönerge (instruct) odaklı bir modeldir (Meta AI, 2024). Daha büyük kapasiteli açık kaynak modeller arasında yer alması nedeniyle bağlamı anlama, cümle akıcılığı ve dil doğruluğu açısından tatmin edici performans sunmaktadır. Aynı zamanda yeniden üretilebilir ve araştırmaya uygun bir yapıdadır.
+
+
+3.1.4 Llama-3.1-1B-Instruct
+
+Llama mimarisinin en küçük parametreli sürümlerinden biri olan Llama-3.1-1B-Instruct, düşük donanım gereksinimi ve hızlı yanıt üretimiyle öne çıkar (Meta AI, 2024). Parametre sayısının düşüklüğü nedeniyle karmaşık dil görevlerinde sınırlı performans gösterebilse de, ince ayar uygulandığında modelin hedef göreve uyum yeteneği önemli ölçüde artmaktadır. Bu nedenle çalışma kapsamında ince ayar sonrası performansı özellikle değerlendirilmiştir.
+
+3.1.5 Mistral-8B-Instruct-2410
+
+Mistral AI tarafından geliştirilen bu model, 8 milyar parametreye sahip, verimli ve optimize edilmiş bir açık kaynak modelidir (Mistral AI, 2024). Düşük gecikme süreleri ve güçlü bağlam işleme kabiliyeti sayesinde yüksek kaliteli cümle üretimi yapabilmektedir. Farklı mimariye sahip olması, Llama tabanlı modellerle karşılaştırma yapılmasını mümkün kılarak araştırma açısından değerli bir referans noktası oluşturmaktadır.
+
+3.2 İnce Ayar Süreci
+
+Çalışmamızda ince ayar uygulanacak model olarak Llama-3.1-1B-Instruct seçilmiştir. Bu modelin tercih edilmesinin temel nedeni, düşük parametre boyutuna sahip olması sayesinde hem daha düşük donanım gereksinimiyle çalışabilmesi hem de ince ayar sonrası performans artışının daha net gözlemlenebilmesidir. Böylece ince ayar uygulanmış küçük bir modelin, kendisinden çok daha yüksek parametreli modellere kıyasla nasıl bir performans sergilediği karşılaştırılmıştır. Aşağıda fine-tuning süreci adım adım açıklanmaktadır.
+
+3.2.1 Veri Seti
+
+Çalışmamız beş farklı CEFR seviyesinde yürütüldüğü için her seviye için ayrı bir veri seti oluşturulmuştur. Bu kapsamda Oxford 3000/5000 kelime listeleri temel alınmış, ilgili seviyeye karşılık gelen tüm kelimeler seçilmiştir. Her bir kelime için geliştirdiğimiz script aracılığıyla GPT-4o-mini API’si kullanılarak otomatik olarak beş farklı örnek cümle üretilmiş ve bu cümleler ince ayar işlemine uygun olacak şekilde Alpaca formatında JSON dosyalarına aktarılmıştır. Tablo 3.1’de her bir seviye için kelime sayısı ve bu kelimelerden üretilen toplam cümle sayısı gösterilmektedir.
+
+Tablo 3.1 Her Seviye İçin Kelime ve Cümle Sayıları
+
+SEVIYESI	KELIME SAYISI	HER KELIME İÇIN ÜRETILEN CÜMLE SAYISI	TOPLAM CÜMLE SAYISI
+A1	899	5	4495
+A2	873	5	4365
+B1	810	5	4050
+B2	728	5	3640
+C1	1314	5	6570
+TOPLAM	4624	—	23120
+
+
+
+3.2.1.1 Veri Üretim Script’inde Uygulanan Kontroller
+
+Sentetik veri üretim sürecinin güvenilirliğini artırmak için geliştirilen script’te aşağıdaki kontroller uygulanmıştır. Çalışmada kullanılan tüm Python script’leri, veri üretim süreçleri ve ince ayar kodları şeffaflık ve tekrar edilebilirlik amacıyla kamuya açık GitHub deposunda paylaşılmıştır (Aydınalp, 2025).
+
+•	Tekrarlayan cümlelerin engellenmesi: Her kelime için oluşturulan cümleler bir set yapısında saklanarak tekrar eden cümleler otomatik olarak elenmiştir.
+
+•	Format doğrulaması: API yanıtlarında zaman zaman format dışı içerik gelebileceği için tüm çıktılar JSON doğrulamasından geçirilmiş, hatalı çıktılar yeniden ürettirilmiştir.
+
+•	Rate-limit koruması: OpenAI API limitlerini aşmamak için her istek arasında bekleme süresi uygulanmıştır.
+
+•	Üretimin kaldığı yerden devam etmesi: Mevcut JSON dosyası okunarak daha önce işlenmiş kelimeler belirlenmiş, bu sayede veri üretimi herhangi bir kesinti durumunda kaldığı yerden sürdürülebilmiştir.
+
+•	Model parametreleri: Çeşitliliği artırmak amacıyla temperature parametresi 1.0 olarak belirlenmiş, model olarak ise gpt-4o-mini kullanılmıştır.
+
+
+3.2.1.2 Sentetik Veri Kullanım Gerekçesi
+
+Çalışmamızda sentetik veri kullanmamızın temel sebebi, güncel literatürde büyük dil modellerinin insan tarafından sağlanan verilere kıyasla LLM tarafından üretilmiş sentetik verilerle daha etkili bir şekilde öğrenim gerçekleştirdiğinin gösterilmiş olmasıdır (Fu ve ark., 2023; Ho ve ark., 2022; Hsieh ve ark., 2023; Magister ve ark., 2023). Ren ve arkadaşları, yaptıkları çalışmada LLM’lerle üretilen sentetik verilerle gerçekleştirilen ince ayarın birçok durumda insan üretimi verilerden daha yüksek performans sağladığını deneysel olarak ortaya koymaktadır (Ren ve ark., 2024). Çalışmaya göre LLM’ler, başka bir LLM tarafından üretilmiş yanıtlarda anlamlı derecede daha düşük perplexity değerleri üretmekte ve bu “aşinalık etkisi” ince ayar performansını belirgin biçimde artırmaktadır 
+
+Bununla birlikte, bizim çalışmamıza özgü olarak sentetik veri kullanmanın avantajları ise şunlardır:
+
+•	Tutarlı ve kontrollü veri üretimi: Gerçek veri toplama sürecinde aynı kelime için farklı kişilerden gelen örnek cümleler arasında tutarsızlıklar oluşabilmektedir. Sentetik veri kullanımı, tüm kelimeler için aynı formatta, aynı kalite standardında ve aynı yapısal tutarlılıkta veri üretilmesini sağlamıştır.
+
+•	Her kelime için eşit sayıda örnek elde edilebilmesi: Gerçek veride bazı kelimeler için çok örnek bulunurken, bazıları için neredeyse hiç veri bulunmayabilir. Sentetik üretim sayesinde her kelime için eşit sayıda örnek cümle oluşturularak veri setinin homojenliği korunmuştur.
+
+•	CEFR seviyelerine uygunluk kontrolünün kolaylaşması: Cümle üretim sürecinde modele hedef seviye açıkça belirtilerek üretilen örneklerin ilgili CEFR seviyesine uygunluğu daha güvenilir biçimde sağlanmıştır.
+
+
+
+3.2.2 İnce Ayar Uygulaması
+Bu çalışmada Llama-3.1-1B-Instruct modeli, CEFR seviyelerine uygun cümle üretme görevine uyarlamak amacıyla parametre verimli ince ayar (PEFT) yaklaşımı kullanılarak eğitilmiştir.
+3.2.2.1 LoRA Tabanlı Parametre Verimli İnce Ayar (PEFT) Yöntemi
+Büyük dil modellerinin tüm parametreleriyle ince ayar yapılması yüksek hesaplama maliyeti, uzun eğitim süresi ve büyük GPU belleği gerektirdiği için güncel çalışmalarda daha verimli yöntemler tercih edilmektedir. PEFT yaklaşımı, modelin tüm parametrelerini güncellemek yerine yalnızca küçük bir bölümünün eğitilmesine olanak tanıyarak maliyeti önemli ölçüde azaltmaktadır (Dettmers ve ark., 2023).
+Bu çalışmada PEFT kapsamında low-rank adaptasyon yöntemi (LoRA) kullanılmıştır. LoRA, modelin orijinal ağırlıklarını sabit tutar ve belirli projeksiyon katmanlarına düşük dereceli  matrisler ekler (Hu ve ark., 2022). Eğitim sırasında yalnızca bu düşük dereceli matrisler güncellenirken, modelin geri kalan parametreleri değişmeden korunur. Bu yaklaşım sayesinde:
+•	eğitilmesi gereken parametre sayısı büyük ölçüde azalır,
+•	GPU bellek gereksinimi düşer,
+•	eğitim süresi hızlanır,
+•	modelin mevcut bilgisi korunurken hedef göreve hızlı bir şekilde uyum sağlanır.
+LoRA’nın matematiksel yaklaşımı özetle şu şekildedir:
+Modelin bir ağırlık matrisi W doğrudan güncellenmek yerine:
+W′=W+BA 
+şeklinde ayrıştırılır.
+Burada:
+•	B ve A, rank’ı düşük matrislerdir,
+•	yalnızca B ve A eğitim sırasında güncellenir,
+•	W sabit tutulur.
+Bu yaklaşım, özellikle 1B–70B arası LLM modellerinde ince ayarı büyük ölçüde hızlandıran ve VRAM kullanımını azaltan modern bir yöntem olarak literatürde yaygın şekilde kullanılmaktadır.
+Çalışmada kullanılan LoRA ayarları aşağıdaki gibidir:
+•	r (rank): 8
+•	lora_alpha: 32
+•	lora_dropout: 0.05
+•	Hedeflenen modüller: q_proj, , v_proj, 
+•	Bias: none
+•	Gradient checkpointing: aktif 
+
+Kullanılan LoRA yapılandırması sonucunda modelin toplam 1.236 milyar parametresinin yalnızca yaklaşık 1.05 milyon parametresi eğitilmiştir. Bu değer, toplam parametrelerin yaklaşık %0.085'ine karşılık gelmektedir. Bu sayede modelin büyük kısmı sabit tutulurken, yalnızca görevle ilişkili düşük dereceli LoRA katmanları modele eklenmiş ve eğitim sırasında sadece bu katmanlar güncellenmiştir. Böylece hem bellek kullanımı hem de eğitim süresi önemli ölçüde azaltılmıştır.
+
+LoRA'nın depolama verimliliği açısından sağladığı avantaj da son derece dikkat çekicidir. Orijinal Llama-3.2-1B-Instruct modeli tam hassasiyette (full precision) yaklaşık 2.5 GB disk alanı kaplarken, her bir CEFR seviyesi için eğitilen LoRA adaptörleri yalnızca 67 MB civarında yer kaplamaktadır. Bu, orijinal modelin %2.7'si kadarlık bir boyuta denk gelmektedir. Dolayısıyla beş farklı seviye için beş ayrı LoRA adaptörü (toplam ~335 MB) saklanarak, tek bir temel model üzerinde tüm seviyelere özel çıktılar üretilebilmektedir. Bu yaklaşım, her seviye için ayrı tam model saklamaya kıyasla (5 × 2.5 GB = 12.5 GB) yaklaşık %97 oranında depolama alanı tasarrufu sağlamaktadır.
+
+Bu LoRA yapılandırması, büyük dil modelleri üzerinde yapılan parametre verimli ince ayar çalışmalarında önerilen ayarlarla uyumludur (Mao ve ark., 2025; Hu ve ark., 2022).
+3.2.2.2 Eğitim Süreci ve Hiperparametreler
+Bu çalışmada her bir CEFR seviyesi (A1, A2, B1, B2, C1) için oluşturulan veri setleri bağımsız olarak kullanılmış ve Llama-3.1-1B-Instruct modeli her seviye için ayrı ayrı ince ayar edilmiştir. Böylece beş farklı seviye için beş ayrı LoRA adaptörü elde edilmiş ve her bir seviyenin dilsel özelliklerine özgü özelleştirilmiş modeller oluşturulmuştur.
+Model, Unsloth’un sağladığı hafıza dostu yükleme mekanizması ile 4-bit quantization modunda çalıştırılmıştır. Bu sayede VRAM tüketimi önemli ölçüde azaltılmış ve 4090 GPU üzerinde her seviye için 512 token uzunluğa kadar sequence işlemleri güvenli şekilde yürütülebilmiştir. Unsloth kütüphanesi, standart Transformers yüklemeye kıyasla daha hızlı çalışmakta ve LoRA eğitimine entegre bellek optimizasyonları sağlamaktadır.
+İnce ayar sürecinde kullanılan veri setleri, modelin hem öğrenme sürecini optimize edebilmesi hem de aşırı öğrenmeyi (overfitting) kontrol etmek amacıyla eğitim (train) ve değerlendirme (eval) olmak üzere ikiye ayrılmıştır. Yukarıda detaylarını aktardığımız her CEFR seviyesi için oluşturduğumuz Alpaca formatındaki veri seti, %90 oranında eğitim verisi, %10 oranında ise değerlendirme verisi olacak şekilde bölünmüş ve eğitim sırasında TRL kütüphanesinin SFTTrainer yapısına ayrı dataset’ler olarak verilmiştir. Değerlendirme veri seti, eğitim boyunca her 50 adımda modelin doğrulama kaybını (eval loss) ölçmek ve en iyi performans gösteren modelin seçilmesini sağlamak amacıyla kullanılmıştır. 
+Eğitim süreci TRL kütüphanesindeki SFTTrainer sınıfı ile yürütülmüştür. Kullanılan hiperparametreler aşağıdaki gibidir:
+•	Epoch sayısı: 10
+•	Öğrenme oranı (learning rate): 2e-4
+•	Per-device batch size: 16
+•	Gradient accumulation: 4
+•	Warmup ratio: 0.1
+•	Optimizer: adamw_8bit
+•	Weight decay: 0.01
+•	Scheduler: cosine
+•	Mixed precision: FP16 veya BF16 (GPU’ya göre otomatik)
+•	Eval strategy: Her 50 adımda değerlendirme
+•	Save strategy: Her 50 adımda checkpoint kaydı
+•	load_best_model_at_end: True
+•	metric_for_best_model: eval_loss
+Bu hiperparametreler, LoRA tabanlı ince ayar çalışmalarında yaygın olarak kullanılan ayarlar referans alınarak belirlenmiş olup, literatürde düşük parametreli modellerin eğitiminde önerilen konfigürasyonlarla uyumludur (Ceritli ve ark., 2024; Hu ve ark., 2022). Tüm eğitim süreci Python ortamında yürütülmüş olup, NVIDIA RTX 4090 GPU üzerinde gerçekleştirilmiştir.
+3.3 Değerlendirme Metodolojisi
+Bu bölümde, ince ayar uygulanmış Llama-3.1-1B-Instruct modeli ile diğer ticari ve açık kaynak modellerin ürettiği cümlelerin nasıl değerlendirildiği, kullanılan ölçütler, değerlendirme sürecinin tasarımı ve uygulanan istatistiksel yöntemler ayrıntılı biçimde açıklanmaktadır. 
+
+3.3.1 Cümle Üretimi
+
+Değerlendirme sürecinde kullanılacak cümleleri oluşturmak amacıyla Oxford kelime listesinden her seviye için rastgele 10 kelime seçilmiş ve tüm modellerden bu kelimeler için ilgili CEFR seviyesine uygun cümleler üretmeleri istenmiştir. Ticari modellerde cümle üretimi, modellerin web arayüzleri kullanılarak manuel olarak gerçekleştirilmiştir. Açık kaynaklı modeller ile LoRA ince ayarı uygulanmış modelde ise cümle üretimi Text Generation WebUI aracılığıyla yapılmıştır.
+
+Cümle üretiminde tüm modellerin aynı koşullar altında değerlendirilmesini sağlamak amacıyla standart bir prompt şablonu kullanılmıştır. Kullanılan prompt aşağıdaki gibidir:
+
+You are an English teacher preparing vocabulary materials for {level_description} learners ({level_code} level).
+
+Below is a list of 10 English words:
+
+1. {word1}  
+2. {word2}  
+3. {word3}  
+4. {word4}  
+5. {word5}  
+6. {word6}  
+7. {word7}  
+8. {word8}  
+9. {word9}  
+10. {word10}  
+
+Write one English sentence for each word. The sentence must:
+
+- Use the word naturally and meaningfully in context
+- Match the grammar and vocabulary expectations of {level_code} level
+- Be clear, correct, and suitable for a student at that level
+
+Number your sentences from 1 to 10, and use each word only once.
+
+Her modelden elde edilen cümleler daha sonra iki ayrı değerlendirme yaklaşımında kullanılmıştır:
+
+•	İnsan değerlendirmesi için Google Forms üzerinde oluşturulan anketler,
+
+•	LLM tabanlı değerlendirme için ise otomatik puanlama yapan bir Python script'i kullanılmıştır.
+
+Bu sayede hem uzman görüşlerine dayalı hem de otomatik ve tekrarlanabilir bir değerlendirme sistemi oluşturulmuştur.
+
+3.3.2 İnsan Değerlendirmesi için Oluşturulan Anketler
+İnsan değerlendirmesi sürecinde kullanılacak cümlelerin sistematik ve tutarlı bir şekilde uzmanlara sunulabilmesi için her bir CEFR seviyesi adına ayrı bir değerlendirme anketi oluşturulmuştur. Anketlerin tamamı Google Forms altyapısı kullanılarak hazırlanmış ve anket oluşturma süreci Google Apps Script ile otomatikleştirilmiştir. Böylece her seviyeye ait veri seti tek bir komutla forma dönüştürülmüş, hem zaman tasarrufu sağlanmış hem de tüm formların aynı yapısal standartlarda oluşturulması güvence altına alınmıştır.
+Oluşturulan tüm anketler, çalışmaya katılan uzman değerlendiricilere sunulmuş olup, değerlendirme sürecinin tutarlılığı ve objektifliği bu otomatik yapı sayesinde artırılmıştır.
+
+3.3.2.1 Anketlerin Genel Yapısı
+
+Hazırlanan anketlerde üç ana bölüm bulunmaktadır:
+
+1. Katılımcı bilgilendirme ve gönüllü onam bölümü
+
+Anketin başlangıcında, çalışmanın amacı, veri kullanım ilkeleri, gizlilik şartları ve gönüllü katılım esasları açıklanmış; katılımcıdan açık onay alınmıştır. Bu bölüm, etik standartlara uygunluk açısından zorunlu bir içeriği temsil etmektedir.
+
+
+
+2. Cümle değerlendirme bölümü
+
+Cümle değerlendirme bölümü, her kelime için modellerden elde edilen cümlelerin uzman değerlendiricilere sistematik ve karşılaştırılabilir bir biçimde sunulmasını sağlayacak şekilde tasarlanmıştır. Anketlerde her kelime için ayrı bir sayfa oluşturulmuş ve değerlendiricinin o kelimeye ilişkin tüm model çıktılarının aynı bölüm içinde alt alta görünmesi sağlanmıştır. Bu yapı, değerlendiricinin farklı model çıktılarındaki varyasyonları doğrudan kıyaslayabilmesine imkân tanımıştır.
+
+Değerlendirme sürecinde olası yanlılığı önlemek amacıyla modellerin gerçek isimleri kesinlikle kullanılmamıştır. Bunun yerine tüm çıktılar “Sentence A”, “Sentence B”, “Sentence C” biçiminde nötr etiketlerle gösterilmiş; hatta bu etiketlerin hangi modele karşılık geldiği her kelime için yeniden karıştırılarak farklı bir sırada sunulmuştur. Böylece değerlendiricilerin model performansına dair ön yargı geliştirmesi engellenmiştir.
+
+Cümlelerin değerlendirilmesinde kullanılan ölçütlerin bilimsel geçerliliğini sağlamak amacıyla kriterler, üniversitede İngilizce Öğretmenliği bölümünde görev yapan üç akademisyenin görüşleri doğrultusunda belirlenmiştir. Bu uzmanların katkılarıyla dört temel değerlendirme kriteri oluşturulmuştur. Oluşturulan kriterler ve bu kriterlere ilişkin açıklamalar Tablo 3.2’de sunulmaktadır.
+
+Tablo 3.2. Cümle Değerlendirme Kriterleri ve Açıklamaları
+
+KRITER	AÇIKLAMA
+KELIME KULLANIMI	Verilen kelime anlam doğruluğu ve bağlam uygunluğu açısından doğru oluşturulmuş mudur?
+ANLAŞILIRLIK	Hedef dil seviyesine uygun (A1, A2, B1, B2, C1) zaman, yapı ve söz dizimi mevcut mudur?
+DILBILGISI DOĞRULUĞU	Gramer yapıları doğru mu? Basit/orta/ileri seviyeye uygun bir kullanım mevcut mudur?
+DOĞAL KULLANIM	Cümle kullanımı doğal mı? Anadili İngilizce olan bireylerin standart dil kullanımı ile uyumlu bir dil yapısı mevcut mudur?
+
+Bu kriterler ve açıklamaları her sayfada değerlendiricilere hatırlatılmıştır.
+
+Her bir sorunun yapısı, tüm cümlelerin aynı formatta ve aynı değerlendirme kriterleri ile puanlanabilmesini sağlamak amacıyla standartlaştırılmıştır. Her bir CEFR seviyesi için 6 model tarafından üretilen 10 farklı kelimeye ait toplam 60 cümle, değerlendiricilere ayrı sayfalarda sunulmuştur. Her kelime için altı modelin cümleleri aynı bölüm içinde alt alta gösterilmiş ve değerlendiriciden bu altı cümleyi dört kriter kapsamında puanlaması istenmiştir. Bu yapının örnek formu Şekil 3.1’de gösterildiği gibidir.
+
+
+ 
+Şekil 3.1 Örnek değerlendirme sorusu
+
+Sonuç olarak, uzmanların değerlendirilmesine sunulmak üzere her seviye için bağımsız 5 farklı anket oluşturulmuştur.
+
+3. Katılımcı bilgileri
+
+Bu bölümde, değerlendiricilerin mesleği, uzmanlık düzeyi ve eğitim alanı gibi demografik bilgilerinin toplanması amacıyla çoktan seçmeli ve açık uçlu sorulara yer verilmiştir.
+
+Beş farklı CEFR seviyesi için hazırlanan anketlerin her birinin yaklaşık 20-30 dakika sürmesi ve bu durumun katılımcı bulma sürecini zorlaştırması nedeniyle, örneklem çeşitliliğini artırmak amacıyla farklı profesyonel ve akademik geçmişlere sahip değerlendiricilerden yararlanılmıştır. Bu kapsamda, üniversite düzeyinde İngilizce eğitmenleri, lise ve ortaokul düzeyinde görev yapan İngilizce öğretmenleri ile İngilizce çevirmen gibi uzman kişiler değerlendirme sürecine dahil edilmiştir. Bununla birlikte, katılımcı sayısını artırmak ve farklı CEFR seviyelerine uygun değerlendirici profilleri oluşturmak amacıyla, İngilizce Öğretmenliği bölümünde öğrenim gören ve zorunlu İngilizce hazırlık eğitimini başarıyla tamamlamış lisans öğrencilerinden de yararlanılmıştır. Bu doğrultuda, A1 seviyesi değerlendirmelerinde 2. sınıf öğrencileri, A2 ve B1 seviyelerinde 3. sınıf öğrencileri, B2 ve C1 seviyelerinde ise 4. sınıf öğrencileri değerlendirici olarak görev almıştır. 
+
+A1 Seviyesi için Katılımcı Profili:
+
+A1 seviyesi değerlendirmesine toplam 16 katılımcı dahil olmuştur. Katılımcıların mesleki dağılımı şu şekildedir:
+
+•	Üniversite düzeyinde İngilizce eğitmeni/akademisyen: 5 kişi
+•	Lise düzeyinde İngilizce öğretmeni: 1 kişi
+•	İngilizce Öğretmenliği bölümü 2. sınıf öğrencisi: 10 kişi
+
+A2 Seviyesi için Katılımcı Profili:
+
+A2 seviyesi değerlendirmesine toplam 20 katılımcı dahil olmuştur. Katılımcıların mesleki dağılımı şu şekildedir:
+
+•	Üniversite düzeyinde İngilizce eğitmeni/akademisyen: 2 kişi
+•	İngilizce Öğretmenliği bölümü 4. sınıf öğrencisi: 1 kişi
+•	İngilizce Öğretmenliği bölümü 3. sınıf öğrencisi: 17 kişi
+
+B1 Seviyesi için Katılımcı Profili:
+
+B1 seviyesi değerlendirmesine toplam 24 katılımcı dahil olmuştur. Katılımcıların mesleki dağılımı şu şekildedir:
+
+•	Üniversite düzeyinde İngilizce eğitmeni/akademisyen: 3 kişi
+•	Lise düzeyinde İngilizce öğretmeni: 1 kişi
+•	Ortaokul/İlkokul düzeyinde İngilizce öğretmeni: 1 kişi
+•	İngilizce Öğretmenliği bölümü 3. sınıf öğrencisi: 19 kişi
+
+B2 Seviyesi için Katılımcı Profili:
+
+B2 seviyesi değerlendirmesine toplam 19 katılımcı dahil olmuştur. Katılımcıların mesleki dağılımı şu şekildedir:
+
+•	Üniversite düzeyinde İngilizce eğitmeni/akademisyen: 2 kişi
+•	Lise düzeyinde İngilizce öğretmeni: 2 kişi
+•	İngilizce Öğretmenliği bölümü 4. sınıf öğrencisi: 15 kişi
+
+C1 Seviyesi için Katılımcı Profili:
+
+C1 seviyesi değerlendirmesine toplam 20 katılımcı dahil olmuştur. Katılımcıların mesleki dağılımı şu şekildedir:
+
+Üniversite düzeyinde İngilizce eğitmeni/akademisyen: 2 kişi
+İngilizce çevirmen/editör/dil uzmanı: 1 kişi
+Anadili İngilizce olan: 1 kişi
+İngilizce Öğretmenliği bölümü 4. sınıf öğrencisi: 16 kişi
+
+3.3.3 LLM Değerlendirmesi
+
+İnsan değerlendirmesine ek olarak, bu çalışmada büyük dil modelleri doğrudan değerlendirici olarak da kullanılmıştır. Bu yaklaşım, hem insan değerlendirmeleriyle tutarlılığın ölçülmesi hem de LLM tabanlı otomatik değerlendirme yöntemlerinin güvenilirliğinin incelenmesi açısından önem taşımaktadır. Bu kapsamda iki farklı model değerlendirme sürecinde kullanılmıştır: ChatGPT-5 (OpenAI, 2025) ve DeepSeek-Reasoner (DeepSeek, 2025). Bu modeller, cümleleri belirlenen değerlendirme kriterlerine göre puanlamak ve insan uzmanlardan elde edilen sonuçlarla karşılaştırılabilir yapay hakem skorları üretmek amacıyla kullanılmıştır.
+
+İnsan uzmanların değerlendirmiş olduğu aynı kelime ve cümleler, LLM değerlendirmesinde de kullanılmıştır. Değerlendirme süreci, insan uzmanlarda olduğu gibi hangi modelin hangi cümleyi ürettiğinin gizlendiği, cümle sırasının her kelime için rastgele karıştırıldığı bir yapı ile yürütülmüştür. Bu süreç, tamamen otomatik çalışan bir Python script’i aracılığıyla API üzerinden gerçekleştirilmiştir. Her bir cümle, değerlendirme modellerine arka arkaya iki kez sorulmuş; modellerin verdiği 1–5 arası puanların ortalaması alınarak nihai skor elde edilmiştir. Ayrıca modellerden yalnızca her kriter için sayısal bir puan döndürmesi istenmiş, ek açıklama üretmemeleri sağlanmıştır. Bu şekilde, her iki değerlendirme modeli için tüm CEFR seviyelerinde her cümleye ait puanlar ayrı ayrı kaydedilmiştir.
+
+LLM değerlendirme sürecinde kullanılan prompt taslağı aşağıdaki gibidir:
+
+You are a professional CEFR-aligned English sentence evaluator.
+Your task is to evaluate {num_sentences} example sentences that all use the target word: "{word}" at CEFR level: {level}.
+Rate each sentence from 1 (poor) to 5 (excellent) for the following four independent criteria:
+
+•	Word Usage - Is the given word used with the correct meaning and appropriately in context? 
+•	Level Appropriateness - Are the tense, structure, and syntax appropriate for the target CEFR level (A1, A2, B1, B2, C1)?
+•	Grammatical Accuracy - Are the grammatical structures correct and suitable for the expected level (simple / intermediate / advanced)?
+•	Naturalness - Does the sentence sound natural and align with standard usage by native English speakers?
+
+Important Instructions:
+
+Only return numerical ratings for each criterion.
+Do not include any explanations, comments, or justifications.
+Follow the exact output format below.
+
+Output Format:
+{output_format}
+Sentences:
+{sentences_block}
+
+
+
+
+
+
+
+
+
+KAYNAKLAR/REFERENCES
+
+Ren, X., Wu, B., Liu, L. (2024). I Learn Better If You Speak My Language: Understanding the Superior Performance of Fine-Tuning Large Language Models with LLM-Generated Responses. Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP), 10225–10245.
+
+Aydınalp, M. E. (2025). LLM_Degerlendirme [Source code]. GitHub.
+https://github.com/eminaydinalp/LLM_Degerlendirme
+
+Mao, Y., Ge, Y., Fan, Y. et al. (2025). A survey on LoRA of large language models. Frontiers of Computer Science, 19, 197605.
+
+Ceritli, T., Ozkan, S., Min, J., Noh, E., Min, C. J., & Ozay, M. (2024). A study of parameter efficient fine-tuning by learning to efficiently fine-tune. Findings of the Association for Computational Linguistics: EMNLP 2024, 15819–15836.
+
+Hu, E. J., Shen, Y., Wallis, P., et al. (2022). LoRA: Low-rank adaptation of large language models. arXiv:2106.09685.
+
+Dettmers, T., Lewis, M., Shleifer, S., & Zettlemoyer, L. (2023). QLoRA: Efficient finetuning of quantized large language models. arXiv:2305.14314.
+
+OpenAI. (2025). GPT-5 Technical Report. OpenAI Publications.
+
+DeepSeek AI. (2025). DeepSeek-Reasoner: Model Card and Technical Overview. DeepSeek Research.
+
+Fu, Y., Peng, H., Ou, L., Sabharwal, A., Khot, T. (2023) Specializing Smaller Language Models Towards Multi-Step Reasoning. International Conference on Machine Learning, 10421-10430.
+
+Ho, N., Schmid, L.C., Yun, S.Y. (2022) Large Language Models are Reasoning Teachers. arXiv preprint arXiv:2212.10071.
+
+Hsieh, C.Y., Li, C.L., Yeh, C.K., Nakhost, H., Fujii, Y., Ratner, A., Krishna, R., Lee, C.Y., Pfister, T. (2023) Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes. Preprint, arXiv:2305.02301.
+
+Magister, L.C., Mallinson, J., Adamek, J., Malmi, E., Severyn, A. (2023) Teaching Small Language Models to Reason. Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), 1773-1781, Toronto, Canada.
+
+Anthropic. (2024). Claude Sonnet 4.5 Technical Report. https://www.anthropic.com
+
+Google DeepMind. (2024). Gemini Pro 2.5: A Multimodal AI Model. https://deepmind.google/technologies/gemini/
+Meta AI. (2024). Llama 3.1 Model Card. https://ai.meta.com/llama/
+
+Mistral AI. (2024). Mistral 8B Instruct 2410 Documentation. https://mistral.ai/
